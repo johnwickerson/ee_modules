@@ -1,0 +1,14 @@
+name: Graphviz
+on: push
+jobs:
+  run-all:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          sudo apt-get update
+          sudo apt-get -y install graphviz
+      - run: dot -Tpdf modules.dot -o modules.pdf
+      - uses: stefanzweifel/git-auto-commit-action@v4
