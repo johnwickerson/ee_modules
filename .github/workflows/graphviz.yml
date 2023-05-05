@@ -22,6 +22,6 @@ jobs:
       - name: Commit .pdf file
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
-          commit_message: Recreating modules.pdf
-          file_pattern: 'modules.pdf'
+          commit_message: Building output
+          file_pattern: 'modules.tex modules.pdf'
           push_options: --force
