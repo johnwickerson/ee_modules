@@ -1,1 +1,91 @@
+\documentclass{article}
+\usepackage[x11names, svgnames, rgb]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{snakes,arrows,shapes}
+\usepackage{amsmath}
+%
+%
+
+%
+
+%
+
+\begin{document}
+\pagestyle{empty}
+%
+%
+%
+
+\enlargethispage{100cm}
+% Start of code
+% \begin{tikzpicture}[anchor=mid,>=latex',line join=bevel,]
+\begin{tikzpicture}[>=latex',line join=bevel,]
+  \pgfsetlinewidth{1bp}
+%%
+\pgfsetcolor{black}
+  % Edge: EE101 -> EE202
+  \draw [->] (197.5bp,83.0bp) .. controls (197.5bp,36.827bp) and (499.38bp,26.894bp)  .. (672.25bp,24.779bp);
+  % Edge: EE101 -> EE202
+  \draw [->] (608.5bp,83.0bp) .. controls (608.5bp,68.336bp) and (633.09bp,56.073bp)  .. (672.44bp,43.656bp);
+  % Edge: EE101 -> EE202
+  \draw [->] (919.5bp,83.0bp) .. controls (919.5bp,68.188bp) and (894.53bp,55.865bp)  .. (854.7bp,43.441bp);
+  % Edge: EE104 -> EE202
+  \draw [->] (1036.5bp,95.0bp) .. controls (1030.1bp,95.0bp) and (1033.8bp,86.619bp)  .. (1028.5bp,83.0bp) .. controls (980.55bp,50.196bp) and (917.32bp,35.421bp)  .. (854.6bp,27.761bp);
+  % Node: EE101
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.6,0.85,0.79};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.9,0.96,0.98};
+  \pgfsetfillcolor{fillcol}
+  \filldraw (0.0bp,83.5bp) -- (0.0bp,152.5bp) -- (1019.0bp,152.5bp) -- (1019.0bp,83.5bp) -- cycle;
+  \draw (0.0bp,129.5bp) -- (1019.0bp,129.5bp);
+  \draw (0.0bp,106.5bp) -- (1019.0bp,106.5bp);
+  \draw (396.0bp,83.5bp) -- (396.0bp,106.5bp);
+  \draw (820.0bp,83.5bp) -- (820.0bp,106.5bp);
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (509.5bp,137.3bp) node {EE1-01};
+  \draw (509.5bp,114.3bp) node {Analysis of Circuits};
+  \draw (198.0bp,91.3bp) node {analyse voltages and currents in an electronic circuit};
+  \draw (608.0bp,91.3bp) node {analyse basic op-amp based circuits that utilise feedback};
+  \draw (919.5bp,91.3bp) node {analyse passive networks};
+\end{scope}
+  % Node: EE202
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.6,0.85,0.79};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.9,0.96,0.98};
+  \pgfsetfillcolor{fillcol}
+  \filldraw (672.5bp,0.5bp) -- (672.5bp,46.5bp) -- (854.5bp,46.5bp) -- (854.5bp,0.5bp) -- cycle;
+  \draw (672.5bp,23.5bp) -- (854.5bp,23.5bp);
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (763.5bp,31.3bp) node {EE2-02};
+  \draw (763.5bp,8.3bp) node {Analogue Electronics II};
+\end{scope}
+  % Node: EE104
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.6,0.85,0.79};
+  \pgfsetstrokecolor{strokecol}
+  \definecolor{fillcol}{rgb}{0.9,0.96,0.98};
+  \pgfsetfillcolor{fillcol}
+  \filldraw (1037.5bp,83.5bp) -- (1037.5bp,152.5bp) -- (1703.5bp,152.5bp) -- (1703.5bp,83.5bp) -- cycle;
+  \draw (1037.5bp,129.5bp) -- (1703.5bp,129.5bp);
+  \draw (1037.5bp,106.5bp) -- (1703.5bp,106.5bp);
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (1370.5bp,137.3bp) node {EE1-04};
+  \draw (1370.5bp,114.3bp) node {Analogue Electronics I};
+  \draw (1370.5bp,91.3bp) node {analyse single transistor circuits based on common emitter and common source topologies};
+\end{scope}
+%
+\end{tikzpicture}
+% End of code
+
+%
+\end{document}
+%
+
+
 
