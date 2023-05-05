@@ -3,13 +3,13 @@ digraph {
     node[shape=record, color="#99d8c9", fillcolor="#e5f5f9", style="filled"];
     
     EE101 [label="{EE1-01 | Analysis of Circuits | {
-        <1>analyse voltages\nand currents in an\nelectronic circuit | 
-        <2>analyse basic\nop-amp based circuits\nthat utilise feedback | 
-        <3>analyse passive\nnetworks 
+        <1>analyse voltages and currents in an electronic circuit | 
+        <2>analyse basic op-amp based circuits that utilise feedback | 
+        <3>analyse passive networks 
     }}"];
     
     EE104 [label="{EE1-04 | Analogue Electronics I | {
-        <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
+        <1>analyse single transistor circuits based on common emitter and common source topologies
     }}"];
     
     EE202 [label="{EE2-02 | Analogue Electronics II}"];
