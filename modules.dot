@@ -8,11 +8,11 @@ digraph {
         <3>analyse passive\nnetworks 
     }}"];
     
-    EE104 [label="{EE1-04 | Analogue Electronics 1 | {
+    EE104 [label="{EE1-04 | Analogue Electronics I | {
         <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
     }}"];
     
-    EE202 [label="{EE2-02 | Analogue Electronics 2}"];
+    EE202 [label="{EE2-02 | Analogue Electronics II}"];
     EE101:1 -> EE202;
     EE101:2 -> EE202;
     EE101:3 -> EE202;
