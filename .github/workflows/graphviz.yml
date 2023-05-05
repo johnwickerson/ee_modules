@@ -12,3 +12,7 @@ jobs:
           sudo apt-get -y install graphviz
       - run: dot -Tpdf modules.dot -o modules.pdf
       - uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: Recreating modules.pdf
+          file_pattern: 'modules.pdf'
+          push_options: --force
