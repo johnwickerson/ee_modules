@@ -1,15 +1,10 @@
+% arara: xelatex: { shell: yes, interaction: nonstopmode }
+% arara: xelatex: { shell: yes, interaction: nonstopmode }
+
 \documentclass{standalone}
-\usepackage{dot2texi}
+\usepackage[pdf]{graphviz}
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 \begin{document}
-\begin{dot2tex}[dot]
-digraph G {                                             
-d2toptions ="--autosize"
-node    [lblstyle="text width=10em,align=center"]
-a       [texlbl="This text will be automatically wrapped, for example at a fixed width."]
-b       [texlbl="Manual linebreaks from past century can be avoided!"]
-a -> b
-}
-\end{dot2tex}                                               
+\digraph[scale=0.5]{abc}{rankdir=LR; a->b->c;}                                               
 \end{document}
