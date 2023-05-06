@@ -14,7 +14,8 @@ jobs:
           root_file: modules.tex
           compiler: arara
           args: "--verbose"
-          pre_compile: "apt-get update && apt-get -y install graphviz dot2tex"
+          extra_system_packages: "graphviz"
+          pre_compile: "pip install dot2tex"
       - name: Commit .pdf file
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
