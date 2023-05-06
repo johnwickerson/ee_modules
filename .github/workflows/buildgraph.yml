@@ -17,7 +17,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: modules.tex
-          latexmk_shell_escape: true
+          compiler: arara
+          args: "--verbose"
       - name: Commit .pdf file
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
