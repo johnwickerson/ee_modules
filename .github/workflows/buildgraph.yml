@@ -8,17 +8,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
-      - name: Set up environment
-        run: |
-          sudo apt-get update
-          sudo apt-get -y install graphviz dot2tex
-          which dot2tex
       - name: Compile .tex file to .pdf file
         uses: xu-cheng/latex-action@v2
         with:
           root_file: modules.tex
           compiler: arara
           args: "--verbose"
+          pre_compile: "sudo apt-get update && sudo apt-get -y install graphviz dot2tex"
       - name: Commit .pdf file
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
