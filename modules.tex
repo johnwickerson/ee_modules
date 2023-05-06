@@ -1,29 +1,17 @@
 % arara: xelatex: { shell: yes, interaction: nonstopmode }
-% arara: xelatex: { shell: yes, interaction: nonstopmode }
 
 \documentclass{standalone}
-\usepackage[pdf]{graphviz}
+\usepackage{dot2texi}
+
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
+
 \begin{document}
-\digraph{modules}{
-    node[shape=record, color="#99d8c9", fillcolor="#e5f5f9", style="filled"];
-    
-    EE101 [label="{EE1-01 | Analysis of Circuits | {
-        <1>analyse voltages\nand currents in an\nelectronic circuit | 
-        <2>analyse basic\nop-amp based circuits\nthat utilise feedback | 
-        <3>analyse passive\nnetworks 
-    }}"];
-    
-    EE104 [label="{EE1-04 | Analogue Electronics 1 | {
-        <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
-    }}"];
-    
-    EE202 [label="{EE2-02 | Analogue Electronics 2}"];
-    EE101:1 -> EE202;
-    EE101:2 -> EE202;
-    EE101:3 -> EE202;
-    EE104:1 -> EE202;
-}
+\begin{dot2tex}[options=-tmath]
+digraph G {
+    node [shape="circle"];
+    a_1 -> a_2 -> a_3 -> a_4 -> a_1;
+    }
+\end{dot2tex}
 
 \end{document}
