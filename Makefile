@@ -1,2 +1,2 @@
 all:
-  dot -Tpdf modules.dot -o modules.pdf
+	dot -Tpdf modules.dot -o modules.pdf
