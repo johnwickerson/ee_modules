@@ -5,14 +5,34 @@ digraph {
     EE101 [label="{EE1-01 | Analysis of Circuits | {
         <1>analyse voltages\nand currents in an\nelectronic circuit | 
         <2>analyse basic\nop-amp based circuits\nthat utilise feedback | 
-        <3>analyse passive\nnetworks 
+        <3>analyse\npassive\nnetworks |
+        <4>use Kirchhoff's laws\nand their application\nto nodal analysis |
+        <5>apply the equations\nthat describe properties\nof resistors, capacitors\nand inductors |
+        <6>analyse AC\ncircuits using\ncomplex impedance
+    }}"];
+
+    EE110 [label="{EE1-10 | Mathematics 1 | {
+        <1>perform calculations\nusing basic algebra |
+	<2>Taylor series |
+	<3>calculus including\npartial differentiation
+    }}"];
+
+    EE103 [label="{EE1-03 | Semiconductor Devices | {
+        <1>explain basic transistor operation
     }}"];
     
-    EE104 [label="{EE1-04 | Analogue Electronics I | {
+    EE104 [label="{EE1-04 | Analogue Electronics 1 | {
         <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
     }}"];
+    EE101:4 -> EE104;
+    EE101:5 -> EE104;
+    EE101:6 -> EE104;
+    EE110:1 -> EE104;
+    EE110:2 -> EE104;
+    EE110:3 -> EE104;
+    EE103:1 -> EE104;
     
-    EE202 [label="{EE2-02 | Analogue Electronics II | {
+    EE202 [label="{EE2-02 | Analogue Electronics 2 | {
         <1>design and analyse analogue\ncircuits based on active\nelements (transistors/op-amps)\nconsidering non-ideal\ncomponent behaviour |
         <2>develop hierarchical models\nof more complicated circuits |
         <3>analyse frequency response\nof transistor-based circuits,\nfeedback and stability, and\napply these to attain design\nobjectives
