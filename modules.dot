@@ -12,7 +12,11 @@ digraph {
         <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
     }}"];
     
-    EE202 [label="{EE2-02 | Analogue Electronics II}"];
+    EE202 [label="{EE2-02 | Analogue Electronics II | {
+        <1>design and analyse analogue\ncircuits based on active\nelements (transistors/op-amps)\nconsidering non-ideal\ncomponent behaviour |
+        <2>develop hierarchical models\nof more complicated circuits |
+        <3>analyse frequency response\nof transistor-based circuits,\nfeedback and stability, and\napply these to attain design\nobjectives
+    }}"];
     EE101:1 -> EE202;
     EE101:2 -> EE202;
     EE101:3 -> EE202;
