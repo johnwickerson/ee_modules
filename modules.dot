@@ -1,6 +1,7 @@
 digraph {
     
-    node[shape=record, color="#99d8c9", fillcolor="#e5f5f9", style="filled"];
+    node[shape=record, style="filled"];
+    node[color="#99d8c9", fillcolor="#e5f5f9"];
     
     EE101 [label="{EE1-01 | Analysis of Circuits | {
         <1>analyse voltages\nand currents in an\nelectronic circuit | 
@@ -31,7 +32,9 @@ digraph {
     EE110:2 -> EE104;
     EE110:3 -> EE104;
     EE103:1 -> EE104;
-    
+
+    node[color="#e34a33", fillcolor="#fee8c8"];
+
     EE202 [label="{EE2-02 | Analogue Electronics 2 | {
         <1>design and analyse analogue\ncircuits based on active\nelements (transistors/op-amps)\nconsidering non-ideal\ncomponent behaviour |
         <2>develop hierarchical models\nof more complicated circuits |
