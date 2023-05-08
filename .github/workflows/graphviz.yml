@@ -6,12 +6,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - run: |
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Prepare environment
+        run: |
           sudo apt-get update
           sudo apt-get -y install graphviz
-      - run: dot -Tpdf modules.dot -o modules.pdf
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Build the dependency graph
+        run: make
+      - name: Add dependency graph to repository
+        uses: stefanzweifel/git-auto-commit-action@v4
         with: 
           commit_message: Recreating modules.pdf
           file_pattern: 'modules.pdf'
