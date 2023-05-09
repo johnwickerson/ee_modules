@@ -17,5 +17,10 @@ Each module is a node in the graph, containing the module code, the module title
 - Wait for a few minutes while the dependency graph is rebuilt with your changes.
 - Open the [modules.pdf](https://github.com/johnwickerson/ee_modules/raw/main/modules.pdf) file to see the new version.
 
+## Some technical details
+- There is a GitHub Action that fires whenever a commit is pushed to the repository.
+- Some custom-written OCaml code converts modules.yml into a Graphviz description (modules.dot).
+- The `dot` graph-layout engine is used to convert the Graphviz description into a PDF file.
+
 ## Authors
 - [John Wickerson](https://github.com/johnwickerson) (j.wickerson@imperial.ac.uk)
