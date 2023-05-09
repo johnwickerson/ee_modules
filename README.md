@@ -1,6 +1,8 @@
 # EE module dependency graph
 
-A dependency graph for the Imperial EE modules. An arrow from module A to module B means that one of the learning objectives of module A is a prerequisite for module B.
+A dependency graph for the Imperial EE modules.
+
+Each module is a node in the graph, containing the module code, the module title, and its ILOs (independent learning objectives). An arrow from module A to module B means that one of module A's ILOs is a prerequisite for taking module B.
 
 ## How to view the dependency graph
 
@@ -8,7 +10,7 @@ A dependency graph for the Imperial EE modules. An arrow from module A to module
 
 ## How to edit the dependency graph
 
-- Open the [modules.dot](modules.dot) file.
+- Open the [modules.yml](modules.yml) file.
 - Click on the `edit` button.
 - Make your changes.
 - Click on the `Commit changes...` button.
