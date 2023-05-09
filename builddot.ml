@@ -1,8 +1,9 @@
 open Printf
 
+(* perform word wrap on a string by replacing some spaces with "\n" *)
 let wrap line_width txt =
   let words = Str.split (Str.regexp "[ \n]+") txt in
-  let buf = Buffer.create 10 in
+  let buf = Buffer.create line_width in
   let _ =
     List.fold_left (fun (width, sep) word ->
       let wlen = String.length word in
@@ -25,6 +26,7 @@ let rec lookup_exn kvs k =
   | [] -> raise Not_found
   | (k',v) :: kvs -> if k=k' then v else lookup_exn kvs k
 
+(* `iter_alt f g [x1;x2;x3]` is `f x1; g (); f x2; g (); f x3` *) 
 let rec iter_alt f g = function
   | [] -> ()
   | [x] -> f x
@@ -63,12 +65,11 @@ let print_module = function
      printf "\n  }}\"];\n";
      print_prereqs code prereqs
   | _ -> failwith "Expected a collection of module attributes"
-       
+
 let print_top = function
   | `A module_list -> iter_alt print_module (fun () -> printf "\n") module_list
   | _ -> failwith "Expected a list of modules"
-       
-       
+
 let _ =
   printf "digraph {\n";
   printf "  node[shape=record, style=\"filled\"];\n";
