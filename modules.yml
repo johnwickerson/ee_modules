@@ -8,6 +8,7 @@
     "5": apply the equations that describe properties of resistors, capacitors and
       inductors
     "6": analyse AC circuits using complex impedance
+    
 - code: EE202
   name: Analogue Electronics 2
   ilos:
