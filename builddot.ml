@@ -71,6 +71,7 @@ let print_top = function
   | _ -> failwith "Expected a list of modules"
 
 let _ =
+  printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
   printf "digraph {\n";
   printf "  node[shape=record, style=\"filled\"];\n";
   printf "  node[color=\"#99d8c9\", fillcolor=\"#e5f5f9\"];\n";
