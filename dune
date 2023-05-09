@@ -1,0 +1,3 @@
+(executable
+  (name builddot)
+  (libraries yaml yaml.unix))
