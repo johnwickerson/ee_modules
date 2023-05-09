@@ -13,8 +13,8 @@ jobs:
           sudo apt-get update
           sudo apt-get -y install graphviz opam
           opam init
-          opam install dune
-          opam install yaml
+          opam install --yes dune
+          opam install --yes yaml
       - name: Build the dependency graph
         run: make
       - name: Add dependency graph to repository
