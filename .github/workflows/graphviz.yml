@@ -11,12 +11,14 @@ jobs:
       - name: Prepare environment
         run: |
           sudo apt-get update
-          sudo apt-get -y install graphviz
+          sudo apt-get -y install graphviz opam
+          opam install dune
+          opam install yaml
       - name: Build the dependency graph
         run: make
       - name: Add dependency graph to repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
-          commit_message: Recreating modules.pdf
-          file_pattern: 'modules.pdf'
+          commit_message: Recreating modules.dot and modules.pdf
+          file_pattern: 'modules.pdf modules.dot'
           push_options: --force

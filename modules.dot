@@ -1,48 +1,43 @@
 digraph {
-    
-    node[shape=record, style="filled"];
-    node[color="#99d8c9", fillcolor="#e5f5f9"];
-    
-    EE101 [label="{EE1-01 | Analysis of Circuits | {
-        <1>analyse voltages\nand currents in an\nelectronic circuit | 
-        <2>analyse basic\nop-amp based circuits\nthat utilise feedback | 
-        <3>analyse\npassive\nnetworks |
-        <4>use Kirchhoff's laws\nand their application\nto nodal analysis |
-        <5>apply the equations\nthat describe properties\nof resistors, capacitors\nand inductors |
-        <6>analyse AC\ncircuits using\ncomplex impedance
-    }}"];
+  node[shape=record, style="filled"];
+  node[color="#99d8c9", fillcolor="#e5f5f9"];
+  EE101 [label="{EE101 | Analysis of Circuits | {
+    <1>analyse voltages\nand currents in an\nelectronic circuit |
+    <2>analyse basic\nop-amp based\ncircuits that\nutilise feedback |
+    <3>analyse passive\nnetworks |
+    <4>use Kirchhoff's\nlaws and their\napplication to nodal\nanalysis |
+    <5>apply the equations\nthat describe\nproperties of\nresistors,\ncapacitors and\ninductors |
+    <6>analyse AC circuits\nusing complex\nimpedance
+  }}"];
 
-    EE110 [label="{EE1-10 | Mathematics 1 | {
-        <1>perform calculations\nusing basic algebra |
-	<2>Taylor series |
-	<3>calculus including\npartial differentiation
-    }}"];
+  EE110 [label="{EE110 | Mathematics 1 | {
+    <1>perform\ncalculations using\nbasic algebra |
+    <2>Taylor series |
+    <3>calculus including\npartial\ndifferentiation
+  }}"];
 
-    EE103 [label="{EE1-03 | Semiconductor Devices | {
-        <1>explain basic transistor operation
-    }}"];
-    
-    EE104 [label="{EE1-04 | Analogue Electronics 1 | {
-        <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
-    }}"];
-    EE101:4 -> EE104;
-    EE101:5 -> EE104;
-    EE101:6 -> EE104;
-    EE110:1 -> EE104;
-    EE110:2 -> EE104;
-    EE110:3 -> EE104;
-    EE103:1 -> EE104;
+  EE103 [label="{EE103 | Semiconductor Devices | {
+    <1>explain basic\ntransistor operation
+  }}"];
 
-    node[color="#e34a33", fillcolor="#fee8c8"];
+  EE104 [label="{EE104 | Analogue Electronics 1 | {
+    <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
+  }}"];
+  EE101:4 -> EE104;
+  EE101:5 -> EE104;
+  EE101:6 -> EE104;
+  EE110:1 -> EE104;
+  EE110:2 -> EE104;
+  EE110:3 -> EE104;
+  EE103:1 -> EE104;
 
-    EE202 [label="{EE2-02 | Analogue Electronics 2 | {
-        <1>design and analyse analogue\ncircuits based on active\nelements (transistors/op-amps)\nconsidering non-ideal\ncomponent behaviour |
-        <2>develop hierarchical models\nof more complicated circuits |
-        <3>analyse frequency response\nof transistor-based circuits,\nfeedback and stability, and\napply these to attain design\nobjectives
-    }}"];
-    EE101:1 -> EE202;
-    EE101:2 -> EE202;
-    EE101:3 -> EE202;
-    EE104:1 -> EE202;
-
+  EE202 [label="{EE202 | Analogue Electronics 2 | {
+    <1>design and analyse\nanalogue circuits\nbased on active\nelements\n(transistors/op-amps)\nconsidering\nnon-ideal component\nbehaviour |
+    <2>develop\nhierarchical models\nof more complicated\ncircuits |
+    <3>analyse frequency\nresponse of\ntransistor-based\ncircuits, feedback\nand stability, and\napply these to\nattain design\nobjectives
+  }}"];
+  EE101:1 -> EE202;
+  EE101:2 -> EE202;
+  EE101:3 -> EE202;
+  EE104:1 -> EE202;
 }
