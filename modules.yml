@@ -1,22 +1,22 @@
-module:
-  code: EE101
+- code: EE101
   name: Analysis of Circuits
   ilos:
-    1. analyse voltages and currents in an electronic circuit
-    2. analyse basic op-amp based circuits that utilise feedback
-    3. analyse passive networks
-    4. use Kirchhoff's laws and their application to nodal analysis
-    5. apply the equations that describe properties of resistors, capacitors and inductors
-    6. analyse AC circuits using complex impedance
-
-module:
-  code: EE202
+    "1": analyse voltages and currents in an electronic circuit
+    "2": analyse basic op-amp based circuits that utilise feedback
+    "3": analyse passive networks
+    "4": use Kirchhoff's laws and their application to nodal analysis
+    "5": apply the equations that describe properties of resistors, capacitors and
+      inductors
+    "6": analyse AC circuits using complex impedance
+- code: EE202
   name: Analogue Electronics 2
   ilos:
-    1. design and analyse analogue circuits based on active elements (transistors/op-amps) considering non-ideal component behaviour
-    2. develop hierarchical models of more complicated circuits
-    3. analyse frequency response of transistor-based circuits, feedback and stability, and apply these to attain design objectives
+    "1": design and analyse analogue circuits based on active elements
+      (transistors/op-amps) considering non-ideal component behaviour
+    "2": develop hierarchical models of more complicated circuits
+    "3": analyse frequency response of transistor-based circuits, feedback and
+      stability, and apply these to attain design objectives
   prereqs:
-    EE101:1
-    EE101:2
-    EE101:3
+    - EE101.1
+    - EE101.2
+    - EE101.3
