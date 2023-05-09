@@ -1,4 +1,4 @@
-modules.pdf: modules.dot
+modules.pdf:
 	dot -Tpdf modules.dot -o modules.pdf
 
 modules.dot:
