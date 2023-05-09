@@ -16,7 +16,9 @@ jobs:
           opam install --yes dune
           opam install --yes yaml
       - name: Build the dependency graph
-        run: make
+        run: |
+          eval $(opam env)
+          make
       - name: Add dependency graph to repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
