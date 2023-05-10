@@ -14,7 +14,7 @@ digraph {
 
   EE110 [label="{EE110 | Mathematics 1 | {
     <1>perform\ncalculations using\nbasic algebra |
-    <2>Taylor series |
+    <2>use Taylor series |
     <3>calculus including\npartial\ndifferentiation
   }}"];
 
