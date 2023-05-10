@@ -23,7 +23,15 @@ digraph {
   }}"];
 
   EE104 [label="{EE104 | Analogue Electronics 1 | {
-    <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies
+    <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies |
+    <2>explain active load |
+    <3>explain current\nmirror |
+    <4>explain\ndifferential\namplifier |
+    <5>explain emitter\nfollower |
+    <6>determine the\noperating modes and\nbias conditions of\ntransistors |
+    <7>use small-signal\nmodels of BJTs and\nFETs |
+    <8>determine transient\nbehaviour of\ncircuits using\ntransistor switches\nwith reactive loads |
+    <9>analyse the\noperation of simple\ntransistor\noscillator circuits
   }}"];
   EE101:4 -> EE104;
   EE101:5 -> EE104;
