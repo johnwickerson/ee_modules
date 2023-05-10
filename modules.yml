@@ -26,6 +26,14 @@
   ilos:
     1: analyse single transistor circuits based on common emitter and common
       source topologies
+    2: explain active load
+    3: explain current mirror
+    4: explain differential amplifier
+    5: explain emitter follower
+    6: determine the operating modes and bias conditions of transistors
+    7: use small-signal models of BJTs and FETs
+    8: determine transient behaviour of circuits using transistor switches with reactive loads
+    9: analyse the operation of simple transistor oscillator circuits
   prereqs:
     - EE101.4
     - EE101.5
