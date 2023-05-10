@@ -13,7 +13,7 @@
   name: Mathematics 1
   ilos:
     1: perform calculations using basic algebra
-    2: Taylor series
+    2: use Taylor series
     3: calculus including partial differentiation
 
 - code: EE103
