@@ -1,7 +1,7 @@
 - code: EE101
   name: Analysis of Circuits
   ilos:
-    1: analyse voltages and currents in an electronic circuit
+    1: analyse voltages and currents in a circuit
     2: analyse basic op-amp based circuits that utilise feedback
     3: analyse passive networks
     4: use Kirchhoff's laws and their application to nodal analysis
