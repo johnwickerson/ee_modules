@@ -4,7 +4,7 @@ digraph {
   node[shape=record, style="filled"];
   node[color="#99d8c9", fillcolor="#e5f5f9"];
   EE101 [label="{EE101 | Analysis of Circuits | {
-    <1>analyse voltages\nand currents in an\nelectronic circuit |
+    <1>analyse voltages\nand currents in a\ncircuit |
     <2>analyse basic\nop-amp based\ncircuits that\nutilise feedback |
     <3>analyse passive\nnetworks |
     <4>use Kirchhoff's\nlaws and their\napplication to nodal\nanalysis |
