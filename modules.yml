@@ -1,22 +1,22 @@
 - code: ELEC40002
   name: Analysis and Design of Circuits
   ilos:
-    1: Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor
-    2: Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents
-    3: Perform AC analysis of circuits containing combinations of the above components, using small-signal equivalent models to linearise any non-linear elements
-    4: Apply the operation of simple transistor level circuits including amplifier stages and logic gates
-    5: Analyse basic opamp circuits containing idealised opamps and passive components
-    6: Apply the concept of a transfer function and derive the transfer functions for a range of standard filter circuits
-    7: Analyse the transient behaviour of 1st order RC and RL networks
-    8: Use SPICE to simulate the behaviour of the circuits you have studied
-    9: Appreciate where and how the circuits you have studied are applied in real engineering applications	
+    1: "Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor"
+    2: "Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents"
+    3: "Perform AC analysis of circuits containing combinations of the above components, using small-signal equivalent models to linearise any non-linear elements"
+    4: "Apply the operation of simple transistor level circuits including amplifier stages and logic gates"
+    5: "Analyse basic opamp circuits containing idealised opamps and passive components"
+    6: "Apply the concept of a transfer function and derive the transfer functions for a range of standard filter circuits"
+    7: "Analyse the transient behaviour of 1st order RC and RL networks"
+    8: "Use SPICE to simulate the behaviour of the circuits you have studied"
+    9: "Appreciate where and how the circuits you have studied are applied in real engineering applications"
 
 - code: ELEC40003
   name: Digital Electronics and Computer Architecture
   ilos: 
-    1: design significant synchronous sequential digital circuits using registers and combinational logic
-    2: design simple two’s complement addition and subtraction digital circuits, with correct use of carry and overflow
-    3: use digital blocks: RAMs, ROMs, registers, adders, multiplexers and state machines to design and analyse the operation of simple pipelined RISC computer systems
-    4: model the operation of machine code instructions on a CPU at register-transfer level, and manipulate data using different numeric representations
-    5: write programs for arithmetic operations, manipulating bit fields within words, accessing memory, and calling subroutines
-    6: implement I/O in embedded computer systems using polling
+    1: "design significant synchronous sequential digital circuits using registers and combinational logic"
+    2: "design simple two’s complement addition and subtraction digital circuits, with correct use of carry and overflow"
+    3: "use digital blocks: RAMs, ROMs, registers, adders, multiplexers and state machines to design and analyse the operation of simple pipelined RISC computer systems"
+    4: "model the operation of machine code instructions on a CPU at register-transfer level, and manipulate data using different numeric representations"
+    5: "write programs for arithmetic operations, manipulating bit fields within words, accessing memory, and calling subroutines"
+    6: "implement I/O in embedded computer systems using polling"
