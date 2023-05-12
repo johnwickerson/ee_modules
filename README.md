@@ -2,7 +2,15 @@
 
 A dependency graph for the Imperial EE modules.
 
-Each module is a node in the graph, containing the module code, the module title, and its ILOs (independent learning objectives). An arrow from module A to module B means that one of module A's ILOs is a prerequisite for taking module B.
+Each module is a node in the graph, containing the module code, the module title, and its ILOs (intended learning outcomes). An arrow from module A to module B means that one of module A's ILOs is a prerequisite for taking module B.
+
+## Why?
+
+We see several benefits of building this graph.
+
+- Useful to have all ILOs together in one place, so they can be easily audited for consistency.
+- If a module leader ever wants to change/remove an ILO, they can easily see which later modules might be affected.
+- If a module leader ever wants to add/change a prerequisite, they can easily see which earlier modules can provide it.
 
 ## How to view the dependency graph
 
