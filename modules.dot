@@ -3,52 +3,24 @@
 digraph {
   node[shape=record, style="filled"];
   node[color="#99d8c9", fillcolor="#e5f5f9"];
-  EE101 [label="{EE101 | Analysis of Circuits | {
-    <1>analyse voltages\nand currents in a\ncircuit |
-    <2>analyse basic\nop-amp based\ncircuits that\nutilise feedback |
-    <3>analyse passive\nnetworks |
-    <4>use Kirchhoff's\nlaws and their\napplication to nodal\nanalysis |
-    <5>apply the equations\nthat describe\nproperties of\nresistors,\ncapacitors and\ninductors |
-    <6>analyse AC circuits\nusing complex\nimpedance
+  ELEC40002 [label="{ELEC40002 | Analysis and Design of Circuits | {
+    <1>Explain the basic\nphysics underlying\nthe operation of the\nfollowing electronic\ncomponents:\nresistor, capacitor,\ninductor, diode,\ntransistor |
+    <2>Perform DC analysis\nof circuits\ncontaining\ncombinations of the\nabove components to\nestablish the nodal\nvoltages and branch\ncurrents |
+    <3>Perform AC analysis\nof circuits\ncontaining\ncombinations of the\nabove components,\nusing small-signal\nequivalent models to\nlinearise any\nnon-linear elements |
+    <4>Apply the operation\nof simple transistor\nlevel circuits\nincluding amplifier\nstages and logic\ngates |
+    <5>Analyse basic opamp\ncircuits containing\nidealised opamps and\npassive components |
+    <6>Apply the concept\nof a transfer\nfunction and derive\nthe transfer\nfunctions for a\nrange of standard\nfilter circuits |
+    <7>Analyse the\ntransient behaviour\nof 1st order RC and\nRL networks |
+    <8>Use SPICE to\nsimulate the\nbehaviour of the\ncircuits you have\nstudied |
+    <9>Appreciate where\nand how the circuits\nyou have studied are\napplied in real\nengineering\napplications
   }}"];
 
-  EE110 [label="{EE110 | Mathematics 1 | {
-    <1>perform\ncalculations using\nbasic algebra |
-    <2>use Taylor series |
-    <3>calculus including\npartial\ndifferentiation
+  ELEC40003 [label="{ELEC40003 | Digital Electronics and Computer Architecture | {
+    <1>design significant\nsynchronous\nsequential digital\ncircuits using\nregisters and\ncombinational logic |
+    <2>design simple\ntwo’s complement\naddition and\nsubtraction digital\ncircuits, with\ncorrect use of carry\nand overflow |
+    <3>use digital blocks:\nRAMs, ROMs,\nregisters, adders,\nmultiplexers and\nstate machines to\ndesign and analyse\nthe operation of\nsimple pipelined\nRISC computer\nsystems |
+    <4>model the operation\nof machine code\ninstructions on a\nCPU at\nregister-transfer\nlevel, and\nmanipulate data\nusing different\nnumeric\nrepresentations |
+    <5>write programs for\narithmetic\noperations,\nmanipulating bit\nfields within words,\naccessing memory,\nand calling\nsubroutines |
+    <6>implement I/O in\nembedded computer\nsystems using\npolling
   }}"];
-
-  EE103 [label="{EE103 | Semiconductor Devices | {
-    <1>explain basic\ntransistor operation
-  }}"];
-
-  EE104 [label="{EE104 | Analogue Electronics 1 | {
-    <1>analyse single\ntransistor circuits\nbased on common\nemitter and common\nsource topologies |
-    <2>explain active load |
-    <3>explain current\nmirror |
-    <4>explain\ndifferential\namplifier |
-    <5>explain emitter\nfollower |
-    <6>determine the\noperating modes and\nbias conditions of\ntransistors |
-    <7>use small-signal\nmodels of BJTs and\nFETs |
-    <8>determine transient\nbehaviour of\ncircuits using\ntransistor switches\nwith reactive loads |
-    <9>analyse the\noperation of simple\ntransistor\noscillator circuits
-  }}"];
-  EE101:4 -> EE104;
-  EE101:5 -> EE104;
-  EE101:6 -> EE104;
-  EE110:1 -> EE104;
-  EE110:2 -> EE104;
-  EE110:3 -> EE104;
-  EE103:1 -> EE104;
-
-  EE202 [label="{EE202 | Analogue Electronics 2 | {
-    <1>design and analyse\nanalogue circuits\nbased on active\nelements\n(transistors/op-amps)\nconsidering\nnon-ideal component\nbehaviour |
-    <2>develop\nhierarchical models\nof more complicated\ncircuits |
-    <3>analyse frequency\nresponse of\ntransistor-based\ncircuits, feedback\nand stability, and\napply these to\nattain design\nobjectives
-  }}"];
-  EE101:1 -> EE202;
-  EE101:2 -> EE202;
-  EE101:3 -> EE202;
-  EE104:1 -> EE202;
-  EE104:7 -> EE202;
 }
