@@ -1,13 +1,15 @@
-- code: EE101
-  name: Analysis of Circuits
+- code: ELEC40002
+  name: Analysis and Design of Circuits
   ilos:
-    1: analyse voltages and currents in a circuit
-    2: analyse basic op-amp based circuits that utilise feedback
-    3: analyse passive networks
-    4: use Kirchhoff's laws and their application to nodal analysis
-    5: apply the equations that describe properties of resistors, capacitors and
-      inductors
-    6: analyse AC circuits using complex impedance
+    1: Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor
+    2: Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents
+    3: Perform AC analysis of circuits containing combinations of the above components, using small-signal equivalent models to linearise any non-linear elements
+    4: Apply the operation of simple transistor level circuits including amplifier stages and logic gates
+    5: Analyse basic opamp circuits containing idealised opamps and passive components
+    6: Apply the concept of a transfer function and derive the transfer functions for a range of standard filter circuits
+    7: Analyse the transient behaviour of 1st order RC and RL networks
+    8: Use SPICE to simulate the behaviour of the circuits you have studied
+    9: Appreciate where and how the circuits you have studied are applied in real engineering applications	
 
 - code: EE110
   name: Mathematics 1
@@ -35,9 +37,6 @@
     8: determine transient behaviour of circuits using transistor switches with reactive loads
     9: analyse the operation of simple transistor oscillator circuits
   prereqs:
-    - EE101.4
-    - EE101.5
-    - EE101.6
     - EE110.1
     - EE110.2
     - EE110.3
@@ -52,8 +51,5 @@
     3: analyse frequency response of transistor-based circuits, feedback and
       stability, and apply these to attain design objectives
   prereqs:
-    - EE101.1
-    - EE101.2
-    - EE101.3
     - EE104.1
     - EE104.7
