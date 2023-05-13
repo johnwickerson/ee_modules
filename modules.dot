@@ -23,4 +23,23 @@ digraph {
     <5>write programs for\narithmetic\noperations,\nmanipulating bit\nfields within words,\naccessing memory,\nand calling\nsubroutines |
     <6>implement I/O in\nembedded computer\nsystems using\npolling
   }}"];
+
+  ELEC40004 [label="{ELEC40004 | Programming for Engineers | {
+    <1>use the fundamental\ncomponents of\nimperative\nprogramming in terms\nof control-flow\nstructures and\nvariables |
+    <2>design and\nimplement a C++\nprogram that\ncommunicates using\nfile-based IO in a\nCLI environment |
+    <3>verify the correct\nbehaviour of\nprograms |
+    <4>diagnose and fix\nincorrect behaviour\nand crashes |
+    <5>select and use\ndata-structures from\nthe STL according to\nneeded performance\nand functionality |
+    <6>use APIs,\nencapsulation, and\nabstraction to\nmanage software\ncomplexity |
+    <7>design\nobject-oriented\ndata-structures to\ncapture real-world\nproblems
+  }}"];
+
+  ELEC40006 [label="{ELEC40006 | Electronics Design Project | {
+    <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
+    <2>Apply theoretical\nprinciples and\nlaboratory skills to\ndesign, build and\ntest a solution to\nan engineering\ndesign problem,\nwithin practical\nconstraints |
+    <3>Integrate analogue,\ndigital and software\ntheory and design\ntechniques into a\nfunctioning system |
+    <4>Organise workload\nand manage time by\nfunctioning as an\nengineering team and\ndecomposing the\ndesign challenge\ninto subsystems |
+    <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
+    <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
+  }}"];
 }
