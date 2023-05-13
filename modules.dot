@@ -42,4 +42,15 @@ digraph {
     <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
     <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
   }}"];
+
+  ELEC40009 [label="{ELEC40009 | Topics in Electrical Engineering | {
+    <1>Describe waves as\ninformation carriers |
+    <2>Describe how waves\npropagate in free\nspace and\ntransmission lines |
+    <3>Apply mathematical\ntools to investigate\nsignals in the\nfrequency domain |
+    <4>Explain the need\nfor modulation\ntechniques to\ntransmit a signal\nand identify the\nbasic hardware\ncomponents to\nachieve modulation\nand demodulation |
+    <5>Describe the\ntransport processes\nin a pn diode and\nextrapolate this\nknowledge to its use\nas a solar cell |
+    <6>Employ laboratory\nskills to\ncharacterise solar\ncells |
+    <7>Illustrate how\nsolar polar is\ntransported from the\nsource to the\nhousehold |
+    <8>Relate the\ndifferent\nengineering topics\nto demonstrate how\nthey are\ninterconnected
+  }}"];
 }
