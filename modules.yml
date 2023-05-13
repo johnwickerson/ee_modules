@@ -31,3 +31,13 @@
     5: "select and use data-structures from the STL according to needed performance and functionality"
     6: "use APIs, encapsulation, and abstraction to manage software complexity"
     7: "design object-oriented data-structures to capture real-world problems"			
+
+- code: ELEC40006
+  name: Electronics Design Project
+  ilos:
+    1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
+    2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
+    3: "Integrate analogue, digital and software theory and design techniques into a functioning system"
+    4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
+    5: "Formulate and implement a test plan to evaluate a design against its specifications"
+    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"				
