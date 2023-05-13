@@ -20,3 +20,14 @@
     4: "model the operation of machine code instructions on a CPU at register-transfer level, and manipulate data using different numeric representations"
     5: "write programs for arithmetic operations, manipulating bit fields within words, accessing memory, and calling subroutines"
     6: "implement I/O in embedded computer systems using polling"
+    
+- code: ELEC40004
+  name: Programming for Engineers
+  ilos:
+    1: "use the fundamental components of imperative programming in terms of control-flow structures and variables"
+    2: "design and implement a C++ program that communicates using file-based IO in a CLI environment"
+    3: "verify the correct behaviour of programs"
+    4: "diagnose and fix incorrect behaviour and crashes"
+    5: "select and use data-structures from the STL according to needed performance and functionality"
+    6: "use APIs, encapsulation, and abstraction to manage software complexity"
+    7: "design object-oriented data-structures to capture real-world problems"			
