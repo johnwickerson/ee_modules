@@ -40,4 +40,16 @@
     3: "Integrate analogue, digital and software theory and design techniques into a functioning system"
     4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
     5: "Formulate and implement a test plan to evaluate a design against its specifications"
-    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"				
+    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"
+    
+- code: ELEC40009
+  name: Topics in Electrical Engineering
+  ilos:
+    1: "Describe waves as information carriers"
+    2: "Describe how waves propagate in free space and transmission lines"
+    3: "Apply mathematical tools to investigate signals in the frequency domain"
+    4: "Explain the need for modulation techniques to transmit a signal and identify the basic hardware components to achieve modulation and demodulation"
+    5: "Describe the transport processes in a pn diode and extrapolate this knowledge to its use as a solar cell"
+    6: "Employ laboratory skills to characterise solar cells"
+    7: "Illustrate how solar polar is transported from the source to the household"
+    8: "Relate the different engineering topics to demonstrate how they are interconnected"				
