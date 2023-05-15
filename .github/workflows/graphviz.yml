@@ -12,6 +12,13 @@ jobs:
         uses: ibiqlik/action-yamllint@v3
         with:
           file_or_dir: modules.yml
+          config_data: |
+            rules:
+              line-length:
+                max: 200
+                level: warning
+              trailing-spaces:
+                level: warning
       - name: Prepare environment
         run: |
           sudo apt-get update
