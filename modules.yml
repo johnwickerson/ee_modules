@@ -87,8 +87,8 @@
     5: "Design, implement and characterise hardware/software implementation using the NI USRP software defined radio platform"
     6: "Understand the role physical layer plays within larger communication networks"
 
-- code: ELEC50003 
-  name: Computer Engineering Design Project
+- code: ELEC50003_ELEC50008
+  name: Computer Engineering Design Project I and II
   ilos:
     1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
     2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
@@ -127,3 +127,15 @@
     6: "Explain the principles of radio-communication and radar systems"
     7: "Measure parameters of electromagnetic devices"
     8: "Assemble and evaluate performance of simple radar systems"
+    
+- code: ELEC50009
+  name: Information Processing
+  ilos: 
+    1: "Classify real-world data into different types of signals"
+    2: "Describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
+    3: "Explain and apply convolution for linear time-variant systems using transfer functions for continuous and discrete time systems"
+    4: "Use the sampling theorem with the discrete Fourier Transform and the z-transform"
+    5: "Model a data filtering problem as a transfer function and understand how to apply filters to signals"
+    6: "Implement discrete filters using software"
+    7: "Create information systems which use software and hardware to process information"
+  
