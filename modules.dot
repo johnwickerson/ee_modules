@@ -84,7 +84,7 @@ digraph {
     <6>Understand the role\nphysical layer plays\nwithin larger\ncommunication\nnetworks
   }}"];
 
-  ELEC50003 [label="{ELEC50003 | Computer Engineering Design Project | {
+  ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II | {
     <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
     <2>Apply theoretical\nprinciples and\nlaboratory skills to\ndesign, build and\ntest a solution to\nan engineering\ndesign problem,\nwithin practical\nconstraints |
     <3>Integrate analogue,\ndigital and software\ntheory and design\ntechniques into a\nfunctioning system |
@@ -119,5 +119,15 @@ digraph {
     <6>Explain the\nprinciples of\nradio-communication\nand radar systems |
     <7>Measure parameters\nof electromagnetic\ndevices |
     <8>Assemble and\nevaluate performance\nof simple radar\nsystems
+  }}"];
+
+  ELEC50009 [label="{ELEC50009 | Information Processing | {
+    <1>Classify real-world\ndata into different\ntypes of signals |
+    <2>Describe Linear\nTime-Invariant\nsystems\nmathematically and\nin a way suitable\nfor impementation in\nprocessing systems |
+    <3>Explain and apply\nconvolution for\nlinear time-variant\nsystems using\ntransfer functions\nfor continuous and\ndiscrete time\nsystems |
+    <4>Use the sampling\ntheorem with the\ndiscrete Fourier\nTransform and the\nz-transform |
+    <5>Model a data\nfiltering problem as\na transfer function\nand understand how\nto apply filters to\nsignals |
+    <6>Implement discrete\nfilters using\nsoftware |
+    <7>Create information\nsystems which use\nsoftware and\nhardware to process\ninformation
   }}"];
 }
