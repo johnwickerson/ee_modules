@@ -80,7 +80,7 @@
 - code: ELEC50002
   name: Communications
   ilos: 
-    1: "Model noise in wireless communication systems"
+    1: "Model noise in wireless communication systems"
     2: "Understand the performance measures for analog and digital communication systems, and compare the performance of different modulation techniques"
     3: "Explain the fundamental limits information theory sets on the performance of communication systems"
     4: "Calculate the entropy of a random variable, and design the Huffman code for a given information source"
