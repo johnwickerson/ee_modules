@@ -54,8 +54,8 @@
     7: "Illustrate how solar polar is transported from the source to the household"
     8: "Relate the different engineering topics to demonstrate how they are interconnected"				
 
-- code: ELEC40010
-  name: Mathematics 1A
+- code: ELEC40010_ELEC40011
+  name: Mathematics 1A 1B
   ilos:
     1: "apply the techniques of single-variable calculus to obtain solutions to a wide variety of applications of differentiation and integration"
     2: "utilize the concepts of complex number, functions, limits and series to perform, among others, Fourier Analysis of periodic and non-periodic functions"
