@@ -8,6 +8,10 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+      - name: Check modules.yml is valid YAML
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: modules.yml
       - name: Prepare environment
         run: |
           sudo apt-get update
