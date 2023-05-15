@@ -54,7 +54,7 @@ digraph {
     <8>Relate the\ndifferent\nengineering topics\nto demonstrate how\nthey are\ninterconnected
   }}"];
 
-  ELEC40010 [label="{ELEC40010 | Mathematics 1A | {
+  ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B | {
     <1>apply the\ntechniques of\nsingle-variable\ncalculus to obtain\nsolutions to a wide\nvariety of\napplications of\ndifferentiation and\nintegration |
     <2>utilize the\nconcepts of complex\nnumber, functions,\nlimits and series to\nperform, among\nothers, Fourier\nAnalysis of periodic\nand non-periodic\nfunctions |
     <3>use the techniques\nof vector and linear\nalgebra to analyze\nand apply the\ncorrect solution\nmethod in a range of\nproblems involving\nvectors, matrices\nand systems of\nequations |
