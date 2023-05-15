@@ -1,6 +1,6 @@
 # EE module dependency graph
 
-![Graph-building system](https://github.com/johnwickerson/ee_modules/actions/workflows/graphviz.yml/badge.svg)
+![Graph-building system](https://github.com/johnwickerson/ee_modules/actions/workflows/build_dependency_graph.yml/badge.svg)
 
 A dependency graph for the Imperial EE modules.
 
