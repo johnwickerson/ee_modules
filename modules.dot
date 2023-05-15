@@ -62,4 +62,62 @@ digraph {
     <5>explain and apply\nthe concepts and\ntechniques of\nmultivariable\ncalculus and tackle\nproblems in their\nappropriate context |
     <6>explain where and\nhow the mathematical\nconcepts are applied\nin engineering\nproblems in\nelectromagnetism,\nsignal processing\nand communications
   }}"];
+
+  ELEC50001 [label="{ELEC50001 | Circuits and Systems | {
+    <1>Design, analyse and\nexplain sensors\nanalogue circuit\ninterfaces between\nthe input and\ndigital signal\nprocessing phase |
+    <2>Explain the common\ntype of DAC and ADC\narchitectures\ncurrently used in\nindustry |
+    <3>Design low-pass,\nhigh-pass and\nband-pass filters\nfor preconditioning\nsignals |
+    <4>Choose suitable\nlow-noise\npre-amplifiers and\nanalyse its impact\non noise performance\nof the system |
+    <5>Choose suitable\noutput circuit\narchitecture for\nhigh current drive\nand design a circuit\nto meet\nspecification |
+    <6>Design reasonably\ncomplex circuits\ninvolving digital\nbuilding blocks such\nas shift register,\nRAM and FSM, and\ninterface them to a\nprocessor |
+    <7>Write good quality\nVerilog code to\nspecify digital\nhardware |
+    <8>Implement digital\nhardware on an FPGA |
+    <9>Design a basic\ntestbench circuit
+  }}"];
+
+  ELEC50002 [label="{ELEC50002 | Communications | {
+    <1>Model noise in\nwireless\ncommunication\nsystems |
+    <2>Understand the\nperformance measures\nfor analog and\ndigital\ncommunication\nsystems, and compare\nthe performance of\ndifferent modulation\ntechniques |
+    <3>Explain the\nfundamental limits\ninformation theory\nsets on the\nperformance of\ncommunication\nsystems |
+    <4>Calculate the\nentropy of a random\nvariable, and design\nthe Huffman code for\na given information\nsource |
+    <5>Design, implement\nand characterise\nhardware/software\nimplementation using\nthe NI USRP software\ndefined radio\nplatform |
+    <6>Understand the role\nphysical layer plays\nwithin larger\ncommunication\nnetworks
+  }}"];
+
+  ELEC50003 [label="{ELEC50003 | Computer Engineering Design Project | {
+    <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
+    <2>Apply theoretical\nprinciples and\nlaboratory skills to\ndesign, build and\ntest a solution to\nan engineering\ndesign problem,\nwithin practical\nconstraints |
+    <3>Integrate analogue,\ndigital and software\ntheory and design\ntechniques into a\nfunctioning system |
+    <4>Organise workload\nand manage time by\nfunctioning as an\nengineering team and\ndecomposing the\ndesign challenge\ninto subsystems |
+    <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
+    <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
+  }}"];
+
+  ELEC50004 [label="{ELEC50004 | Control Systems | {
+    <1>Construct linear\ndynamic models of\nengineering systems\nof practical\nrelevance in the\nfrequency and in the\nstate-space domain |
+    <2>Recognise the basic\nprinciples governing\nthe behaviour of a\nclosed-loop control\nsystem including the\nmodes of behaviour\nof its basic\ncomponents |
+    <3>Evaluate, among\nseveral options, how\nto configure and\nstructure the\narchitecture and the\ncontroller of an\nautomatic control\nsystem starting from\nfunctional\nrequirements and\nconsidering\ntechnological\nconstraints |
+    <4>Analyse the static\nand dynamic\nperformance of basic\nlinear feedback\ncontrol systems and\ndesign controllers\nsuch that the\noverall control\nsystem behaves\naccording to\npre-specified\nrequirements |
+    <5>Analyse and\nquantify the impact\nof digital\nimplementation of\nthe control system\non the closed-loop\nperformance |
+    <6>Validate\nexperimentally the\ndynamic models and\nthe satisfaction of\nthe closed-loop\nrequirements on a\nselected hardware\ntest benchmark in\nthe laboratory
+  }}"];
+
+  ELEC50006 [label="{ELEC50006 | Discrete Mathematics | {
+    <1>Apply graph\nalgorithms to\nefficiently explore\ndata-structures |
+    <2>Prove algorithms\nare correct using\ninductive logic |
+    <3>Describe\ncomputability in\nterms of turing\nmachines |
+    <4>Use complexity\nnotation to analyse\nrunning time and\nstorage requirements\nof a computer\nprogram |
+    <5>Use the divide and\nconquer strategy for\ndesigning\nalgorithms, and\nanalyse their\nefficiency in terms\nof complexity\nnotation using the\nMaster Theorem
+  }}"];
+
+  ELEC50007 [label="{ELEC50007 | Electromagnetism | {
+    <1>Apply the\ntechniques of Vector\nCalculus to obtain\nanalytical solutions\nto problems\ninvolving\ndifferential\noperators, line and\nsurface integrals,\nas well as Green's,\nDivergence and\nStokes' theorems |
+    <2>Use Maxwell's\nequations to explain\nbasic\nelectromagnetic\nphenomena |
+    <3>Calculate electric\nand magnetic field\nvectors |
+    <4>Calculate\ncapacitance and\ninductance |
+    <5>Analyse\ntransmission-line\ndevices |
+    <6>Explain the\nprinciples of\nradio-communication\nand radar systems |
+    <7>Measure parameters\nof electromagnetic\ndevices |
+    <8>Assemble and\nevaluate performance\nof simple radar\nsystems
+  }}"];
 }
