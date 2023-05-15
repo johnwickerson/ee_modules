@@ -1,5 +1,7 @@
 # EE module dependency graph
 
+![Graph-building system](https://github.com/johnwickerson/ee_modules/actions/workflows/graphviz.yml/badge.svg)
+
 A dependency graph for the Imperial EE modules.
 
 Each module is a node in the graph, containing the module code, the module title, and its ILOs (intended learning outcomes). An arrow from module A to module B means that one of module A's ILOs is a prerequisite for taking module B.
