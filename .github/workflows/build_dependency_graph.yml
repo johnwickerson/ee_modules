@@ -1,4 +1,4 @@
-name: Graphviz
+name: Build dependency graph
 on: push
 jobs:
   run-all:
