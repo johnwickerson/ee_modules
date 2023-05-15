@@ -53,3 +53,13 @@
     6: "Employ laboratory skills to characterise solar cells"
     7: "Illustrate how solar polar is transported from the source to the household"
     8: "Relate the different engineering topics to demonstrate how they are interconnected"				
+
+- code: ELEC40010
+  name: Mathematics 1A
+  ilos:
+    1: "apply the techniques of single-variable calculus to obtain solutions to a wide variety of applications of differentiation and integration"
+    2: "utilize the concepts of complex number, functions, limits and series to perform, among others, Fourier Analysis of periodic and non-periodic functions"
+    3: "use the techniques of vector and linear algebra to analyze and apply the correct solution method in a range of problems involving vectors, matrices and systems of equations" 
+    4: "identify and apply the correct approach to solving different types of first- and second-order ordinary differential equations"
+    5: "explain and apply the concepts and techniques of multivariable calculus and tackle problems in their appropriate context"
+    6: "explain where and how the mathematical concepts are applied in engineering problems in electromagnetism, signal processing and communications"
