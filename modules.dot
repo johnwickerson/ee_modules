@@ -53,4 +53,13 @@ digraph {
     <7>Illustrate how\nsolar polar is\ntransported from the\nsource to the\nhousehold |
     <8>Relate the\ndifferent\nengineering topics\nto demonstrate how\nthey are\ninterconnected
   }}"];
+
+  ELEC40010 [label="{ELEC40010 | Mathematics 1A | {
+    <1>apply the\ntechniques of\nsingle-variable\ncalculus to obtain\nsolutions to a wide\nvariety of\napplications of\ndifferentiation and\nintegration |
+    <2>utilize the\nconcepts of complex\nnumber, functions,\nlimits and series to\nperform, among\nothers, Fourier\nAnalysis of periodic\nand non-periodic\nfunctions |
+    <3>use the techniques\nof vector and linear\nalgebra to analyze\nand apply the\ncorrect solution\nmethod in a range of\nproblems involving\nvectors, matrices\nand systems of\nequations |
+    <4>identify and apply\nthe correct approach\nto solving different\ntypes of first- and\nsecond-order\nordinary\ndifferential\nequations |
+    <5>explain and apply\nthe concepts and\ntechniques of\nmultivariable\ncalculus and tackle\nproblems in their\nappropriate context |
+    <6>explain where and\nhow the mathematical\nconcepts are applied\nin engineering\nproblems in\nelectromagnetism,\nsignal processing\nand communications
+  }}"];
 }
