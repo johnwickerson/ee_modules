@@ -52,7 +52,7 @@
     5: "Describe the transport processes in a pn diode and extrapolate this knowledge to its use as a solar cell"
     6: "Employ laboratory skills to characterise solar cells"
     7: "Illustrate how solar polar is transported from the source to the household"
-    8: "Relate the different engineering topics to demonstrate how they are interconnected"				
+    8: "Relate the different engineering topics to demonstrate how they are interconnected"
 
 - code: ELEC40010_ELEC40011
   name: Mathematics 1A 1B
@@ -110,11 +110,11 @@
 - code: ELEC50006
   name: Discrete Mathematics
   ilos:
-    1: Apply graph algorithms to efficiently explore data-structures"
-    2: Prove algorithms are correct using inductive logic"
-    3: Describe computability in terms of turing machines"
-    4: Use complexity notation to analyse running time and storage requirements of a computer program"
-    5: Use the divide and conquer strategy for designing algorithms, and analyse their efficiency in terms of complexity notation using the Master Theorem"	
+    1: "Apply graph algorithms to efficiently explore data-structures"
+    2: "Prove algorithms are correct using inductive logic"
+    3: "Describe computability in terms of turing machines"
+    4: "Use complexity notation to analyse running time and storage requirements of a computer program"
+    5: "Use the divide and conquer strategy for designing algorithms, and analyse their efficiency in terms of complexity notation using the Master Theorem"
 
 - code: ELEC50007
   name: Electromagnetism
