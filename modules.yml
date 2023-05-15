@@ -63,3 +63,77 @@
     4: "identify and apply the correct approach to solving different types of first- and second-order ordinary differential equations"
     5: "explain and apply the concepts and techniques of multivariable calculus and tackle problems in their appropriate context"
     6: "explain where and how the mathematical concepts are applied in engineering problems in electromagnetism, signal processing and communications"
+    
+- code: ELEC50001
+  name: Circuits and Systems
+  ilos:
+    1: "Design, analyse and explain sensors analogue circuit interfaces between the input and digital signal processing phase"
+    2: "Explain the common type of DAC and ADC architectures currently used in industry"
+    3: "Design low-pass, high-pass and band-pass filters for preconditioning signals"
+    4: "Choose suitable low-noise pre-amplifiers and analyse its impact on noise performance of the system"
+    5: "Choose suitable output circuit architecture for high current drive and design a circuit to meet specification"
+    6: "Design reasonably complex circuits involving digital building blocks such as shift register, RAM and FSM, and interface them to a processor"
+    7: "Write good quality Verilog code to specify digital hardware"
+    8: "Implement digital hardware on an FPGA"
+    9: "Design a basic testbench circuit"
+
+- code: ELEC50002
+  name: Communications
+  ilos: 
+    1: "Model noise in wireless communication systems"
+    2: "Understand the performance measures for analog and digital communication systems, and compare the performance of different modulation techniques"
+    3: "Explain the fundamental limits information theory sets on the performance of communication systems"
+    4: "Calculate the entropy of a random variable, and design the Huffman code for a given information source"
+    5: "Design, implement and characterise hardware/software implementation using the NI USRP software defined radio platform"
+    6: "Understand the role physical layer plays within larger communication networks"
+
+- code: ELEC50003 
+  name: Computer Engineering Design Project
+  ilos:
+    1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
+    2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
+    3: "Integrate analogue, digital and software theory and design techniques into a functioning system"
+    4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
+    5: "Formulate and implement a test plan to evaluate a design against its specifications"
+    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"
+
+- code: ELEC50004
+  name: Control Systems
+  ilos:
+    1: "Construct linear dynamic models of engineering systems of practical relevance in the frequency and in the state-space domain"
+    2: "Recognise the basic principles governing the behaviour of a closed-loop control system including the modes of behaviour of its basic components"
+    3: "Evaluate, among several options, how to configure and structure the architecture and the controller of an automatic control system starting from functional requirements and considering technological constraints"
+    4: "Analyse the static and dynamic performance of basic linear feedback control systems and design controllers such that the overall control system behaves according to pre-specified requirements"
+    5: "Analyse and quantify the impact of digital implementation of the control system on the closed-loop performance"
+    6: "Validate experimentally the dynamic models and the satisfaction of the closed-loop requirements on a selected hardware test benchmark in the laboratory"
+
+- code: ELEC50006
+  name: Discrete Mathematics
+  ilos:
+    1: Apply graph algorithms to efficiently explore data-structures"
+    2: Prove algorithms are correct using inductive logic"
+    3: Describe computability in terms of turing machines"
+    4: Use complexity notation to analyse running time and storage requirements of a computer program"
+    5: Use the divide and conquer strategy for designing algorithms, and analyse their efficiency in terms of complexity notation using the Master Theorem"	
+
+- code: ELEC50007
+  name: Electromagnetism
+  ilos:
+    1: "Apply the techniques of Vector Calculus to obtain analytical solutions to problems involving differential operators, line and surface integrals, as well as Green's, Divergence and Stokes' theorems"
+    2: "Use Maxwell's equations to explain basic electromagnetic phenomena"
+    3: "Calculate electric and magnetic field vectors"
+    4: "Calculate capacitance and inductance"
+    5: "Analyse transmission-line devices"
+    6: "Explain the principles of radio-communication and radar systems"
+    7: "Measure parameters of electromagnetic devices"
+    8: "Assemble and evaluate performance of simple radar systems"
+
+
+
+
+
+
+
+
+    
+			
