@@ -139,3 +139,24 @@
     6: "Implement discrete filters using software"
     7: "Create information systems which use software and hardware to process information"
   
+- code: ELEC50010
+  name: Instruction Architectures and Compilers
+  ilos:
+    1: "Describe how high-level programs are executed through the sequencing of instructions"
+    2: "Create a compiler from a high-level language to an instruction-based language"
+    3: "Program a functional model of a CPU"
+    4: "Optimise high-level data structures to exploit the low-level memory hierarchy"
+    5: "Design data-structures which can represent programs"
+    6: "Determine the worst-case propagation delay of a combinational circuit"
+    7: "Design arithmetic circuits to meet a specification and determine the propagation delay"
+    8: "Evaluate possible architectural solutions against a set of performance objectives"
+    9: "Discuss the relationship between throughput, latency, and pipelining"
+    
+- code: ELEC50011
+  name: Mathematics for Engineers
+  ilos:
+    1: "Use complex variables for conformal mapping and contour integration"
+    2: "Understand the concepts of linear algebra and apply them in a mathematical framework"
+    3: "Explain the concepts and techniques of probability and statistics and compute properties of random systems"
+    4: "Use basic estimator and calculate the method of moment and the maximum likelihood estimator"
+    5: "Formulate the ways in which these mathematical techniques are applied to technical problems in your engineering modules"
