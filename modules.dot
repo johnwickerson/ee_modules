@@ -130,4 +130,24 @@ digraph {
     <6>Implement discrete\nfilters using\nsoftware |
     <7>Create information\nsystems which use\nsoftware and\nhardware to process\ninformation
   }}"];
+
+  ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers | {
+    <1>Describe how\nhigh-level programs\nare executed through\nthe sequencing of\ninstructions |
+    <2>Create a compiler\nfrom a high-level\nlanguage to an\ninstruction-based\nlanguage |
+    <3>Program a\nfunctional model of\na CPU |
+    <4>\nOptimise high-level\ndata structures to\nexploit the\nlow-level memory\nhierarchy |
+    <5>\nDesign data-structures\nwhich can represent\nprograms |
+    <6>Determine the\nworst-case\npropagation delay of\na combinational\ncircuit |
+    <7>Design arithmetic\ncircuits to meet a\nspecification and\ndetermine the\npropagation delay |
+    <8>Evaluate possible\narchitectural\nsolutions against a\nset of performance\nobjectives |
+    <9>Discuss the\nrelationship between\nthroughput, latency,\nand pipelining
+  }}"];
+
+  ELEC50011 [label="{ELEC50011 | Mathematics for Engineers | {
+    <1>Use complex\nvariables for\nconformal mapping\nand contour\nintegration |
+    <2>Understand the\nconcepts of linear\nalgebra and apply\nthem in a\nmathematical\nframework |
+    <3>Explain the\nconcepts and\ntechniques of\nprobability and\nstatistics and\ncompute properties\nof random systems |
+    <4>Use basic estimator\nand calculate the\nmethod of moment and\nthe maximum\nlikelihood estimator |
+    <5>Formulate the ways\nin which these\nmathematical\ntechniques are\napplied to technical\nproblems in your\nengineering modules
+  }}"];
 }
