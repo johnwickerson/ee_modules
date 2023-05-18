@@ -160,3 +160,41 @@
     3: "Explain the concepts and techniques of probability and statistics and compute properties of random systems"
     4: "Use basic estimator and calculate the method of moment and the maximum likelihood estimator"
     5: "Formulate the ways in which these mathematical techniques are applied to technical problems in your engineering modules"
+    
+- code: ELEC50012
+  name: Power Electronics and Power Systems
+  ilos:
+    1: "describe operation of a switch-mode power supply (SMPS) and appreciate why it is capable of high efficiency and how step-down and step-up of voltage is possible"
+    2: "calculate suitable component values for a given SMPS specification"
+    3: "calculate current and power flow for star- and delta-connected three-phase loads"
+    4: "describe the construction and operating principles of a transformer"
+    5: "justify elements of the equivalent circuit of a transformer"
+    6: "calculate the current flow, efficiency and voltage regulation in transformer"
+    7: "describe qualitatively how a rotating magnetic flux wave is produced by a three-phase winding and how torque is developed by interaction of two fields"
+    8: "justify elements of a per-phase induction machine equivalent circuit"
+    9: "calculate slip, power and torque of an induction machine based on the equivalent circuit"
+    10: "calculate power flow between nodes of a network and the voltages at the nodes"
+    11: "describe how voltage is controlled in a network"
+
+- code: ELEC50013
+  name: Signals and Systems
+  ilos:
+    1: "classify real-world data into different types of signals"
+    2: "describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
+    3: "explain and apply convolution for linear time-variant systems using transfer functions for continuous and discrete time systems"
+    4: "use the sampling theorem with the discrete Fourier Transform and the z-transform"
+    5: "model a data filtering problem as a transfer function and understand how to apply filters to signals"
+    
+- code: ELEC50014
+  name: Software Systems
+  ilos:
+    1: "Analyse a software system to identify potential security issues"
+    2: "Decompose a software system into loosely coupled components"
+    3: "Assign different physical and abstract components of networking to the OSI stack"
+    4: "Describe the principles and concepts involved in designing distributed systems and Internet applications"
+    5: "Apply the concepts of Data Representation, Presentation and Interaction"
+    6: "Think creatively in response to an awareness of/requirement for a problem to be solved"
+    7: "Describe the mapping of relational calculus to SQL"
+    8: "Use relational databases to answer complex data queries in SQL"
+    9: "Apply entity-relationship modelling and demonstrate translation to the relational model"
+    10: "Deliver multi-component networked software systems as part of a small team"
