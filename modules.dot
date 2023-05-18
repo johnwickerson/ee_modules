@@ -74,6 +74,8 @@ digraph {
     <8>Implement digital\nhardware on an FPGA |
     <9>Design a basic\ntestbench circuit
   }}"];
+  ELEC40003:1 -> ELEC50001;
+  ELEC40003:2 -> ELEC50001;
 
   ELEC50002 [label="{ELEC50002 | Communications | {
     <1>Model noise in\nwireless\ncommunication\nsystems |
@@ -83,6 +85,8 @@ digraph {
     <5>Design, implement\nand characterise\nhardware/software\nimplementation using\nthe NI USRP software\ndefined radio\nplatform |
     <6>Understand the role\nphysical layer plays\nwithin larger\ncommunication\nnetworks
   }}"];
+  ELEC40009:1 -> ELEC50002;
+  ELEC40009:2 -> ELEC50002;
 
   ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II | {
     <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
@@ -92,6 +96,7 @@ digraph {
     <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
     <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
   }}"];
+  ELEC40006:1 -> ELEC50003_ELEC50008;
 
   ELEC50004 [label="{ELEC50004 | Control Systems | {
     <1>Construct linear\ndynamic models of\nengineering systems\nof practical\nrelevance in the\nfrequency and in the\nstate-space domain |
@@ -101,6 +106,8 @@ digraph {
     <5>Analyse and\nquantify the impact\nof digital\nimplementation of\nthe control system\non the closed-loop\nperformance |
     <6>Validate\nexperimentally the\ndynamic models and\nthe satisfaction of\nthe closed-loop\nrequirements on a\nselected hardware\ntest benchmark in\nthe laboratory
   }}"];
+  ELEC40009:3 -> ELEC50004;
+  ELEC40010_ELEC40011:2 -> ELEC50004;
 
   ELEC50006 [label="{ELEC50006 | Discrete Mathematics | {
     <1>Apply graph\nalgorithms to\nefficiently explore\ndata-structures |
@@ -109,6 +116,8 @@ digraph {
     <4>Use complexity\nnotation to analyse\nrunning time and\nstorage requirements\nof a computer\nprogram |
     <5>Use the divide and\nconquer strategy for\ndesigning\nalgorithms, and\nanalyse their\nefficiency in terms\nof complexity\nnotation using the\nMaster Theorem
   }}"];
+  ELEC40004:1 -> ELEC50006;
+  ELEC40004:3 -> ELEC50006;
 
   ELEC50007 [label="{ELEC50007 | Electromagnetism | {
     <1>Apply the\ntechniques of Vector\nCalculus to obtain\nanalytical solutions\nto problems\ninvolving\ndifferential\noperators, line and\nsurface integrals,\nas well as Green's,\nDivergence and\nStokes' theorems |
@@ -120,6 +129,7 @@ digraph {
     <7>Measure parameters\nof electromagnetic\ndevices |
     <8>Assemble and\nevaluate performance\nof simple radar\nsystems
   }}"];
+  ELEC40010_ELEC40011:6 -> ELEC50007;
 
   ELEC50009 [label="{ELEC50009 | Information Processing | {
     <1>Classify real-world\ndata into different\ntypes of signals |
@@ -130,6 +140,9 @@ digraph {
     <6>Implement discrete\nfilters using\nsoftware |
     <7>Create information\nsystems which use\nsoftware and\nhardware to process\ninformation
   }}"];
+  ELEC40004:1 -> ELEC50009;
+  ELEC40004:3 -> ELEC50009;
+  ELEC40010_ELEC40011:2 -> ELEC50009;
 
   ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers | {
     <1>Describe how\nhigh-level programs\nare executed through\nthe sequencing of\ninstructions |
@@ -142,6 +155,8 @@ digraph {
     <8>Evaluate possible\narchitectural\nsolutions against a\nset of performance\nobjectives |
     <9>Discuss the\nrelationship between\nthroughput, latency,\nand pipelining
   }}"];
+  ELEC40004:1 -> ELEC50010;
+  ELEC40004:3 -> ELEC50010;
 
   ELEC50011 [label="{ELEC50011 | Mathematics for Engineers | {
     <1>Use complex\nvariables for\nconformal mapping\nand contour\nintegration |
@@ -150,6 +165,8 @@ digraph {
     <4>Use basic estimator\nand calculate the\nmethod of moment and\nthe maximum\nlikelihood estimator |
     <5>Formulate the ways\nin which these\nmathematical\ntechniques are\napplied to technical\nproblems in your\nengineering modules
   }}"];
+  ELEC40010_ELEC40011:1 -> ELEC50011;
+  ELEC40010_ELEC40011:4 -> ELEC50011;
 
   ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems | {
     <1>describe operation\nof a switch-mode\npower supply (SMPS)\nand appreciate why\nit is capable of\nhigh efficiency and\nhow step-down and\nstep-up of voltage\nis possible |
@@ -164,6 +181,7 @@ digraph {
     <10>calculate power\nflow between nodes\nof a network and the\nvoltages at the\nnodes |
     <11>describe how\nvoltage is\ncontrolled in a\nnetwork
   }}"];
+  ELEC40002:1 -> ELEC50012;
 
   ELEC50013 [label="{ELEC50013 | Signals and Systems | {
     <1>classify real-world\ndata into different\ntypes of signals |
@@ -172,6 +190,7 @@ digraph {
     <4>use the sampling\ntheorem with the\ndiscrete Fourier\nTransform and the\nz-transform |
     <5>model a data\nfiltering problem as\na transfer function\nand understand how\nto apply filters to\nsignals
   }}"];
+  ELEC40010_ELEC40011:2 -> ELEC50013;
 
   ELEC50014 [label="{ELEC50014 | Software Systems | {
     <1>Analyse a software\nsystem to identify\npotential security\nissues |
@@ -185,4 +204,6 @@ digraph {
     <9>Apply\nentity-relationship\nmodelling and\ndemonstrate\ntranslation to the\nrelational model |
     <10>Deliver\nmulti-component\nnetworked software\nsystems as part of a\nsmall team
   }}"];
+  ELEC40004:1 -> ELEC50014;
+  ELEC40004:3 -> ELEC50014;
 }
