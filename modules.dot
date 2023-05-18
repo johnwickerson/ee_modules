@@ -150,4 +150,39 @@ digraph {
     <4>Use basic estimator\nand calculate the\nmethod of moment and\nthe maximum\nlikelihood estimator |
     <5>Formulate the ways\nin which these\nmathematical\ntechniques are\napplied to technical\nproblems in your\nengineering modules
   }}"];
+
+  ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems | {
+    <1>describe operation\nof a switch-mode\npower supply (SMPS)\nand appreciate why\nit is capable of\nhigh efficiency and\nhow step-down and\nstep-up of voltage\nis possible |
+    <2>calculate suitable\ncomponent values for\na given SMPS\nspecification |
+    <3>calculate current\nand power flow for\nstar- and\ndelta-connected\nthree-phase loads |
+    <4>describe the\nconstruction and\noperating principles\nof a transformer |
+    <5>justify elements of\nthe equivalent\ncircuit of a\ntransformer |
+    <6>calculate the\ncurrent flow,\nefficiency and\nvoltage regulation\nin transformer |
+    <7>describe\nqualitatively how a\nrotating magnetic\nflux wave is\nproduced by a\nthree-phase winding\nand how torque is\ndeveloped by\ninteraction of two\nfields |
+    <8>justify elements of\na per-phase\ninduction machine\nequivalent circuit |
+    <9>calculate slip,\npower and torque of\nan induction machine\nbased on the\nequivalent circuit |
+    <10>calculate power\nflow between nodes\nof a network and the\nvoltages at the\nnodes |
+    <11>describe how\nvoltage is\ncontrolled in a\nnetwork
+  }}"];
+
+  ELEC50013 [label="{ELEC50013 | Signals and Systems | {
+    <1>classify real-world\ndata into different\ntypes of signals |
+    <2>describe Linear\nTime-Invariant\nsystems\nmathematically and\nin a way suitable\nfor impementation in\nprocessing systems |
+    <3>explain and apply\nconvolution for\nlinear time-variant\nsystems using\ntransfer functions\nfor continuous and\ndiscrete time\nsystems |
+    <4>use the sampling\ntheorem with the\ndiscrete Fourier\nTransform and the\nz-transform |
+    <5>model a data\nfiltering problem as\na transfer function\nand understand how\nto apply filters to\nsignals
+  }}"];
+
+  ELEC50014 [label="{ELEC50014 | Software Systems | {
+    <1>Analyse a software\nsystem to identify\npotential security\nissues |
+    <2>Decompose a\nsoftware system into\nloosely coupled\ncomponents |
+    <3>Assign different\nphysical and\nabstract components\nof networking to the\nOSI stack |
+    <4>Describe the\nprinciples and\nconcepts involved in\ndesigning\ndistributed systems\nand Internet\napplications |
+    <5>Apply the concepts\nof Data\nRepresentation,\nPresentation and\nInteraction |
+    <6>Think creatively in\nresponse to an\nawareness\nof/requirement for a\nproblem to be solved |
+    <7>Describe the\nmapping of\nrelational calculus\nto SQL |
+    <8>Use relational\ndatabases to answer\ncomplex data queries\nin SQL |
+    <9>Apply\nentity-relationship\nmodelling and\ndemonstrate\ntranslation to the\nrelational model |
+    <10>Deliver\nmulti-component\nnetworked software\nsystems as part of a\nsmall team
+  }}"];
 }
