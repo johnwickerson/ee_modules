@@ -1,3 +1,3 @@
 all:
 	dune exec -- ./builddot.exe > modules.dot
-	dot -Tpdf modules.dot -o modules.pdf
+	dot -Granksep=12 -Tpdf modules.dot -o modules.pdf

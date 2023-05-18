@@ -33,6 +33,6 @@ jobs:
       - name: Add dependency graph to repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
-          commit_message: Recreating modules.dot and modules.pdf
-          file_pattern: 'modules.pdf modules.dot'
+          commit_message: "Recreating .dot and .pdf files"
+          file_pattern: 'modules*.pdf modules*.dot'
           push_options: --force
