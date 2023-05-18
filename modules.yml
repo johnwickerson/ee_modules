@@ -76,6 +76,9 @@
     7: "Write good quality Verilog code to specify digital hardware"
     8: "Implement digital hardware on an FPGA"
     9: "Design a basic testbench circuit"
+  prereqs:
+    - ELEC40003.1
+    - ELEC40003.2
 
 - code: ELEC50002
   name: Communications
@@ -86,6 +89,9 @@
     4: "Calculate the entropy of a random variable, and design the Huffman code for a given information source"
     5: "Design, implement and characterise hardware/software implementation using the NI USRP software defined radio platform"
     6: "Understand the role physical layer plays within larger communication networks"
+  prereqs:
+    - ELEC40009.1
+    - ELEC40009.2
 
 - code: ELEC50003_ELEC50008
   name: Computer Engineering Design Project I and II
@@ -96,6 +102,8 @@
     4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
     5: "Formulate and implement a test plan to evaluate a design against its specifications"
     6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"
+  prereqs:
+    - ELEC40006.1
 
 - code: ELEC50004
   name: Control Systems
@@ -106,7 +114,10 @@
     4: "Analyse the static and dynamic performance of basic linear feedback control systems and design controllers such that the overall control system behaves according to pre-specified requirements"
     5: "Analyse and quantify the impact of digital implementation of the control system on the closed-loop performance"
     6: "Validate experimentally the dynamic models and the satisfaction of the closed-loop requirements on a selected hardware test benchmark in the laboratory"
-
+  prereqs:
+    - ELEC40009.3
+    - ELEC40010_ELEC40011.2
+    
 - code: ELEC50006
   name: Discrete Mathematics
   ilos:
@@ -115,6 +126,9 @@
     3: "Describe computability in terms of turing machines"
     4: "Use complexity notation to analyse running time and storage requirements of a computer program"
     5: "Use the divide and conquer strategy for designing algorithms, and analyse their efficiency in terms of complexity notation using the Master Theorem"
+  prereqs:
+    - ELEC40004.1
+    - ELEC40004.3
 
 - code: ELEC50007
   name: Electromagnetism
@@ -127,6 +141,8 @@
     6: "Explain the principles of radio-communication and radar systems"
     7: "Measure parameters of electromagnetic devices"
     8: "Assemble and evaluate performance of simple radar systems"
+  prereqs:
+    - ELEC40010_ELEC40011.6
     
 - code: ELEC50009
   name: Information Processing
@@ -138,6 +154,10 @@
     5: "Model a data filtering problem as a transfer function and understand how to apply filters to signals"
     6: "Implement discrete filters using software"
     7: "Create information systems which use software and hardware to process information"
+  prereqs:
+    - ELEC40004.1
+    - ELEC40004.3
+    - ELEC40010_ELEC40011.2
   
 - code: ELEC50010
   name: Instruction Architectures and Compilers
@@ -151,6 +171,9 @@
     7: "Design arithmetic circuits to meet a specification and determine the propagation delay"
     8: "Evaluate possible architectural solutions against a set of performance objectives"
     9: "Discuss the relationship between throughput, latency, and pipelining"
+  prereqs:
+    - ELEC40004.1
+    - ELEC40004.3
     
 - code: ELEC50011
   name: Mathematics for Engineers
@@ -160,6 +183,9 @@
     3: "Explain the concepts and techniques of probability and statistics and compute properties of random systems"
     4: "Use basic estimator and calculate the method of moment and the maximum likelihood estimator"
     5: "Formulate the ways in which these mathematical techniques are applied to technical problems in your engineering modules"
+  prereqs:
+    - ELEC40010_ELEC40011.1
+    - ELEC40010_ELEC40011.4
     
 - code: ELEC50012
   name: Power Electronics and Power Systems
@@ -175,6 +201,8 @@
     9: "calculate slip, power and torque of an induction machine based on the equivalent circuit"
     10: "calculate power flow between nodes of a network and the voltages at the nodes"
     11: "describe how voltage is controlled in a network"
+  prereqs:
+    - ELEC40002.1
 
 - code: ELEC50013
   name: Signals and Systems
@@ -184,6 +212,8 @@
     3: "explain and apply convolution for linear time-variant systems using transfer functions for continuous and discrete time systems"
     4: "use the sampling theorem with the discrete Fourier Transform and the z-transform"
     5: "model a data filtering problem as a transfer function and understand how to apply filters to signals"
+  prereqs:
+    - ELEC40010_ELEC40011.2
     
 - code: ELEC50014
   name: Software Systems
@@ -198,3 +228,6 @@
     8: "Use relational databases to answer complex data queries in SQL"
     9: "Apply entity-relationship modelling and demonstrate translation to the relational model"
     10: "Deliver multi-component networked software systems as part of a small team"
+  prereqs:
+    - ELEC40004.1
+    - ELEC40004.3
