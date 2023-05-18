@@ -34,41 +34,34 @@ let rec iter_alt f g = function
 
 let as_yaml_string = function
   | `String s -> s
-  | _ -> failwith "Expected a string"
+  | _ -> failwith "Expected a YAML string"
 
+let as_yaml_ordered_list = function
+  | `O xs -> xs
+  | _ -> failwith "Expected a YAML ordered list"
+       
+let as_yaml_dictionary = function
+  | `A xs -> xs
+  | _ -> failwith "Expected a YAML dictionary"
+       
 let print_ilo (i, ilo) =
-  let ilo_str = as_yaml_string ilo in
-  let ilo_str = wrap 20 ilo_str in
+  let ilo_str = wrap 20 (as_yaml_string ilo) in
   printf "\n    <%s>%s" i ilo_str
-  
-let print_ilos = function
-  | `O ilo_list -> iter_alt print_ilo (fun () -> printf " |") ilo_list
-  | _ -> failwith "Expected an ordered list of ILOs"
 
 let print_prereq code prereq =
-  let prereq_str = as_yaml_string prereq in
-  let prereq_str = Str.global_replace (Str.regexp "\\.") ":" prereq_str in
-  printf "  %s -> %s;\n" prereq_str code
+  let prereq_str = Str.global_replace (Str.regexp "\\.") ":" (as_yaml_string prereq) in
+  printf "  %s -> %s;\n" prereq_str code  
        
-let print_prereqs code = function
-  | `A prereq_list -> List.iter (print_prereq code) prereq_list
-  | _ -> failwith "Expected an unordered list of prerequisites"
-       
-let print_module = function
-  | `O attribs -> 
-     let name = as_yaml_string (lookup_exn attribs "name") in
-     let code = as_yaml_string (lookup_exn attribs "code") in
-     let ilos = lookup_exn attribs "ilos" in
-     let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
-     printf "  %s [label=\"{%s | %s | {" code code name;
-     print_ilos ilos;
-     printf "\n  }}\"];\n";
-     print_prereqs code prereqs
-  | _ -> failwith "Expected a collection of module attributes"
-
-let print_top = function
-  | `A module_list -> iter_alt print_module (fun () -> printf "\n") module_list
-  | _ -> failwith "Expected a list of modules"
+let print_module m =
+  let attribs = as_yaml_ordered_list m in
+  let name = as_yaml_string (lookup_exn attribs "name") in
+  let code = as_yaml_string (lookup_exn attribs "code") in
+  let ilos = lookup_exn attribs "ilos" in
+  let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
+  printf "  %s [label=\"{%s | %s | {" code code name;
+  iter_alt print_ilo (fun () -> printf " |") (as_yaml_ordered_list ilos);
+  printf "\n  }}\"];\n";
+  List.iter (print_prereq code) (as_yaml_dictionary prereqs)
 
 let _ =
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
@@ -76,6 +69,6 @@ let _ =
   printf "  node[shape=record, style=\"filled\"];\n";
   printf "  node[color=\"#99d8c9\", fillcolor=\"#e5f5f9\"];\n";
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
-  print_top yml_top;
+  iter_alt print_module (fun () -> printf "\n") (as_yaml_dictionary yml_top);
   printf "}\n";
   ()
