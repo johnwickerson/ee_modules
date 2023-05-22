@@ -65,6 +65,14 @@ digraph {
     <6>explain where and\nhow the mathematical\nconcepts are applied\nin engineering\nproblems in\nelectromagnetism,\nsignal processing\nand communications
   }}"];
 
+  root[label="start"]
+  root -> ELEC40002;
+  root -> ELEC40003;
+  root -> ELEC40004;
+  root -> ELEC40006;
+  root -> ELEC40009;
+  root -> ELEC40010_ELEC40011;
+
   node[color="#fdbb84", fillcolor="#fee8c8"];
 
   ELEC50001 [label="{ELEC50001 | Circuits and Systems | {
