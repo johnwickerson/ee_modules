@@ -21,6 +21,9 @@ let wrap line_width txt =
   in
   Buffer.contents buf
 
+let env_var_set v =
+  try let _ = Sys.getenv v in true with Not_found -> false
+
 let rec lookup_exn kvs k =
   match kvs with
   | [] -> raise Not_found
@@ -32,17 +35,21 @@ let rec iter_alt f g = function
   | [x] -> f x
   | x :: xs -> f x; g (); iter_alt f g xs
 
-let as_yaml_string = function
+let as_yaml_string ?(msg = "Expected a YAML string") = function
   | `String s -> s
-  | _ -> failwith "Expected a YAML string"
+  | _ -> failwith msg
 
-let as_yaml_ordered_list = function
+let as_yaml_number ?(msg = "Expected a YAML number") = function
+  | `Float f -> f
+  | _ -> failwith msg
+
+let as_yaml_ordered_list ?(msg = "Expected a YAML ordered list") = function
   | `O xs -> xs
-  | _ -> failwith "Expected a YAML ordered list"
+  | _ -> failwith msg
        
-let as_yaml_dictionary = function
+let as_yaml_dictionary ?(msg = "Expected a YAML dictionary") = function
   | `A xs -> xs
-  | _ -> failwith "Expected a YAML dictionary"
+  | _ -> failwith msg
        
 let print_ilo (i, ilo) =
   let ilo_str = wrap 20 (as_yaml_string ilo) in
@@ -63,12 +70,38 @@ let print_module m =
   printf "\n  }}\"];\n";
   List.iter (print_prereq code) (as_yaml_dictionary prereqs)
 
+let print_root_edge m =
+  let attribs = as_yaml_ordered_list m in
+  let code = as_yaml_string (lookup_exn attribs "code") in
+  printf "  root -> %s;\n" code
+  
+let print_root_edges modules =
+  printf "  root[label=\"start\"]\n";
+  List.iter print_root_edge modules;
+  printf "\n"
+  
 let _ =
+  let darkturquoise = "#99d8c9" in
+  let lightturquoise = "#e5f5f9" in
+  let darkorange = "#fdbb84" in
+  let lightorange = "#fee8c8" in
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
   printf "digraph {\n";
-  printf "  node[shape=record, style=\"filled\"];\n";
-  printf "  node[color=\"#99d8c9\", fillcolor=\"#e5f5f9\"];\n";
+  printf "  node[shape=\"record\", style=\"filled\"];\n";
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
-  iter_alt print_module (fun () -> printf "\n") (as_yaml_dictionary yml_top);
+  let all_modules = as_yaml_dictionary yml_top in
+  let year_is y m = as_yaml_number (lookup_exn (as_yaml_ordered_list m) "year") = float_of_int y in
+  let ee1_modules = List.filter (year_is 1) all_modules in
+  let ee2_modules = List.filter (year_is 2) all_modules in
+  printf "\n";
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkturquoise lightturquoise;
+  printf "\n";
+  iter_alt print_module (fun () -> printf "\n") ee1_modules;
+  printf "\n";
+  if env_var_set "INCLUDEROOTNODE" then
+    print_root_edges ee1_modules;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkorange lightorange;
+  printf "\n";
+  iter_alt print_module (fun () -> printf "\n") ee2_modules;
   printf "}\n";
   ()

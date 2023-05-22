@@ -1,5 +1,7 @@
+
 - code: ELEC40002
   name: Analysis and Design of Circuits
+  year: 1
   ilos:
     1: "Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor"
     2: "Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents"
@@ -13,6 +15,7 @@
 
 - code: ELEC40003
   name: Digital Electronics and Computer Architecture
+  year: 1
   ilos: 
     1: "design significant synchronous sequential digital circuits using registers and combinational logic"
     2: "design simple two’s complement addition and subtraction digital circuits, with correct use of carry and overflow"
@@ -23,6 +26,7 @@
     
 - code: ELEC40004
   name: Programming for Engineers
+  year: 1
   ilos:
     1: "use the fundamental components of imperative programming in terms of control-flow structures and variables"
     2: "design and implement a C++ program that communicates using file-based IO in a CLI environment"
@@ -34,6 +38,7 @@
 
 - code: ELEC40006
   name: Electronics Design Project
+  year: 1
   ilos:
     1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
     2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
@@ -44,6 +49,7 @@
     
 - code: ELEC40009
   name: Topics in Electrical Engineering
+  year: 1
   ilos:
     1: "Describe waves as information carriers"
     2: "Describe how waves propagate in free space and transmission lines"
@@ -56,6 +62,7 @@
 
 - code: ELEC40010_ELEC40011
   name: Mathematics 1A 1B
+  year: 1
   ilos:
     1: "apply the techniques of single-variable calculus to obtain solutions to a wide variety of applications of differentiation and integration"
     2: "utilize the concepts of complex number, functions, limits and series to perform, among others, Fourier Analysis of periodic and non-periodic functions"
@@ -66,6 +73,7 @@
     
 - code: ELEC50001
   name: Circuits and Systems
+  year: 2
   ilos:
     1: "Design, analyse and explain sensors analogue circuit interfaces between the input and digital signal processing phase"
     2: "Explain the common type of DAC and ADC architectures currently used in industry"
@@ -82,6 +90,7 @@
 
 - code: ELEC50002
   name: Communications
+  year: 2
   ilos: 
     1: "Model noise in wireless communication systems"
     2: "Understand the performance measures for analog and digital communication systems, and compare the performance of different modulation techniques"
@@ -95,6 +104,7 @@
 
 - code: ELEC50003_ELEC50008
   name: Computer Engineering Design Project I and II
+  year: 2
   ilos:
     1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
     2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
@@ -107,6 +117,7 @@
 
 - code: ELEC50004
   name: Control Systems
+  year: 2
   ilos:
     1: "Construct linear dynamic models of engineering systems of practical relevance in the frequency and in the state-space domain"
     2: "Recognise the basic principles governing the behaviour of a closed-loop control system including the modes of behaviour of its basic components"
@@ -120,6 +131,7 @@
     
 - code: ELEC50006
   name: Discrete Mathematics
+  year: 2
   ilos:
     1: "Apply graph algorithms to efficiently explore data-structures"
     2: "Prove algorithms are correct using inductive logic"
@@ -132,6 +144,7 @@
 
 - code: ELEC50007
   name: Electromagnetism
+  year: 2
   ilos:
     1: "Apply the techniques of Vector Calculus to obtain analytical solutions to problems involving differential operators, line and surface integrals, as well as Green's, Divergence and Stokes' theorems"
     2: "Use Maxwell's equations to explain basic electromagnetic phenomena"
@@ -146,6 +159,7 @@
     
 - code: ELEC50009
   name: Information Processing
+  year: 2
   ilos: 
     1: "Classify real-world data into different types of signals"
     2: "Describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
@@ -161,6 +175,7 @@
   
 - code: ELEC50010
   name: Instruction Architectures and Compilers
+  year: 2
   ilos:
     1: "Describe how high-level programs are executed through the sequencing of instructions"
     2: "Create a compiler from a high-level language to an instruction-based language"
@@ -177,6 +192,7 @@
     
 - code: ELEC50011
   name: Mathematics for Engineers
+  year: 2
   ilos:
     1: "Use complex variables for conformal mapping and contour integration"
     2: "Understand the concepts of linear algebra and apply them in a mathematical framework"
@@ -189,6 +205,7 @@
     
 - code: ELEC50012
   name: Power Electronics and Power Systems
+  year: 2
   ilos:
     1: "describe operation of a switch-mode power supply (SMPS) and appreciate why it is capable of high efficiency and how step-down and step-up of voltage is possible"
     2: "calculate suitable component values for a given SMPS specification"
@@ -206,6 +223,7 @@
 
 - code: ELEC50013
   name: Signals and Systems
+  year: 2
   ilos:
     1: "classify real-world data into different types of signals"
     2: "describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
@@ -217,6 +235,7 @@
     
 - code: ELEC50014
   name: Software Systems
+  year: 2
   ilos:
     1: "Analyse a software system to identify potential security issues"
     2: "Decompose a software system into loosely coupled components"
