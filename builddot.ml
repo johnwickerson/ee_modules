@@ -85,6 +85,8 @@ let _ =
   let lightturquoise = "#e5f5f9" in
   let darkorange = "#fdbb84" in
   let lightorange = "#fee8c8" in
+  let darkpurple = "#9ebcda" in
+  let lightpurple = "#e0ecf4" in
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
   printf "digraph {\n";
   printf "  node[shape=\"record\", style=\"filled\"];\n";
@@ -93,6 +95,7 @@ let _ =
   let year_is y m = as_yaml_number (lookup_exn (as_yaml_ordered_list m) "year") = float_of_int y in
   let ee1_modules = List.filter (year_is 1) all_modules in
   let ee2_modules = List.filter (year_is 2) all_modules in
+  let ee3_modules = List.filter (year_is 3) all_modules in
   printf "\n";
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkturquoise lightturquoise;
   printf "\n";
@@ -103,5 +106,8 @@ let _ =
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkorange lightorange;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee2_modules;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkpurple lightpurple;
+  printf "\n";
+  iter_alt print_module (fun () -> printf "\n") ee3_modules;
   printf "}\n";
   ()

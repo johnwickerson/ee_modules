@@ -250,3 +250,63 @@
   prereqs:
     - ELEC40004.1
     - ELEC40004.3
+
+- code: ELEC60001
+  name: "Advanced Mathematics for Signals and Systems"
+  year: 3
+  ilos:
+    1: "compute the trace, determinant, eigenvalues and eigenvectors of a matrix"
+    2: "compute the SVD of a matrix"
+    3: "critically analyse a linear mapping using the properties of the SVD"
+    4: "identify and find the least-square solution for overdetermined problems and minimum norm solution for under-determined problem"
+    5: "find the Total Least Square solution to an approximation problem"
+    6: "compute the rank and the null space of a matrix"
+  prereqs:
+    - ELEC50011.2
+    
+- code: ELEC60002
+  name: "Statistical Signal Processing and Inference"
+  year: 3
+  ilos:
+    1: "model, analyse and predict real world random processes using linear stochastic models"
+    2: "identify time varying parameters of non-stationary signals using statistical estimation and inference"
+    3: "derive theoretical and practical performance bounds for statistical signal processing algorithms in practical settings"
+    4: "perform denoising and prediction of signals corrupted by noise, using adaptive statistical learning and filtering"
+    5: "estimate relevant physiological parameters from real life recordings acquired recordings (your own data) and critically analyse and improve signal quality"
+  prereqs:
+    - ELEC50011.3
+
+- code: ELEC60003
+  name: "Analogue Integrated Circuits and Systems"
+  year: 3
+  ilos:
+    1: "Analyse different analogue circuits and architectures"
+    2: "Design different analogue circuits taking into account limitations and creating solutions to circumvent or resolve these"
+    3: "Derive and apply the concept of current feedback OPAMPs"
+    4: "Analyse and calculate integrated switched capacitor filters and continuous-time filters"
+    5: "Explain and simulate the operation of A/D and D/A Converters and contrast different approaches"
+  prereqs:
+    - ELEC50001.1
+    - ELEC50001.2
+
+- code: ELEC60004
+  name: "Artificial Intelligence"
+  year: 3
+  ilos:
+    1: "use and evaluate different algorithms for searching a graph as a basis for planning and problem-solving"
+    2: "use and evaluate algorithms for automated reasoning in propositional, predicate and modal logics"
+    3: "apply formal languages for knowledge representation and reasoning through symbolic computation"
+    4: "implement algorithms for planning and reasoning in Prolog (logic programming language)"
+  prereqs:
+    - ELEC50006.1
+
+- code: ELEC60004
+  name: "Biomedical Electronics"
+  year: 3
+  ilos:
+    1: "Interpret biomedical signals and define their requirements for detection and processing"
+    2: "Identify the required building blocks for a given biomedical system"
+    3: "Design circuits and systems for a given biomedical system specification"
+  prereqs:
+    - ELEC50001.1
+    - ELEC50009.1
