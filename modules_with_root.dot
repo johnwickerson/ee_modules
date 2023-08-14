@@ -257,11 +257,44 @@ digraph {
   }}"];
   ELEC50006:1 -> ELEC60004;
 
-  ELEC60004 [label="{ELEC60004 | Biomedical Electronics | {
+  ELEC60005 [label="{ELEC60005 | Biomedical Electronics | {
     <1>Interpret\nbiomedical signals\nand define their\nrequirements for\ndetection and\nprocessing |
     <2>Identify the\nrequired building\nblocks for a given\nbiomedical system |
     <3>Design circuits and\nsystems for a given\nbiomedical system\nspecification
   }}"];
-  ELEC50001:1 -> ELEC60004;
-  ELEC50009:1 -> ELEC60004;
+  ELEC50001:1 -> ELEC60005;
+  ELEC50009:1 -> ELEC60005;
+
+  ELEC60006 [label="{ELEC60006 | Communication Networks | {
+    <1>Describe different\ncommunication\nnetworks and\ntechnologies\nincluding Industry\nstandards |
+    <2>Analyse and\ncontrast the main\nfeatures and\nrelationship of\ndifferent\ncommunication\nnetworks and quality\nof service (QoS)\nrelated aspects |
+    <3>Discuss the\nvalidity of\ndifferent\nperformance\nmodelling/assessment\ntechniques |
+    <4>Identify different\ncommunication\nnetwork QoS related\nproblems, and the\nappropriate solution\ntechniques for these\nproblems |
+    <5>Formulate the\nunderlying\nassumptions of the\nstudied\nmodelling/assessment\ntechniques and\ncritically analyse\ntheir impact |
+    <6>Determine the\nconditions in which\na communication\nsystem is operating |
+    <7>State and solve\ncommunication system\nand network\nperformance related\nproblems (e.g.\noptimal routing\nproblem and system\nutilisation) |
+    <8>Derive and evaluate\nrelated performance\nanalytical\nexpressions.
+  }}"];
+
+  ELEC60008 [label="{ELEC60008 | Control Engineering | {
+    <1>Model dynamic\nsystem using\ndifferential and\ndifference equations |
+    <2>Given a transfer\nfunction find\nstate-space\nrepresentation and\nvice versa, and\nquantify difference\nbetween the two\nrepresentations |
+    <3>Access stability\nproperties of\ndynamical systems\nand structural\nproperties |
+    <4>Design feedback\ncontroller in a\nsystematic way to\nmodify behaviour of\ndynamical systems |
+    <5>Assess a prior what\nbehaviour can and\ncannot be achieved\nin a dynamic system
+  }}"];
+
+  ELEC60009 [label="{ELEC60009 | Deep Learning | {
+    <1>formalise a deep\nlearning problem |
+    <2>choose and fit\nmodels to data |
+    <3>critically appraise\nthe merits and\nshortcomings of\nmodel architectures\non specific problems |
+    <4>apply existing deep\nlearning models to\nreal datasets |
+    <5>discriminate\nbetween different\npractical machine\nlearning problems\napproaches to solve |
+    <6>implement and\nevaluate common\nneural network\nmodels for various\ntypes of data |
+    <7>apply a variety of\nlearning algorithms\nto data |
+    <8>combine modular\ncomponents to build\ndeep learning\nsystems in a wide\nrange of real-world\napplications |
+    <9>perform a critical\nappraisal of recent\nscientific\nliterature in deep\nlearning |
+    <10>choose appropriate\nperformance\nevaluation metrics |
+    <11>present and analyse\nthe results as well\nas draw appropriate\nconclusions
+  }}"];
 }
