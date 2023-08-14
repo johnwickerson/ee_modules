@@ -300,7 +300,7 @@
   prereqs:
     - ELEC50006.1
 
-- code: ELEC60004
+- code: ELEC60005
   name: "Biomedical Electronics"
   year: 3
   ilos:
@@ -310,3 +310,42 @@
   prereqs:
     - ELEC50001.1
     - ELEC50009.1
+
+- code: ELEC60006
+  name: "Communication Networks"
+  year: 3
+  ilos:
+    1: "Describe different communication networks and technologies including Industry standards"
+    2: "Analyse and contrast the main features and relationship of different communication networks and quality of service (QoS) related aspects"
+    3: "Discuss the validity of different performance modelling/assessment techniques"
+    4: "Identify different communication network QoS related problems, and the appropriate solution techniques for these problems"
+    5: "Formulate the underlying assumptions of the studied modelling/assessment techniques and critically analyse their impact"
+    6: "Determine the conditions in which a communication system is operating"
+    7: "State and solve communication system and network performance related problems (e.g. optimal routing problem and system utilisation)"
+    8: "Derive and evaluate related performance analytical expressions."
+
+- code: ELEC60008
+  name: "Control Engineering"
+  year: 3
+  ilos:
+    1: "Model dynamic system using differential and difference equations"
+    2: "Given a transfer function find state-space representation and vice versa, and quantify difference between the two representations"
+    3: "Access stability properties of dynamical systems and structural properties"
+    4: "Design feedback controller in a systematic way to modify behaviour of dynamical systems"
+    5: "Assess a prior what behaviour can and cannot be achieved in a dynamic system"
+
+- code: ELEC60009
+  name: "Deep Learning"
+  year: 3
+  ilos:
+    1: "formalise a deep learning problem"
+    2: "choose and fit models to data"
+    3: "critically appraise the merits and shortcomings of model architectures on specific problems"  
+    4: "apply existing deep learning models to real datasets"
+    5: "discriminate between different practical machine learning problems approaches to solve"
+    6: "implement and evaluate common neural network models for various types of data"
+    7: "apply a variety of learning algorithms to data"
+    8: "combine modular components to build deep learning systems in a wide range of real-world applications"
+    9: "perform a critical appraisal of recent scientific literature in deep learning"
+    10: "choose appropriate performance evaluation metrics"
+    11: "present and analyse the results as well as draw appropriate conclusions"
