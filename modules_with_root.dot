@@ -218,4 +218,50 @@ digraph {
   }}"];
   ELEC40004:1 -> ELEC50014;
   ELEC40004:3 -> ELEC50014;
+  node[color="#9ebcda", fillcolor="#e0ecf4"];
+
+  ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems | {
+    <1>compute the trace,\ndeterminant,\neigenvalues and\neigenvectors of a\nmatrix |
+    <2>compute the SVD of\na matrix |
+    <3>critically analyse\na linear mapping\nusing the properties\nof the SVD |
+    <4>identify and find\nthe least-square\nsolution for\noverdetermined\nproblems and minimum\nnorm solution for\nunder-determined\nproblem |
+    <5>find the Total\nLeast Square\nsolution to an\napproximation\nproblem |
+    <6>compute the rank\nand the null space\nof a matrix
+  }}"];
+  ELEC50011:2 -> ELEC60001;
+
+  ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference | {
+    <1>model, analyse and\npredict real world\nrandom processes\nusing linear\nstochastic models |
+    <2>identify time\nvarying parameters\nof non-stationary\nsignals using\nstatistical\nestimation and\ninference |
+    <3>derive theoretical\nand practical\nperformance bounds\nfor statistical\nsignal processing\nalgorithms in\npractical settings |
+    <4>perform denoising\nand prediction of\nsignals corrupted by\nnoise, using\nadaptive statistical\nlearning and\nfiltering |
+    <5>estimate relevant\nphysiological\nparameters from real\nlife recordings\nacquired recordings\n(your own data) and\ncritically analyse\nand improve signal\nquality
+  }}"];
+  ELEC50011:3 -> ELEC60002;
+
+  ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems | {
+    <1>Analyse different\nanalogue circuits\nand architectures |
+    <2>Design different\nanalogue circuits\ntaking into account\nlimitations and\ncreating solutions\nto circumvent or\nresolve these |
+    <3>Derive and apply\nthe concept of\ncurrent feedback\nOPAMPs |
+    <4>Analyse and\ncalculate integrated\nswitched capacitor\nfilters and\ncontinuous-time\nfilters |
+    <5>Explain and\nsimulate the\noperation of A/D and\nD/A Converters and\ncontrast different\napproaches
+  }}"];
+  ELEC50001:1 -> ELEC60003;
+  ELEC50001:2 -> ELEC60003;
+
+  ELEC60004 [label="{ELEC60004 | Artificial Intelligence | {
+    <1>use and evaluate\ndifferent algorithms\nfor searching a\ngraph as a basis for\nplanning and\nproblem-solving |
+    <2>use and evaluate\nalgorithms for\nautomated reasoning\nin propositional,\npredicate and modal\nlogics |
+    <3>apply formal\nlanguages for\nknowledge\nrepresentation and\nreasoning through\nsymbolic computation |
+    <4>implement\nalgorithms for\nplanning and\nreasoning in Prolog\n(logic programming\nlanguage)
+  }}"];
+  ELEC50006:1 -> ELEC60004;
+
+  ELEC60004 [label="{ELEC60004 | Biomedical Electronics | {
+    <1>Interpret\nbiomedical signals\nand define their\nrequirements for\ndetection and\nprocessing |
+    <2>Identify the\nrequired building\nblocks for a given\nbiomedical system |
+    <3>Design circuits and\nsystems for a given\nbiomedical system\nspecification
+  }}"];
+  ELEC50001:1 -> ELEC60004;
+  ELEC50009:1 -> ELEC60004;
 }
