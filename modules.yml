@@ -349,3 +349,219 @@
     9: "perform a critical appraisal of recent scientific literature in deep learning"
     10: "choose appropriate performance evaluation metrics"
     11: "present and analyse the results as well as draw appropriate conclusions"
+
+- code: ELEC60010
+  name: "Digital Signal Processing"
+  year: 3
+  ilos:
+    1: "use the sampling theory to design discrete data systems and analyse these systems in terms of systems functions and z-transform"
+    2: "analyse and design digital filters using FIR and IIR filter design techniques"
+    3: "perform and interpret correctly the results of simple short-time spectral estimation"
+    4: "learn about the FFT, the fast computation of the DFT"
+    5: "develop basic multirate signal processing systems, exploiting appropriate elements and identities, and design typical application examples including sample-rate-changing systems"
+
+- code: ELEC60011
+  name: "Digital Systems Design"
+  year: 3
+  ilos:
+    1: "design complex, high performance digital systems"
+    2: "use a modern CAD tool to help with the design"
+    3: "implement such designs using programmable logic (e.g. FPGAs)"
+    4: "design with digital building blocks (such as memory chips, microprocessors, arithmetic circuits etc.)"
+
+- code: ELEC60012
+  name: "Electrical Energy Systems"
+  year: 3
+  ilos:
+    1: "Explain the operating principle and describe the static models of synchronous machines, transformers and transmission lines"
+    2: "Use per-unit system for analysis of electric power systems"
+    3: "Perform power flow analysis using the Gauss-Seidel technique"
+    4: "Conduct short circuit analysis for balanced and unbalanced faults"
+    5: "Analyse steady-state and transient stability of simple electric power systems"
+    6: "Appraise the challenges associated with low system inertia and short-circuit levels driven by high fractions of renewables"
+
+- code: ELEC60013
+  name: "Embedded Systems"
+  year: 3
+  ilos:
+    1: "identify the particular requirements of computer systems that interact directly with the physical world"
+    2: "analyse the constraints imposed by time-critical applications and prove that they are met"
+    3: "set up low-level communication between software, hardware devices and the wider world"
+    4: "use interrupts and threading to guarantee that time constraints are met"
+    5: "write complex, low-level software that is reliable"
+    6: "configure and use a variety of hardware platforms and development toolchains"
+
+- code: ELEC60014
+  name: "Group Consultancy Project"
+  year: 3
+  ilos:
+    1: "Develop an engineering specification from a given open-ended brief"
+    2: "Generate number of viable solutions to the brief"
+    3: "Select the optimum solution through technical and critical analysis"
+    4: "Develop a prototype to demonstrate the principles of the proposed solution"
+    5: "Provide financial and commercial information to support their decision"
+    6: "Manage the project from a resource and workload point of view"
+    7: "Communicate in a way to suit the intended target audience (written and oral)"
+
+- code: ELEC60015
+  name: "High Level Programming"
+  year: 3
+  ilos:
+    1: "write programs in the hybrid object-oriented and functional programming language F#"
+    2: "express simple algorithms in a transformational style using immutable operations"
+    3: "write recursive and tail recursive implementations of iteration"
+    4: "use list, map, array collection types and associated library functions"
+    5: "analyse and debug type errors in F#"
+    6: "analyse problems and design appropriate functional code"
+    7: "define appropriate data structures to represent problem domains"
+    8: "write immutable code and encapsulate mutable operations"
+    9: "split large problems into independent modules with controlled dependencies"
+    10: "work within a group to design, implement and test a significant application in F#"
+
+- code: ELEC60016
+  name: "Individual Industrial Placement"
+  year: 3
+  ilos:
+    1: "critically analyse the requirements of an employer in a certain engineering related industry"
+    2: "operate in a professional manner in an industrial setting"
+    3: "summarise your work and critically analyse its impact on the business"
+    4: "criticise current practices and suggest alternative solutions that are ethically and economically responsible"
+    5: "make informed decisions on the direction of your future career"
+
+- code: ELEC60017
+  name: "Individual Project"
+  year: 3
+  ilos:
+    1: "plan and execute an individual work"
+    2: "create and update a flexible project plan with specified tasks and fallbacks"
+    3: "learn and use information from one or more new technical areas"
+    4: "solve technical problems as necessary to achieve a deliverable"
+    5: "produce a major high quality written report to fixed deadlines"
+    6: "carry our independent work that can cover different aspects of engineernig such as design and build topics and software implementation topics"
+
+- code: ELEC60018
+  name: "Instrumentation"
+  year: 3
+  ilos:
+    1: "state the operation principles and limitations of various measurement sensors/transducers for mechanical and electromagnetic stimuli"
+    2: "specify the use of recently invented sensors (SQUID, GMR, QHE, etc) in applications with severe performance requirements"
+    3: "design interface circuits to optimise transducer performance"
+    4: "write embedded code to implement data acquisition (including subsampling and irregular sampling) and signal conditioning"
+    5: "assemble a PCB level prototype of a specified measurement instrument"
+
+- code: ELEC60019
+  name: "Machine Learning"
+  year: 3
+  ilos:
+    1: "develop solutions to  machine learning problems by modelling and pre-processing data, and designing, selecting and develop appropriate learning algorithms"
+    2: "consider and contrast the problems of learning and overfitting in an ML system"
+    3: "justify the use of linear regression, classification, logistic regression, support vector machines, neural networks, nearest neighbour and clustering"
+    4: "recommend and construct the use of a machine learning algorithm in unseen situations"
+
+- code: ELEC60020
+  name: "Managing Engineering Projects"
+  year: 3
+  ilos:
+    1: "lead and manage innovative technological projects within an engineering context"
+    2: "manage teams within an organisational context"
+    3: "anticipate and accommodate risk and change during the life of a project"
+    4: "apply a range of tools to the planning, implementation, management and budgeting of engineering projects"
+
+- code: ELEC60021
+  name: "Mathematics for Signals and Systems"
+  year: 3
+  ilos:
+    1: "compute the trace, determinant, eigenvalues and eigenvectors of a matrix"
+    2: "compute the SVD of a matrix"
+    3: "critically analyse a linear mapping using the properties of the SVD"
+    4: "identify and find the least-square solution for overdetermined problems and minimum norm solution for under-determined problem"
+    5: "find the Total Least Square solution to an approximation problem"
+    6: "compute the rank and the null space of a matrix"
+
+- code: ELEC60022
+  name: "Microwave Technology"
+  year: 3
+  ilos:
+    1: "interpret electromagnetic wave propagation in various media; how guided-wave structures can be used as practical components, bridging the gap between Radio and optical frequencies"
+    2: "analyse the fundamental physical limitations of components. For example, why surface mounted devices are not used at upper microwave frequencies"
+    3: "present aspects of commercial technologies in the design and manufacture of components and circuits"
+    4: "describe the applications of commercial microwave technology: from mobile phones and microwave ovens to radar and radiometric imaging"
+
+- code: ELEC60023
+  name: "Optoelectronics"
+  year: 3
+  ilos:
+    1: "solve wave and waveguide problems using Maxwell's equations"
+    2: "design and evaluate optical fibre-based communication systems"
+    3: "design and evaluate optical fibre-based sensing systems"
+
+- code: ELEC60024
+  name: "Power Electronics"
+  year: 3
+  ilos:
+    1: "describe the properties of semiconductor devices useful in power applications"
+    2: "calculate power losses, in devices and choose heat sinks"
+    3: "design loss reduction circuits such as snubbers and quasi resonant circuits"
+    4: "analyse and design isolated and non-isolated dc/dc converters including s-domain modelling using circuit averaging"
+    5: "analyse dc/ac converters including qualitative assessment of frequency spectra"
+    6: "analyse controlled and uncontrolled ac/dc converters including electromagnetic interference issues and regulations"
+    7: "apply power converter designs to application areas including assessment of various options for variable speed operation of induction machines and general performance limits on drive systems"
+    8: "design and build a DC-DC converter in the coursework"
+
+- code: ELEC60025
+  name: "Real-Time Digital Signal Processing"
+  year: 3
+  ilos:
+    1: "put the concepts of signal processing into practice"
+    2: "learn the differences between real-time and batch processing applications"
+    3: "learn the differences between SP and general-purpose computing hardware"
+    4: "learn how to use Matlab and Matlab Simulink to design and analyse SP
+algorithms"
+    5: "learn how to use Simulink Embedded Coder to program microcontrollers"
+    6: "program an embedded platform"
+    7: "revise basic concepts of DSP"
+
+- code: ELEC60026
+  name: "Semiconductor Devices"
+  year: 3
+  ilos:
+    1: "explain basic quantum mechanical principles of charged carrier conduction"
+    2: "apply energy band diagrams to analyse carrier transport processes"
+    3: "classify devices into majority and minority carrier devices and appraise their advantages and disadvantages in different applications"
+    4: "derive device characteristics given the geometry and material parameters"
+    5: "calculate performance parameters by employing the correct equations and approximations"
+    6: "explain delays in small and large signal operation of devices"
+
+- code: ELEC60030
+  name: "Robotic Manipulation"
+  year: 3
+  ilos:
+    1: "represent the position and orientation of objects in space"
+    2: "determine the kinematic model of a robot arm based on its links and points of articulation"
+    3: "compute the position of pose of a robot's body and gripper basded on its joint angles (Forward kinematics) and also compute the joint angles necessary to position the robot gripper at a target (Inverse Kinematics)"
+    4: "implement robotic motion trajectories using different control techniques, including joint vs. task space and position vs. velocity control"
+    5: "understand the principles of dynamic modelling and force / torque control (this may not be implemented on the physical robot due to hardware limitations)"
+    6: "understand the different robotic approaches to grasping / object picking (e.g. parallel jaw grippers, adaptive grasping, underactuation, grasp planning and vacuum grippers)"
+    7: "use CAD software to design a simple robot gripper for manipulation of specific objects (e.g. a ping-pong ball, a soda can, a toy car, a 6-sided dice)"
+    8: "program low-level motion controllers to execute and test all of the above on lab-based physical desktop-size robot arms and grippers"
+    9: "appreciate some of the ways that machine learning is being used in contemporary robotic manipulator research and practical implementation"
+
+- code: ELEC60031
+  name: "Classical and Modern Radar"
+  year: 3
+  ilos:
+    1: "use the radar equations"
+    2: "apply the radar theory to classify the various radar architectures and rate their performance"
+    3: "analyse and design the transmitter and receiver of any type of radar system"
+    4: "design radar waveforms and system architectures aiming at improving the solutions of the detection, estimation, tracking and classification of various types of targets/objects/signals in the presence of noise, clutter and interference"
+
+- code: ELEC60033
+  name: "Electric Vehicle Technologies"
+  year: 3
+  ilos:
+    1: "describe the key systems that make up and EV and detail their function within the whole"
+    2: "design and model a traction system for an EV including the motor model and a FOC"
+    3: "model and analyse other key blocks in an EV such as the: Charger, DC-DC Converter, Battery and Battery Management System"
+    4: "assemble and adapt an EV model for the purposes of design of its subsystems and performance assessment of the system as a whole"
+    5: "discuss the broader range of EV design processes not covered in depth in this module including safety implications, auxiliary load devices and the communications networks of a modern vehicle"
+    6: "discuss the impacts of EVs on the wider grid and environment including the potential future of adaptive and reactive charging (Demand-side response and Vehicle-to-grid)"
