@@ -297,4 +297,179 @@ digraph {
     <10>choose appropriate\nperformance\nevaluation metrics |
     <11>present and analyse\nthe results as well\nas draw appropriate\nconclusions
   }}"];
+
+  ELEC60010 [label="{ELEC60010 | Digital Signal Processing | {
+    <1>use the sampling\ntheory to design\ndiscrete data\nsystems and analyse\nthese systems in\nterms of systems\nfunctions and\nz-transform |
+    <2>analyse and design\ndigital filters\nusing FIR and IIR\nfilter design\ntechniques |
+    <3>perform and\ninterpret correctly\nthe results of\nsimple short-time\nspectral estimation |
+    <4>learn about the\nFFT, the fast\ncomputation of the\nDFT |
+    <5>develop basic\nmultirate signal\nprocessing systems,\nexploiting\nappropriate elements\nand identities, and\ndesign typical\napplication examples\nincluding\nsample-rate-changing\nsystems
+  }}"];
+
+  ELEC60011 [label="{ELEC60011 | Digital Systems Design | {
+    <1>design complex,\nhigh performance\ndigital systems |
+    <2>use a modern CAD\ntool to help with\nthe design |
+    <3>implement such\ndesigns using\nprogrammable logic\n(e.g. FPGAs) |
+    <4>design with digital\nbuilding blocks\n(such as memory\nchips,\nmicroprocessors,\narithmetic circuits\netc.)
+  }}"];
+
+  ELEC60012 [label="{ELEC60012 | Electrical Energy Systems | {
+    <1>Explain the\noperating principle\nand describe the\nstatic models of\nsynchronous\nmachines,\ntransformers and\ntransmission lines |
+    <2>Use per-unit system\nfor analysis of\nelectric power\nsystems |
+    <3>Perform power flow\nanalysis using the\nGauss-Seidel\ntechnique |
+    <4>Conduct short\ncircuit analysis for\nbalanced and\nunbalanced faults |
+    <5>Analyse\nsteady-state and\ntransient stability\nof simple electric\npower systems |
+    <6>Appraise the\nchallenges\nassociated with low\nsystem inertia and\nshort-circuit levels\ndriven by high\nfractions of\nrenewables
+  }}"];
+
+  ELEC60013 [label="{ELEC60013 | Embedded Systems | {
+    <1>identify the\nparticular\nrequirements of\ncomputer systems\nthat interact\ndirectly with the\nphysical world |
+    <2>analyse the\nconstraints imposed\nby time-critical\napplications and\nprove that they are\nmet |
+    <3>set up low-level\ncommunication\nbetween software,\nhardware devices and\nthe wider world |
+    <4>use interrupts and\nthreading to\nguarantee that time\nconstraints are met |
+    <5>write complex,\nlow-level software\nthat is reliable |
+    <6>configure and use a\nvariety of hardware\nplatforms and\ndevelopment\ntoolchains
+  }}"];
+
+  ELEC60014 [label="{ELEC60014 | Group Consultancy Project | {
+    <1>Develop an\nengineering\nspecification from a\ngiven open-ended\nbrief |
+    <2>Generate number of\nviable solutions to\nthe brief |
+    <3>Select the optimum\nsolution through\ntechnical and\ncritical analysis |
+    <4>Develop a prototype\nto demonstrate the\nprinciples of the\nproposed solution |
+    <5>Provide financial\nand commercial\ninformation to\nsupport their\ndecision |
+    <6>Manage the project\nfrom a resource and\nworkload point of\nview |
+    <7>Communicate in a\nway to suit the\nintended target\naudience (written\nand oral)
+  }}"];
+
+  ELEC60015 [label="{ELEC60015 | High Level Programming | {
+    <1>write programs in\nthe hybrid\nobject-oriented and\nfunctional\nprogramming language\nF# |
+    <2>express simple\nalgorithms in a\ntransformational\nstyle using\nimmutable operations |
+    <3>write recursive and\ntail recursive\nimplementations of\niteration |
+    <4>use list, map,\narray collection\ntypes and associated\nlibrary functions |
+    <5>analyse and debug\ntype errors in F# |
+    <6>analyse problems\nand design\nappropriate\nfunctional code |
+    <7>define appropriate\ndata structures to\nrepresent problem\ndomains |
+    <8>write immutable\ncode and encapsulate\nmutable operations |
+    <9>split large\nproblems into\nindependent modules\nwith controlled\ndependencies |
+    <10>work within a group\nto design, implement\nand test a\nsignificant\napplication in F#
+  }}"];
+
+  ELEC60016 [label="{ELEC60016 | Individual Industrial Placement | {
+    <1>critically analyse\nthe requirements of\nan employer in a\ncertain engineering\nrelated industry |
+    <2>operate in a\nprofessional manner\nin an industrial\nsetting |
+    <3>summarise your work\nand critically\nanalyse its impact\non the business |
+    <4>criticise current\npractices and\nsuggest alternative\nsolutions that are\nethically and\neconomically\nresponsible |
+    <5>make informed\ndecisions on the\ndirection of your\nfuture career
+  }}"];
+
+  ELEC60017 [label="{ELEC60017 | Individual Project | {
+    <1>plan and execute an\nindividual work |
+    <2>create and update a\nflexible project\nplan with specified\ntasks and fallbacks |
+    <3>learn and use\ninformation from one\nor more new\ntechnical areas |
+    <4>solve technical\nproblems as\nnecessary to achieve\na deliverable |
+    <5>produce a major\nhigh quality written\nreport to fixed\ndeadlines |
+    <6>carry our\nindependent work\nthat can cover\ndifferent aspects of\nengineernig such as\ndesign and build\ntopics and software\nimplementation\ntopics
+  }}"];
+
+  ELEC60018 [label="{ELEC60018 | Instrumentation | {
+    <1>state the operation\nprinciples and\nlimitations of\nvarious measurement\nsensors/transducers\nfor mechanical and\nelectromagnetic\nstimuli |
+    <2>specify the use of\nrecently invented\nsensors (SQUID, GMR,\nQHE, etc) in\napplications with\nsevere performance\nrequirements |
+    <3>design interface\ncircuits to optimise\ntransducer\nperformance |
+    <4>write embedded code\nto implement data\nacquisition\n(including\nsubsampling and\nirregular sampling)\nand signal\nconditioning |
+    <5>assemble a PCB\nlevel prototype of a\nspecified\nmeasurement\ninstrument
+  }}"];
+
+  ELEC60019 [label="{ELEC60019 | Machine Learning | {
+    <1>develop solutions\nto machine learning\nproblems by\nmodelling and\npre-processing data,\nand designing,\nselecting and\ndevelop appropriate\nlearning algorithms |
+    <2>consider and\ncontrast the\nproblems of learning\nand overfitting in\nan ML system |
+    <3>justify the use of\nlinear regression,\nclassification,\nlogistic regression,\nsupport vector\nmachines, neural\nnetworks, nearest\nneighbour and\nclustering |
+    <4>recommend and\nconstruct the use of\na machine learning\nalgorithm in unseen\nsituations
+  }}"];
+
+  ELEC60020 [label="{ELEC60020 | Managing Engineering Projects | {
+    <1>lead and manage\ninnovative\ntechnological\nprojects within an\nengineering context |
+    <2>manage teams within\nan organisational\ncontext |
+    <3>anticipate and\naccommodate risk and\nchange during the\nlife of a project |
+    <4>apply a range of\ntools to the\nplanning,\nimplementation,\nmanagement and\nbudgeting of\nengineering projects
+  }}"];
+
+  ELEC60021 [label="{ELEC60021 | Mathematics for Signals and Systems | {
+    <1>compute the trace,\ndeterminant,\neigenvalues and\neigenvectors of a\nmatrix |
+    <2>compute the SVD of\na matrix |
+    <3>critically analyse\na linear mapping\nusing the properties\nof the SVD |
+    <4>identify and find\nthe least-square\nsolution for\noverdetermined\nproblems and minimum\nnorm solution for\nunder-determined\nproblem |
+    <5>find the Total\nLeast Square\nsolution to an\napproximation\nproblem |
+    <6>compute the rank\nand the null space\nof a matrix
+  }}"];
+
+  ELEC60022 [label="{ELEC60022 | Microwave Technology | {
+    <1>interpret\nelectromagnetic wave\npropagation in\nvarious media; how\nguided-wave\nstructures can be\nused as practical\ncomponents, bridging\nthe gap between\nRadio and optical\nfrequencies |
+    <2>analyse the\nfundamental physical\nlimitations of\ncomponents. For\nexample, why surface\nmounted devices are\nnot used at upper\nmicrowave\nfrequencies |
+    <3>present aspects of\ncommercial\ntechnologies in the\ndesign and\nmanufacture of\ncomponents and\ncircuits |
+    <4>describe the\napplications of\ncommercial microwave\ntechnology: from\nmobile phones and\nmicrowave ovens to\nradar and\nradiometric imaging
+  }}"];
+
+  ELEC60023 [label="{ELEC60023 | Optoelectronics | {
+    <1>solve wave and\nwaveguide problems\nusing Maxwell's\nequations |
+    <2>design and evaluate\noptical fibre-based\ncommunication\nsystems |
+    <3>design and evaluate\noptical fibre-based\nsensing systems
+  }}"];
+
+  ELEC60024 [label="{ELEC60024 | Power Electronics | {
+    <1>describe the\nproperties of\nsemiconductor\ndevices useful in\npower applications |
+    <2>calculate power\nlosses, in devices\nand choose heat\nsinks |
+    <3>design loss\nreduction circuits\nsuch as snubbers and\nquasi resonant\ncircuits |
+    <4>analyse and design\nisolated and\nnon-isolated dc/dc\nconverters including\ns-domain modelling\nusing circuit\naveraging |
+    <5>analyse dc/ac\nconverters including\nqualitative\nassessment of\nfrequency spectra |
+    <6>analyse controlled\nand uncontrolled\nac/dc converters\nincluding\nelectromagnetic\ninterference issues\nand regulations |
+    <7>apply power\nconverter designs to\napplication areas\nincluding assessment\nof various options\nfor variable speed\noperation of\ninduction machines\nand general\nperformance limits\non drive systems |
+    <8>design and build a\nDC-DC converter in\nthe coursework
+  }}"];
+
+  ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing | {
+    <1>put the concepts of\nsignal processing\ninto practice |
+    <2>learn the\ndifferences between\nreal-time and batch\nprocessing\napplications |
+    <3>learn the\ndifferences between\nSP and\ngeneral-purpose\ncomputing hardware |
+    <4>learn how to use\nMatlab and Matlab\nSimulink to design\nand analyse SP\nalgorithms |
+    <5>learn how to use\nSimulink Embedded\nCoder to program\nmicrocontrollers |
+    <6>program an embedded\nplatform |
+    <7>revise basic\nconcepts of DSP
+  }}"];
+
+  ELEC60026 [label="{ELEC60026 | Semiconductor Devices | {
+    <1>explain basic\nquantum mechanical\nprinciples of\ncharged carrier\nconduction |
+    <2>apply energy band\ndiagrams to analyse\ncarrier transport\nprocesses |
+    <3>classify devices\ninto majority and\nminority carrier\ndevices and appraise\ntheir advantages and\ndisadvantages in\ndifferent\napplications |
+    <4>derive device\ncharacteristics\ngiven the geometry\nand material\nparameters |
+    <5>calculate\nperformance\nparameters by\nemploying the\ncorrect equations\nand approximations |
+    <6>explain delays in\nsmall and large\nsignal operation of\ndevices
+  }}"];
+
+  ELEC60030 [label="{ELEC60030 | Robotic Manipulation | {
+    <1>represent the\nposition and\norientation of\nobjects in space |
+    <2>determine the\nkinematic model of a\nrobot arm based on\nits links and points\nof articulation |
+    <3>compute the\nposition of pose of\na robot's body and\ngripper basded on\nits joint angles\n(Forward kinematics)\nand also compute the\njoint angles\nnecessary to\nposition the robot\ngripper at a target\n(Inverse Kinematics) |
+    <4>implement robotic\nmotion trajectories\nusing different\ncontrol techniques,\nincluding joint vs.\ntask space and\nposition vs.\nvelocity control |
+    <5>understand the\nprinciples of\ndynamic modelling\nand force / torque\ncontrol (this may\nnot be implemented\non the physical\nrobot due to\nhardware\nlimitations) |
+    <6>understand the\ndifferent robotic\napproaches to\ngrasping / object\npicking (e.g.\nparallel jaw\ngrippers, adaptive\ngrasping,\nunderactuation,\ngrasp planning and\nvacuum grippers) |
+    <7>use CAD software to\ndesign a simple\nrobot gripper for\nmanipulation of\nspecific objects\n(e.g. a ping-pong\nball, a soda can, a\ntoy car, a 6-sided\ndice) |
+    <8>program low-level\nmotion controllers\nto execute and test\nall of the above on\nlab-based physical\ndesktop-size robot\narms and grippers |
+    <9>appreciate some of\nthe ways that\nmachine learning is\nbeing used in\ncontemporary robotic\nmanipulator research\nand practical\nimplementation
+  }}"];
+
+  ELEC60031 [label="{ELEC60031 | Classical and Modern Radar | {
+    <1>use the radar\nequations |
+    <2>apply the radar\ntheory to classify\nthe various radar\narchitectures and\nrate their\nperformance |
+    <3>analyse and design\nthe transmitter and\nreceiver of any type\nof radar system |
+    <4>design radar\nwaveforms and system\narchitectures aiming\nat improving the\nsolutions of the\ndetection,\nestimation, tracking\nand classification\nof various types of\ntargets/objects/signals\nin the presence of\nnoise, clutter and\ninterference
+  }}"];
+
+  ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies | {
+    <1>describe the key\nsystems that make up\nand EV and detail\ntheir function\nwithin the whole |
+    <2>design and model a\ntraction system for\nan EV including the\nmotor model and a\nFOC |
+    <3>model and analyse\nother key blocks in\nan EV such as the:\nCharger, DC-DC\nConverter, Battery\nand Battery\nManagement System |
+    <4>assemble and adapt\nan EV model for the\npurposes of design\nof its subsystems\nand performance\nassessment of the\nsystem as a whole |
+    <5>discuss the broader\nrange of EV design\nprocesses not\ncovered in depth in\nthis module\nincluding safety\nimplications,\nauxiliary load\ndevices and the\ncommunications\nnetworks of a modern\nvehicle |
+    <6>discuss the impacts\nof EVs on the wider\ngrid and environment\nincluding the\npotential future of\nadaptive and\nreactive charging\n(Demand-side\nresponse and\nVehicle-to-grid)
+  }}"];
 }
