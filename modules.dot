@@ -457,11 +457,175 @@ digraph {
   }}"];
 
   ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies | {
-    <1>describe the key\nsystems that make up\nand EV and detail\ntheir function\nwithin the whole |
+    <1>describe the key\nsystems that make up\nan EV and detail\ntheir function\nwithin the whole |
     <2>design and model a\ntraction system for\nan EV including the\nmotor model and a\nFOC |
     <3>model and analyse\nother key blocks in\nan EV such as the:\nCharger, DC-DC\nConverter, Battery\nand Battery\nManagement System |
     <4>assemble and adapt\nan EV model for the\npurposes of design\nof its subsystems\nand performance\nassessment of the\nsystem as a whole |
     <5>discuss the broader\nrange of EV design\nprocesses not\ncovered in depth in\nthis module\nincluding safety\nimplications,\nauxiliary load\ndevices and the\ncommunications\nnetworks of a modern\nvehicle |
     <6>discuss the impacts\nof EVs on the wider\ngrid and environment\nincluding the\npotential future of\nadaptive and\nreactive charging\n(Demand-side\nresponse and\nVehicle-to-grid)
+  }}"];
+  node[color="#e7298a", fillcolor="#f2d8e5"];
+
+  ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence | {
+    <1>extract adaptively\nlatent component\nfrom real-world data |
+    <2>apply algorithms of\nadaptive signal\nprocessing to\nreal-time streaming\ndata |
+    <3>effectively use\nadaptive machine\nintelligence\ntechniques such as\nneural networks,\nrecurrent neural\nnetworks, and deep\nneural networks |
+    <4>implement the\ncorresponding\ndimensionality\nreduction\ntechniques, and\nevaluate ways to\nfind structure in\ndata and handle Big\nData through tensor\ndecompositions |
+    <5>produce MATLAB code\nfor adaptive noise\ncancellation,\nhigh-resolution\nlatent component\nestimation from your\nown physiological\nrecordings (ECG),\nuniversal function\napproximation\nthrough recurrent\nand deep neural\narchitectures, and\ntheir connection\nwith tensor\ndecompositions for\nbig data\napplications.
+  }}"];
+
+  ELEC70003 [label="{ELEC70003 | Advanced Electronic Devices | {
+    <1>critically analyse\ntransport processes\nin nanoscale FETs,\nincluding tunnelling\nphenomena and\nself-heating/cooling |
+    <2>derive device\ncharacteristics\ngiven the geometry\nand material\nparameters using\nanalytical\nestimations as well\nas numerical\nsimulations using\nSentaurus TCAD |
+    <3>extract the\nperformance\nparameters of FETs\nand critically\nappraise their\nrelevance in\napplications |
+    <4>read and write\ntechnical papers in\nthe field of\nsemiconductor device\ndesign and their\nimpact on future\nCMOS developments |
+    <5>design/optimise\ncurrent and novel\ndevices using TCAD\nsoftware (Sentaurus\nfrom Synopsis)
+  }}"];
+
+  ELEC70004 [label="{ELEC70004 | Analogue Signal Processing | {
+    <1>recommend voltage\nand current mode\narchitectures used\nin analog signal\nprocessing |
+    <2>design circuits\ncapable of\nperforming low power\nanalog computation\nand processing of\nsignals in CMOS |
+    <3>recommend circuit\ntechniques which\nallow efficient\ncomputation and\nsignal processing in\nCMOS such as\nlog-domain, switched\ncapacitor correlated\ndouble sampling and\nspike domain |
+    <4>design mix-mode\nsystems utilising\nanalogue signal\nprocessing\ntechniques
+  }}"];
+
+  ELEC70006 [label="{ELEC70006 | Design of Linear Multivariable Control Systems | {
+    <1>derive models of\nlinear multivariable\ncontrol systems\nusing tranfer matrix\nand state variable\nmethods |
+    <2>compute the poles\nand zeros, including\nthe type of zeros,\nfor such systems |
+    <3>analyse the\ncontrollability,\nobservability,\ndetectability,\nstabilizability and\nminimality\nproperties for such\nsystems |
+    <4>synthesize design\nobjectives as\noptimisation\nprocedures in terms\nof norm-based\nobjective functions |
+    <5>devise the most\nappropriate\ncontroller synthesis\ntechniques
+  }}"];
+
+  ELEC70009 [label="{ELEC70009 | Discrete-Event Systems | {
+    <1>assess the the\nsuitabillity of a\nsystem for modeling\nin a discrete-event\nset-up |
+    <2>create a\ndiscrete-event model\nand assess its\nstructural\nproperties |
+    <3>design algorithms\nfor the qualitative\nand quantitative\nanalysis of Discrete\nEvent Systems |
+    <4>design a\nsupervisory\ncontroller and an\nobserver automaton |
+    <5>simulate a discrete\nevent system |
+    <6>assess the\nperformance of the\nsystem in a\ndeterministic and\nstochastic set-up
+  }}"];
+
+  ELEC70012 [label="{ELEC70012 | Full-Custom Integrated Circuit Design | {
+    <1>consider key\nfeatures,\nlimitations and\ntopics related to\nCMOS technology |
+    <2>appraise the full\ncustom integrated\ncircuit design\nmethodology and\nissues/constraints\nrelated to\nanalogue/digital/mixed\nsignal circuit\ndesign |
+    <3>design and assess\nfull custom\nintegrated circuit\nlayouts |
+    <4>develop full custom\ndesign of CMOS\nintegrated circuits\nusing a complete\ntool suite\n(schematic capture,\nsimulation, layout\ndesign, physical\nverification)
+  }}"];
+
+  ELEC70013 [label="{ELEC70013 | High Performance Analogue Electronics | {
+    <1>formulate an\nintegrated circuit\ndesign problem\nfollowing both, a\ntop to bottom and a\nbottom to top\napproach,\nspecifically in the\ncontext of\nreceivers,\ntransconductors,\nmixers and filters |
+    <2>consider different\ntrade-offs that play\na role in the\nprocess of design,\nand put those within\nthe context of both,\nthe circuit and the\napplication |
+    <3>argue the need of\nfollowing different\npaths in the design\nproblem as a\nfunction of the\nchosen design\ntrade-offs |
+    <4>evaluate trade-offs\nas a function of a\nnumber of typical\ndesign specification |
+    <5>judge visually the\nbasic behaviour of\ncircuits and systems\ntopologies,\nincluding a number\nof receivers,\nmixers,\ntransconductors and\nfilters; without the\nneed of formal\ncalculations |
+    <6>hypothesize,\nespecially in the\ncontext of\ntransconductors,\nmixers and filters,\nof when certain\ndesign techniques\ncould aid the design\ndepending on the\nrequired design\nspecifications, with\na main focus on\nlinearity and noise
+  }}"];
+
+  ELEC70017 [label="{ELEC70017 | Individual Project (MEng) | {
+    <1>plan and manage a\nproject over an\nextended period |
+    <2>take personal\nresponsibility of\nyour work |
+    <3>tackle open-ended\nwork and apply prior\ntheoretical\nknowledge to\npractical situations |
+    <4>critically review\ninformation from a\nwide range of\nsources |
+    <5>adopt appropriate\nanalytical,\ncomputational and/or\nexperimental methods\nto meet your project\nobjectives |
+    <6>communicate the\noutcomes of the\nproject work\neffectively and\naccurately in both a\nwritten and oral\nformat
+  }}"];
+
+  ELEC70022 [label="{ELEC70022 | Modelling and Control of Multi-body Mechanical Systems | {
+    <1>discriminate\nbetween the two main\nbranches of\nClassical Mechanics:\nvectorial and\nanalytical mechanics |
+    <2>generalize real\nmechanical systems\nas multibody systems |
+    <3>apply the basic\ntools of Classical\nMechanics |
+    <4>develop models, in\nthe form of\ndifferential\nequations, of real\nmechanical systems\nusing various\nmethods from\nclassical mechanics\n(Newton's laws and\nLagrangian equations\nof motion) |
+    <5>derive equations of\nmotion for systems\nwith holonomic and\nnonholonomic\nconstraints |
+    <6>apply techniques\nfrom control theory\nto improve the\nbehaviour of systems\nrepresented by\nmultibody models |
+    <7>devise computer\nassisted modelling\nand control of\nmultibody systems\nwith the use of the\nmultibody modelling\ncode Simscape\nMultibody
+  }}"];
+
+  ELEC70028 [label="{ELEC70028 | Predictive Control | {
+    <1>construct a range\nof finite horizon\noptimal control\nproblems with\nconstraints |
+    <2>solve constrained\nfinite horizon\noptimal control\nproblems by\nformulating them as\nfinite dimensional\noptimization\nproblems |
+    <3>compare the\nadvantages and\ndisadvantages of\nimplementing the\nsolution to finite\nhorizon optimal\ncontrol problems in\na receding-,\ndecreasing- or\nvariable-horizon\nfashion |
+    <4>transfer a\nreal-world control\nproblem into a\nmathematically\nwell-defined optimal\ncontrol problem |
+    <5>devise predictive\ncontrollers with\nguarantees of\nstability and\nfeasibility |
+    <6>write Matlab\nprograms that\nimplement a\npredictive\ncontroller |
+    <7>appraise relatively\nsimple papers on\npredictive control\nand be able to\nextract information\nfrom them in order\nto design a\npredictive\ncontroller
+  }}"];
+
+  ELEC70030 [label="{ELEC70030 | Professional Portfolio and Group Consultancy Project | {
+    <1>evidence the claims\nmade in your CV |
+    <2>speak with\nconfidence and\neloquently on your\nachievement |
+    <3>reflect on what you\nhave learned and how\nthat can be applied\nin\nresearch/development/industrial\npractice.
+  }}"];
+
+  ELEC70037 [label="{ELEC70037 | Topics in Large Dimensional Data Processing | {
+    <1>design algorithms\nfor large\ndimensional data\nprocessing, with the\nfocus on finding\nsparse structures\nhidden in the data\nfor dimension\nreduction |
+    <2>use linear algebra\ntools to model\nproblems involving\nlarge dimensional\ndata |
+    <3>develop\noptimization and\nstatistics tools to\nsolve problems\ninvolving large\ndimensional data |
+    <4>evaluate advantages\nand disadvantages of\ndifferent algorithms\nfor analysis of\nlarge dimensional\ndata in real-world\napplications,\nincluding for\nexample imaging\ninverse problems,\nonline\nrecommendation,\nmachine learning
+  }}"];
+
+  ELEC70039 [label="{ELEC70039 | Wavelets | {
+    <1>analyse natural\nsignals and images\nlike for example\nbiomedical signals,\nspeech, audio,\nmedical images,\nvideo sequences |
+    <2>analyse the\nefficacity of a\nsignal\nrepresentation and\ndevelop new signal\nrepresentations |
+    <3>design perfect\nreconstruction\nfilter banks |
+    <4>design filter banks\nand construction of\ndiscrete and\ncontinuous-time\nbases for efficient\nsignal analysis |
+    <5>apply basic image\nand video\ncompression\nprinciples
+  }}"];
+
+  ELEC70041 [label="{ELEC70041 | Year Abroad | {
+    <1>learning outcomes\nsupported by the\nhost university |
+    <2>experience of\nengineering\npractice,\ntechnology, and\nworking methods\noutside the UK
+  }}"];
+
+  ELEC70044 [label="{ELEC70044 | Role and Value of Smart Grid Technologies | {
+    <1>assess the role of\nthe smart grid\nconcept in\nfacilitating a cost\neffective transition\nto a low carbon\nenergy system |
+    <2>perform a\ncost-benefit\nanalysis involving\nsupply risks and\noperational or\ninvestment costs |
+    <3>model and assess\nthe difference\nbetween preventive\nand corrective\ncontrol |
+    <4>apply advanced\napproaches in\nscheduling of\nflexible demand |
+    <5>perform big data\nanalytics in the\napplication of smart\ngrids |
+    <6>construct and\nevaluate basic\nreliability models\nand metrics |
+    <7>implement Monte\nCarlo risk\ncomputations |
+    <8>model a basic cyber\nattack and defence\nmechanism
+  }}"];
+
+  ELEC70045 [label="{ELEC70045 | Advanced Communication Theory | {
+    <1>design and analyse\noptimum receivers\nbased on 'decision\ntheory' |
+    <2>evaluate the\nperformance of M-ary\nmatched filter\nreceivers |
+    <3>model, design and\nanalyse diversity\nsystems using\noptimum diversity\ntheory |
+    <4>solve the following\nthree generic\nproblems:\n'detection',\n'estimation' and\n'reception' problems\nand design suitable\nprocessors to\nimplement these\nsolutions |
+    <5>utilise array\nsignal processing\ntheory to model and\nanalyse\nmulti-antenna SIMO,\nMISO, MIMO and\nmassive systems |
+    <6>model, design and\nanalyse mmwave and\nspace-time\ncommunications.
+  }}"];
+
+  ELEC70047 [label="{ELEC70047 | HVDC Technology and Control | {
+    <1>appraise the pros\nand cons of using\nHVDC with respect to\nAC for overhead and\ncable transmission |
+    <2>describe the\noperation and\ncontrol of HVDC\nconverters and HVDC\nsystems |
+    <3>recognise the\nbenefits and\nlimitations of two\nbroad HVDC\ntechnologies and\ntheir suitability in\na specific context |
+    <4>design the control\nsystem for HVDC\nconverters and\nsystems |
+    <5>analyse the\ninteraction between\nHVDC and host AC\nsystems |
+    <6>appreciate the role\nof HVDC in renewable\nintegration and\ndecarbonisation of\nthe electric power\nsector
+  }}"];
+
+  ELEC70048 [label="{ELEC70048 | Probability and Stochastic Processes | {
+    <1>evaluate the\nperformance of a\nsystem using key\nconcepts of\nprobability and\nrandom variables |
+    <2>derive the\nprobability density\nfunction of a\nfunction of a random\nvariable or random\nvariables |
+    <3>model an\nengineering problem\nusing random signals\n('stochastic\nprocesses') and\nMarkov chains |
+    <4>analyse random\nphenomena (signals\nand noise) in\nelectrical\nengineering
+  }}"];
+
+  ELEC70051 [label="{ELEC70051 | Human-Centered Robotics | {
+    <1>learn the theory\nunderlying robotic\nsystems that\nperceive human\nstates using\nmultimodal\ninterfaces (e.g.\ncomputer vision,\nwearable systems,\nhaptic systems,\nvirtual and\naugmented reality\nsystems),\ncomputationally\nmodel and recognise\nhuman actions, use\nadaptive shared\ncontrol methods to\nassist humans in\ntheir task, use\nlearning algorithms\nto improve their\nperformance through\ninteraction with\nhumans |
+    <2>learn to\nincorporate human\nfactors in the\ndesign of their\ninteractive robotic\nsystems |
+    <3>learn to design and\nimplement control\nand learning\nalgorithms for\ninteractive robotic\nsystems |
+    <4>learn to work in\ngroups to\nincrementally solve\nlarge-system\n(hardware/software)\nchallenges
+  }}"];
+
+  ELEC70051 [label="{ELEC70051 | Radio Frequency Subsystems | {
+    <1>apply the main\narchitectures\nemployed in RF\nsystems |
+    <2>interpret subsystem\nspecifications |
+    <3>calculate power\nlink budgets |
+    <4>analyse circuits\nand subsystems using\nS-parameters |
+    <5>calculate gain,\nstability and noise\nissues in\nsmall-signal\namplifiers |
+    <6>design impedance\nmatching networks\nand filters
   }}"];
 }
