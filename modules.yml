@@ -559,9 +559,212 @@ algorithms"
   name: "Electric Vehicle Technologies"
   year: 3
   ilos:
-    1: "describe the key systems that make up and EV and detail their function within the whole"
+    1: "describe the key systems that make up an EV and detail their function within the whole"
     2: "design and model a traction system for an EV including the motor model and a FOC"
     3: "model and analyse other key blocks in an EV such as the: Charger, DC-DC Converter, Battery and Battery Management System"
     4: "assemble and adapt an EV model for the purposes of design of its subsystems and performance assessment of the system as a whole"
     5: "discuss the broader range of EV design processes not covered in depth in this module including safety implications, auxiliary load devices and the communications networks of a modern vehicle"
     6: "discuss the impacts of EVs on the wider grid and environment including the potential future of adaptive and reactive charging (Demand-side response and Vehicle-to-grid)"
+
+- code: ELEC70001
+  name: "Adaptive Signal Processing and Machine Intelligence"
+  year: 4
+  ilos:
+    1: "extract adaptively latent component from real-world data"
+    2: "apply algorithms of adaptive signal processing to real-time streaming data"
+    3: "effectively use adaptive machine intelligence techniques such as neural networks, recurrent neural networks, and deep neural networks"
+    4: "implement the corresponding dimensionality reduction techniques, and evaluate ways to find structure in data and handle Big Data through tensor decompositions"
+    5: "produce MATLAB code for adaptive noise cancellation, high-resolution latent component estimation from your own physiological recordings (ECG), universal function approximation through recurrent and deep neural architectures, and their connection with tensor decompositions for big data applications."
+
+- code: ELEC70003
+  name: "Advanced Electronic Devices"
+  year: 4
+  ilos:
+    1: "critically analyse transport processes in nanoscale FETs, including tunnelling phenomena and self-heating/cooling"
+    2: "derive device characteristics given the geometry and material parameters using analytical estimations as well as numerical simulations using Sentaurus TCAD"
+    3: "extract the performance parameters of FETs and critically appraise their relevance in applications"
+    4: "read and write technical papers in the field of semiconductor device design and their impact on future CMOS developments"
+    5: "design/optimise current and novel devices using TCAD software (Sentaurus from Synopsis)"
+
+- code: ELEC70004
+  name: "Analogue Signal Processing"
+  year: 4
+  ilos:
+    1: "recommend voltage and current mode architectures used in analog signal processing"
+    2: "design circuits capable of performing low power analog computation and processing of signals in CMOS"
+    3: "recommend circuit techniques which allow efficient computation and signal processing in CMOS such as log-domain, switched capacitor correlated double sampling and spike domain"
+    4: "design mix-mode systems utilising analogue signal processing techniques"
+
+- code: ELEC70006
+  name: "Design of Linear Multivariable Control Systems"
+  year: 4
+  ilos:
+    1: "derive models of linear multivariable control systems using tranfer matrix and state variable methods"
+    2: "compute the poles and zeros, including the type of zeros, for such systems"
+    3: "analyse the controllability, observability, detectability, stabilizability and minimality properties for such systems"
+    4: "synthesize design objectives as optimisation procedures in terms of norm-based objective functions"
+    5: "devise the most appropriate controller synthesis techniques"
+
+- code: ELEC70009
+  name: "Discrete-Event Systems"
+  year: 4
+  ilos:
+    1: "assess the the suitabillity of a system for modeling in a discrete-event set-up"
+    2: "create a discrete-event model and assess its structural properties"
+    3: "design algorithms for the qualitative and quantitative analysis of Discrete Event Systems"
+    4: "design a supervisory controller and an observer automaton"
+    5: "simulate a discrete event system"
+    6: "assess the performance of the system in a deterministic and stochastic set-up"
+
+- code: ELEC70012
+  name: "Full-Custom Integrated Circuit Design"
+  year: 4
+  ilos:
+    1: "consider key features, limitations and topics related to CMOS technology"
+    2: "appraise the full custom integrated circuit design methodology and issues/constraints related to analogue/digital/mixed signal circuit design"
+    3: "design and assess full custom integrated circuit layouts"
+    4: "develop full custom design of CMOS integrated circuits using a complete tool suite (schematic capture, simulation, layout design, physical verification)"
+
+- code: ELEC70013
+  name: "High Performance Analogue Electronics"
+  year: 4
+  ilos:
+    1: "formulate an integrated circuit design problem following both, a top to bottom and a bottom to top approach, specifically in the context of receivers, transconductors, mixers and filters"
+    2: "consider different trade-offs that play a role in the process of design, and put those within the context of both, the circuit and the application"
+    3: "argue the need of following different paths in the design problem as a function of the chosen design trade-offs"
+    4: "evaluate trade-offs as a function of a number of typical design specification"
+    5: "judge visually the basic behaviour of circuits and systems topologies, including a number of receivers, mixers, transconductors and filters; without the need of formal calculations"
+    6: "hypothesize, especially in the context of transconductors, mixers and filters, of when certain design techniques could aid the design depending on the required design specifications, with a main focus on linearity and noise"
+
+- code: ELEC70017
+  name: "Individual Project (MEng)"
+  year: 4
+  ilos:
+    1: "plan and manage a project over an extended period"
+    2: "take personal responsibility of your work"
+    3: "tackle open-ended work and apply prior theoretical knowledge to practical situations"
+    4: "critically review information from a wide range of sources"
+    5: "adopt appropriate analytical, computational and/or experimental methods to meet your project objectives"
+    6: "communicate the outcomes of the project work effectively and accurately in both a written and oral format"
+
+- code: ELEC70022
+  name: "Modelling and Control of Multi-body Mechanical Systems"
+  year: 4
+  ilos:
+    1: "discriminate between the two main branches of Classical Mechanics: vectorial and analytical mechanics"
+    2: "generalize real mechanical systems as multibody systems"
+    3: "apply the basic tools of Classical Mechanics"
+    4: "develop models, in the form of differential equations, of real mechanical systems using various methods from classical mechanics (Newton's laws and Lagrangian equations of motion)"
+    5: "derive equations of motion for systems with holonomic and nonholonomic constraints"
+    6: "apply techniques from control theory to improve the behaviour of systems represented by multibody models"
+    7: "devise computer assisted modelling and control of multibody systems with the use of the multibody modelling code Simscape Multibody"
+
+- code: ELEC70028
+  name: "Predictive Control"
+  year: 4
+  ilos:
+    1: "construct a range of finite horizon optimal control problems with constraints"
+    2: "solve constrained finite horizon optimal control problems by formulating them as finite dimensional optimization problems"
+    3: "compare the advantages and disadvantages of implementing the solution to finite horizon optimal control problems in a receding-, decreasing- or variable-horizon fashion"
+    4: "transfer a real-world control problem into a mathematically well-defined optimal control problem"
+    5: "devise predictive controllers with guarantees of stability and feasibility"
+    6: "write Matlab programs that implement a predictive controller"
+    7: "appraise relatively simple papers on predictive control and be able to extract information from them in order to design a predictive controller"
+
+- code: ELEC70030
+  name: "Professional Portfolio and Group Consultancy Project"
+  year: 4
+  ilos:
+    1: "evidence the claims made in your CV"
+    2: "speak with confidence and eloquently on your achievement"
+    3: "reflect on what you have learned and how that can be applied in research/development/industrial practice."
+
+- code: ELEC70037
+  name: "Topics in Large Dimensional Data Processing"
+  year: 4
+  ilos:
+    1: "design algorithms for large dimensional data processing, with the focus on finding sparse structures hidden in the data for dimension reduction"
+    2: "use linear algebra tools to model problems involving large dimensional data"
+    3: "develop optimization and statistics tools to solve problems involving large dimensional data"
+    4: "evaluate advantages and disadvantages of different algorithms for analysis of large dimensional data in real-world applications, including for example imaging inverse problems, online recommendation, machine learning"
+
+- code: ELEC70039
+  name: "Wavelets"
+  year: 4
+  ilos:
+    1: "analyse natural signals and images like for example biomedical signals, speech, audio, medical images, video sequences"
+    2: "analyse the efficacity of a signal representation and develop new signal representations"
+    3: "design perfect reconstruction filter banks"
+    4: "design filter banks and construction of discrete and continuous-time bases for efficient signal analysis"
+    5: "apply basic image and video compression principles"
+
+- code: ELEC70041
+  name: "Year Abroad"
+  year: 4
+  ilos:
+    1: "learning outcomes supported by the host university"
+    2: "experience of engineering practice, technology, and working methods outside the UK"
+
+- code: ELEC70044
+  name: "Role and Value of Smart Grid Technologies"
+  year: 4
+  ilos:
+    1: "assess the role of the smart grid concept in facilitating a cost effective transition to a low carbon energy system"
+    2: "perform a cost-benefit analysis involving supply risks and operational or investment costs"
+    3: "model and assess the difference between preventive and corrective control"
+    4: "apply advanced approaches in scheduling of flexible demand"
+    5: "perform big data analytics in the application of smart grids"
+    6: "construct and evaluate basic reliability models and metrics"
+    7: "implement Monte Carlo risk computations"
+    8: "model a basic cyber attack and defence mechanism"
+
+- code: ELEC70045
+  name: "Advanced Communication Theory"
+  year: 4
+  ilos:
+    1: "design and analyse optimum receivers based on 'decision theory'"
+    2: "evaluate the performance of M-ary matched filter receivers"
+    3: "model, design and analyse diversity systems using optimum diversity theory"
+    4: "solve the following three generic problems: 'detection', 'estimation' and 'reception' problems and design suitable processors to implement these solutions"
+    5: "utilise array signal processing theory to model and analyse multi-antenna SIMO, MISO, MIMO and massive systems"
+    6: "model, design and analyse mmwave and space-time communications."
+
+- code: ELEC70047
+  name: "HVDC Technology and Control"
+  year: 4
+  ilos:
+    1: "appraise the pros and cons of using HVDC with respect to AC for overhead and cable transmission"
+    2: "describe the operation and control of HVDC converters and HVDC systems"
+    3: "recognise the benefits and limitations of two broad HVDC technologies and their suitability in a specific context"
+    4: "design the control system for HVDC converters and systems"
+    5: "analyse the interaction between HVDC and host AC systems"
+    6: "appreciate the role of HVDC in renewable integration and decarbonisation of the electric power sector"
+
+- code: ELEC70048
+  name: "Probability and Stochastic Processes"
+  year: 4
+  ilos:
+    1: "evaluate the performance of a system using key concepts of probability and random variables"
+    2: "derive the probability density function of a function of a random variable or random variables"
+    3: "model an engineering problem using random signals ('stochastic processes') and Markov chains"
+    4: "analyse random phenomena (signals and noise) in electrical engineering"
+
+- code: ELEC70051
+  name: "Human-Centered Robotics"
+  year: 4
+  ilos:
+    1: "learn the theory underlying robotic systems that perceive human states using multimodal interfaces (e.g. computer vision, wearable systems, haptic systems, virtual and augmented reality systems), computationally model and recognise human actions, use adaptive shared control methods to assist humans in their task, use learning algorithms to improve their performance through interaction with humans"
+    2: "learn to incorporate human factors in the design of their interactive robotic systems"
+    3: "learn to design and implement control and learning algorithms for interactive robotic systems"
+    4: "learn to work in groups to incrementally solve large-system (hardware/software) challenges"
+
+- code: ELEC70051
+  name: "Radio Frequency Subsystems"
+  year: 4
+  ilos:
+    1: "apply the main architectures employed in RF systems"
+    2: "interpret subsystem specifications"
+    3: "calculate power link budgets"
+    4: "analyse circuits and subsystems using S-parameters"
+    5: "calculate gain, stability and noise issues in small-signal amplifiers"
+    6: "design impedance matching networks and filters"
