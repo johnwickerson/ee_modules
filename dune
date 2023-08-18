@@ -1,3 +1,3 @@
-(executable
-  (name builddot)
+(executables
+  (names allpriors builddot)
   (libraries str yaml yaml.unix))

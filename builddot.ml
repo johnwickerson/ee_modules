@@ -1,4 +1,5 @@
 open Printf
+open Jcommon
 
 (* perform word wrap on a string by replacing some spaces with "\n" *)
 let wrap line_width txt =
@@ -20,36 +21,6 @@ let wrap line_width txt =
     ) (0, "") words
   in
   Buffer.contents buf
-
-let env_var_set v =
-  try let _ = Sys.getenv v in true with Not_found -> false
-
-let rec lookup_exn kvs k =
-  match kvs with
-  | [] -> raise Not_found
-  | (k',v) :: kvs -> if k=k' then v else lookup_exn kvs k
-
-(* `iter_alt f g [x1;x2;x3]` is `f x1; g (); f x2; g (); f x3` *) 
-let rec iter_alt f g = function
-  | [] -> ()
-  | [x] -> f x
-  | x :: xs -> f x; g (); iter_alt f g xs
-
-let as_yaml_string ?(msg = "Expected a YAML string") = function
-  | `String s -> s
-  | _ -> failwith msg
-
-let as_yaml_number ?(msg = "Expected a YAML number") = function
-  | `Float f -> f
-  | _ -> failwith msg
-
-let as_yaml_ordered_list ?(msg = "Expected a YAML ordered list") = function
-  | `O xs -> xs
-  | _ -> failwith msg
-       
-let as_yaml_dictionary ?(msg = "Expected a YAML dictionary") = function
-  | `A xs -> xs
-  | _ -> failwith msg
        
 let print_ilo (i, ilo) =
   let ilo_str = wrap 20 (as_yaml_string ilo) in
@@ -63,10 +34,10 @@ let print_module m =
   let attribs = as_yaml_ordered_list m in
   let name = as_yaml_string (lookup_exn attribs "name") in
   let code = as_yaml_string (lookup_exn attribs "code") in
-  let ilos = lookup_exn attribs "ilos" in
+  let ilos = as_yaml_ordered_list (lookup_exn attribs "ilos") in
   let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
   printf "  %s [label=\"{%s | %s | {" code code name;
-  iter_alt print_ilo (fun () -> printf " |") (as_yaml_ordered_list ilos);
+  iter_alt print_ilo (fun () -> printf " |") ilos;
   printf "\n  }}\"];\n";
   List.iter (print_prereq code) (as_yaml_dictionary prereqs)
 
