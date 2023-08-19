@@ -4,6 +4,9 @@ open Jcommon
 let code_of m =
   as_yaml_string (lookup_exn (as_yaml_ordered_list m) "code")
 
+let leader_of m =
+  as_yaml_string (lookup_exn (as_yaml_ordered_list m) "leader")
+
 let name_of m =
   try as_yaml_string (lookup_exn (as_yaml_ordered_list m) "name")
   with Not_found -> failwith (sprintf "Name not specified for module %s" (code_of m))
@@ -66,7 +69,8 @@ let allpriors my_code =
   let all_modules = List.sort compare_by_endterm all_modules in
   let my_startterm = startterm_of my_module in
   let prior_modules = List.filter (fun m -> endterm_of m < my_startterm) all_modules in
-  printf "Hello,\n\n";
+  let email = leader_of my_module in
+  printf "Hello %s,\n\n" email;
   printf "The DUGS team (Christos, Adrià, and myself) would like to better understand how our various modules build upon each other.\n\n";
   printf "As you are the leader of module %s (%s), I'd appreciate your help with this task. It should only take you a couple of minutes.\n\n" my_code (name_of my_module);
   printf "Below is a list of all the modules (including compulsory and optional modules) that have finished by the time your module starts.\n\n";
