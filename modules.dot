@@ -613,7 +613,7 @@ digraph {
     <4>analyse random\nphenomena (signals\nand noise) in\nelectrical\nengineering
   }}"];
 
-  ELEC70051 [label="{ELEC70051 | Human-Centered Robotics | {
+  ELEC70015 [label="{ELEC70015 | Human-Centered Robotics | {
     <1>learn the theory\nunderlying robotic\nsystems that\nperceive human\nstates using\nmultimodal\ninterfaces (e.g.\ncomputer vision,\nwearable systems,\nhaptic systems,\nvirtual and\naugmented reality\nsystems),\ncomputationally\nmodel and recognise\nhuman actions, use\nadaptive shared\ncontrol methods to\nassist humans in\ntheir task, use\nlearning algorithms\nto improve their\nperformance through\ninteraction with\nhumans |
     <2>learn to\nincorporate human\nfactors in the\ndesign of their\ninteractive robotic\nsystems |
     <3>learn to design and\nimplement control\nand learning\nalgorithms for\ninteractive robotic\nsystems |
