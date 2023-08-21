@@ -111,6 +111,7 @@
 
 - code: ELEC50002
   name: Communications
+  leader: geoffrey.li@imperial.ac.uk
   year: 2
   startterm: spring
   endterm: spring
@@ -127,6 +128,7 @@
 
 - code: ELEC50003_ELEC50008
   name: Computer Engineering Design Project I and II
+  leader: h.merdan18@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: spring
@@ -142,6 +144,7 @@
 
 - code: ELEC50004
   name: Control Systems
+  leader: t.parisini@imperial.ac.uk
   year: 2
   startterm: spring
   endterm: spring
@@ -158,6 +161,7 @@
     
 - code: ELEC50006
   name: Discrete Mathematics
+  leader: d.goodman@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: autumn
@@ -173,6 +177,7 @@
 
 - code: ELEC50007
   name: Electromagnetism
+  leader: o.sydoruk@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: spring
@@ -190,6 +195,7 @@
     
 - code: ELEC50009
   name: Information Processing
+  leader: christos-savvas.bouganis@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: spring
@@ -208,6 +214,7 @@
   
 - code: ELEC50010
   name: Instruction Architectures and Compilers
+  leader: j.wickerson@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: spring
@@ -227,6 +234,7 @@
     
 - code: ELEC50011
   name: Mathematics for Engineers
+  leader: d.nucinkis@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: autumn
@@ -243,6 +251,7 @@
 - code: ELEC50012
   name: Power Electronics and Power Systems
   year: 2
+  leader: m.omalley@imperial.ac.uk
   startterm: spring
   endterm: spring
   ilos:
@@ -262,6 +271,7 @@
 
 - code: ELEC50013
   name: Signals and Systems
+  leader: p.naylor@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: autumn
@@ -276,6 +286,7 @@
     
 - code: ELEC50014
   name: Software Systems
+  leader: s.baig@imperial.ac.uk
   startterm: autumn
   endterm: autumn
   year: 2

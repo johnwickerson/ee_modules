@@ -1,3 +1,8 @@
+(* 
+Sample usage:
+  ./allpriors.exe ELEC50009
+*)
+
 open Format
 open Jcommon
 
@@ -80,7 +85,7 @@ let allpriors my_code =
   fprintf oc "The DUGS team (Christos, Adrià, and myself) would like to better understand how our various modules build upon each other.\n\n";
   fprintf oc "As you are the leader of module %s (%s), I'd appreciate your help with this task.\n\n" my_code (name_of my_module);
   fprintf oc "It should only take you a couple of minutes.\n\n";
-  fprintf oc "Below is a list of all the modules (including compulsory and optional modules) that have finished by the time your module starts.\n\n";
+  fprintf oc "Below is a list of all the modules (including compulsory and optional modules, across all streams) that have finished by the time your module starts.\n\n";
   List.iter (print_module oc) prior_modules;
   fprintf oc "\n";
   fprintf oc "Could you please tell me which of those modules your module builds upon?\n\n";
