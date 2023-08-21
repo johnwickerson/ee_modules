@@ -1,3 +1,37 @@
+open Format
+
+let prepare_email to_recipients cc_recipients bcc_recipients sender_name sender_email subject body =
+  let scpt_file = "mailer.scpt" in
+  let oc = open_out scpt_file in
+  let ocf = formatter_of_out_channel oc in
+  fprintf ocf "tell application \"Mail\"\n";
+  fprintf ocf "  set newMessage to make new outgoing message with properties {";
+  fprintf ocf "sender:\"%s <%s>\", " sender_name sender_email;
+  fprintf ocf "subject:\"%s\", " subject;
+  fprintf ocf "content:\"%s\"}\n" body;
+  fprintf ocf "  tell newMessage\n";
+  fprintf ocf "    set visible to true\n";
+  List.iter (fun recipient_email ->
+      fprintf ocf "    make new to recipient at end of to recipients with ";
+      fprintf ocf "properties {address:\"%s\"}\n" recipient_email;
+    ) to_recipients;
+  List.iter (fun cc ->
+      fprintf ocf "    make new cc recipient at end of cc recipients with ";
+      fprintf ocf "properties {address:\"%s\"}\n" cc
+    ) cc_recipients;
+  List.iter (fun bcc ->
+      fprintf ocf "    make new bcc recipient at end of bcc recipients with ";
+      fprintf ocf "properties {address:\"%s\"}\n" bcc;
+    ) bcc_recipients;
+  fprintf ocf "  end tell\n";
+  (*fprintf ocf "activate\n";*)
+  fprintf ocf "end tell\n";
+  fprintf ocf "return \"%s: success.\"\n" scpt_file;
+  close_out oc;
+  (* Run the generated applescript. *)
+  let _ = Sys.command (sprintf "osascript %s" scpt_file) in
+  flush stdout
+
 let rec lookup_exn kvs k =
   match kvs with
   | [] -> raise Not_found

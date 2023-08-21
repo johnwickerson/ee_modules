@@ -1,4 +1,4 @@
-open Printf
+open Format
 open Jcommon
 
 let code_of m =
@@ -46,18 +46,20 @@ let compare_by_endterm m1 m2 =
   let e2 = endterm_of m2 in
   compare e1 e2
 
-let print_module m =
+let print_module oc m =
   let c = code_of m in
   let n = name_of m in
-  printf "%s (%s)\n" c n
+  fprintf oc "  - %s (%s)\n" c n
   
-let print_module_with_ilos m =
+let print_module_with_ilos oc m =
   let c = code_of m in
   let n = name_of m in
   let ilos = ilos_of m in
-  printf "-----------------\n";
-  printf "%s (%s)\n" c n;
-  List.iter (fun (i,ilo) -> printf "%s.%s: %s\n" c i (as_yaml_string ilo)) ilos
+  fprintf oc "\n";
+  fprintf oc "=================\n";
+  fprintf oc "%s (%s)\n" c n;
+  fprintf oc "-----------------\n";
+  List.iter (fun (i,ilo) -> fprintf oc "%s.%s: %s\n" c i (as_yaml_string ilo)) ilos
   
 let allpriors my_code =
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
@@ -69,21 +71,34 @@ let allpriors my_code =
   let all_modules = List.sort compare_by_endterm all_modules in
   let my_startterm = startterm_of my_module in
   let prior_modules = List.filter (fun m -> endterm_of m < my_startterm) all_modules in
+
   let email = leader_of my_module in
-  printf "Hello %s,\n\n" email;
-  printf "The DUGS team (Christos, Adrià, and myself) would like to better understand how our various modules build upon each other.\n\n";
-  printf "As you are the leader of module %s (%s), I'd appreciate your help with this task. It should only take you a couple of minutes.\n\n" my_code (name_of my_module);
-  printf "Below is a list of all the modules (including compulsory and optional modules) that have finished by the time your module starts.\n\n";
-  List.iter print_module prior_modules;
-  printf "\n";
-  printf "Could you please tell me which of those modules your module builds upon? To help you answer this, I've also listed the intended learning outcomes (ILOs) of each module, below. Each ILO has a unique identifier; for instance, 'ELEC40002.2' is the second ILO of module ELEC40002.\n\n";
-  printf "If you could have a quick read through those ILOS and reply to me with a message like 'My module builds on ELEC40002.2, ELEC40003.4, and ELEC40004.3', then that would be fantastic.\n\n";
-  List.iter print_module_with_ilos prior_modules;
-  printf "\n";
-  printf "Many thanks, and best wishes,\n\n";
-  printf "John"
+  
+  let b = Buffer.create 100 in
+  let oc = formatter_of_buffer b in
+  fprintf oc "Hello,\n\n";
+  fprintf oc "The DUGS team (Christos, Adrià, and myself) would like to better understand how our various modules build upon each other.\n\n";
+  fprintf oc "As you are the leader of module %s (%s), I'd appreciate your help with this task.\n\n" my_code (name_of my_module);
+  fprintf oc "It should only take you a couple of minutes.\n\n";
+  fprintf oc "Below is a list of all the modules (including compulsory and optional modules) that have finished by the time your module starts.\n\n";
+  List.iter (print_module oc) prior_modules;
+  fprintf oc "\n";
+  fprintf oc "Could you please tell me which of those modules your module builds upon?\n\n";
+  fprintf oc "To help you answer this, I've also listed the intended learning outcomes (ILOs) of each module, below. Each ILO has a unique identifier; for instance, 'ELEC40002.2' is the second ILO of module ELEC40002.\n\n";
+  fprintf oc "If you could have a quick read through these ILOs and reply to me with a message like 'My module builds on ELEC40002.2, ELEC40003.4, and ELEC40004.3', then that would be fantastic.\n\n";
+  fprintf oc "Many thanks, and best wishes,\n\n";
+  fprintf oc "John\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+  List.iter (print_module_with_ilos oc) prior_modules;
+  fprintf oc "\n";
+  pp_print_flush oc ();
+  let email_body = Buffer.contents b in
+  let sender_name = "John Wickerson" in
+  let sender_email = "j.wickerson@imperial.ac.uk" in
+  let subject = "Question about your module" in
+  prepare_email [email] [] [] sender_name sender_email subject email_body
+
    
- let _ =
+let _ =
    if Array.length Sys.argv <> 2 then
      failwith "Usage: `./allpriors <module code>`.";
    let my_code = Sys.argv.(1) in
