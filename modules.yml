@@ -617,8 +617,7 @@
     1: "put the concepts of signal processing into practice"
     2: "learn the differences between real-time and batch processing applications"
     3: "learn the differences between SP and general-purpose computing hardware"
-    4: "learn how to use Matlab and Matlab Simulink to design and analyse SP
-algorithms"
+    4: "learn how to use Matlab and Matlab Simulink to design and analyse SP algorithms"
     5: "learn how to use Simulink Embedded Coder to program microcontrollers"
     6: "program an embedded platform"
     7: "revise basic concepts of DSP"
@@ -918,3 +917,43 @@ algorithms"
     4: "analyse circuits and subsystems using S-parameters"
     5: "calculate gain, stability and noise issues in small-signal amplifiers"
     6: "design impedance matching networks and filters"
+
+- code: ELEC70063
+  name: "AML Research Project"
+  year: 4
+  startterm: autumn
+  endterm: spring
+  leader: k.mikolajczyk@imperial.ac.uk
+  ilos:
+    1: "none given"
+
+- code: ELEC70054
+  name: "Microwave Technology"
+  year: 4
+  ilos:
+    1: "interpret electromagnetic wave propagation in various media; how guided-wave structures can be used as practical components, bridging the gap between radio and optical frequencies"
+    2: "apply scattering(S)-parameters and their use in simulations and experiments"
+    3: "analyse the fundamental physical limitations of materials and components. For example, why some materials are better than others and why surface mounted devices are generally not used at upper microwave frequencies"
+    4: "present aspects of commercial technologies in the design and manufacture of components and circuits"
+    5: "theoretical predictions and a practical demonstration of the microwave oven will be given at the end of the course to highlight a number of basic electromagnetic principle associated with cavity resonators"
+
+- code: ELEC70056
+  name: "Hardware and Software Verification"
+  year: 4
+  ilos: 
+    1: "validate the properties of small programs through an automated software verification tool"  
+    2: "argue how an interactive theorem prover works"
+    3: "validate the properties of small programs through an interactive theorem prover"
+    4: "consider the three pillars of hardware verification: stimulus, coverage and checking"
+    5: "produce a testbench, generate stimulus, measure coverage and write a checker"
+    6: "consider the principles of formal verification of hardware"
+    7: "validate the properties of a small RTL module through a formal verification tool"
+
+- code: ELEC70057
+  name: "Biomedical Electronics"
+  year: 4
+  ilos:
+    1: "assess the quality of biomedical signals"
+    2: "decide the requirements for detection and processing of a biomedical signal"
+    3: "decide the required building blocks for a given biomedical system"
+    4: "design circuits and systems for a given biomedical system specification"
