@@ -543,7 +543,7 @@
   startterm: autumn
   endterm: autumn
   ilos:
-    1: "develop solutions to  machine learning problems by modelling and pre-processing data, and designing, selecting and develop appropriate learning algorithms"
+    1: "develop solutions to machine learning problems by modelling and pre-processing data, and designing, selecting and develop appropriate learning algorithms"
     2: "consider and contrast the problems of learning and overfitting in an ML system"
     3: "justify the use of linear regression, classification, logistic regression, support vector machines, neural networks, nearest neighbour and clustering"
     4: "recommend and construct the use of a machine learning algorithm in unseen situations"
@@ -957,3 +957,24 @@
     2: "decide the requirements for detection and processing of a biomedical signal"
     3: "decide the required building blocks for a given biomedical system"
     4: "design circuits and systems for a given biomedical system specification"
+
+- code: ELEC70058
+  name: "Optoelectronics"
+  year: 4
+  ilos:
+    1: "solve wave and waveguide problems using Maxwell's equations"
+    2: "design optical fibre-based communication systems"
+    3: "evaluate the performance of optical fibre-based communication systems"
+    4: "design optical fibre-based sensing systems"
+    5: "evaluate the performance of optical fibre-based sensing systems"
+
+- code: ELEC70060
+  name: "AML Lab"
+  year: 4
+  ilos:
+    1: "apply the process of developing a machine learning approach to an EEE problem"
+    2: "design and implement an ML approach on hardware with sensors"
+    3: "prepare data for typical learning tasks such as classification and regression"
+    4: "create a model from a given data"
+    5: "wvaluate the performance of the developed model"
+    6: "critically analyse the results and draw appropriate conclusions"
