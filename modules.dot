@@ -628,4 +628,50 @@ digraph {
     <5>calculate gain,\nstability and noise\nissues in\nsmall-signal\namplifiers |
     <6>design impedance\nmatching networks\nand filters
   }}"];
+
+  ELEC70063 [label="{ELEC70063 | AML Research Project | {
+    <1>none given
+  }}"];
+
+  ELEC70054 [label="{ELEC70054 | Microwave Technology | {
+    <1>interpret\nelectromagnetic wave\npropagation in\nvarious media; how\nguided-wave\nstructures can be\nused as practical\ncomponents, bridging\nthe gap between\nradio and optical\nfrequencies |
+    <2>apply\nscattering(S)-parameters\nand their use in\nsimulations and\nexperiments |
+    <3>analyse the\nfundamental physical\nlimitations of\nmaterials and\ncomponents. For\nexample, why some\nmaterials are better\nthan others and why\nsurface mounted\ndevices are\ngenerally not used\nat upper microwave\nfrequencies |
+    <4>present aspects of\ncommercial\ntechnologies in the\ndesign and\nmanufacture of\ncomponents and\ncircuits |
+    <5>theoretical\npredictions and a\npractical\ndemonstration of the\nmicrowave oven will\nbe given at the end\nof the course to\nhighlight a number\nof basic\nelectromagnetic\nprinciple associated\nwith cavity\nresonators
+  }}"];
+
+  ELEC70056 [label="{ELEC70056 | Hardware and Software Verification | {
+    <1>validate the\nproperties of small\nprograms through an\nautomated software\nverification tool |
+    <2>argue how an\ninteractive theorem\nprover works |
+    <3>validate the\nproperties of small\nprograms through an\ninteractive theorem\nprover |
+    <4>consider the three\npillars of hardware\nverification:\nstimulus, coverage\nand checking |
+    <5>produce a\ntestbench, generate\nstimulus, measure\ncoverage and write a\nchecker |
+    <6>consider the\nprinciples of formal\nverification of\nhardware |
+    <7>validate the\nproperties of a\nsmall RTL module\nthrough a formal\nverification tool
+  }}"];
+
+  ELEC70057 [label="{ELEC70057 | Biomedical Electronics | {
+    <1>assess the quality\nof biomedical\nsignals |
+    <2>decide the\nrequirements for\ndetection and\nprocessing of a\nbiomedical signal |
+    <3>decide the required\nbuilding blocks for\na given biomedical\nsystem |
+    <4>design circuits and\nsystems for a given\nbiomedical system\nspecification
+  }}"];
+
+  ELEC70058 [label="{ELEC70058 | Optoelectronics | {
+    <1>solve wave and\nwaveguide problems\nusing Maxwell's\nequations |
+    <2>design optical\nfibre-based\ncommunication\nsystems |
+    <3>evaluate the\nperformance of\noptical fibre-based\ncommunication\nsystems |
+    <4>design optical\nfibre-based sensing\nsystems |
+    <5>evaluate the\nperformance of\noptical fibre-based\nsensing systems
+  }}"];
+
+  ELEC70060 [label="{ELEC70060 | AML Lab | {
+    <1>apply the process\nof developing a\nmachine learning\napproach to an EEE\nproblem |
+    <2>design and\nimplement an ML\napproach on hardware\nwith sensors |
+    <3>prepare data for\ntypical learning\ntasks such as\nclassification and\nregression |
+    <4>create a model from\na given data |
+    <5>wvaluate the\nperformance of the\ndeveloped model |
+    <6>critically analyse\nthe results and draw\nappropriate\nconclusions
+  }}"];
 }
