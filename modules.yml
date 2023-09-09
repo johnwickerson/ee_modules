@@ -4,7 +4,7 @@
   leader: a.holmes@imperial.ac.uk
   year: 1
   startterm: autumn
-  endterm: autumn
+  endterm: spring
   ilos:
     1: "Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor"
     2: "Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents"
@@ -918,15 +918,6 @@
     5: "calculate gain, stability and noise issues in small-signal amplifiers"
     6: "design impedance matching networks and filters"
 
-- code: ELEC70063
-  name: "AML Research Project"
-  year: 4
-  startterm: autumn
-  endterm: spring
-  leader: k.mikolajczyk@imperial.ac.uk
-  ilos:
-    1: "none given"
-
 - code: ELEC70054
   name: "Microwave Technology"
   year: 4
@@ -968,13 +959,115 @@
     4: "design optical fibre-based sensing systems"
     5: "evaluate the performance of optical fibre-based sensing systems"
 
-- code: ELEC70060
-  name: "AML Lab"
+- code: ELEC70061
+  name: "Deep Learning"
   year: 4
   ilos:
-    1: "apply the process of developing a machine learning approach to an EEE problem"
-    2: "design and implement an ML approach on hardware with sensors"
-    3: "prepare data for typical learning tasks such as classification and regression"
-    4: "create a model from a given data"
-    5: "wvaluate the performance of the developed model"
-    6: "critically analyse the results and draw appropriate conclusions"
+    1: "formulate a deep learning problem"
+    2: "discriminate between different practical machine learning problems approaches"
+    3: "appraise the merits and shortcomings of model architectures on specific problems"
+    4: "construct and evaluate common neural network models for various types of data"
+    5: "integrate modular components to build deep learning systems in a wide range of real-world applications"
+    6: "consider appropriate criteria for analysing the results as well as presenting and draw appropriate conclusions"
+
+- code: ELEC70065
+  name: "Optimal Control"
+  year: 4
+  ilos:
+    1: "formulate dynamic optimisation problems of practical significance, for linear and nonlinear systems, as optimal control problems"
+    2: "specify precise statements of the maximum principle for various general categories of optimal control problems, including free-time, fixed-time, free-endpoint, and fixed-endpoint problems"
+    3: "derive solutions to continuous-time optimal control problems by application of the maximum principle"
+    4: "signify solution concepts for optimal control problems, including bang-bang solutions and singular controls"
+    5: "calculate solutions to optimal control problems by dynamic programming techniques"
+
+- code: ELEC70066
+  name: "Advanced Optimisation"
+  year: 4
+  ilos:
+    1: "classify different families of optimisation problems"
+    2: "formulate an engineering/scientific/economic problem as an optimisation problem of a known class"
+    3: "apply the correct methods of optimisation to solve the problem"
+    4: "assess the approximation and computational cost of an optimisation algorithm"
+    5: "employ advanced optimisation techniques and analyse their limitations"
+    6: "write computer programmes to formulate and solve optimisation problems"
+    7: "compare the introduced ideas and tools with the more general theory of optimisation"
+    8: "devise a toolbox of optimisation algorithms to solve various classes of problems"
+
+- code: ELEC70067
+  name: "Traffic Theory and Queuing Systems"
+  year: 4
+  ilos:
+    1: "evaluate the validity of different performance modelling/assessment"
+    2: "calculate communication system performance"
+    3: "solve the most appropriate mathematical model to a specific tele-traffic and/or queuing system problem"
+    4: "derive and assess the performance of communication systems using analytical methods (e.g. blocking probabilities and queueing delays)"
+    5: "evaluate performance aspects of queueing systems using different modelling techniques (e.g. Markov chains and fluid flow models)"
+
+- code: ELEC70068
+  name: "Artificial Intelligence"
+  year: 4
+  ilos:
+    1: "use and evaluate different algorithms for searching a graph as a basis for planning and problem-solving"
+    2: "use and evaluate algorithms for automated reasoning in propositional, predicate and modal logics"
+    3: "apply formal languages for knowledge representation and reasoning through symbolic computation"
+    4: "write algorithms for planning and reasoning in Prolog (logic programming language)"
+
+- code: ELEC70069
+  name: "Coding Theory"
+  year: 4
+  ilos:
+    1: "compute parameters in finite fields using the fundamental mathematical concepts"
+    2: "design and analyse encryption/decryption schemes for secure information exchange"
+    3: "create digital signature schemes for secure information exchange"
+    4: "detect and correct communication errors using popular error-correcting codes, including Hamming codes, Reed-Solomon codes, and/or BCH codes, for reliable information exchange"
+
+- code: ELEC70070
+  name: "Information Theory"
+  year: 4
+  ilos:
+    1: "apply the concept and properties of entropy and mutual information to design communication systems"
+    2: "prove the source coding theorem"
+    3: "deduce the fundamental performance limits of noisy communication channels"
+    4: "predict the performance of a compression algorithm by using the rate-distortion function"
+    5: "apply network information theory to design complex communication systems"
+
+- code: ELEC70071
+  name: "Self-Organising Multi-Agent Systems"
+  year: 4
+  ilos:
+    1: "analyse situations of coordination and strategic interaction in distributed systems of autonomous components (agents)"
+    2: "account for basic concepts of computational agency, self-organisation, and the social construction of conceptual resources"
+    3: "design and operationalise systems which are regulated by mutually-agreed and mutable conventional rules"
+    4: "specify and implement algorithms for strategic decision-making related to action selection, preference selection, dispute resolution, opinion formation, and collective action"
+    5: "create self-organised solutions to 'social' problems in multi-agent systems, such as sustainability, fairness, knowledge management and legitimate self-governance"
+
+- code: ELEC70072
+  name: "Real-time Digital Signal Processing"
+  year: 4
+  ilos:
+    1: "recommend signal processing algorithms that are suitable to address the specific requirements of a given real-time SP application"
+    2: "design and validate SP algorithms through the effective use Matlab and Matlab Simulink"
+    3: "write programs microcontrollers and DSPs using the Simulink Embedded Coder"
+    4: "construct and debug programs for an embedded hardware platform"
+    5: "distinguish the specific requirements of real-time and batch processing applications"
+    6: "appraise the features of dedicated DSPs and general-purpose computing hardware"
+
+- code: ELEC70073
+  name: "Computer Vision and Pattern Recognition"
+  year: 4
+  ilos:
+    1: "apply fundamental concepts and theoretical principles of computer vision and pattern recognition for building signal and data representations"
+    2: "develop insight into the problems involved in applying a variety of pattern recognition techniques to deal with practical scenarios"
+    3: "identify and apply the relevant concepts of visual geometry in selected computer vision applications"
+    4: "analyse and compare the strengths and weaknesses of popular approaches"
+    5: "implement various algorithms in a range of CVPR applications through specific programming environments (Matlab, python)"
+
+- code: ELEC70074
+  name: "Power System Dynamics Stability and Control"
+  year: 4
+  ilos:
+    1: "develop model for power generation systems - both synchronous and asynchronous - for power system dynamic studies"
+    2: "interpret the parameters of the common dynamic modelling blocks in a power system dynamic simulation software"
+    3: "assess and validate generation system dynamic response through frequency domain analysis, eigen-value analysis and other common dynamic system analysis tools"
+    4: "evaluate system stability margins for control design in power systems control"
+
