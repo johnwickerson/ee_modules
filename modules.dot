@@ -629,10 +629,6 @@ digraph {
     <6>design impedance\nmatching networks\nand filters
   }}"];
 
-  ELEC70063 [label="{ELEC70063 | AML Research Project | {
-    <1>none given
-  }}"];
-
   ELEC70054 [label="{ELEC70054 | Microwave Technology | {
     <1>interpret\nelectromagnetic wave\npropagation in\nvarious media; how\nguided-wave\nstructures can be\nused as practical\ncomponents, bridging\nthe gap between\nradio and optical\nfrequencies |
     <2>apply\nscattering(S)-parameters\nand their use in\nsimulations and\nexperiments |
@@ -666,12 +662,93 @@ digraph {
     <5>evaluate the\nperformance of\noptical fibre-based\nsensing systems
   }}"];
 
-  ELEC70060 [label="{ELEC70060 | AML Lab | {
-    <1>apply the process\nof developing a\nmachine learning\napproach to an EEE\nproblem |
-    <2>design and\nimplement an ML\napproach on hardware\nwith sensors |
-    <3>prepare data for\ntypical learning\ntasks such as\nclassification and\nregression |
-    <4>create a model from\na given data |
-    <5>wvaluate the\nperformance of the\ndeveloped model |
-    <6>critically analyse\nthe results and draw\nappropriate\nconclusions
+  ELEC70061 [label="{ELEC70061 | Deep Learning | {
+    <1>formulate a deep\nlearning problem |
+    <2>discriminate\nbetween different\npractical machine\nlearning problems\napproaches |
+    <3>appraise the merits\nand shortcomings of\nmodel architectures\non specific problems |
+    <4>construct and\nevaluate common\nneural network\nmodels for various\ntypes of data |
+    <5>integrate modular\ncomponents to build\ndeep learning\nsystems in a wide\nrange of real-world\napplications |
+    <6>consider\nappropriate criteria\nfor analysing the\nresults as well as\npresenting and draw\nappropriate\nconclusions
+  }}"];
+
+  ELEC70065 [label="{ELEC70065 | Optimal Control | {
+    <1>formulate dynamic\noptimisation\nproblems of\npractical\nsignificance, for\nlinear and nonlinear\nsystems, as optimal\ncontrol problems |
+    <2>specify precise\nstatements of the\nmaximum principle\nfor various general\ncategories of\noptimal control\nproblems, including\nfree-time,\nfixed-time,\nfree-endpoint, and\nfixed-endpoint\nproblems |
+    <3>derive solutions to\ncontinuous-time\noptimal control\nproblems by\napplication of the\nmaximum principle |
+    <4>signify solution\nconcepts for optimal\ncontrol problems,\nincluding bang-bang\nsolutions and\nsingular controls |
+    <5>calculate solutions\nto optimal control\nproblems by dynamic\nprogramming\ntechniques
+  }}"];
+
+  ELEC70066 [label="{ELEC70066 | Advanced Optimisation | {
+    <1>classify different\nfamilies of\noptimisation\nproblems |
+    <2>formulate an\nengineering/scientific/economic\nproblem as an\noptimisation problem\nof a known class |
+    <3>apply the correct\nmethods of\noptimisation to\nsolve the problem |
+    <4>assess the\napproximation and\ncomputational cost\nof an optimisation\nalgorithm |
+    <5>employ advanced\noptimisation\ntechniques and\nanalyse their\nlimitations |
+    <6>write computer\nprogrammes to\nformulate and solve\noptimisation\nproblems |
+    <7>compare the\nintroduced ideas and\ntools with the more\ngeneral theory of\noptimisation |
+    <8>devise a toolbox of\noptimisation\nalgorithms to solve\nvarious classes of\nproblems
+  }}"];
+
+  ELEC70067 [label="{ELEC70067 | Traffic Theory and Queuing Systems | {
+    <1>evaluate the\nvalidity of\ndifferent\nperformance\nmodelling/assessment |
+    <2>calculate\ncommunication system\nperformance |
+    <3>solve the most\nappropriate\nmathematical model\nto a specific\ntele-traffic and/or\nqueuing system\nproblem |
+    <4>derive and assess\nthe performance of\ncommunication\nsystems using\nanalytical methods\n(e.g. blocking\nprobabilities and\nqueueing delays) |
+    <5>evaluate\nperformance aspects\nof queueing systems\nusing different\nmodelling techniques\n(e.g. Markov chains\nand fluid flow\nmodels)
+  }}"];
+
+  ELEC70068 [label="{ELEC70068 | Artificial Intelligence | {
+    <1>use and evaluate\ndifferent algorithms\nfor searching a\ngraph as a basis for\nplanning and\nproblem-solving |
+    <2>use and evaluate\nalgorithms for\nautomated reasoning\nin propositional,\npredicate and modal\nlogics |
+    <3>apply formal\nlanguages for\nknowledge\nrepresentation and\nreasoning through\nsymbolic computation |
+    <4>write algorithms\nfor planning and\nreasoning in Prolog\n(logic programming\nlanguage)
+  }}"];
+
+  ELEC70069 [label="{ELEC70069 | Coding Theory | {
+    <1>compute parameters\nin finite fields\nusing the\nfundamental\nmathematical\nconcepts |
+    <2>design and analyse\nencryption/decryption\nschemes for secure\ninformation exchange |
+    <3>create digital\nsignature schemes\nfor secure\ninformation exchange |
+    <4>detect and correct\ncommunication errors\nusing popular\nerror-correcting\ncodes, including\nHamming codes,\nReed-Solomon codes,\nand/or BCH codes,\nfor reliable\ninformation exchange
+  }}"];
+
+  ELEC70070 [label="{ELEC70070 | Information Theory | {
+    <1>apply the concept\nand properties of\nentropy and mutual\ninformation to\ndesign communication\nsystems |
+    <2>prove the source\ncoding theorem |
+    <3>deduce the\nfundamental\nperformance limits\nof noisy\ncommunication\nchannels |
+    <4>predict the\nperformance of a\ncompression\nalgorithm by using\nthe rate-distortion\nfunction |
+    <5>apply network\ninformation theory\nto design complex\ncommunication\nsystems
+  }}"];
+
+  ELEC70071 [label="{ELEC70071 | Self-Organising Multi-Agent Systems | {
+    <1>analyse situations\nof coordination and\nstrategic\ninteraction in\ndistributed systems\nof autonomous\ncomponents (agents) |
+    <2>account for basic\nconcepts of\ncomputational\nagency,\nself-organisation,\nand the social\nconstruction of\nconceptual resources |
+    <3>design and\noperationalise\nsystems which are\nregulated by\nmutually-agreed and\nmutable conventional\nrules |
+    <4>specify and\nimplement algorithms\nfor strategic\ndecision-making\nrelated to action\nselection,\npreference\nselection, dispute\nresolution, opinion\nformation, and\ncollective action |
+    <5>create\nself-organised\nsolutions to\n'social' problems in\nmulti-agent systems,\nsuch as\nsustainability,\nfairness, knowledge\nmanagement and\nlegitimate\nself-governance
+  }}"];
+
+  ELEC70072 [label="{ELEC70072 | Real-time Digital Signal Processing | {
+    <1>recommend signal\nprocessing\nalgorithms that are\nsuitable to address\nthe specific\nrequirements of a\ngiven real-time SP\napplication |
+    <2>design and validate\nSP algorithms\nthrough the\neffective use Matlab\nand Matlab Simulink |
+    <3>write programs\nmicrocontrollers and\nDSPs using the\nSimulink Embedded\nCoder |
+    <4>construct and debug\nprograms for an\nembedded hardware\nplatform |
+    <5>distinguish the\nspecific\nrequirements of\nreal-time and batch\nprocessing\napplications |
+    <6>appraise the\nfeatures of\ndedicated DSPs and\ngeneral-purpose\ncomputing hardware
+  }}"];
+
+  ELEC70073 [label="{ELEC70073 | Computer Vision and Pattern Recognition | {
+    <1>apply fundamental\nconcepts and\ntheoretical\nprinciples of\ncomputer vision and\npattern recognition\nfor building signal\nand data\nrepresentations |
+    <2>develop insight\ninto the problems\ninvolved in applying\na variety of pattern\nrecognition\ntechniques to deal\nwith practical\nscenarios |
+    <3>identify and apply\nthe relevant\nconcepts of visual\ngeometry in selected\ncomputer vision\napplications |
+    <4>analyse and compare\nthe strengths and\nweaknesses of\npopular approaches |
+    <5>implement various\nalgorithms in a\nrange of CVPR\napplications through\nspecific programming\nenvironments\n(Matlab, python)
+  }}"];
+
+  ELEC70074 [label="{ELEC70074 | Power System Dynamics Stability and Control | {
+    <1>develop model for\npower generation\nsystems - both\nsynchronous and\nasynchronous - for\npower system dynamic\nstudies |
+    <2>interpret the\nparameters of the\ncommon dynamic\nmodelling blocks in\na power system\ndynamic simulation\nsoftware |
+    <3>assess and validate\ngeneration system\ndynamic response\nthrough frequency\ndomain analysis,\neigen-value analysis\nand other common\ndynamic system\nanalysis tools |
+    <4>evaluate system\nstability margins\nfor control design\nin power systems\ncontrol
   }}"];
 }
