@@ -3,7 +3,7 @@
 digraph {
   node[shape="record", style="filled"];
 
-  node[color="#99d8c9", fillcolor="#e5f5f9"];
+  node[color="#945050", fillcolor="#ffaaaa"];
 
   ELEC40002 [label="{ELEC40002 | Analysis and Design of Circuits}"];
 
@@ -17,13 +17,17 @@ digraph {
 
   ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B}"];
 
-  node[color="#fdbb84", fillcolor="#fee8c8"];
+  node[color="#985d7d", fillcolor="#dea8c6"];
 
   ELEC50001 [label="{ELEC50001 | Circuits and Systems}"];
   ELEC40003 -> ELEC50001;
 
   ELEC50002 [label="{ELEC50002 | Communications}"];
   ELEC40009 -> ELEC50002;
+  ELEC40010_ELEC40011 -> ELEC50002;
+  ELEC50006 -> ELEC50002;
+  ELEC50011 -> ELEC50002;
+  ELEC50013 -> ELEC50002;
 
   ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II}"];
   ELEC40006 -> ELEC50003_ELEC50008;
@@ -56,7 +60,7 @@ digraph {
 
   ELEC50014 [label="{ELEC50014 | Software Systems}"];
   ELEC40004 -> ELEC50014;
-  node[color="#9ebcda", fillcolor="#e0ecf4"];
+  node[color="#7e68a4", fillcolor="#bba5e3"];
 
   ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems}"];
   ELEC50011 -> ELEC60001;
@@ -119,7 +123,7 @@ digraph {
   ELEC60031 [label="{ELEC60031 | Classical and Modern Radar}"];
 
   ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies}"];
-  node[color="#e7298a", fillcolor="#f2d8e5"];
+  node[color="#4d5395", fillcolor="#9aa3ff"];
 
   ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence}"];
 
