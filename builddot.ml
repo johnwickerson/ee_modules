@@ -10,6 +10,17 @@ or just run `make`.
 open Printf
 open Jcommon
 
+let dark1 = "#945050"
+let light1 = "#ffaaaa"
+let dark2 = "#985d7d"
+let light2 = "#dea8c6"
+let dark3 = "#7e68a4"
+let light3 = "#bba5e3"
+let dark4 = "#4d5395"
+let light4 = "#9aa3ff"
+let darkgrey = "#666666"
+let lightgrey = "#dddddd"
+
 (* perform word wrap on a string by replacing some spaces with "\n" *)
 let wrap line_width txt =
   let words = Str.split (Str.regexp "[ \n]+") txt in
@@ -49,19 +60,11 @@ let print_root_edge m =
   printf "  root -> %s;\n" code
   
 let print_root_edges modules =
-  printf "  root[label=\"start\"]\n";
+  printf "  root[label=\"start\", color=\"%s\", fillcolor=\"%s\"]\n" darkgrey lightgrey;
   List.iter print_root_edge modules;
   printf "\n"
   
 let _ =
-  let darkturquoise = "#99d8c9" in
-  let lightturquoise = "#e5f5f9" in
-  let darkorange = "#fdbb84" in
-  let lightorange = "#fee8c8" in
-  let darkpurple = "#9ebcda" in
-  let lightpurple = "#e0ecf4" in
-  let darkpink = "#e7298a" in
-  let lightpink = "#f2d8e5" in
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
   printf "digraph {\n";
   printf "  node[shape=\"record\", style=\"filled\"];\n";
@@ -73,19 +76,19 @@ let _ =
   let ee3_modules = List.filter (year_is 3) all_modules in
   let ee4_modules = List.filter (year_is 4) all_modules in
   printf "\n";
-  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkturquoise lightturquoise;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark1 light1;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee1_modules;
   printf "\n";
   if env_var_set "INCLUDEROOTNODE" then
     print_root_edges ee1_modules;
-  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkorange lightorange;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark2 light2;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee2_modules;
-  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkpurple lightpurple;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark3 light3;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee3_modules;
-  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" darkpink lightpink;
+  printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark4 light4;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee4_modules;
   printf "}\n";

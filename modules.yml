@@ -24,8 +24,7 @@
   name: Electronics Design Project
   leader: ed.stott@imperial.ac.uk
   year: 1
-  startterm: summer
-  endterm: summer
+  term: summer
     
 - code: ELEC40009
   name: Topics in Electrical Engineering
@@ -45,8 +44,7 @@
   name: Circuits and Systems
   leader: p.cheung@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC40003
 
@@ -54,10 +52,13 @@
   name: Communications
   leader: geoffrey.li@imperial.ac.uk
   year: 2
-  startterm: spring
-  endterm: spring
+  term: spring
   prereqs:
     - ELEC40009
+    - ELEC40010_ELEC40011
+    - ELEC50006
+    - ELEC50011
+    - ELEC50013
 
 - code: ELEC50003_ELEC50008
   name: Computer Engineering Design Project I and II
@@ -72,8 +73,7 @@
   name: Control Systems
   leader: t.parisini@imperial.ac.uk
   year: 2
-  startterm: spring
-  endterm: spring
+  term: spring
   prereqs:
     - ELEC40009
     - ELEC40010_ELEC40011
@@ -82,8 +82,7 @@
   name: Discrete Mathematics
   leader: d.goodman@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC40004
 
@@ -119,8 +118,7 @@
   name: Mathematics for Engineers
   leader: d.nucinkis@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC40010_ELEC40011
     
@@ -128,8 +126,7 @@
   name: Power Electronics and Power Systems
   year: 2
   leader: m.omalley@imperial.ac.uk
-  startterm: spring
-  endterm: spring
+  term: spring
   prereqs:
     - ELEC40002
 
@@ -137,16 +134,14 @@
   name: Signals and Systems
   leader: p.naylor@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC40010_ELEC40011
     
 - code: ELEC50014
   name: Software Systems
   leader: s.baig@imperial.ac.uk
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   year: 2
   prereqs:
     - ELEC40004
@@ -154,40 +149,35 @@
 - code: ELEC60001
   name: "Advanced Mathematics for Signals and Systems"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC50011
     
 - code: ELEC60002
   name: "Statistical Signal Processing and Inference"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
   prereqs:
     - ELEC50011
 
 - code: ELEC60003
   name: "Analogue Integrated Circuits and Systems"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC50001
 
 - code: ELEC60004
   name: "Artificial Intelligence"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC50006
 
 - code: ELEC60005
   name: "Biomedical Electronics"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
   prereqs:
     - ELEC50001
     - ELEC50009
@@ -195,62 +185,52 @@
 - code: ELEC60006
   name: "Communication Networks"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60008
   name: "Control Engineering"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60009
   name: "Deep Learning"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60010
   name: "Digital Signal Processing"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60011
   name: "Digital Systems Design"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60013
   name: "Embedded Systems"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60014
   name: "Group Consultancy Project"
   year: 3
-  startterm: summer
-  endterm: summer
+  term: summer
 
 - code: ELEC60015
   name: "High Level Programming"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
   year: 3
-  startterm: summer
-  endterm: summer
+  term: summer
 
 - code: ELEC60017
   name: "Individual Project"
@@ -261,116 +241,97 @@
 - code: ELEC60018
   name: "Instrumentation"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60019
   name: "Machine Learning"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60020
   name: "Managing Engineering Projects"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60021
   name: "Mathematics for Signals and Systems"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60022
   name: "Microwave Technology"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60023
   name: "Optoelectronics"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60024
   name: "Power Electronics"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60026
   name: "Semiconductor Devices"
   year: 3
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC60030
   name: "Robotic Manipulation"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60031
   name: "Classical and Modern Radar"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC60033
   name: "Electric Vehicle Technologies"
   year: 3
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70003
   name: "Advanced Electronic Devices"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70004
   name: "Analogue Signal Processing"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70006
   name: "Design of Linear Multivariable Control Systems"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70009
   name: "Discrete-Event Systems"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70012
   name: "Full-Custom Integrated Circuit Design"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70013
   name: "High Performance Analogue Electronics"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70017
   name: "Individual Project (MEng)"
@@ -381,14 +342,12 @@
 - code: ELEC70022
   name: "Modelling and Control of Multi-body Mechanical Systems"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70028
   name: "Predictive Control"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70030
   name: "Professional Portfolio and Group Consultancy Project"
@@ -399,14 +358,12 @@
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70039
   name: "Wavelets"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70041
   name: "Year Abroad"
@@ -417,125 +374,104 @@
 - code: ELEC70044
   name: "Role and Value of Smart Grid Technologies"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70045
   name: "Advanced Communication Theory"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70047
   name: "HVDC Technology and Control"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70048
   name: "Probability and Stochastic Processes"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70015
   name: "Human-Centered Robotics"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70054
   name: "Microwave Technology"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70056
   name: "Hardware and Software Verification"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70057
   name: "Biomedical Electronics"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70058
   name: "Optoelectronics"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70061
   name: "Deep Learning"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70065
   name: "Optimal Control"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70066
   name: "Advanced Optimisation"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70068
   name: "Machine Reasoning"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70069
   name: "Cryptography and Coding Theory"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70070
   name: "Information Theory"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
   year: 4
-  startterm: autumn
-  endterm: autumn
+  term: autumn
 
 - code: ELEC70072
   name: "Real-time Digital Signal Processing"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring
 
 - code: ELEC70074
   name: "Power System Dynamics Stability and Control"
   year: 4
-  startterm: spring
-  endterm: spring
+  term: spring

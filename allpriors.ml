@@ -30,11 +30,17 @@ let int_of_term_str = function
        
 let startterm_str m =
   try as_yaml_string (lookup_exn (as_yaml_ordered_list m) "startterm")
-  with Not_found -> failwith (sprintf "Start term not specified for module %s" (code_of m))
+  with Not_found ->
+    try as_yaml_string (lookup_exn (as_yaml_ordered_list m) "term")
+    with Not_found ->
+      failwith (sprintf "Neither startterm nor term specified for module %s" (code_of m))
 
 let endterm_str m =
   try as_yaml_string (lookup_exn (as_yaml_ordered_list m) "endterm")
-  with Not_found -> failwith (sprintf "End term not specified for module %s" (code_of m))
+  with Not_found ->
+    try as_yaml_string (lookup_exn (as_yaml_ordered_list m) "term")
+    with Not_found -> 
+      failwith (sprintf "Neither endterm nor term specified for module %s" (code_of m))
 
 let startterm_of m =
   let y = year_of m in
@@ -77,7 +83,7 @@ let allpriors my_code =
   List.iter (print_module oc) prior_modules;
   fprintf oc "\n";
   fprintf oc "Could you please tell me which of those modules your module builds upon?\n\n";
-  fprintf oc "If you could have a quick read through these ILOs and reply to me with a message like 'My module builds on ELEC40002, ELEC40003, and ELEC40010_ELEC40011', then that would be fantastic.\n\n";
+  fprintf oc "If you could reply to me with a message like 'My module builds on ELEC40002, ELEC40003, and ELEC40010_ELEC40011', then that would be fantastic.\n\n";
   fprintf oc "Many thanks, and best wishes,\n\n";
   fprintf oc "John\n\n";
   fprintf oc "--\n";
@@ -89,7 +95,7 @@ let allpriors my_code =
   let email_body = Buffer.contents b in
   let sender_name = "John Wickerson" in
   let sender_email = "j.wickerson@imperial.ac.uk" in
-  let subject = "Question about your module" in
+  let subject = sprintf "Question about your %s module" (name_of my_module) in
   prepare_email [email] [] [] sender_name sender_email subject email_body
 
    
