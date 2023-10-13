@@ -1,3 +1,12 @@
+(* 
+Sample usage:
+
+  dune exec -- ./builddot.exe > modules.dot
+  dot -Goverlap=false -Tpdf modules.dot -o modules.pdf
+
+or just run `make`.
+*)
+
 open Printf
 open Jcommon
 

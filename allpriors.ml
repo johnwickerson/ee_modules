@@ -1,6 +1,8 @@
 (* 
 Sample usage:
-  ./allpriors.exe ELEC50009
+
+  dune exec -- ./allpriors.exe ELEC50009
+
 *)
 
 open Format
@@ -19,10 +21,6 @@ let name_of m =
 let year_of m =
   try int_of_float (as_yaml_number (lookup_exn (as_yaml_ordered_list m) "year"))
   with Not_found -> failwith (sprintf "Year not specified for module %s" (code_of m))
-
-let ilos_of m =
-  try as_yaml_ordered_list (lookup_exn (as_yaml_ordered_list m) "ilos")
-  with Not_found -> failwith (sprintf "ILOs not specified for module %s" (code_of m))
     
 let int_of_term_str = function
     "autumn" -> 0
@@ -56,16 +54,6 @@ let print_module oc m =
   let n = name_of m in
   fprintf oc "  - %s (%s)\n" c n
   
-let print_module_with_ilos oc m =
-  let c = code_of m in
-  let n = name_of m in
-  let ilos = ilos_of m in
-  fprintf oc "\n";
-  fprintf oc "=================\n";
-  fprintf oc "%s (%s)\n" c n;
-  fprintf oc "-----------------\n";
-  List.iter (fun (i,ilo) -> fprintf oc "%s.%s: %s\n" c i (as_yaml_string ilo)) ilos
-  
 let allpriors my_code =
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
   let all_modules = as_yaml_dictionary yml_top in
@@ -89,12 +77,14 @@ let allpriors my_code =
   List.iter (print_module oc) prior_modules;
   fprintf oc "\n";
   fprintf oc "Could you please tell me which of those modules your module builds upon?\n\n";
-  fprintf oc "To help you answer this, I've also listed the intended learning outcomes (ILOs) of each module, below. Each ILO has a unique identifier; for instance, 'ELEC40002.2' is the second ILO of module ELEC40002.\n\n";
-  fprintf oc "If you could have a quick read through these ILOs and reply to me with a message like 'My module builds on ELEC40002.2, ELEC40003.4, and ELEC40004.3', then that would be fantastic.\n\n";
+  fprintf oc "If you could have a quick read through these ILOs and reply to me with a message like 'My module builds on ELEC40002, ELEC40003, and ELEC40010_ELEC40011', then that would be fantastic.\n\n";
   fprintf oc "Many thanks, and best wishes,\n\n";
-  fprintf oc "John\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-  List.iter (print_module_with_ilos oc) prior_modules;
-  fprintf oc "\n";
+  fprintf oc "John\n\n";
+  fprintf oc "--\n";
+  fprintf oc "Dr John Wickerson\n";
+  fprintf oc "Department of Electrical and Electronic Engineering\n";
+  fprintf oc "Imperial College London\n";
+  fprintf oc "https://johnwickerson.github.io\n";
   pp_print_flush oc ();
   let email_body = Buffer.contents b in
   let sender_name = "John Wickerson" in

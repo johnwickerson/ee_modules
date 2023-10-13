@@ -453,59 +453,89 @@
 - code: ELEC70054
   name: "Microwave Technology"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70056
   name: "Hardware and Software Verification"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70057
   name: "Biomedical Electronics"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70058
   name: "Optoelectronics"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70061
   name: "Deep Learning"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70065
   name: "Optimal Control"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70066
   name: "Advanced Optimisation"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70068
-  name: "Artificial Intelligence"
+  name: "Machine Reasoning"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70069
-  name: "Coding Theory"
+  name: "Cryptography and Coding Theory"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70070
   name: "Information Theory"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
   year: 4
+  startterm: autumn
+  endterm: autumn
 
 - code: ELEC70072
   name: "Real-time Digital Signal Processing"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
   year: 4
+  startterm: spring
+  endterm: spring
 
 - code: ELEC70074
   name: "Power System Dynamics Stability and Control"
   year: 4
+  startterm: spring
+  endterm: spring
