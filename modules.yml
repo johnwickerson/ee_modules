@@ -93,6 +93,8 @@
   startterm: autumn
   endterm: spring
   prereqs:
+    - ELEC40002
+    - ELEC40009
     - ELEC40010_ELEC40011
     
 - code: ELEC50009
