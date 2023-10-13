@@ -145,6 +145,7 @@
   year: 2
   prereqs:
     - ELEC40004
+    - ELEC40006
 
 - code: ELEC60001
   name: "Advanced Mathematics for Signals and Systems"
