@@ -85,6 +85,7 @@
   term: autumn
   prereqs:
     - ELEC40004
+    - ELEC40010_ELEC40011
 
 - code: ELEC50007
   name: Electromagnetism
