@@ -68,6 +68,7 @@ digraph {
 
   ELEC50014 [label="{ELEC50014 | Software Systems}"];
   ELEC40004 -> ELEC50014;
+  ELEC40006 -> ELEC50014;
   node[color="#7e68a4", fillcolor="#bba5e3"];
 
   ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems}"];
