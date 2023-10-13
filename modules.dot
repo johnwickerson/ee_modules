@@ -38,6 +38,7 @@ digraph {
 
   ELEC50006 [label="{ELEC50006 | Discrete Mathematics}"];
   ELEC40004 -> ELEC50006;
+  ELEC40010_ELEC40011 -> ELEC50006;
 
   ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
   ELEC40002 -> ELEC50007;
