@@ -94,6 +94,7 @@
   endterm: spring
   prereqs:
     - ELEC40002
+    - ELEC40004 
     - ELEC40009
     - ELEC40010_ELEC40011
     
