@@ -21,10 +21,6 @@ let wrap line_width txt =
     ) (0, "") words
   in
   Buffer.contents buf
-       
-let print_ilo (i, ilo) =
-  let ilo_str = wrap 20 (as_yaml_string ilo) in
-  printf "\n    <%s>%s" i ilo_str
 
 let print_prereq code prereq =
   let prereq_str = Str.global_replace (Str.regexp "\\.") ":" (as_yaml_string prereq) in
@@ -34,11 +30,8 @@ let print_module m =
   let attribs = as_yaml_ordered_list m in
   let name = as_yaml_string (lookup_exn attribs "name") in
   let code = as_yaml_string (lookup_exn attribs "code") in
-  let ilos = as_yaml_ordered_list (lookup_exn attribs "ilos") in
   let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
-  printf "  %s [label=\"{%s | %s | {" code code name;
-  iter_alt print_ilo (fun () -> printf " |") ilos;
-  printf "\n  }}\"];\n";
+  printf "  %s [label=\"{%s | %s}\"];\n" code code name;
   List.iter (print_prereq code) (as_yaml_dictionary prereqs)
 
 let print_root_edge m =

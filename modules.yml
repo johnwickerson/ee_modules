@@ -5,16 +5,6 @@
   year: 1
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "Explain the basic physics underlying the operation of the following electronic components: resistor, capacitor, inductor, diode, transistor"
-    2: "Perform DC analysis of circuits containing combinations of the above components to establish the nodal voltages and branch currents"
-    3: "Perform AC analysis of circuits containing combinations of the above components, using small-signal equivalent models to linearise any non-linear elements"
-    4: "Apply the operation of simple transistor level circuits including amplifier stages and logic gates"
-    5: "Analyse basic opamp circuits containing idealised opamps and passive components"
-    6: "Apply the concept of a transfer function and derive the transfer functions for a range of standard filter circuits"
-    7: "Analyse the transient behaviour of 1st order RC and RL networks"
-    8: "Use SPICE to simulate the behaviour of the circuits you have studied"
-    9: "Appreciate where and how the circuits you have studied are applied in real engineering applications"
 
 - code: ELEC40003
   name: Digital Electronics and Computer Architecture
@@ -22,13 +12,6 @@
   year: 1
   startterm: autumn
   endterm: spring
-  ilos: 
-    1: "design significant synchronous sequential digital circuits using registers and combinational logic"
-    2: "design simple two’s complement addition and subtraction digital circuits, with correct use of carry and overflow"
-    3: "use digital blocks: RAMs, ROMs, registers, adders, multiplexers and state machines to design and analyse the operation of simple pipelined RISC computer systems"
-    4: "model the operation of machine code instructions on a CPU at register-transfer level, and manipulate data using different numeric representations"
-    5: "write programs for arithmetic operations, manipulating bit fields within words, accessing memory, and calling subroutines"
-    6: "implement I/O in embedded computer systems using polling"
     
 - code: ELEC40004
   name: Programming for Engineers
@@ -36,14 +19,6 @@
   year: 1
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "use the fundamental components of imperative programming in terms of control-flow structures and variables"
-    2: "design and implement a C++ program that communicates using file-based IO in a CLI environment"
-    3: "verify the correct behaviour of programs"
-    4: "diagnose and fix incorrect behaviour and crashes"
-    5: "select and use data-structures from the STL according to needed performance and functionality"
-    6: "use APIs, encapsulation, and abstraction to manage software complexity"
-    7: "design object-oriented data-structures to capture real-world problems"
 
 - code: ELEC40006
   name: Electronics Design Project
@@ -51,13 +26,6 @@
   year: 1
   startterm: summer
   endterm: summer
-  ilos:
-    1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
-    2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
-    3: "Integrate analogue, digital and software theory and design techniques into a functioning system"
-    4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
-    5: "Formulate and implement a test plan to evaluate a design against its specifications"
-    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"
     
 - code: ELEC40009
   name: Topics in Electrical Engineering
@@ -65,15 +33,6 @@
   year: 1
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "Describe waves as information carriers"
-    2: "Describe how waves propagate in free space and transmission lines"
-    3: "Apply mathematical tools to investigate signals in the frequency domain"
-    4: "Explain the need for modulation techniques to transmit a signal and identify the basic hardware components to achieve modulation and demodulation"
-    5: "Describe the transport processes in a pn diode and extrapolate this knowledge to its use as a solar cell"
-    6: "Employ laboratory skills to characterise solar cells"
-    7: "Illustrate how solar polar is transported from the source to the household"
-    8: "Relate the different engineering topics to demonstrate how they are interconnected"
 
 - code: ELEC40010_ELEC40011
   name: Mathematics 1A 1B
@@ -81,13 +40,6 @@
   year: 1
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "apply the techniques of single-variable calculus to obtain solutions to a wide variety of applications of differentiation and integration"
-    2: "utilize the concepts of complex number, functions, limits and series to perform, among others, Fourier Analysis of periodic and non-periodic functions"
-    3: "use the techniques of vector and linear algebra to analyze and apply the correct solution method in a range of problems involving vectors, matrices and systems of equations" 
-    4: "identify and apply the correct approach to solving different types of first- and second-order ordinary differential equations"
-    5: "explain and apply the concepts and techniques of multivariable calculus and tackle problems in their appropriate context"
-    6: "explain where and how the mathematical concepts are applied in engineering problems in electromagnetism, signal processing and communications"
     
 - code: ELEC50001
   name: Circuits and Systems
@@ -95,19 +47,8 @@
   year: 2
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Design, analyse and explain sensors analogue circuit interfaces between the input and digital signal processing phase"
-    2: "Explain the common type of DAC and ADC architectures currently used in industry"
-    3: "Design low-pass, high-pass and band-pass filters for preconditioning signals"
-    4: "Choose suitable low-noise pre-amplifiers and analyse its impact on noise performance of the system"
-    5: "Choose suitable output circuit architecture for high current drive and design a circuit to meet specification"
-    6: "Design reasonably complex circuits involving digital building blocks such as shift register, RAM and FSM, and interface them to a processor"
-    7: "Write good quality Verilog code to specify digital hardware"
-    8: "Implement digital hardware on an FPGA"
-    9: "Design a basic testbench circuit"
   prereqs:
-    - ELEC40003.1
-    - ELEC40003.2
+    - ELEC40003
 
 - code: ELEC50002
   name: Communications
@@ -115,16 +56,8 @@
   year: 2
   startterm: spring
   endterm: spring
-  ilos: 
-    1: "Model noise in wireless communication systems"
-    2: "Understand the performance measures for analog and digital communication systems, and compare the performance of different modulation techniques"
-    3: "Explain the fundamental limits information theory sets on the performance of communication systems"
-    4: "Calculate the entropy of a random variable, and design the Huffman code for a given information source"
-    5: "Design, implement and characterise hardware/software implementation using the NI USRP software defined radio platform"
-    6: "Understand the role physical layer plays within larger communication networks"
   prereqs:
-    - ELEC40009.1
-    - ELEC40009.2
+    - ELEC40009
 
 - code: ELEC50003_ELEC50008
   name: Computer Engineering Design Project I and II
@@ -132,15 +65,8 @@
   year: 2
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "Capture and analyse a set of high-level requirements to produce a set of design specifications"
-    2: "Apply theoretical principles and laboratory skills to design, build and test a solution to an engineering design problem, within practical constraints"
-    3: "Integrate analogue, digital and software theory and design techniques into a functioning system"
-    4: "Organise workload and manage time by functioning as an engineering team and decomposing the design challenge into subsystems"
-    5: "Formulate and implement a test plan to evaluate a design against its specifications"
-    6: "Communicate process and outcomes to stakeholders using various forms of communication (reports, presentations, reviews, etc.)"
   prereqs:
-    - ELEC40006.1
+    - ELEC40006
 
 - code: ELEC50004
   name: Control Systems
@@ -148,16 +74,9 @@
   year: 2
   startterm: spring
   endterm: spring
-  ilos:
-    1: "Construct linear dynamic models of engineering systems of practical relevance in the frequency and in the state-space domain"
-    2: "Recognise the basic principles governing the behaviour of a closed-loop control system including the modes of behaviour of its basic components"
-    3: "Evaluate, among several options, how to configure and structure the architecture and the controller of an automatic control system starting from functional requirements and considering technological constraints"
-    4: "Analyse the static and dynamic performance of basic linear feedback control systems and design controllers such that the overall control system behaves according to pre-specified requirements"
-    5: "Analyse and quantify the impact of digital implementation of the control system on the closed-loop performance"
-    6: "Validate experimentally the dynamic models and the satisfaction of the closed-loop requirements on a selected hardware test benchmark in the laboratory"
   prereqs:
-    - ELEC40009.3
-    - ELEC40010_ELEC40011.2
+    - ELEC40009
+    - ELEC40010_ELEC40011
     
 - code: ELEC50006
   name: Discrete Mathematics
@@ -165,15 +84,8 @@
   year: 2
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Apply graph algorithms to efficiently explore data-structures"
-    2: "Prove algorithms are correct using inductive logic"
-    3: "Describe computability in terms of turing machines"
-    4: "Use complexity notation to analyse running time and storage requirements of a computer program"
-    5: "Use the divide and conquer strategy for designing algorithms, and analyse their efficiency in terms of complexity notation using the Master Theorem"
   prereqs:
-    - ELEC40004.1
-    - ELEC40004.3
+    - ELEC40004
 
 - code: ELEC50007
   name: Electromagnetism
@@ -181,17 +93,8 @@
   year: 2
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "Apply the techniques of Vector Calculus to obtain analytical solutions to problems involving differential operators, line and surface integrals, as well as Green's, Divergence and Stokes' theorems"
-    2: "Use Maxwell's equations to explain basic electromagnetic phenomena"
-    3: "Calculate electric and magnetic field vectors"
-    4: "Calculate capacitance and inductance"
-    5: "Analyse transmission-line devices"
-    6: "Explain the principles of radio-communication and radar systems"
-    7: "Measure parameters of electromagnetic devices"
-    8: "Assemble and evaluate performance of simple radar systems"
   prereqs:
-    - ELEC40010_ELEC40011.6
+    - ELEC40010_ELEC40011
     
 - code: ELEC50009
   name: Information Processing
@@ -199,18 +102,9 @@
   year: 2
   startterm: autumn
   endterm: spring
-  ilos: 
-    1: "Classify real-world data into different types of signals"
-    2: "Describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
-    3: "Explain and apply convolution for linear time-variant systems using transfer functions for continuous and discrete time systems"
-    4: "Use the sampling theorem with the discrete Fourier Transform and the z-transform"
-    5: "Model a data filtering problem as a transfer function and understand how to apply filters to signals"
-    6: "Implement discrete filters using software"
-    7: "Create information systems which use software and hardware to process information"
   prereqs:
-    - ELEC40004.1
-    - ELEC40004.3
-    - ELEC40010_ELEC40011.2
+    - ELEC40004
+    - ELEC40010_ELEC40011
   
 - code: ELEC50010
   name: Instruction Architectures and Compilers
@@ -218,19 +112,8 @@
   year: 2
   startterm: autumn
   endterm: spring
-  ilos:
-    1: "Describe how high-level programs are executed through the sequencing of instructions"
-    2: "Create a compiler from a high-level language to an instruction-based language"
-    3: "Program a functional model of a CPU"
-    4: "Optimise high-level data structures to exploit the low-level memory hierarchy"
-    5: "Design data-structures which can represent programs"
-    6: "Determine the worst-case propagation delay of a combinational circuit"
-    7: "Design arithmetic circuits to meet a specification and determine the propagation delay"
-    8: "Evaluate possible architectural solutions against a set of performance objectives"
-    9: "Discuss the relationship between throughput, latency, and pipelining"
   prereqs:
-    - ELEC40004.1
-    - ELEC40004.3
+    - ELEC40004
     
 - code: ELEC50011
   name: Mathematics for Engineers
@@ -238,15 +121,8 @@
   year: 2
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Use complex variables for conformal mapping and contour integration"
-    2: "Understand the concepts of linear algebra and apply them in a mathematical framework"
-    3: "Explain the concepts and techniques of probability and statistics and compute properties of random systems"
-    4: "Use basic estimator and calculate the method of moment and the maximum likelihood estimator"
-    5: "Formulate the ways in which these mathematical techniques are applied to technical problems in your engineering modules"
   prereqs:
-    - ELEC40010_ELEC40011.1
-    - ELEC40010_ELEC40011.4
+    - ELEC40010_ELEC40011
     
 - code: ELEC50012
   name: Power Electronics and Power Systems
@@ -254,20 +130,8 @@
   leader: m.omalley@imperial.ac.uk
   startterm: spring
   endterm: spring
-  ilos:
-    1: "describe operation of a switch-mode power supply (SMPS) and appreciate why it is capable of high efficiency and how step-down and step-up of voltage is possible"
-    2: "calculate suitable component values for a given SMPS specification"
-    3: "calculate current and power flow for star- and delta-connected three-phase loads"
-    4: "describe the construction and operating principles of a transformer"
-    5: "justify elements of the equivalent circuit of a transformer"
-    6: "calculate the current flow, efficiency and voltage regulation in transformer"
-    7: "describe qualitatively how a rotating magnetic flux wave is produced by a three-phase winding and how torque is developed by interaction of two fields"
-    8: "justify elements of a per-phase induction machine equivalent circuit"
-    9: "calculate slip, power and torque of an induction machine based on the equivalent circuit"
-    10: "calculate power flow between nodes of a network and the voltages at the nodes"
-    11: "describe how voltage is controlled in a network"
   prereqs:
-    - ELEC40002.1
+    - ELEC40002
 
 - code: ELEC50013
   name: Signals and Systems
@@ -275,14 +139,8 @@
   year: 2
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "classify real-world data into different types of signals"
-    2: "describe Linear Time-Invariant systems mathematically and in a way suitable for impementation in processing systems"
-    3: "explain and apply convolution for linear time-variant systems using transfer functions for continuous and discrete time systems"
-    4: "use the sampling theorem with the discrete Fourier Transform and the z-transform"
-    5: "model a data filtering problem as a transfer function and understand how to apply filters to signals"
   prereqs:
-    - ELEC40010_ELEC40011.2
+    - ELEC40010_ELEC40011
     
 - code: ELEC50014
   name: Software Systems
@@ -290,784 +148,364 @@
   startterm: autumn
   endterm: autumn
   year: 2
-  ilos:
-    1: "Analyse a software system to identify potential security issues"
-    2: "Decompose a software system into loosely coupled components"
-    3: "Assign different physical and abstract components of networking to the OSI stack"
-    4: "Describe the principles and concepts involved in designing distributed systems and Internet applications"
-    5: "Apply the concepts of Data Representation, Presentation and Interaction"
-    6: "Think creatively in response to an awareness of/requirement for a problem to be solved"
-    7: "Describe the mapping of relational calculus to SQL"
-    8: "Use relational databases to answer complex data queries in SQL"
-    9: "Apply entity-relationship modelling and demonstrate translation to the relational model"
-    10: "Deliver multi-component networked software systems as part of a small team"
   prereqs:
-    - ELEC40004.1
-    - ELEC40004.3
+    - ELEC40004
 
 - code: ELEC60001
   name: "Advanced Mathematics for Signals and Systems"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "compute the trace, determinant, eigenvalues and eigenvectors of a matrix"
-    2: "compute the SVD of a matrix"
-    3: "critically analyse a linear mapping using the properties of the SVD"
-    4: "identify and find the least-square solution for overdetermined problems and minimum norm solution for under-determined problem"
-    5: "find the Total Least Square solution to an approximation problem"
-    6: "compute the rank and the null space of a matrix"
   prereqs:
-    - ELEC50011.2
+    - ELEC50011
     
 - code: ELEC60002
   name: "Statistical Signal Processing and Inference"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "model, analyse and predict real world random processes using linear stochastic models"
-    2: "identify time varying parameters of non-stationary signals using statistical estimation and inference"
-    3: "derive theoretical and practical performance bounds for statistical signal processing algorithms in practical settings"
-    4: "perform denoising and prediction of signals corrupted by noise, using adaptive statistical learning and filtering"
-    5: "estimate relevant physiological parameters from real life recordings acquired recordings (your own data) and critically analyse and improve signal quality"
   prereqs:
-    - ELEC50011.3
+    - ELEC50011
 
 - code: ELEC60003
   name: "Analogue Integrated Circuits and Systems"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Analyse different analogue circuits and architectures"
-    2: "Design different analogue circuits taking into account limitations and creating solutions to circumvent or resolve these"
-    3: "Derive and apply the concept of current feedback OPAMPs"
-    4: "Analyse and calculate integrated switched capacitor filters and continuous-time filters"
-    5: "Explain and simulate the operation of A/D and D/A Converters and contrast different approaches"
   prereqs:
-    - ELEC50001.1
-    - ELEC50001.2
+    - ELEC50001
 
 - code: ELEC60004
   name: "Artificial Intelligence"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "use and evaluate different algorithms for searching a graph as a basis for planning and problem-solving"
-    2: "use and evaluate algorithms for automated reasoning in propositional, predicate and modal logics"
-    3: "apply formal languages for knowledge representation and reasoning through symbolic computation"
-    4: "implement algorithms for planning and reasoning in Prolog (logic programming language)"
   prereqs:
-    - ELEC50006.1
+    - ELEC50006
 
 - code: ELEC60005
   name: "Biomedical Electronics"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Interpret biomedical signals and define their requirements for detection and processing"
-    2: "Identify the required building blocks for a given biomedical system"
-    3: "Design circuits and systems for a given biomedical system specification"
   prereqs:
-    - ELEC50001.1
-    - ELEC50009.1
+    - ELEC50001
+    - ELEC50009
 
 - code: ELEC60006
   name: "Communication Networks"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Describe different communication networks and technologies including Industry standards"
-    2: "Analyse and contrast the main features and relationship of different communication networks and quality of service (QoS) related aspects"
-    3: "Discuss the validity of different performance modelling/assessment techniques"
-    4: "Identify different communication network QoS related problems, and the appropriate solution techniques for these problems"
-    5: "Formulate the underlying assumptions of the studied modelling/assessment techniques and critically analyse their impact"
-    6: "Determine the conditions in which a communication system is operating"
-    7: "State and solve communication system and network performance related problems (e.g. optimal routing problem and system utilisation)"
-    8: "Derive and evaluate related performance analytical expressions."
 
 - code: ELEC60008
   name: "Control Engineering"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Model dynamic system using differential and difference equations"
-    2: "Given a transfer function find state-space representation and vice versa, and quantify difference between the two representations"
-    3: "Access stability properties of dynamical systems and structural properties"
-    4: "Design feedback controller in a systematic way to modify behaviour of dynamical systems"
-    5: "Assess a prior what behaviour can and cannot be achieved in a dynamic system"
 
 - code: ELEC60009
   name: "Deep Learning"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "formalise a deep learning problem"
-    2: "choose and fit models to data"
-    3: "critically appraise the merits and shortcomings of model architectures on specific problems"  
-    4: "apply existing deep learning models to real datasets"
-    5: "discriminate between different practical machine learning problems approaches to solve"
-    6: "implement and evaluate common neural network models for various types of data"
-    7: "apply a variety of learning algorithms to data"
-    8: "combine modular components to build deep learning systems in a wide range of real-world applications"
-    9: "perform a critical appraisal of recent scientific literature in deep learning"
-    10: "choose appropriate performance evaluation metrics"
-    11: "present and analyse the results as well as draw appropriate conclusions"
 
 - code: ELEC60010
   name: "Digital Signal Processing"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "use the sampling theory to design discrete data systems and analyse these systems in terms of systems functions and z-transform"
-    2: "analyse and design digital filters using FIR and IIR filter design techniques"
-    3: "perform and interpret correctly the results of simple short-time spectral estimation"
-    4: "learn about the FFT, the fast computation of the DFT"
-    5: "develop basic multirate signal processing systems, exploiting appropriate elements and identities, and design typical application examples including sample-rate-changing systems"
 
 - code: ELEC60011
   name: "Digital Systems Design"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "design complex, high performance digital systems"
-    2: "use a modern CAD tool to help with the design"
-    3: "implement such designs using programmable logic (e.g. FPGAs)"
-    4: "design with digital building blocks (such as memory chips, microprocessors, arithmetic circuits etc.)"
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "Explain the operating principle and describe the static models of synchronous machines, transformers and transmission lines"
-    2: "Use per-unit system for analysis of electric power systems"
-    3: "Perform power flow analysis using the Gauss-Seidel technique"
-    4: "Conduct short circuit analysis for balanced and unbalanced faults"
-    5: "Analyse steady-state and transient stability of simple electric power systems"
-    6: "Appraise the challenges associated with low system inertia and short-circuit levels driven by high fractions of renewables"
 
 - code: ELEC60013
   name: "Embedded Systems"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "identify the particular requirements of computer systems that interact directly with the physical world"
-    2: "analyse the constraints imposed by time-critical applications and prove that they are met"
-    3: "set up low-level communication between software, hardware devices and the wider world"
-    4: "use interrupts and threading to guarantee that time constraints are met"
-    5: "write complex, low-level software that is reliable"
-    6: "configure and use a variety of hardware platforms and development toolchains"
 
 - code: ELEC60014
   name: "Group Consultancy Project"
   year: 3
   startterm: summer
   endterm: summer
-  ilos:
-    1: "Develop an engineering specification from a given open-ended brief"
-    2: "Generate number of viable solutions to the brief"
-    3: "Select the optimum solution through technical and critical analysis"
-    4: "Develop a prototype to demonstrate the principles of the proposed solution"
-    5: "Provide financial and commercial information to support their decision"
-    6: "Manage the project from a resource and workload point of view"
-    7: "Communicate in a way to suit the intended target audience (written and oral)"
 
 - code: ELEC60015
   name: "High Level Programming"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "write programs in the hybrid object-oriented and functional programming language F#"
-    2: "express simple algorithms in a transformational style using immutable operations"
-    3: "write recursive and tail recursive implementations of iteration"
-    4: "use list, map, array collection types and associated library functions"
-    5: "analyse and debug type errors in F#"
-    6: "analyse problems and design appropriate functional code"
-    7: "define appropriate data structures to represent problem domains"
-    8: "write immutable code and encapsulate mutable operations"
-    9: "split large problems into independent modules with controlled dependencies"
-    10: "work within a group to design, implement and test a significant application in F#"
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
   year: 3
   startterm: summer
   endterm: summer
-  ilos:
-    1: "critically analyse the requirements of an employer in a certain engineering related industry"
-    2: "operate in a professional manner in an industrial setting"
-    3: "summarise your work and critically analyse its impact on the business"
-    4: "criticise current practices and suggest alternative solutions that are ethically and economically responsible"
-    5: "make informed decisions on the direction of your future career"
 
 - code: ELEC60017
   name: "Individual Project"
   year: 3
   startterm: spring
   endterm: summer
-  ilos:
-    1: "plan and execute an individual work"
-    2: "create and update a flexible project plan with specified tasks and fallbacks"
-    3: "learn and use information from one or more new technical areas"
-    4: "solve technical problems as necessary to achieve a deliverable"
-    5: "produce a major high quality written report to fixed deadlines"
-    6: "carry our independent work that can cover different aspects of engineernig such as design and build topics and software implementation topics"
 
 - code: ELEC60018
   name: "Instrumentation"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "state the operation principles and limitations of various measurement sensors/transducers for mechanical and electromagnetic stimuli"
-    2: "specify the use of recently invented sensors (SQUID, GMR, QHE, etc) in applications with severe performance requirements"
-    3: "design interface circuits to optimise transducer performance"
-    4: "write embedded code to implement data acquisition (including subsampling and irregular sampling) and signal conditioning"
-    5: "assemble a PCB level prototype of a specified measurement instrument"
 
 - code: ELEC60019
   name: "Machine Learning"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "develop solutions to machine learning problems by modelling and pre-processing data, and designing, selecting and develop appropriate learning algorithms"
-    2: "consider and contrast the problems of learning and overfitting in an ML system"
-    3: "justify the use of linear regression, classification, logistic regression, support vector machines, neural networks, nearest neighbour and clustering"
-    4: "recommend and construct the use of a machine learning algorithm in unseen situations"
 
 - code: ELEC60020
   name: "Managing Engineering Projects"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "lead and manage innovative technological projects within an engineering context"
-    2: "manage teams within an organisational context"
-    3: "anticipate and accommodate risk and change during the life of a project"
-    4: "apply a range of tools to the planning, implementation, management and budgeting of engineering projects"
 
 - code: ELEC60021
   name: "Mathematics for Signals and Systems"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "compute the trace, determinant, eigenvalues and eigenvectors of a matrix"
-    2: "compute the SVD of a matrix"
-    3: "critically analyse a linear mapping using the properties of the SVD"
-    4: "identify and find the least-square solution for overdetermined problems and minimum norm solution for under-determined problem"
-    5: "find the Total Least Square solution to an approximation problem"
-    6: "compute the rank and the null space of a matrix"
 
 - code: ELEC60022
   name: "Microwave Technology"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "interpret electromagnetic wave propagation in various media; how guided-wave structures can be used as practical components, bridging the gap between Radio and optical frequencies"
-    2: "analyse the fundamental physical limitations of components. For example, why surface mounted devices are not used at upper microwave frequencies"
-    3: "present aspects of commercial technologies in the design and manufacture of components and circuits"
-    4: "describe the applications of commercial microwave technology: from mobile phones and microwave ovens to radar and radiometric imaging"
 
 - code: ELEC60023
   name: "Optoelectronics"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "solve wave and waveguide problems using Maxwell's equations"
-    2: "design and evaluate optical fibre-based communication systems"
-    3: "design and evaluate optical fibre-based sensing systems"
 
 - code: ELEC60024
   name: "Power Electronics"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "describe the properties of semiconductor devices useful in power applications"
-    2: "calculate power losses, in devices and choose heat sinks"
-    3: "design loss reduction circuits such as snubbers and quasi resonant circuits"
-    4: "analyse and design isolated and non-isolated dc/dc converters including s-domain modelling using circuit averaging"
-    5: "analyse dc/ac converters including qualitative assessment of frequency spectra"
-    6: "analyse controlled and uncontrolled ac/dc converters including electromagnetic interference issues and regulations"
-    7: "apply power converter designs to application areas including assessment of various options for variable speed operation of induction machines and general performance limits on drive systems"
-    8: "design and build a DC-DC converter in the coursework"
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "put the concepts of signal processing into practice"
-    2: "learn the differences between real-time and batch processing applications"
-    3: "learn the differences between SP and general-purpose computing hardware"
-    4: "learn how to use Matlab and Matlab Simulink to design and analyse SP algorithms"
-    5: "learn how to use Simulink Embedded Coder to program microcontrollers"
-    6: "program an embedded platform"
-    7: "revise basic concepts of DSP"
 
 - code: ELEC60026
   name: "Semiconductor Devices"
   year: 3
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "explain basic quantum mechanical principles of charged carrier conduction"
-    2: "apply energy band diagrams to analyse carrier transport processes"
-    3: "classify devices into majority and minority carrier devices and appraise their advantages and disadvantages in different applications"
-    4: "derive device characteristics given the geometry and material parameters"
-    5: "calculate performance parameters by employing the correct equations and approximations"
-    6: "explain delays in small and large signal operation of devices"
 
 - code: ELEC60030
   name: "Robotic Manipulation"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "represent the position and orientation of objects in space"
-    2: "determine the kinematic model of a robot arm based on its links and points of articulation"
-    3: "compute the position of pose of a robot's body and gripper basded on its joint angles (Forward kinematics) and also compute the joint angles necessary to position the robot gripper at a target (Inverse Kinematics)"
-    4: "implement robotic motion trajectories using different control techniques, including joint vs. task space and position vs. velocity control"
-    5: "understand the principles of dynamic modelling and force / torque control (this may not be implemented on the physical robot due to hardware limitations)"
-    6: "understand the different robotic approaches to grasping / object picking (e.g. parallel jaw grippers, adaptive grasping, underactuation, grasp planning and vacuum grippers)"
-    7: "use CAD software to design a simple robot gripper for manipulation of specific objects (e.g. a ping-pong ball, a soda can, a toy car, a 6-sided dice)"
-    8: "program low-level motion controllers to execute and test all of the above on lab-based physical desktop-size robot arms and grippers"
-    9: "appreciate some of the ways that machine learning is being used in contemporary robotic manipulator research and practical implementation"
 
 - code: ELEC60031
   name: "Classical and Modern Radar"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "use the radar equations"
-    2: "apply the radar theory to classify the various radar architectures and rate their performance"
-    3: "analyse and design the transmitter and receiver of any type of radar system"
-    4: "design radar waveforms and system architectures aiming at improving the solutions of the detection, estimation, tracking and classification of various types of targets/objects/signals in the presence of noise, clutter and interference"
 
 - code: ELEC60033
   name: "Electric Vehicle Technologies"
   year: 3
   startterm: spring
   endterm: spring
-  ilos:
-    1: "describe the key systems that make up an EV and detail their function within the whole"
-    2: "design and model a traction system for an EV including the motor model and a FOC"
-    3: "model and analyse other key blocks in an EV such as the: Charger, DC-DC Converter, Battery and Battery Management System"
-    4: "assemble and adapt an EV model for the purposes of design of its subsystems and performance assessment of the system as a whole"
-    5: "discuss the broader range of EV design processes not covered in depth in this module including safety implications, auxiliary load devices and the communications networks of a modern vehicle"
-    6: "discuss the impacts of EVs on the wider grid and environment including the potential future of adaptive and reactive charging (Demand-side response and Vehicle-to-grid)"
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "extract adaptively latent component from real-world data"
-    2: "apply algorithms of adaptive signal processing to real-time streaming data"
-    3: "effectively use adaptive machine intelligence techniques such as neural networks, recurrent neural networks, and deep neural networks"
-    4: "implement the corresponding dimensionality reduction techniques, and evaluate ways to find structure in data and handle Big Data through tensor decompositions"
-    5: "produce MATLAB code for adaptive noise cancellation, high-resolution latent component estimation from your own physiological recordings (ECG), universal function approximation through recurrent and deep neural architectures, and their connection with tensor decompositions for big data applications."
 
 - code: ELEC70003
   name: "Advanced Electronic Devices"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "critically analyse transport processes in nanoscale FETs, including tunnelling phenomena and self-heating/cooling"
-    2: "derive device characteristics given the geometry and material parameters using analytical estimations as well as numerical simulations using Sentaurus TCAD"
-    3: "extract the performance parameters of FETs and critically appraise their relevance in applications"
-    4: "read and write technical papers in the field of semiconductor device design and their impact on future CMOS developments"
-    5: "design/optimise current and novel devices using TCAD software (Sentaurus from Synopsis)"
 
 - code: ELEC70004
   name: "Analogue Signal Processing"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "recommend voltage and current mode architectures used in analog signal processing"
-    2: "design circuits capable of performing low power analog computation and processing of signals in CMOS"
-    3: "recommend circuit techniques which allow efficient computation and signal processing in CMOS such as log-domain, switched capacitor correlated double sampling and spike domain"
-    4: "design mix-mode systems utilising analogue signal processing techniques"
 
 - code: ELEC70006
   name: "Design of Linear Multivariable Control Systems"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "derive models of linear multivariable control systems using tranfer matrix and state variable methods"
-    2: "compute the poles and zeros, including the type of zeros, for such systems"
-    3: "analyse the controllability, observability, detectability, stabilizability and minimality properties for such systems"
-    4: "synthesize design objectives as optimisation procedures in terms of norm-based objective functions"
-    5: "devise the most appropriate controller synthesis techniques"
 
 - code: ELEC70009
   name: "Discrete-Event Systems"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "assess the the suitabillity of a system for modeling in a discrete-event set-up"
-    2: "create a discrete-event model and assess its structural properties"
-    3: "design algorithms for the qualitative and quantitative analysis of Discrete Event Systems"
-    4: "design a supervisory controller and an observer automaton"
-    5: "simulate a discrete event system"
-    6: "assess the performance of the system in a deterministic and stochastic set-up"
 
 - code: ELEC70012
   name: "Full-Custom Integrated Circuit Design"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "consider key features, limitations and topics related to CMOS technology"
-    2: "appraise the full custom integrated circuit design methodology and issues/constraints related to analogue/digital/mixed signal circuit design"
-    3: "design and assess full custom integrated circuit layouts"
-    4: "develop full custom design of CMOS integrated circuits using a complete tool suite (schematic capture, simulation, layout design, physical verification)"
 
 - code: ELEC70013
   name: "High Performance Analogue Electronics"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "formulate an integrated circuit design problem following both, a top to bottom and a bottom to top approach, specifically in the context of receivers, transconductors, mixers and filters"
-    2: "consider different trade-offs that play a role in the process of design, and put those within the context of both, the circuit and the application"
-    3: "argue the need of following different paths in the design problem as a function of the chosen design trade-offs"
-    4: "evaluate trade-offs as a function of a number of typical design specification"
-    5: "judge visually the basic behaviour of circuits and systems topologies, including a number of receivers, mixers, transconductors and filters; without the need of formal calculations"
-    6: "hypothesize, especially in the context of transconductors, mixers and filters, of when certain design techniques could aid the design depending on the required design specifications, with a main focus on linearity and noise"
 
 - code: ELEC70017
   name: "Individual Project (MEng)"
   year: 4
   startterm: autumn
   endterm: summer
-  ilos:
-    1: "plan and manage a project over an extended period"
-    2: "take personal responsibility of your work"
-    3: "tackle open-ended work and apply prior theoretical knowledge to practical situations"
-    4: "critically review information from a wide range of sources"
-    5: "adopt appropriate analytical, computational and/or experimental methods to meet your project objectives"
-    6: "communicate the outcomes of the project work effectively and accurately in both a written and oral format"
 
 - code: ELEC70022
   name: "Modelling and Control of Multi-body Mechanical Systems"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "discriminate between the two main branches of Classical Mechanics: vectorial and analytical mechanics"
-    2: "generalize real mechanical systems as multibody systems"
-    3: "apply the basic tools of Classical Mechanics"
-    4: "develop models, in the form of differential equations, of real mechanical systems using various methods from classical mechanics (Newton's laws and Lagrangian equations of motion)"
-    5: "derive equations of motion for systems with holonomic and nonholonomic constraints"
-    6: "apply techniques from control theory to improve the behaviour of systems represented by multibody models"
-    7: "devise computer assisted modelling and control of multibody systems with the use of the multibody modelling code Simscape Multibody"
 
 - code: ELEC70028
   name: "Predictive Control"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "construct a range of finite horizon optimal control problems with constraints"
-    2: "solve constrained finite horizon optimal control problems by formulating them as finite dimensional optimization problems"
-    3: "compare the advantages and disadvantages of implementing the solution to finite horizon optimal control problems in a receding-, decreasing- or variable-horizon fashion"
-    4: "transfer a real-world control problem into a mathematically well-defined optimal control problem"
-    5: "devise predictive controllers with guarantees of stability and feasibility"
-    6: "write Matlab programs that implement a predictive controller"
-    7: "appraise relatively simple papers on predictive control and be able to extract information from them in order to design a predictive controller"
 
 - code: ELEC70030
   name: "Professional Portfolio and Group Consultancy Project"
   year: 4
   startterm: autumn
   endterm: summer
-  ilos:
-    1: "evidence the claims made in your CV"
-    2: "speak with confidence and eloquently on your achievement"
-    3: "reflect on what you have learned and how that can be applied in research/development/industrial practice."
 
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "design algorithms for large dimensional data processing, with the focus on finding sparse structures hidden in the data for dimension reduction"
-    2: "use linear algebra tools to model problems involving large dimensional data"
-    3: "develop optimization and statistics tools to solve problems involving large dimensional data"
-    4: "evaluate advantages and disadvantages of different algorithms for analysis of large dimensional data in real-world applications, including for example imaging inverse problems, online recommendation, machine learning"
 
 - code: ELEC70039
   name: "Wavelets"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "analyse natural signals and images like for example biomedical signals, speech, audio, medical images, video sequences"
-    2: "analyse the efficacity of a signal representation and develop new signal representations"
-    3: "design perfect reconstruction filter banks"
-    4: "design filter banks and construction of discrete and continuous-time bases for efficient signal analysis"
-    5: "apply basic image and video compression principles"
 
 - code: ELEC70041
   name: "Year Abroad"
   year: 4
   startterm: autumn
   endterm: summer
-  ilos:
-    1: "learning outcomes supported by the host university"
-    2: "experience of engineering practice, technology, and working methods outside the UK"
 
 - code: ELEC70044
   name: "Role and Value of Smart Grid Technologies"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "assess the role of the smart grid concept in facilitating a cost effective transition to a low carbon energy system"
-    2: "perform a cost-benefit analysis involving supply risks and operational or investment costs"
-    3: "model and assess the difference between preventive and corrective control"
-    4: "apply advanced approaches in scheduling of flexible demand"
-    5: "perform big data analytics in the application of smart grids"
-    6: "construct and evaluate basic reliability models and metrics"
-    7: "implement Monte Carlo risk computations"
-    8: "model a basic cyber attack and defence mechanism"
 
 - code: ELEC70045
   name: "Advanced Communication Theory"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "design and analyse optimum receivers based on 'decision theory'"
-    2: "evaluate the performance of M-ary matched filter receivers"
-    3: "model, design and analyse diversity systems using optimum diversity theory"
-    4: "solve the following three generic problems: 'detection', 'estimation' and 'reception' problems and design suitable processors to implement these solutions"
-    5: "utilise array signal processing theory to model and analyse multi-antenna SIMO, MISO, MIMO and massive systems"
-    6: "model, design and analyse mmwave and space-time communications."
 
 - code: ELEC70047
   name: "HVDC Technology and Control"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "appraise the pros and cons of using HVDC with respect to AC for overhead and cable transmission"
-    2: "describe the operation and control of HVDC converters and HVDC systems"
-    3: "recognise the benefits and limitations of two broad HVDC technologies and their suitability in a specific context"
-    4: "design the control system for HVDC converters and systems"
-    5: "analyse the interaction between HVDC and host AC systems"
-    6: "appreciate the role of HVDC in renewable integration and decarbonisation of the electric power sector"
 
 - code: ELEC70048
   name: "Probability and Stochastic Processes"
   year: 4
   startterm: autumn
   endterm: autumn
-  ilos:
-    1: "evaluate the performance of a system using key concepts of probability and random variables"
-    2: "derive the probability density function of a function of a random variable or random variables"
-    3: "model an engineering problem using random signals ('stochastic processes') and Markov chains"
-    4: "analyse random phenomena (signals and noise) in electrical engineering"
 
 - code: ELEC70015
   name: "Human-Centered Robotics"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "learn the theory underlying robotic systems that perceive human states using multimodal interfaces (e.g. computer vision, wearable systems, haptic systems, virtual and augmented reality systems), computationally model and recognise human actions, use adaptive shared control methods to assist humans in their task, use learning algorithms to improve their performance through interaction with humans"
-    2: "learn to incorporate human factors in the design of their interactive robotic systems"
-    3: "learn to design and implement control and learning algorithms for interactive robotic systems"
-    4: "learn to work in groups to incrementally solve large-system (hardware/software) challenges"
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
   year: 4
   startterm: spring
   endterm: spring
-  ilos:
-    1: "apply the main architectures employed in RF systems"
-    2: "interpret subsystem specifications"
-    3: "calculate power link budgets"
-    4: "analyse circuits and subsystems using S-parameters"
-    5: "calculate gain, stability and noise issues in small-signal amplifiers"
-    6: "design impedance matching networks and filters"
 
 - code: ELEC70054
   name: "Microwave Technology"
   year: 4
-  ilos:
-    1: "interpret electromagnetic wave propagation in various media; how guided-wave structures can be used as practical components, bridging the gap between radio and optical frequencies"
-    2: "apply scattering(S)-parameters and their use in simulations and experiments"
-    3: "analyse the fundamental physical limitations of materials and components. For example, why some materials are better than others and why surface mounted devices are generally not used at upper microwave frequencies"
-    4: "present aspects of commercial technologies in the design and manufacture of components and circuits"
-    5: "theoretical predictions and a practical demonstration of the microwave oven will be given at the end of the course to highlight a number of basic electromagnetic principle associated with cavity resonators"
 
 - code: ELEC70056
   name: "Hardware and Software Verification"
   year: 4
-  ilos: 
-    1: "validate the properties of small programs through an automated software verification tool"  
-    2: "argue how an interactive theorem prover works"
-    3: "validate the properties of small programs through an interactive theorem prover"
-    4: "consider the three pillars of hardware verification: stimulus, coverage and checking"
-    5: "produce a testbench, generate stimulus, measure coverage and write a checker"
-    6: "consider the principles of formal verification of hardware"
-    7: "validate the properties of a small RTL module through a formal verification tool"
 
 - code: ELEC70057
   name: "Biomedical Electronics"
   year: 4
-  ilos:
-    1: "assess the quality of biomedical signals"
-    2: "decide the requirements for detection and processing of a biomedical signal"
-    3: "decide the required building blocks for a given biomedical system"
-    4: "design circuits and systems for a given biomedical system specification"
 
 - code: ELEC70058
   name: "Optoelectronics"
   year: 4
-  ilos:
-    1: "solve wave and waveguide problems using Maxwell's equations"
-    2: "design optical fibre-based communication systems"
-    3: "evaluate the performance of optical fibre-based communication systems"
-    4: "design optical fibre-based sensing systems"
-    5: "evaluate the performance of optical fibre-based sensing systems"
 
 - code: ELEC70061
   name: "Deep Learning"
   year: 4
-  ilos:
-    1: "formulate a deep learning problem"
-    2: "discriminate between different practical machine learning problems approaches"
-    3: "appraise the merits and shortcomings of model architectures on specific problems"
-    4: "construct and evaluate common neural network models for various types of data"
-    5: "integrate modular components to build deep learning systems in a wide range of real-world applications"
-    6: "consider appropriate criteria for analysing the results as well as presenting and draw appropriate conclusions"
 
 - code: ELEC70065
   name: "Optimal Control"
   year: 4
-  ilos:
-    1: "formulate dynamic optimisation problems of practical significance, for linear and nonlinear systems, as optimal control problems"
-    2: "specify precise statements of the maximum principle for various general categories of optimal control problems, including free-time, fixed-time, free-endpoint, and fixed-endpoint problems"
-    3: "derive solutions to continuous-time optimal control problems by application of the maximum principle"
-    4: "signify solution concepts for optimal control problems, including bang-bang solutions and singular controls"
-    5: "calculate solutions to optimal control problems by dynamic programming techniques"
 
 - code: ELEC70066
   name: "Advanced Optimisation"
   year: 4
-  ilos:
-    1: "classify different families of optimisation problems"
-    2: "formulate an engineering/scientific/economic problem as an optimisation problem of a known class"
-    3: "apply the correct methods of optimisation to solve the problem"
-    4: "assess the approximation and computational cost of an optimisation algorithm"
-    5: "employ advanced optimisation techniques and analyse their limitations"
-    6: "write computer programmes to formulate and solve optimisation problems"
-    7: "compare the introduced ideas and tools with the more general theory of optimisation"
-    8: "devise a toolbox of optimisation algorithms to solve various classes of problems"
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
   year: 4
-  ilos:
-    1: "evaluate the validity of different performance modelling/assessment"
-    2: "calculate communication system performance"
-    3: "solve the most appropriate mathematical model to a specific tele-traffic and/or queuing system problem"
-    4: "derive and assess the performance of communication systems using analytical methods (e.g. blocking probabilities and queueing delays)"
-    5: "evaluate performance aspects of queueing systems using different modelling techniques (e.g. Markov chains and fluid flow models)"
 
 - code: ELEC70068
   name: "Artificial Intelligence"
   year: 4
-  ilos:
-    1: "use and evaluate different algorithms for searching a graph as a basis for planning and problem-solving"
-    2: "use and evaluate algorithms for automated reasoning in propositional, predicate and modal logics"
-    3: "apply formal languages for knowledge representation and reasoning through symbolic computation"
-    4: "write algorithms for planning and reasoning in Prolog (logic programming language)"
 
 - code: ELEC70069
   name: "Coding Theory"
   year: 4
-  ilos:
-    1: "compute parameters in finite fields using the fundamental mathematical concepts"
-    2: "design and analyse encryption/decryption schemes for secure information exchange"
-    3: "create digital signature schemes for secure information exchange"
-    4: "detect and correct communication errors using popular error-correcting codes, including Hamming codes, Reed-Solomon codes, and/or BCH codes, for reliable information exchange"
 
 - code: ELEC70070
   name: "Information Theory"
   year: 4
-  ilos:
-    1: "apply the concept and properties of entropy and mutual information to design communication systems"
-    2: "prove the source coding theorem"
-    3: "deduce the fundamental performance limits of noisy communication channels"
-    4: "predict the performance of a compression algorithm by using the rate-distortion function"
-    5: "apply network information theory to design complex communication systems"
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
   year: 4
-  ilos:
-    1: "analyse situations of coordination and strategic interaction in distributed systems of autonomous components (agents)"
-    2: "account for basic concepts of computational agency, self-organisation, and the social construction of conceptual resources"
-    3: "design and operationalise systems which are regulated by mutually-agreed and mutable conventional rules"
-    4: "specify and implement algorithms for strategic decision-making related to action selection, preference selection, dispute resolution, opinion formation, and collective action"
-    5: "create self-organised solutions to 'social' problems in multi-agent systems, such as sustainability, fairness, knowledge management and legitimate self-governance"
 
 - code: ELEC70072
   name: "Real-time Digital Signal Processing"
   year: 4
-  ilos:
-    1: "recommend signal processing algorithms that are suitable to address the specific requirements of a given real-time SP application"
-    2: "design and validate SP algorithms through the effective use Matlab and Matlab Simulink"
-    3: "write programs microcontrollers and DSPs using the Simulink Embedded Coder"
-    4: "construct and debug programs for an embedded hardware platform"
-    5: "distinguish the specific requirements of real-time and batch processing applications"
-    6: "appraise the features of dedicated DSPs and general-purpose computing hardware"
 
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
   year: 4
-  ilos:
-    1: "apply fundamental concepts and theoretical principles of computer vision and pattern recognition for building signal and data representations"
-    2: "develop insight into the problems involved in applying a variety of pattern recognition techniques to deal with practical scenarios"
-    3: "identify and apply the relevant concepts of visual geometry in selected computer vision applications"
-    4: "analyse and compare the strengths and weaknesses of popular approaches"
-    5: "implement various algorithms in a range of CVPR applications through specific programming environments (Matlab, python)"
 
 - code: ELEC70074
   name: "Power System Dynamics Stability and Control"
   year: 4
-  ilos:
-    1: "develop model for power generation systems - both synchronous and asynchronous - for power system dynamic studies"
-    2: "interpret the parameters of the common dynamic modelling blocks in a power system dynamic simulation software"
-    3: "assess and validate generation system dynamic response through frequency domain analysis, eigen-value analysis and other common dynamic system analysis tools"
-    4: "evaluate system stability margins for control design in power systems control"
-
