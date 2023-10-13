@@ -40,6 +40,8 @@ digraph {
   ELEC40004 -> ELEC50006;
 
   ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
+  ELEC40002 -> ELEC50007;
+  ELEC40009 -> ELEC50007;
   ELEC40010_ELEC40011 -> ELEC50007;
 
   ELEC50009 [label="{ELEC50009 | Information Processing}"];
