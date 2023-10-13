@@ -5,750 +5,189 @@ digraph {
 
   node[color="#99d8c9", fillcolor="#e5f5f9"];
 
-  ELEC40002 [label="{ELEC40002 | Analysis and Design of Circuits | {
-    <1>Explain the basic\nphysics underlying\nthe operation of the\nfollowing electronic\ncomponents:\nresistor, capacitor,\ninductor, diode,\ntransistor |
-    <2>Perform DC analysis\nof circuits\ncontaining\ncombinations of the\nabove components to\nestablish the nodal\nvoltages and branch\ncurrents |
-    <3>Perform AC analysis\nof circuits\ncontaining\ncombinations of the\nabove components,\nusing small-signal\nequivalent models to\nlinearise any\nnon-linear elements |
-    <4>Apply the operation\nof simple transistor\nlevel circuits\nincluding amplifier\nstages and logic\ngates |
-    <5>Analyse basic opamp\ncircuits containing\nidealised opamps and\npassive components |
-    <6>Apply the concept\nof a transfer\nfunction and derive\nthe transfer\nfunctions for a\nrange of standard\nfilter circuits |
-    <7>Analyse the\ntransient behaviour\nof 1st order RC and\nRL networks |
-    <8>Use SPICE to\nsimulate the\nbehaviour of the\ncircuits you have\nstudied |
-    <9>Appreciate where\nand how the circuits\nyou have studied are\napplied in real\nengineering\napplications
-  }}"];
+  ELEC40002 [label="{ELEC40002 | Analysis and Design of Circuits}"];
 
-  ELEC40003 [label="{ELEC40003 | Digital Electronics and Computer Architecture | {
-    <1>design significant\nsynchronous\nsequential digital\ncircuits using\nregisters and\ncombinational logic |
-    <2>design simple\ntwo’s complement\naddition and\nsubtraction digital\ncircuits, with\ncorrect use of carry\nand overflow |
-    <3>use digital blocks:\nRAMs, ROMs,\nregisters, adders,\nmultiplexers and\nstate machines to\ndesign and analyse\nthe operation of\nsimple pipelined\nRISC computer\nsystems |
-    <4>model the operation\nof machine code\ninstructions on a\nCPU at\nregister-transfer\nlevel, and\nmanipulate data\nusing different\nnumeric\nrepresentations |
-    <5>write programs for\narithmetic\noperations,\nmanipulating bit\nfields within words,\naccessing memory,\nand calling\nsubroutines |
-    <6>implement I/O in\nembedded computer\nsystems using\npolling
-  }}"];
+  ELEC40003 [label="{ELEC40003 | Digital Electronics and Computer Architecture}"];
 
-  ELEC40004 [label="{ELEC40004 | Programming for Engineers | {
-    <1>use the fundamental\ncomponents of\nimperative\nprogramming in terms\nof control-flow\nstructures and\nvariables |
-    <2>design and\nimplement a C++\nprogram that\ncommunicates using\nfile-based IO in a\nCLI environment |
-    <3>verify the correct\nbehaviour of\nprograms |
-    <4>diagnose and fix\nincorrect behaviour\nand crashes |
-    <5>select and use\ndata-structures from\nthe STL according to\nneeded performance\nand functionality |
-    <6>use APIs,\nencapsulation, and\nabstraction to\nmanage software\ncomplexity |
-    <7>design\nobject-oriented\ndata-structures to\ncapture real-world\nproblems
-  }}"];
+  ELEC40004 [label="{ELEC40004 | Programming for Engineers}"];
 
-  ELEC40006 [label="{ELEC40006 | Electronics Design Project | {
-    <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
-    <2>Apply theoretical\nprinciples and\nlaboratory skills to\ndesign, build and\ntest a solution to\nan engineering\ndesign problem,\nwithin practical\nconstraints |
-    <3>Integrate analogue,\ndigital and software\ntheory and design\ntechniques into a\nfunctioning system |
-    <4>Organise workload\nand manage time by\nfunctioning as an\nengineering team and\ndecomposing the\ndesign challenge\ninto subsystems |
-    <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
-    <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
-  }}"];
+  ELEC40006 [label="{ELEC40006 | Electronics Design Project}"];
 
-  ELEC40009 [label="{ELEC40009 | Topics in Electrical Engineering | {
-    <1>Describe waves as\ninformation carriers |
-    <2>Describe how waves\npropagate in free\nspace and\ntransmission lines |
-    <3>Apply mathematical\ntools to investigate\nsignals in the\nfrequency domain |
-    <4>Explain the need\nfor modulation\ntechniques to\ntransmit a signal\nand identify the\nbasic hardware\ncomponents to\nachieve modulation\nand demodulation |
-    <5>Describe the\ntransport processes\nin a pn diode and\nextrapolate this\nknowledge to its use\nas a solar cell |
-    <6>Employ laboratory\nskills to\ncharacterise solar\ncells |
-    <7>Illustrate how\nsolar polar is\ntransported from the\nsource to the\nhousehold |
-    <8>Relate the\ndifferent\nengineering topics\nto demonstrate how\nthey are\ninterconnected
-  }}"];
+  ELEC40009 [label="{ELEC40009 | Topics in Electrical Engineering}"];
 
-  ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B | {
-    <1>apply the\ntechniques of\nsingle-variable\ncalculus to obtain\nsolutions to a wide\nvariety of\napplications of\ndifferentiation and\nintegration |
-    <2>utilize the\nconcepts of complex\nnumber, functions,\nlimits and series to\nperform, among\nothers, Fourier\nAnalysis of periodic\nand non-periodic\nfunctions |
-    <3>use the techniques\nof vector and linear\nalgebra to analyze\nand apply the\ncorrect solution\nmethod in a range of\nproblems involving\nvectors, matrices\nand systems of\nequations |
-    <4>identify and apply\nthe correct approach\nto solving different\ntypes of first- and\nsecond-order\nordinary\ndifferential\nequations |
-    <5>explain and apply\nthe concepts and\ntechniques of\nmultivariable\ncalculus and tackle\nproblems in their\nappropriate context |
-    <6>explain where and\nhow the mathematical\nconcepts are applied\nin engineering\nproblems in\nelectromagnetism,\nsignal processing\nand communications
-  }}"];
+  ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B}"];
 
   node[color="#fdbb84", fillcolor="#fee8c8"];
 
-  ELEC50001 [label="{ELEC50001 | Circuits and Systems | {
-    <1>Design, analyse and\nexplain sensors\nanalogue circuit\ninterfaces between\nthe input and\ndigital signal\nprocessing phase |
-    <2>Explain the common\ntype of DAC and ADC\narchitectures\ncurrently used in\nindustry |
-    <3>Design low-pass,\nhigh-pass and\nband-pass filters\nfor preconditioning\nsignals |
-    <4>Choose suitable\nlow-noise\npre-amplifiers and\nanalyse its impact\non noise performance\nof the system |
-    <5>Choose suitable\noutput circuit\narchitecture for\nhigh current drive\nand design a circuit\nto meet\nspecification |
-    <6>Design reasonably\ncomplex circuits\ninvolving digital\nbuilding blocks such\nas shift register,\nRAM and FSM, and\ninterface them to a\nprocessor |
-    <7>Write good quality\nVerilog code to\nspecify digital\nhardware |
-    <8>Implement digital\nhardware on an FPGA |
-    <9>Design a basic\ntestbench circuit
-  }}"];
-  ELEC40003:1 -> ELEC50001;
-  ELEC40003:2 -> ELEC50001;
+  ELEC50001 [label="{ELEC50001 | Circuits and Systems}"];
+  ELEC40003 -> ELEC50001;
 
-  ELEC50002 [label="{ELEC50002 | Communications | {
-    <1>Model noise in\nwireless\ncommunication\nsystems |
-    <2>Understand the\nperformance measures\nfor analog and\ndigital\ncommunication\nsystems, and compare\nthe performance of\ndifferent modulation\ntechniques |
-    <3>Explain the\nfundamental limits\ninformation theory\nsets on the\nperformance of\ncommunication\nsystems |
-    <4>Calculate the\nentropy of a random\nvariable, and design\nthe Huffman code for\na given information\nsource |
-    <5>Design, implement\nand characterise\nhardware/software\nimplementation using\nthe NI USRP software\ndefined radio\nplatform |
-    <6>Understand the role\nphysical layer plays\nwithin larger\ncommunication\nnetworks
-  }}"];
-  ELEC40009:1 -> ELEC50002;
-  ELEC40009:2 -> ELEC50002;
+  ELEC50002 [label="{ELEC50002 | Communications}"];
+  ELEC40009 -> ELEC50002;
 
-  ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II | {
-    <1>Capture and analyse\na set of high-level\nrequirements to\nproduce a set of\ndesign\nspecifications |
-    <2>Apply theoretical\nprinciples and\nlaboratory skills to\ndesign, build and\ntest a solution to\nan engineering\ndesign problem,\nwithin practical\nconstraints |
-    <3>Integrate analogue,\ndigital and software\ntheory and design\ntechniques into a\nfunctioning system |
-    <4>Organise workload\nand manage time by\nfunctioning as an\nengineering team and\ndecomposing the\ndesign challenge\ninto subsystems |
-    <5>Formulate and\nimplement a test\nplan to evaluate a\ndesign against its\nspecifications |
-    <6>Communicate process\nand outcomes to\nstakeholders using\nvarious forms of\ncommunication\n(reports,\npresentations,\nreviews, etc.)
-  }}"];
-  ELEC40006:1 -> ELEC50003_ELEC50008;
+  ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II}"];
+  ELEC40006 -> ELEC50003_ELEC50008;
 
-  ELEC50004 [label="{ELEC50004 | Control Systems | {
-    <1>Construct linear\ndynamic models of\nengineering systems\nof practical\nrelevance in the\nfrequency and in the\nstate-space domain |
-    <2>Recognise the basic\nprinciples governing\nthe behaviour of a\nclosed-loop control\nsystem including the\nmodes of behaviour\nof its basic\ncomponents |
-    <3>Evaluate, among\nseveral options, how\nto configure and\nstructure the\narchitecture and the\ncontroller of an\nautomatic control\nsystem starting from\nfunctional\nrequirements and\nconsidering\ntechnological\nconstraints |
-    <4>Analyse the static\nand dynamic\nperformance of basic\nlinear feedback\ncontrol systems and\ndesign controllers\nsuch that the\noverall control\nsystem behaves\naccording to\npre-specified\nrequirements |
-    <5>Analyse and\nquantify the impact\nof digital\nimplementation of\nthe control system\non the closed-loop\nperformance |
-    <6>Validate\nexperimentally the\ndynamic models and\nthe satisfaction of\nthe closed-loop\nrequirements on a\nselected hardware\ntest benchmark in\nthe laboratory
-  }}"];
-  ELEC40009:3 -> ELEC50004;
-  ELEC40010_ELEC40011:2 -> ELEC50004;
+  ELEC50004 [label="{ELEC50004 | Control Systems}"];
+  ELEC40009 -> ELEC50004;
+  ELEC40010_ELEC40011 -> ELEC50004;
 
-  ELEC50006 [label="{ELEC50006 | Discrete Mathematics | {
-    <1>Apply graph\nalgorithms to\nefficiently explore\ndata-structures |
-    <2>Prove algorithms\nare correct using\ninductive logic |
-    <3>Describe\ncomputability in\nterms of turing\nmachines |
-    <4>Use complexity\nnotation to analyse\nrunning time and\nstorage requirements\nof a computer\nprogram |
-    <5>Use the divide and\nconquer strategy for\ndesigning\nalgorithms, and\nanalyse their\nefficiency in terms\nof complexity\nnotation using the\nMaster Theorem
-  }}"];
-  ELEC40004:1 -> ELEC50006;
-  ELEC40004:3 -> ELEC50006;
+  ELEC50006 [label="{ELEC50006 | Discrete Mathematics}"];
+  ELEC40004 -> ELEC50006;
 
-  ELEC50007 [label="{ELEC50007 | Electromagnetism | {
-    <1>Apply the\ntechniques of Vector\nCalculus to obtain\nanalytical solutions\nto problems\ninvolving\ndifferential\noperators, line and\nsurface integrals,\nas well as Green's,\nDivergence and\nStokes' theorems |
-    <2>Use Maxwell's\nequations to explain\nbasic\nelectromagnetic\nphenomena |
-    <3>Calculate electric\nand magnetic field\nvectors |
-    <4>Calculate\ncapacitance and\ninductance |
-    <5>Analyse\ntransmission-line\ndevices |
-    <6>Explain the\nprinciples of\nradio-communication\nand radar systems |
-    <7>Measure parameters\nof electromagnetic\ndevices |
-    <8>Assemble and\nevaluate performance\nof simple radar\nsystems
-  }}"];
-  ELEC40010_ELEC40011:6 -> ELEC50007;
+  ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
+  ELEC40010_ELEC40011 -> ELEC50007;
 
-  ELEC50009 [label="{ELEC50009 | Information Processing | {
-    <1>Classify real-world\ndata into different\ntypes of signals |
-    <2>Describe Linear\nTime-Invariant\nsystems\nmathematically and\nin a way suitable\nfor impementation in\nprocessing systems |
-    <3>Explain and apply\nconvolution for\nlinear time-variant\nsystems using\ntransfer functions\nfor continuous and\ndiscrete time\nsystems |
-    <4>Use the sampling\ntheorem with the\ndiscrete Fourier\nTransform and the\nz-transform |
-    <5>Model a data\nfiltering problem as\na transfer function\nand understand how\nto apply filters to\nsignals |
-    <6>Implement discrete\nfilters using\nsoftware |
-    <7>Create information\nsystems which use\nsoftware and\nhardware to process\ninformation
-  }}"];
-  ELEC40004:1 -> ELEC50009;
-  ELEC40004:3 -> ELEC50009;
-  ELEC40010_ELEC40011:2 -> ELEC50009;
+  ELEC50009 [label="{ELEC50009 | Information Processing}"];
+  ELEC40004 -> ELEC50009;
+  ELEC40010_ELEC40011 -> ELEC50009;
 
-  ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers | {
-    <1>Describe how\nhigh-level programs\nare executed through\nthe sequencing of\ninstructions |
-    <2>Create a compiler\nfrom a high-level\nlanguage to an\ninstruction-based\nlanguage |
-    <3>Program a\nfunctional model of\na CPU |
-    <4>\nOptimise high-level\ndata structures to\nexploit the\nlow-level memory\nhierarchy |
-    <5>\nDesign data-structures\nwhich can represent\nprograms |
-    <6>Determine the\nworst-case\npropagation delay of\na combinational\ncircuit |
-    <7>Design arithmetic\ncircuits to meet a\nspecification and\ndetermine the\npropagation delay |
-    <8>Evaluate possible\narchitectural\nsolutions against a\nset of performance\nobjectives |
-    <9>Discuss the\nrelationship between\nthroughput, latency,\nand pipelining
-  }}"];
-  ELEC40004:1 -> ELEC50010;
-  ELEC40004:3 -> ELEC50010;
+  ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers}"];
+  ELEC40004 -> ELEC50010;
 
-  ELEC50011 [label="{ELEC50011 | Mathematics for Engineers | {
-    <1>Use complex\nvariables for\nconformal mapping\nand contour\nintegration |
-    <2>Understand the\nconcepts of linear\nalgebra and apply\nthem in a\nmathematical\nframework |
-    <3>Explain the\nconcepts and\ntechniques of\nprobability and\nstatistics and\ncompute properties\nof random systems |
-    <4>Use basic estimator\nand calculate the\nmethod of moment and\nthe maximum\nlikelihood estimator |
-    <5>Formulate the ways\nin which these\nmathematical\ntechniques are\napplied to technical\nproblems in your\nengineering modules
-  }}"];
-  ELEC40010_ELEC40011:1 -> ELEC50011;
-  ELEC40010_ELEC40011:4 -> ELEC50011;
+  ELEC50011 [label="{ELEC50011 | Mathematics for Engineers}"];
+  ELEC40010_ELEC40011 -> ELEC50011;
 
-  ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems | {
-    <1>describe operation\nof a switch-mode\npower supply (SMPS)\nand appreciate why\nit is capable of\nhigh efficiency and\nhow step-down and\nstep-up of voltage\nis possible |
-    <2>calculate suitable\ncomponent values for\na given SMPS\nspecification |
-    <3>calculate current\nand power flow for\nstar- and\ndelta-connected\nthree-phase loads |
-    <4>describe the\nconstruction and\noperating principles\nof a transformer |
-    <5>justify elements of\nthe equivalent\ncircuit of a\ntransformer |
-    <6>calculate the\ncurrent flow,\nefficiency and\nvoltage regulation\nin transformer |
-    <7>describe\nqualitatively how a\nrotating magnetic\nflux wave is\nproduced by a\nthree-phase winding\nand how torque is\ndeveloped by\ninteraction of two\nfields |
-    <8>justify elements of\na per-phase\ninduction machine\nequivalent circuit |
-    <9>calculate slip,\npower and torque of\nan induction machine\nbased on the\nequivalent circuit |
-    <10>calculate power\nflow between nodes\nof a network and the\nvoltages at the\nnodes |
-    <11>describe how\nvoltage is\ncontrolled in a\nnetwork
-  }}"];
-  ELEC40002:1 -> ELEC50012;
+  ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems}"];
+  ELEC40002 -> ELEC50012;
 
-  ELEC50013 [label="{ELEC50013 | Signals and Systems | {
-    <1>classify real-world\ndata into different\ntypes of signals |
-    <2>describe Linear\nTime-Invariant\nsystems\nmathematically and\nin a way suitable\nfor impementation in\nprocessing systems |
-    <3>explain and apply\nconvolution for\nlinear time-variant\nsystems using\ntransfer functions\nfor continuous and\ndiscrete time\nsystems |
-    <4>use the sampling\ntheorem with the\ndiscrete Fourier\nTransform and the\nz-transform |
-    <5>model a data\nfiltering problem as\na transfer function\nand understand how\nto apply filters to\nsignals
-  }}"];
-  ELEC40010_ELEC40011:2 -> ELEC50013;
+  ELEC50013 [label="{ELEC50013 | Signals and Systems}"];
+  ELEC40010_ELEC40011 -> ELEC50013;
 
-  ELEC50014 [label="{ELEC50014 | Software Systems | {
-    <1>Analyse a software\nsystem to identify\npotential security\nissues |
-    <2>Decompose a\nsoftware system into\nloosely coupled\ncomponents |
-    <3>Assign different\nphysical and\nabstract components\nof networking to the\nOSI stack |
-    <4>Describe the\nprinciples and\nconcepts involved in\ndesigning\ndistributed systems\nand Internet\napplications |
-    <5>Apply the concepts\nof Data\nRepresentation,\nPresentation and\nInteraction |
-    <6>Think creatively in\nresponse to an\nawareness\nof/requirement for a\nproblem to be solved |
-    <7>Describe the\nmapping of\nrelational calculus\nto SQL |
-    <8>Use relational\ndatabases to answer\ncomplex data queries\nin SQL |
-    <9>Apply\nentity-relationship\nmodelling and\ndemonstrate\ntranslation to the\nrelational model |
-    <10>Deliver\nmulti-component\nnetworked software\nsystems as part of a\nsmall team
-  }}"];
-  ELEC40004:1 -> ELEC50014;
-  ELEC40004:3 -> ELEC50014;
+  ELEC50014 [label="{ELEC50014 | Software Systems}"];
+  ELEC40004 -> ELEC50014;
   node[color="#9ebcda", fillcolor="#e0ecf4"];
 
-  ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems | {
-    <1>compute the trace,\ndeterminant,\neigenvalues and\neigenvectors of a\nmatrix |
-    <2>compute the SVD of\na matrix |
-    <3>critically analyse\na linear mapping\nusing the properties\nof the SVD |
-    <4>identify and find\nthe least-square\nsolution for\noverdetermined\nproblems and minimum\nnorm solution for\nunder-determined\nproblem |
-    <5>find the Total\nLeast Square\nsolution to an\napproximation\nproblem |
-    <6>compute the rank\nand the null space\nof a matrix
-  }}"];
-  ELEC50011:2 -> ELEC60001;
+  ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems}"];
+  ELEC50011 -> ELEC60001;
 
-  ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference | {
-    <1>model, analyse and\npredict real world\nrandom processes\nusing linear\nstochastic models |
-    <2>identify time\nvarying parameters\nof non-stationary\nsignals using\nstatistical\nestimation and\ninference |
-    <3>derive theoretical\nand practical\nperformance bounds\nfor statistical\nsignal processing\nalgorithms in\npractical settings |
-    <4>perform denoising\nand prediction of\nsignals corrupted by\nnoise, using\nadaptive statistical\nlearning and\nfiltering |
-    <5>estimate relevant\nphysiological\nparameters from real\nlife recordings\nacquired recordings\n(your own data) and\ncritically analyse\nand improve signal\nquality
-  }}"];
-  ELEC50011:3 -> ELEC60002;
+  ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference}"];
+  ELEC50011 -> ELEC60002;
 
-  ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems | {
-    <1>Analyse different\nanalogue circuits\nand architectures |
-    <2>Design different\nanalogue circuits\ntaking into account\nlimitations and\ncreating solutions\nto circumvent or\nresolve these |
-    <3>Derive and apply\nthe concept of\ncurrent feedback\nOPAMPs |
-    <4>Analyse and\ncalculate integrated\nswitched capacitor\nfilters and\ncontinuous-time\nfilters |
-    <5>Explain and\nsimulate the\noperation of A/D and\nD/A Converters and\ncontrast different\napproaches
-  }}"];
-  ELEC50001:1 -> ELEC60003;
-  ELEC50001:2 -> ELEC60003;
+  ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems}"];
+  ELEC50001 -> ELEC60003;
 
-  ELEC60004 [label="{ELEC60004 | Artificial Intelligence | {
-    <1>use and evaluate\ndifferent algorithms\nfor searching a\ngraph as a basis for\nplanning and\nproblem-solving |
-    <2>use and evaluate\nalgorithms for\nautomated reasoning\nin propositional,\npredicate and modal\nlogics |
-    <3>apply formal\nlanguages for\nknowledge\nrepresentation and\nreasoning through\nsymbolic computation |
-    <4>implement\nalgorithms for\nplanning and\nreasoning in Prolog\n(logic programming\nlanguage)
-  }}"];
-  ELEC50006:1 -> ELEC60004;
+  ELEC60004 [label="{ELEC60004 | Artificial Intelligence}"];
+  ELEC50006 -> ELEC60004;
 
-  ELEC60005 [label="{ELEC60005 | Biomedical Electronics | {
-    <1>Interpret\nbiomedical signals\nand define their\nrequirements for\ndetection and\nprocessing |
-    <2>Identify the\nrequired building\nblocks for a given\nbiomedical system |
-    <3>Design circuits and\nsystems for a given\nbiomedical system\nspecification
-  }}"];
-  ELEC50001:1 -> ELEC60005;
-  ELEC50009:1 -> ELEC60005;
+  ELEC60005 [label="{ELEC60005 | Biomedical Electronics}"];
+  ELEC50001 -> ELEC60005;
+  ELEC50009 -> ELEC60005;
 
-  ELEC60006 [label="{ELEC60006 | Communication Networks | {
-    <1>Describe different\ncommunication\nnetworks and\ntechnologies\nincluding Industry\nstandards |
-    <2>Analyse and\ncontrast the main\nfeatures and\nrelationship of\ndifferent\ncommunication\nnetworks and quality\nof service (QoS)\nrelated aspects |
-    <3>Discuss the\nvalidity of\ndifferent\nperformance\nmodelling/assessment\ntechniques |
-    <4>Identify different\ncommunication\nnetwork QoS related\nproblems, and the\nappropriate solution\ntechniques for these\nproblems |
-    <5>Formulate the\nunderlying\nassumptions of the\nstudied\nmodelling/assessment\ntechniques and\ncritically analyse\ntheir impact |
-    <6>Determine the\nconditions in which\na communication\nsystem is operating |
-    <7>State and solve\ncommunication system\nand network\nperformance related\nproblems (e.g.\noptimal routing\nproblem and system\nutilisation) |
-    <8>Derive and evaluate\nrelated performance\nanalytical\nexpressions.
-  }}"];
+  ELEC60006 [label="{ELEC60006 | Communication Networks}"];
 
-  ELEC60008 [label="{ELEC60008 | Control Engineering | {
-    <1>Model dynamic\nsystem using\ndifferential and\ndifference equations |
-    <2>Given a transfer\nfunction find\nstate-space\nrepresentation and\nvice versa, and\nquantify difference\nbetween the two\nrepresentations |
-    <3>Access stability\nproperties of\ndynamical systems\nand structural\nproperties |
-    <4>Design feedback\ncontroller in a\nsystematic way to\nmodify behaviour of\ndynamical systems |
-    <5>Assess a prior what\nbehaviour can and\ncannot be achieved\nin a dynamic system
-  }}"];
+  ELEC60008 [label="{ELEC60008 | Control Engineering}"];
 
-  ELEC60009 [label="{ELEC60009 | Deep Learning | {
-    <1>formalise a deep\nlearning problem |
-    <2>choose and fit\nmodels to data |
-    <3>critically appraise\nthe merits and\nshortcomings of\nmodel architectures\non specific problems |
-    <4>apply existing deep\nlearning models to\nreal datasets |
-    <5>discriminate\nbetween different\npractical machine\nlearning problems\napproaches to solve |
-    <6>implement and\nevaluate common\nneural network\nmodels for various\ntypes of data |
-    <7>apply a variety of\nlearning algorithms\nto data |
-    <8>combine modular\ncomponents to build\ndeep learning\nsystems in a wide\nrange of real-world\napplications |
-    <9>perform a critical\nappraisal of recent\nscientific\nliterature in deep\nlearning |
-    <10>choose appropriate\nperformance\nevaluation metrics |
-    <11>present and analyse\nthe results as well\nas draw appropriate\nconclusions
-  }}"];
+  ELEC60009 [label="{ELEC60009 | Deep Learning}"];
 
-  ELEC60010 [label="{ELEC60010 | Digital Signal Processing | {
-    <1>use the sampling\ntheory to design\ndiscrete data\nsystems and analyse\nthese systems in\nterms of systems\nfunctions and\nz-transform |
-    <2>analyse and design\ndigital filters\nusing FIR and IIR\nfilter design\ntechniques |
-    <3>perform and\ninterpret correctly\nthe results of\nsimple short-time\nspectral estimation |
-    <4>learn about the\nFFT, the fast\ncomputation of the\nDFT |
-    <5>develop basic\nmultirate signal\nprocessing systems,\nexploiting\nappropriate elements\nand identities, and\ndesign typical\napplication examples\nincluding\nsample-rate-changing\nsystems
-  }}"];
+  ELEC60010 [label="{ELEC60010 | Digital Signal Processing}"];
 
-  ELEC60011 [label="{ELEC60011 | Digital Systems Design | {
-    <1>design complex,\nhigh performance\ndigital systems |
-    <2>use a modern CAD\ntool to help with\nthe design |
-    <3>implement such\ndesigns using\nprogrammable logic\n(e.g. FPGAs) |
-    <4>design with digital\nbuilding blocks\n(such as memory\nchips,\nmicroprocessors,\narithmetic circuits\netc.)
-  }}"];
+  ELEC60011 [label="{ELEC60011 | Digital Systems Design}"];
 
-  ELEC60012 [label="{ELEC60012 | Electrical Energy Systems | {
-    <1>Explain the\noperating principle\nand describe the\nstatic models of\nsynchronous\nmachines,\ntransformers and\ntransmission lines |
-    <2>Use per-unit system\nfor analysis of\nelectric power\nsystems |
-    <3>Perform power flow\nanalysis using the\nGauss-Seidel\ntechnique |
-    <4>Conduct short\ncircuit analysis for\nbalanced and\nunbalanced faults |
-    <5>Analyse\nsteady-state and\ntransient stability\nof simple electric\npower systems |
-    <6>Appraise the\nchallenges\nassociated with low\nsystem inertia and\nshort-circuit levels\ndriven by high\nfractions of\nrenewables
-  }}"];
+  ELEC60012 [label="{ELEC60012 | Electrical Energy Systems}"];
 
-  ELEC60013 [label="{ELEC60013 | Embedded Systems | {
-    <1>identify the\nparticular\nrequirements of\ncomputer systems\nthat interact\ndirectly with the\nphysical world |
-    <2>analyse the\nconstraints imposed\nby time-critical\napplications and\nprove that they are\nmet |
-    <3>set up low-level\ncommunication\nbetween software,\nhardware devices and\nthe wider world |
-    <4>use interrupts and\nthreading to\nguarantee that time\nconstraints are met |
-    <5>write complex,\nlow-level software\nthat is reliable |
-    <6>configure and use a\nvariety of hardware\nplatforms and\ndevelopment\ntoolchains
-  }}"];
+  ELEC60013 [label="{ELEC60013 | Embedded Systems}"];
 
-  ELEC60014 [label="{ELEC60014 | Group Consultancy Project | {
-    <1>Develop an\nengineering\nspecification from a\ngiven open-ended\nbrief |
-    <2>Generate number of\nviable solutions to\nthe brief |
-    <3>Select the optimum\nsolution through\ntechnical and\ncritical analysis |
-    <4>Develop a prototype\nto demonstrate the\nprinciples of the\nproposed solution |
-    <5>Provide financial\nand commercial\ninformation to\nsupport their\ndecision |
-    <6>Manage the project\nfrom a resource and\nworkload point of\nview |
-    <7>Communicate in a\nway to suit the\nintended target\naudience (written\nand oral)
-  }}"];
+  ELEC60014 [label="{ELEC60014 | Group Consultancy Project}"];
 
-  ELEC60015 [label="{ELEC60015 | High Level Programming | {
-    <1>write programs in\nthe hybrid\nobject-oriented and\nfunctional\nprogramming language\nF# |
-    <2>express simple\nalgorithms in a\ntransformational\nstyle using\nimmutable operations |
-    <3>write recursive and\ntail recursive\nimplementations of\niteration |
-    <4>use list, map,\narray collection\ntypes and associated\nlibrary functions |
-    <5>analyse and debug\ntype errors in F# |
-    <6>analyse problems\nand design\nappropriate\nfunctional code |
-    <7>define appropriate\ndata structures to\nrepresent problem\ndomains |
-    <8>write immutable\ncode and encapsulate\nmutable operations |
-    <9>split large\nproblems into\nindependent modules\nwith controlled\ndependencies |
-    <10>work within a group\nto design, implement\nand test a\nsignificant\napplication in F#
-  }}"];
+  ELEC60015 [label="{ELEC60015 | High Level Programming}"];
 
-  ELEC60016 [label="{ELEC60016 | Individual Industrial Placement | {
-    <1>critically analyse\nthe requirements of\nan employer in a\ncertain engineering\nrelated industry |
-    <2>operate in a\nprofessional manner\nin an industrial\nsetting |
-    <3>summarise your work\nand critically\nanalyse its impact\non the business |
-    <4>criticise current\npractices and\nsuggest alternative\nsolutions that are\nethically and\neconomically\nresponsible |
-    <5>make informed\ndecisions on the\ndirection of your\nfuture career
-  }}"];
+  ELEC60016 [label="{ELEC60016 | Individual Industrial Placement}"];
 
-  ELEC60017 [label="{ELEC60017 | Individual Project | {
-    <1>plan and execute an\nindividual work |
-    <2>create and update a\nflexible project\nplan with specified\ntasks and fallbacks |
-    <3>learn and use\ninformation from one\nor more new\ntechnical areas |
-    <4>solve technical\nproblems as\nnecessary to achieve\na deliverable |
-    <5>produce a major\nhigh quality written\nreport to fixed\ndeadlines |
-    <6>carry our\nindependent work\nthat can cover\ndifferent aspects of\nengineernig such as\ndesign and build\ntopics and software\nimplementation\ntopics
-  }}"];
+  ELEC60017 [label="{ELEC60017 | Individual Project}"];
 
-  ELEC60018 [label="{ELEC60018 | Instrumentation | {
-    <1>state the operation\nprinciples and\nlimitations of\nvarious measurement\nsensors/transducers\nfor mechanical and\nelectromagnetic\nstimuli |
-    <2>specify the use of\nrecently invented\nsensors (SQUID, GMR,\nQHE, etc) in\napplications with\nsevere performance\nrequirements |
-    <3>design interface\ncircuits to optimise\ntransducer\nperformance |
-    <4>write embedded code\nto implement data\nacquisition\n(including\nsubsampling and\nirregular sampling)\nand signal\nconditioning |
-    <5>assemble a PCB\nlevel prototype of a\nspecified\nmeasurement\ninstrument
-  }}"];
+  ELEC60018 [label="{ELEC60018 | Instrumentation}"];
 
-  ELEC60019 [label="{ELEC60019 | Machine Learning | {
-    <1>develop solutions\nto machine learning\nproblems by\nmodelling and\npre-processing data,\nand designing,\nselecting and\ndevelop appropriate\nlearning algorithms |
-    <2>consider and\ncontrast the\nproblems of learning\nand overfitting in\nan ML system |
-    <3>justify the use of\nlinear regression,\nclassification,\nlogistic regression,\nsupport vector\nmachines, neural\nnetworks, nearest\nneighbour and\nclustering |
-    <4>recommend and\nconstruct the use of\na machine learning\nalgorithm in unseen\nsituations
-  }}"];
+  ELEC60019 [label="{ELEC60019 | Machine Learning}"];
 
-  ELEC60020 [label="{ELEC60020 | Managing Engineering Projects | {
-    <1>lead and manage\ninnovative\ntechnological\nprojects within an\nengineering context |
-    <2>manage teams within\nan organisational\ncontext |
-    <3>anticipate and\naccommodate risk and\nchange during the\nlife of a project |
-    <4>apply a range of\ntools to the\nplanning,\nimplementation,\nmanagement and\nbudgeting of\nengineering projects
-  }}"];
+  ELEC60020 [label="{ELEC60020 | Managing Engineering Projects}"];
 
-  ELEC60021 [label="{ELEC60021 | Mathematics for Signals and Systems | {
-    <1>compute the trace,\ndeterminant,\neigenvalues and\neigenvectors of a\nmatrix |
-    <2>compute the SVD of\na matrix |
-    <3>critically analyse\na linear mapping\nusing the properties\nof the SVD |
-    <4>identify and find\nthe least-square\nsolution for\noverdetermined\nproblems and minimum\nnorm solution for\nunder-determined\nproblem |
-    <5>find the Total\nLeast Square\nsolution to an\napproximation\nproblem |
-    <6>compute the rank\nand the null space\nof a matrix
-  }}"];
+  ELEC60021 [label="{ELEC60021 | Mathematics for Signals and Systems}"];
 
-  ELEC60022 [label="{ELEC60022 | Microwave Technology | {
-    <1>interpret\nelectromagnetic wave\npropagation in\nvarious media; how\nguided-wave\nstructures can be\nused as practical\ncomponents, bridging\nthe gap between\nRadio and optical\nfrequencies |
-    <2>analyse the\nfundamental physical\nlimitations of\ncomponents. For\nexample, why surface\nmounted devices are\nnot used at upper\nmicrowave\nfrequencies |
-    <3>present aspects of\ncommercial\ntechnologies in the\ndesign and\nmanufacture of\ncomponents and\ncircuits |
-    <4>describe the\napplications of\ncommercial microwave\ntechnology: from\nmobile phones and\nmicrowave ovens to\nradar and\nradiometric imaging
-  }}"];
+  ELEC60022 [label="{ELEC60022 | Microwave Technology}"];
 
-  ELEC60023 [label="{ELEC60023 | Optoelectronics | {
-    <1>solve wave and\nwaveguide problems\nusing Maxwell's\nequations |
-    <2>design and evaluate\noptical fibre-based\ncommunication\nsystems |
-    <3>design and evaluate\noptical fibre-based\nsensing systems
-  }}"];
+  ELEC60023 [label="{ELEC60023 | Optoelectronics}"];
 
-  ELEC60024 [label="{ELEC60024 | Power Electronics | {
-    <1>describe the\nproperties of\nsemiconductor\ndevices useful in\npower applications |
-    <2>calculate power\nlosses, in devices\nand choose heat\nsinks |
-    <3>design loss\nreduction circuits\nsuch as snubbers and\nquasi resonant\ncircuits |
-    <4>analyse and design\nisolated and\nnon-isolated dc/dc\nconverters including\ns-domain modelling\nusing circuit\naveraging |
-    <5>analyse dc/ac\nconverters including\nqualitative\nassessment of\nfrequency spectra |
-    <6>analyse controlled\nand uncontrolled\nac/dc converters\nincluding\nelectromagnetic\ninterference issues\nand regulations |
-    <7>apply power\nconverter designs to\napplication areas\nincluding assessment\nof various options\nfor variable speed\noperation of\ninduction machines\nand general\nperformance limits\non drive systems |
-    <8>design and build a\nDC-DC converter in\nthe coursework
-  }}"];
+  ELEC60024 [label="{ELEC60024 | Power Electronics}"];
 
-  ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing | {
-    <1>put the concepts of\nsignal processing\ninto practice |
-    <2>learn the\ndifferences between\nreal-time and batch\nprocessing\napplications |
-    <3>learn the\ndifferences between\nSP and\ngeneral-purpose\ncomputing hardware |
-    <4>learn how to use\nMatlab and Matlab\nSimulink to design\nand analyse SP\nalgorithms |
-    <5>learn how to use\nSimulink Embedded\nCoder to program\nmicrocontrollers |
-    <6>program an embedded\nplatform |
-    <7>revise basic\nconcepts of DSP
-  }}"];
+  ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing}"];
 
-  ELEC60026 [label="{ELEC60026 | Semiconductor Devices | {
-    <1>explain basic\nquantum mechanical\nprinciples of\ncharged carrier\nconduction |
-    <2>apply energy band\ndiagrams to analyse\ncarrier transport\nprocesses |
-    <3>classify devices\ninto majority and\nminority carrier\ndevices and appraise\ntheir advantages and\ndisadvantages in\ndifferent\napplications |
-    <4>derive device\ncharacteristics\ngiven the geometry\nand material\nparameters |
-    <5>calculate\nperformance\nparameters by\nemploying the\ncorrect equations\nand approximations |
-    <6>explain delays in\nsmall and large\nsignal operation of\ndevices
-  }}"];
+  ELEC60026 [label="{ELEC60026 | Semiconductor Devices}"];
 
-  ELEC60030 [label="{ELEC60030 | Robotic Manipulation | {
-    <1>represent the\nposition and\norientation of\nobjects in space |
-    <2>determine the\nkinematic model of a\nrobot arm based on\nits links and points\nof articulation |
-    <3>compute the\nposition of pose of\na robot's body and\ngripper basded on\nits joint angles\n(Forward kinematics)\nand also compute the\njoint angles\nnecessary to\nposition the robot\ngripper at a target\n(Inverse Kinematics) |
-    <4>implement robotic\nmotion trajectories\nusing different\ncontrol techniques,\nincluding joint vs.\ntask space and\nposition vs.\nvelocity control |
-    <5>understand the\nprinciples of\ndynamic modelling\nand force / torque\ncontrol (this may\nnot be implemented\non the physical\nrobot due to\nhardware\nlimitations) |
-    <6>understand the\ndifferent robotic\napproaches to\ngrasping / object\npicking (e.g.\nparallel jaw\ngrippers, adaptive\ngrasping,\nunderactuation,\ngrasp planning and\nvacuum grippers) |
-    <7>use CAD software to\ndesign a simple\nrobot gripper for\nmanipulation of\nspecific objects\n(e.g. a ping-pong\nball, a soda can, a\ntoy car, a 6-sided\ndice) |
-    <8>program low-level\nmotion controllers\nto execute and test\nall of the above on\nlab-based physical\ndesktop-size robot\narms and grippers |
-    <9>appreciate some of\nthe ways that\nmachine learning is\nbeing used in\ncontemporary robotic\nmanipulator research\nand practical\nimplementation
-  }}"];
+  ELEC60030 [label="{ELEC60030 | Robotic Manipulation}"];
 
-  ELEC60031 [label="{ELEC60031 | Classical and Modern Radar | {
-    <1>use the radar\nequations |
-    <2>apply the radar\ntheory to classify\nthe various radar\narchitectures and\nrate their\nperformance |
-    <3>analyse and design\nthe transmitter and\nreceiver of any type\nof radar system |
-    <4>design radar\nwaveforms and system\narchitectures aiming\nat improving the\nsolutions of the\ndetection,\nestimation, tracking\nand classification\nof various types of\ntargets/objects/signals\nin the presence of\nnoise, clutter and\ninterference
-  }}"];
+  ELEC60031 [label="{ELEC60031 | Classical and Modern Radar}"];
 
-  ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies | {
-    <1>describe the key\nsystems that make up\nan EV and detail\ntheir function\nwithin the whole |
-    <2>design and model a\ntraction system for\nan EV including the\nmotor model and a\nFOC |
-    <3>model and analyse\nother key blocks in\nan EV such as the:\nCharger, DC-DC\nConverter, Battery\nand Battery\nManagement System |
-    <4>assemble and adapt\nan EV model for the\npurposes of design\nof its subsystems\nand performance\nassessment of the\nsystem as a whole |
-    <5>discuss the broader\nrange of EV design\nprocesses not\ncovered in depth in\nthis module\nincluding safety\nimplications,\nauxiliary load\ndevices and the\ncommunications\nnetworks of a modern\nvehicle |
-    <6>discuss the impacts\nof EVs on the wider\ngrid and environment\nincluding the\npotential future of\nadaptive and\nreactive charging\n(Demand-side\nresponse and\nVehicle-to-grid)
-  }}"];
+  ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies}"];
   node[color="#e7298a", fillcolor="#f2d8e5"];
 
-  ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence | {
-    <1>extract adaptively\nlatent component\nfrom real-world data |
-    <2>apply algorithms of\nadaptive signal\nprocessing to\nreal-time streaming\ndata |
-    <3>effectively use\nadaptive machine\nintelligence\ntechniques such as\nneural networks,\nrecurrent neural\nnetworks, and deep\nneural networks |
-    <4>implement the\ncorresponding\ndimensionality\nreduction\ntechniques, and\nevaluate ways to\nfind structure in\ndata and handle Big\nData through tensor\ndecompositions |
-    <5>produce MATLAB code\nfor adaptive noise\ncancellation,\nhigh-resolution\nlatent component\nestimation from your\nown physiological\nrecordings (ECG),\nuniversal function\napproximation\nthrough recurrent\nand deep neural\narchitectures, and\ntheir connection\nwith tensor\ndecompositions for\nbig data\napplications.
-  }}"];
+  ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence}"];
 
-  ELEC70003 [label="{ELEC70003 | Advanced Electronic Devices | {
-    <1>critically analyse\ntransport processes\nin nanoscale FETs,\nincluding tunnelling\nphenomena and\nself-heating/cooling |
-    <2>derive device\ncharacteristics\ngiven the geometry\nand material\nparameters using\nanalytical\nestimations as well\nas numerical\nsimulations using\nSentaurus TCAD |
-    <3>extract the\nperformance\nparameters of FETs\nand critically\nappraise their\nrelevance in\napplications |
-    <4>read and write\ntechnical papers in\nthe field of\nsemiconductor device\ndesign and their\nimpact on future\nCMOS developments |
-    <5>design/optimise\ncurrent and novel\ndevices using TCAD\nsoftware (Sentaurus\nfrom Synopsis)
-  }}"];
+  ELEC70003 [label="{ELEC70003 | Advanced Electronic Devices}"];
 
-  ELEC70004 [label="{ELEC70004 | Analogue Signal Processing | {
-    <1>recommend voltage\nand current mode\narchitectures used\nin analog signal\nprocessing |
-    <2>design circuits\ncapable of\nperforming low power\nanalog computation\nand processing of\nsignals in CMOS |
-    <3>recommend circuit\ntechniques which\nallow efficient\ncomputation and\nsignal processing in\nCMOS such as\nlog-domain, switched\ncapacitor correlated\ndouble sampling and\nspike domain |
-    <4>design mix-mode\nsystems utilising\nanalogue signal\nprocessing\ntechniques
-  }}"];
+  ELEC70004 [label="{ELEC70004 | Analogue Signal Processing}"];
 
-  ELEC70006 [label="{ELEC70006 | Design of Linear Multivariable Control Systems | {
-    <1>derive models of\nlinear multivariable\ncontrol systems\nusing tranfer matrix\nand state variable\nmethods |
-    <2>compute the poles\nand zeros, including\nthe type of zeros,\nfor such systems |
-    <3>analyse the\ncontrollability,\nobservability,\ndetectability,\nstabilizability and\nminimality\nproperties for such\nsystems |
-    <4>synthesize design\nobjectives as\noptimisation\nprocedures in terms\nof norm-based\nobjective functions |
-    <5>devise the most\nappropriate\ncontroller synthesis\ntechniques
-  }}"];
+  ELEC70006 [label="{ELEC70006 | Design of Linear Multivariable Control Systems}"];
 
-  ELEC70009 [label="{ELEC70009 | Discrete-Event Systems | {
-    <1>assess the the\nsuitabillity of a\nsystem for modeling\nin a discrete-event\nset-up |
-    <2>create a\ndiscrete-event model\nand assess its\nstructural\nproperties |
-    <3>design algorithms\nfor the qualitative\nand quantitative\nanalysis of Discrete\nEvent Systems |
-    <4>design a\nsupervisory\ncontroller and an\nobserver automaton |
-    <5>simulate a discrete\nevent system |
-    <6>assess the\nperformance of the\nsystem in a\ndeterministic and\nstochastic set-up
-  }}"];
+  ELEC70009 [label="{ELEC70009 | Discrete-Event Systems}"];
 
-  ELEC70012 [label="{ELEC70012 | Full-Custom Integrated Circuit Design | {
-    <1>consider key\nfeatures,\nlimitations and\ntopics related to\nCMOS technology |
-    <2>appraise the full\ncustom integrated\ncircuit design\nmethodology and\nissues/constraints\nrelated to\nanalogue/digital/mixed\nsignal circuit\ndesign |
-    <3>design and assess\nfull custom\nintegrated circuit\nlayouts |
-    <4>develop full custom\ndesign of CMOS\nintegrated circuits\nusing a complete\ntool suite\n(schematic capture,\nsimulation, layout\ndesign, physical\nverification)
-  }}"];
+  ELEC70012 [label="{ELEC70012 | Full-Custom Integrated Circuit Design}"];
 
-  ELEC70013 [label="{ELEC70013 | High Performance Analogue Electronics | {
-    <1>formulate an\nintegrated circuit\ndesign problem\nfollowing both, a\ntop to bottom and a\nbottom to top\napproach,\nspecifically in the\ncontext of\nreceivers,\ntransconductors,\nmixers and filters |
-    <2>consider different\ntrade-offs that play\na role in the\nprocess of design,\nand put those within\nthe context of both,\nthe circuit and the\napplication |
-    <3>argue the need of\nfollowing different\npaths in the design\nproblem as a\nfunction of the\nchosen design\ntrade-offs |
-    <4>evaluate trade-offs\nas a function of a\nnumber of typical\ndesign specification |
-    <5>judge visually the\nbasic behaviour of\ncircuits and systems\ntopologies,\nincluding a number\nof receivers,\nmixers,\ntransconductors and\nfilters; without the\nneed of formal\ncalculations |
-    <6>hypothesize,\nespecially in the\ncontext of\ntransconductors,\nmixers and filters,\nof when certain\ndesign techniques\ncould aid the design\ndepending on the\nrequired design\nspecifications, with\na main focus on\nlinearity and noise
-  }}"];
+  ELEC70013 [label="{ELEC70013 | High Performance Analogue Electronics}"];
 
-  ELEC70017 [label="{ELEC70017 | Individual Project (MEng) | {
-    <1>plan and manage a\nproject over an\nextended period |
-    <2>take personal\nresponsibility of\nyour work |
-    <3>tackle open-ended\nwork and apply prior\ntheoretical\nknowledge to\npractical situations |
-    <4>critically review\ninformation from a\nwide range of\nsources |
-    <5>adopt appropriate\nanalytical,\ncomputational and/or\nexperimental methods\nto meet your project\nobjectives |
-    <6>communicate the\noutcomes of the\nproject work\neffectively and\naccurately in both a\nwritten and oral\nformat
-  }}"];
+  ELEC70017 [label="{ELEC70017 | Individual Project (MEng)}"];
 
-  ELEC70022 [label="{ELEC70022 | Modelling and Control of Multi-body Mechanical Systems | {
-    <1>discriminate\nbetween the two main\nbranches of\nClassical Mechanics:\nvectorial and\nanalytical mechanics |
-    <2>generalize real\nmechanical systems\nas multibody systems |
-    <3>apply the basic\ntools of Classical\nMechanics |
-    <4>develop models, in\nthe form of\ndifferential\nequations, of real\nmechanical systems\nusing various\nmethods from\nclassical mechanics\n(Newton's laws and\nLagrangian equations\nof motion) |
-    <5>derive equations of\nmotion for systems\nwith holonomic and\nnonholonomic\nconstraints |
-    <6>apply techniques\nfrom control theory\nto improve the\nbehaviour of systems\nrepresented by\nmultibody models |
-    <7>devise computer\nassisted modelling\nand control of\nmultibody systems\nwith the use of the\nmultibody modelling\ncode Simscape\nMultibody
-  }}"];
+  ELEC70022 [label="{ELEC70022 | Modelling and Control of Multi-body Mechanical Systems}"];
 
-  ELEC70028 [label="{ELEC70028 | Predictive Control | {
-    <1>construct a range\nof finite horizon\noptimal control\nproblems with\nconstraints |
-    <2>solve constrained\nfinite horizon\noptimal control\nproblems by\nformulating them as\nfinite dimensional\noptimization\nproblems |
-    <3>compare the\nadvantages and\ndisadvantages of\nimplementing the\nsolution to finite\nhorizon optimal\ncontrol problems in\na receding-,\ndecreasing- or\nvariable-horizon\nfashion |
-    <4>transfer a\nreal-world control\nproblem into a\nmathematically\nwell-defined optimal\ncontrol problem |
-    <5>devise predictive\ncontrollers with\nguarantees of\nstability and\nfeasibility |
-    <6>write Matlab\nprograms that\nimplement a\npredictive\ncontroller |
-    <7>appraise relatively\nsimple papers on\npredictive control\nand be able to\nextract information\nfrom them in order\nto design a\npredictive\ncontroller
-  }}"];
+  ELEC70028 [label="{ELEC70028 | Predictive Control}"];
 
-  ELEC70030 [label="{ELEC70030 | Professional Portfolio and Group Consultancy Project | {
-    <1>evidence the claims\nmade in your CV |
-    <2>speak with\nconfidence and\neloquently on your\nachievement |
-    <3>reflect on what you\nhave learned and how\nthat can be applied\nin\nresearch/development/industrial\npractice.
-  }}"];
+  ELEC70030 [label="{ELEC70030 | Professional Portfolio and Group Consultancy Project}"];
 
-  ELEC70037 [label="{ELEC70037 | Topics in Large Dimensional Data Processing | {
-    <1>design algorithms\nfor large\ndimensional data\nprocessing, with the\nfocus on finding\nsparse structures\nhidden in the data\nfor dimension\nreduction |
-    <2>use linear algebra\ntools to model\nproblems involving\nlarge dimensional\ndata |
-    <3>develop\noptimization and\nstatistics tools to\nsolve problems\ninvolving large\ndimensional data |
-    <4>evaluate advantages\nand disadvantages of\ndifferent algorithms\nfor analysis of\nlarge dimensional\ndata in real-world\napplications,\nincluding for\nexample imaging\ninverse problems,\nonline\nrecommendation,\nmachine learning
-  }}"];
+  ELEC70037 [label="{ELEC70037 | Topics in Large Dimensional Data Processing}"];
 
-  ELEC70039 [label="{ELEC70039 | Wavelets | {
-    <1>analyse natural\nsignals and images\nlike for example\nbiomedical signals,\nspeech, audio,\nmedical images,\nvideo sequences |
-    <2>analyse the\nefficacity of a\nsignal\nrepresentation and\ndevelop new signal\nrepresentations |
-    <3>design perfect\nreconstruction\nfilter banks |
-    <4>design filter banks\nand construction of\ndiscrete and\ncontinuous-time\nbases for efficient\nsignal analysis |
-    <5>apply basic image\nand video\ncompression\nprinciples
-  }}"];
+  ELEC70039 [label="{ELEC70039 | Wavelets}"];
 
-  ELEC70041 [label="{ELEC70041 | Year Abroad | {
-    <1>learning outcomes\nsupported by the\nhost university |
-    <2>experience of\nengineering\npractice,\ntechnology, and\nworking methods\noutside the UK
-  }}"];
+  ELEC70041 [label="{ELEC70041 | Year Abroad}"];
 
-  ELEC70044 [label="{ELEC70044 | Role and Value of Smart Grid Technologies | {
-    <1>assess the role of\nthe smart grid\nconcept in\nfacilitating a cost\neffective transition\nto a low carbon\nenergy system |
-    <2>perform a\ncost-benefit\nanalysis involving\nsupply risks and\noperational or\ninvestment costs |
-    <3>model and assess\nthe difference\nbetween preventive\nand corrective\ncontrol |
-    <4>apply advanced\napproaches in\nscheduling of\nflexible demand |
-    <5>perform big data\nanalytics in the\napplication of smart\ngrids |
-    <6>construct and\nevaluate basic\nreliability models\nand metrics |
-    <7>implement Monte\nCarlo risk\ncomputations |
-    <8>model a basic cyber\nattack and defence\nmechanism
-  }}"];
+  ELEC70044 [label="{ELEC70044 | Role and Value of Smart Grid Technologies}"];
 
-  ELEC70045 [label="{ELEC70045 | Advanced Communication Theory | {
-    <1>design and analyse\noptimum receivers\nbased on 'decision\ntheory' |
-    <2>evaluate the\nperformance of M-ary\nmatched filter\nreceivers |
-    <3>model, design and\nanalyse diversity\nsystems using\noptimum diversity\ntheory |
-    <4>solve the following\nthree generic\nproblems:\n'detection',\n'estimation' and\n'reception' problems\nand design suitable\nprocessors to\nimplement these\nsolutions |
-    <5>utilise array\nsignal processing\ntheory to model and\nanalyse\nmulti-antenna SIMO,\nMISO, MIMO and\nmassive systems |
-    <6>model, design and\nanalyse mmwave and\nspace-time\ncommunications.
-  }}"];
+  ELEC70045 [label="{ELEC70045 | Advanced Communication Theory}"];
 
-  ELEC70047 [label="{ELEC70047 | HVDC Technology and Control | {
-    <1>appraise the pros\nand cons of using\nHVDC with respect to\nAC for overhead and\ncable transmission |
-    <2>describe the\noperation and\ncontrol of HVDC\nconverters and HVDC\nsystems |
-    <3>recognise the\nbenefits and\nlimitations of two\nbroad HVDC\ntechnologies and\ntheir suitability in\na specific context |
-    <4>design the control\nsystem for HVDC\nconverters and\nsystems |
-    <5>analyse the\ninteraction between\nHVDC and host AC\nsystems |
-    <6>appreciate the role\nof HVDC in renewable\nintegration and\ndecarbonisation of\nthe electric power\nsector
-  }}"];
+  ELEC70047 [label="{ELEC70047 | HVDC Technology and Control}"];
 
-  ELEC70048 [label="{ELEC70048 | Probability and Stochastic Processes | {
-    <1>evaluate the\nperformance of a\nsystem using key\nconcepts of\nprobability and\nrandom variables |
-    <2>derive the\nprobability density\nfunction of a\nfunction of a random\nvariable or random\nvariables |
-    <3>model an\nengineering problem\nusing random signals\n('stochastic\nprocesses') and\nMarkov chains |
-    <4>analyse random\nphenomena (signals\nand noise) in\nelectrical\nengineering
-  }}"];
+  ELEC70048 [label="{ELEC70048 | Probability and Stochastic Processes}"];
 
-  ELEC70015 [label="{ELEC70015 | Human-Centered Robotics | {
-    <1>learn the theory\nunderlying robotic\nsystems that\nperceive human\nstates using\nmultimodal\ninterfaces (e.g.\ncomputer vision,\nwearable systems,\nhaptic systems,\nvirtual and\naugmented reality\nsystems),\ncomputationally\nmodel and recognise\nhuman actions, use\nadaptive shared\ncontrol methods to\nassist humans in\ntheir task, use\nlearning algorithms\nto improve their\nperformance through\ninteraction with\nhumans |
-    <2>learn to\nincorporate human\nfactors in the\ndesign of their\ninteractive robotic\nsystems |
-    <3>learn to design and\nimplement control\nand learning\nalgorithms for\ninteractive robotic\nsystems |
-    <4>learn to work in\ngroups to\nincrementally solve\nlarge-system\n(hardware/software)\nchallenges
-  }}"];
+  ELEC70015 [label="{ELEC70015 | Human-Centered Robotics}"];
 
-  ELEC70051 [label="{ELEC70051 | Radio Frequency Subsystems | {
-    <1>apply the main\narchitectures\nemployed in RF\nsystems |
-    <2>interpret subsystem\nspecifications |
-    <3>calculate power\nlink budgets |
-    <4>analyse circuits\nand subsystems using\nS-parameters |
-    <5>calculate gain,\nstability and noise\nissues in\nsmall-signal\namplifiers |
-    <6>design impedance\nmatching networks\nand filters
-  }}"];
+  ELEC70051 [label="{ELEC70051 | Radio Frequency Subsystems}"];
 
-  ELEC70054 [label="{ELEC70054 | Microwave Technology | {
-    <1>interpret\nelectromagnetic wave\npropagation in\nvarious media; how\nguided-wave\nstructures can be\nused as practical\ncomponents, bridging\nthe gap between\nradio and optical\nfrequencies |
-    <2>apply\nscattering(S)-parameters\nand their use in\nsimulations and\nexperiments |
-    <3>analyse the\nfundamental physical\nlimitations of\nmaterials and\ncomponents. For\nexample, why some\nmaterials are better\nthan others and why\nsurface mounted\ndevices are\ngenerally not used\nat upper microwave\nfrequencies |
-    <4>present aspects of\ncommercial\ntechnologies in the\ndesign and\nmanufacture of\ncomponents and\ncircuits |
-    <5>theoretical\npredictions and a\npractical\ndemonstration of the\nmicrowave oven will\nbe given at the end\nof the course to\nhighlight a number\nof basic\nelectromagnetic\nprinciple associated\nwith cavity\nresonators
-  }}"];
+  ELEC70054 [label="{ELEC70054 | Microwave Technology}"];
 
-  ELEC70056 [label="{ELEC70056 | Hardware and Software Verification | {
-    <1>validate the\nproperties of small\nprograms through an\nautomated software\nverification tool |
-    <2>argue how an\ninteractive theorem\nprover works |
-    <3>validate the\nproperties of small\nprograms through an\ninteractive theorem\nprover |
-    <4>consider the three\npillars of hardware\nverification:\nstimulus, coverage\nand checking |
-    <5>produce a\ntestbench, generate\nstimulus, measure\ncoverage and write a\nchecker |
-    <6>consider the\nprinciples of formal\nverification of\nhardware |
-    <7>validate the\nproperties of a\nsmall RTL module\nthrough a formal\nverification tool
-  }}"];
+  ELEC70056 [label="{ELEC70056 | Hardware and Software Verification}"];
 
-  ELEC70057 [label="{ELEC70057 | Biomedical Electronics | {
-    <1>assess the quality\nof biomedical\nsignals |
-    <2>decide the\nrequirements for\ndetection and\nprocessing of a\nbiomedical signal |
-    <3>decide the required\nbuilding blocks for\na given biomedical\nsystem |
-    <4>design circuits and\nsystems for a given\nbiomedical system\nspecification
-  }}"];
+  ELEC70057 [label="{ELEC70057 | Biomedical Electronics}"];
 
-  ELEC70058 [label="{ELEC70058 | Optoelectronics | {
-    <1>solve wave and\nwaveguide problems\nusing Maxwell's\nequations |
-    <2>design optical\nfibre-based\ncommunication\nsystems |
-    <3>evaluate the\nperformance of\noptical fibre-based\ncommunication\nsystems |
-    <4>design optical\nfibre-based sensing\nsystems |
-    <5>evaluate the\nperformance of\noptical fibre-based\nsensing systems
-  }}"];
+  ELEC70058 [label="{ELEC70058 | Optoelectronics}"];
 
-  ELEC70061 [label="{ELEC70061 | Deep Learning | {
-    <1>formulate a deep\nlearning problem |
-    <2>discriminate\nbetween different\npractical machine\nlearning problems\napproaches |
-    <3>appraise the merits\nand shortcomings of\nmodel architectures\non specific problems |
-    <4>construct and\nevaluate common\nneural network\nmodels for various\ntypes of data |
-    <5>integrate modular\ncomponents to build\ndeep learning\nsystems in a wide\nrange of real-world\napplications |
-    <6>consider\nappropriate criteria\nfor analysing the\nresults as well as\npresenting and draw\nappropriate\nconclusions
-  }}"];
+  ELEC70061 [label="{ELEC70061 | Deep Learning}"];
 
-  ELEC70065 [label="{ELEC70065 | Optimal Control | {
-    <1>formulate dynamic\noptimisation\nproblems of\npractical\nsignificance, for\nlinear and nonlinear\nsystems, as optimal\ncontrol problems |
-    <2>specify precise\nstatements of the\nmaximum principle\nfor various general\ncategories of\noptimal control\nproblems, including\nfree-time,\nfixed-time,\nfree-endpoint, and\nfixed-endpoint\nproblems |
-    <3>derive solutions to\ncontinuous-time\noptimal control\nproblems by\napplication of the\nmaximum principle |
-    <4>signify solution\nconcepts for optimal\ncontrol problems,\nincluding bang-bang\nsolutions and\nsingular controls |
-    <5>calculate solutions\nto optimal control\nproblems by dynamic\nprogramming\ntechniques
-  }}"];
+  ELEC70065 [label="{ELEC70065 | Optimal Control}"];
 
-  ELEC70066 [label="{ELEC70066 | Advanced Optimisation | {
-    <1>classify different\nfamilies of\noptimisation\nproblems |
-    <2>formulate an\nengineering/scientific/economic\nproblem as an\noptimisation problem\nof a known class |
-    <3>apply the correct\nmethods of\noptimisation to\nsolve the problem |
-    <4>assess the\napproximation and\ncomputational cost\nof an optimisation\nalgorithm |
-    <5>employ advanced\noptimisation\ntechniques and\nanalyse their\nlimitations |
-    <6>write computer\nprogrammes to\nformulate and solve\noptimisation\nproblems |
-    <7>compare the\nintroduced ideas and\ntools with the more\ngeneral theory of\noptimisation |
-    <8>devise a toolbox of\noptimisation\nalgorithms to solve\nvarious classes of\nproblems
-  }}"];
+  ELEC70066 [label="{ELEC70066 | Advanced Optimisation}"];
 
-  ELEC70067 [label="{ELEC70067 | Traffic Theory and Queuing Systems | {
-    <1>evaluate the\nvalidity of\ndifferent\nperformance\nmodelling/assessment |
-    <2>calculate\ncommunication system\nperformance |
-    <3>solve the most\nappropriate\nmathematical model\nto a specific\ntele-traffic and/or\nqueuing system\nproblem |
-    <4>derive and assess\nthe performance of\ncommunication\nsystems using\nanalytical methods\n(e.g. blocking\nprobabilities and\nqueueing delays) |
-    <5>evaluate\nperformance aspects\nof queueing systems\nusing different\nmodelling techniques\n(e.g. Markov chains\nand fluid flow\nmodels)
-  }}"];
+  ELEC70067 [label="{ELEC70067 | Traffic Theory and Queuing Systems}"];
 
-  ELEC70068 [label="{ELEC70068 | Artificial Intelligence | {
-    <1>use and evaluate\ndifferent algorithms\nfor searching a\ngraph as a basis for\nplanning and\nproblem-solving |
-    <2>use and evaluate\nalgorithms for\nautomated reasoning\nin propositional,\npredicate and modal\nlogics |
-    <3>apply formal\nlanguages for\nknowledge\nrepresentation and\nreasoning through\nsymbolic computation |
-    <4>write algorithms\nfor planning and\nreasoning in Prolog\n(logic programming\nlanguage)
-  }}"];
+  ELEC70068 [label="{ELEC70068 | Machine Reasoning}"];
 
-  ELEC70069 [label="{ELEC70069 | Coding Theory | {
-    <1>compute parameters\nin finite fields\nusing the\nfundamental\nmathematical\nconcepts |
-    <2>design and analyse\nencryption/decryption\nschemes for secure\ninformation exchange |
-    <3>create digital\nsignature schemes\nfor secure\ninformation exchange |
-    <4>detect and correct\ncommunication errors\nusing popular\nerror-correcting\ncodes, including\nHamming codes,\nReed-Solomon codes,\nand/or BCH codes,\nfor reliable\ninformation exchange
-  }}"];
+  ELEC70069 [label="{ELEC70069 | Cryptography and Coding Theory}"];
 
-  ELEC70070 [label="{ELEC70070 | Information Theory | {
-    <1>apply the concept\nand properties of\nentropy and mutual\ninformation to\ndesign communication\nsystems |
-    <2>prove the source\ncoding theorem |
-    <3>deduce the\nfundamental\nperformance limits\nof noisy\ncommunication\nchannels |
-    <4>predict the\nperformance of a\ncompression\nalgorithm by using\nthe rate-distortion\nfunction |
-    <5>apply network\ninformation theory\nto design complex\ncommunication\nsystems
-  }}"];
+  ELEC70070 [label="{ELEC70070 | Information Theory}"];
 
-  ELEC70071 [label="{ELEC70071 | Self-Organising Multi-Agent Systems | {
-    <1>analyse situations\nof coordination and\nstrategic\ninteraction in\ndistributed systems\nof autonomous\ncomponents (agents) |
-    <2>account for basic\nconcepts of\ncomputational\nagency,\nself-organisation,\nand the social\nconstruction of\nconceptual resources |
-    <3>design and\noperationalise\nsystems which are\nregulated by\nmutually-agreed and\nmutable conventional\nrules |
-    <4>specify and\nimplement algorithms\nfor strategic\ndecision-making\nrelated to action\nselection,\npreference\nselection, dispute\nresolution, opinion\nformation, and\ncollective action |
-    <5>create\nself-organised\nsolutions to\n'social' problems in\nmulti-agent systems,\nsuch as\nsustainability,\nfairness, knowledge\nmanagement and\nlegitimate\nself-governance
-  }}"];
+  ELEC70071 [label="{ELEC70071 | Self-Organising Multi-Agent Systems}"];
 
-  ELEC70072 [label="{ELEC70072 | Real-time Digital Signal Processing | {
-    <1>recommend signal\nprocessing\nalgorithms that are\nsuitable to address\nthe specific\nrequirements of a\ngiven real-time SP\napplication |
-    <2>design and validate\nSP algorithms\nthrough the\neffective use Matlab\nand Matlab Simulink |
-    <3>write programs\nmicrocontrollers and\nDSPs using the\nSimulink Embedded\nCoder |
-    <4>construct and debug\nprograms for an\nembedded hardware\nplatform |
-    <5>distinguish the\nspecific\nrequirements of\nreal-time and batch\nprocessing\napplications |
-    <6>appraise the\nfeatures of\ndedicated DSPs and\ngeneral-purpose\ncomputing hardware
-  }}"];
+  ELEC70072 [label="{ELEC70072 | Real-time Digital Signal Processing}"];
 
-  ELEC70073 [label="{ELEC70073 | Computer Vision and Pattern Recognition | {
-    <1>apply fundamental\nconcepts and\ntheoretical\nprinciples of\ncomputer vision and\npattern recognition\nfor building signal\nand data\nrepresentations |
-    <2>develop insight\ninto the problems\ninvolved in applying\na variety of pattern\nrecognition\ntechniques to deal\nwith practical\nscenarios |
-    <3>identify and apply\nthe relevant\nconcepts of visual\ngeometry in selected\ncomputer vision\napplications |
-    <4>analyse and compare\nthe strengths and\nweaknesses of\npopular approaches |
-    <5>implement various\nalgorithms in a\nrange of CVPR\napplications through\nspecific programming\nenvironments\n(Matlab, python)
-  }}"];
+  ELEC70073 [label="{ELEC70073 | Computer Vision and Pattern Recognition}"];
 
-  ELEC70074 [label="{ELEC70074 | Power System Dynamics Stability and Control | {
-    <1>develop model for\npower generation\nsystems - both\nsynchronous and\nasynchronous - for\npower system dynamic\nstudies |
-    <2>interpret the\nparameters of the\ncommon dynamic\nmodelling blocks in\na power system\ndynamic simulation\nsoftware |
-    <3>assess and validate\ngeneration system\ndynamic response\nthrough frequency\ndomain analysis,\neigen-value analysis\nand other common\ndynamic system\nanalysis tools |
-    <4>evaluate system\nstability margins\nfor control design\nin power systems\ncontrol
-  }}"];
+  ELEC70074 [label="{ELEC70074 | Power System Dynamics Stability and Control}"];
 }
