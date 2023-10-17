@@ -157,16 +157,10 @@
   prereqs:
     - ELEC40004
     - ELEC40006
-
-- code: ELEC60001
-  name: "Advanced Mathematics for Signals and Systems"
-  year: 3
-  term: autumn
-  prereqs:
-    - ELEC50011
     
 - code: ELEC60002
   name: "Statistical Signal Processing and Inference"
+  leader: d.mandic@imperial.ac.uk
   year: 3
   term: spring
   prereqs:
@@ -174,13 +168,15 @@
 
 - code: ELEC60003
   name: "Analogue Integrated Circuits and Systems"
+  leader: c.toumazou@imperial.ac.uk
   year: 3
   term: autumn
   prereqs:
     - ELEC50001
 
 - code: ELEC60004
-  name: "Artificial Intelligence"
+  name: "Machine Reasoning"
+  leader: j.pitt@imperial.ac.uk
   year: 3
   term: autumn
   prereqs:
@@ -188,6 +184,7 @@
 
 - code: ELEC60005
   name: "Biomedical Electronics"
+  leader: pantelis@imperial.ac.uk
   year: 3
   term: autumn
   prereqs:
@@ -196,117 +193,140 @@
 
 - code: ELEC60006
   name: "Communication Networks"
+  leader: j.barria@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60008
   name: "Control Engineering"
+  leader: a.astolfi@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60009
   name: "Deep Learning"
+  leader: k.mikolajczyk@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60010
   name: "Digital Signal Processing"
+  leader: t.stathaki@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60011
   name: "Digital Systems Design"
+  leader: christos-savvas.bouganis@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
+  leader: b.chaudhuri@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60013
   name: "Embedded Systems"
+  leader: ed.stott@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60014
   name: "Group Consultancy Project"
+  leader: s.wright02@imperial.ac.uk
   year: 3
   term: summer
 
 - code: ELEC60015
   name: "High Level Programming"
+  leader: t.clarke@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
+  leader: e.perea@imperial.ac.uk
   year: 3
   term: summer
 
 - code: ELEC60017
   name: "Individual Project"
+  leader: t.clarke@imperial.ac.uk
   year: 3
   startterm: spring
   endterm: summer
 
 - code: ELEC60018
   name: "Instrumentation"
+  leader: c.papavas@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60019
   name: "Machine Learning"
+  leader: d.gunduz@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60020
   name: "Managing Engineering Projects"
+  leader: e.perea@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60021
   name: "Mathematics for Signals and Systems"
+  leader: p.dragotti@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60022
   name: "Microwave Technology"
+  leader: s.lucyszyn@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60023
   name: "Optoelectronics"
+  leader: r.syms@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60024
   name: "Power Electronics"
+  leader: paul.mitcheson@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
+  leader: adria.junyent-ferre@imperial.ac.uk
   year: 3
   term: spring
 
-- code: ELEC60026
+- code: ELEC60029
   name: "Semiconductor Devices"
+  leader: z.durrani@imperial.ac.uk
   year: 3
   term: autumn
 
 - code: ELEC60030
   name: "Robotic Manipulation"
+  leader: a.spiers@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60031
-  name: "Classical and Modern Radar"
+  name: "Principles of Classical and Modern Radar Systems"
+  leader: a.manikas@imperial.ac.uk
   year: 3
   term: spring
 
 - code: ELEC60033
   name: "Electric Vehicle Technologies"
+  leader: philip.clemow@imperial.ac.uk
   year: 3
   term: spring
 
