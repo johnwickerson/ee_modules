@@ -67,7 +67,11 @@
   startterm: autumn
   endterm: spring
   prereqs:
-    - ELEC40006
+    - ELEC40002
+    - ELEC40003
+    - ELEC40004
+    - ELEC40009
+    - ELEC40010_ELEC40011
 
 - code: ELEC50004
   name: Control Systems
@@ -133,6 +137,7 @@
   term: spring
   prereqs:
     - ELEC40002
+    - ELEC40009
 
 - code: ELEC50013
   name: Signals and Systems
@@ -140,6 +145,8 @@
   year: 2
   term: autumn
   prereqs:
+    - ELEC40002
+    - ELEC40004
     - ELEC40010_ELEC40011
     
 - code: ELEC50014
