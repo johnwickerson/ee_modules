@@ -82,16 +82,13 @@ digraph {
   ELEC40006 -> ELEC50014;
   node[color="#7e68a4", fillcolor="#bba5e3"];
 
-  ELEC60001 [label="{ELEC60001 | Advanced Mathematics for Signals and Systems}"];
-  ELEC50011 -> ELEC60001;
-
   ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference}"];
   ELEC50011 -> ELEC60002;
 
   ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems}"];
   ELEC50001 -> ELEC60003;
 
-  ELEC60004 [label="{ELEC60004 | Artificial Intelligence}"];
+  ELEC60004 [label="{ELEC60004 | Machine Reasoning}"];
   ELEC50006 -> ELEC60004;
 
   ELEC60005 [label="{ELEC60005 | Biomedical Electronics}"];
@@ -136,11 +133,11 @@ digraph {
 
   ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing}"];
 
-  ELEC60026 [label="{ELEC60026 | Semiconductor Devices}"];
+  ELEC60029 [label="{ELEC60029 | Semiconductor Devices}"];
 
   ELEC60030 [label="{ELEC60030 | Robotic Manipulation}"];
 
-  ELEC60031 [label="{ELEC60031 | Classical and Modern Radar}"];
+  ELEC60031 [label="{ELEC60031 | Principles of Classical and Modern Radar Systems}"];
 
   ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies}"];
   node[color="#4d5395", fillcolor="#9aa3ff"];
