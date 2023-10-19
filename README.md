@@ -31,5 +31,8 @@ We see several benefits of building this graph:
 - Some custom-written OCaml code converts `modules.yml` into a Graphviz description (`modules.dot`).
 - The `dot` graph-layout engine is used to convert the Graphviz description into a PDF file (`modules.pdf`).
 
+## Current limitations
+- Does not include modules offered by other departments. So although ELEC60020 (Managing Engineering Projects) builds upon BUSI60037 (Accounting Online) and BUSI60042 (Entrepreneurship Online), these connections are not recorded in the graph.
+
 ## Authors
 - [John Wickerson](https://github.com/johnwickerson) (`j.wickerson@imperial.ac.uk`)

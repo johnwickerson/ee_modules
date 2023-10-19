@@ -70,6 +70,7 @@
     - ELEC40002
     - ELEC40003
     - ELEC40004
+    - ELEC40006
     - ELEC40009
     - ELEC40010_ELEC40011
 
@@ -180,7 +181,11 @@
   year: 3
   term: autumn
   prereqs:
+    - ELEC40004
+    - ELEC50014
     - ELEC50006
+    - ELEC50009
+    
 
 - code: ELEC60005
   name: "Biomedical Electronics"
@@ -208,24 +213,41 @@
   leader: k.mikolajczyk@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC60019
+    - ELEC60021
+    - ELEC40004
+    - ELEC50009
 
 - code: ELEC60010
   name: "Digital Signal Processing"
   leader: t.stathaki@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC50006
+    - ELEC50011
+    - ELEC50013
+    - ELEC50002
 
 - code: ELEC60011
   name: "Digital Systems Design"
   leader: christos-savvas.bouganis@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40003
+    - ELEC50001
+    - ELEC50010
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
   leader: b.chaudhuri@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC50012
+    - ELEC40009
 
 - code: ELEC60013
   name: "Embedded Systems"
@@ -250,6 +272,10 @@
   leader: e.perea@imperial.ac.uk
   year: 3
   term: summer
+  prereqs:
+    - ELEC40006
+    - ELEC50003
+    - ELEC60020
 
 - code: ELEC60017
   name: "Individual Project"
@@ -263,12 +289,24 @@
   leader: c.papavas@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC40002
+    - ELEC50001
+    - ELEC50013
+    - ELEC50004
+    - ELEC60003
+    - ELEC60005
 
 - code: ELEC60019
   name: "Machine Learning"
   leader: d.gunduz@imperial.ac.uk
   year: 3
   term: autumn
+  preregs:
+    - ELEC40004
+    - ELEC40010_ELEC40011
+    - ELEC50011
 
 - code: ELEC60020
   name: "Managing Engineering Projects"
@@ -281,36 +319,67 @@
   leader: p.dragotti@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50013
 
 - code: ELEC60022
   name: "Microwave Technology"
   leader: s.lucyszyn@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC50007
 
 - code: ELEC60023
   name: "Optoelectronics"
   leader: r.syms@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC50007
+    - ELEC50002
 
 - code: ELEC60024
   name: "Power Electronics"
   leader: paul.mitcheson@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40002
+    - ELEC40009
+    - ELEC50001
+    - ELEC50004
+    - ELEC50007
+    - ELEC50012
+    - ELEC60029
+    - ELEC60008
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
   leader: adria.junyent-ferre@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40003
+    - ELEC50011
+    - ELEC60010
 
 - code: ELEC60029
   name: "Semiconductor Devices"
   leader: z.durrani@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC40002
+    - ELEC40003
+    - ELEC40009
+    - ELEC40010_ELEC40011
+    - ELEC50001
+    - ELEC50011
+    - ELEC50007
+    - ELEC50012
 
 - code: ELEC60030
   name: "Robotic Manipulation"
