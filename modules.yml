@@ -193,8 +193,8 @@
   year: 3
   term: autumn
   prereqs:
+    - ELEC40002
     - ELEC50001
-    - ELEC50009
 
 - code: ELEC60006
   name: "Communication Networks"
@@ -207,6 +207,14 @@
   leader: a.astolfi@imperial.ac.uk
   year: 3
   term: autumn
+  prereqs:
+    - ELEC40002
+    - ELEC40003
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50013
+    - ELEC50004
+    - ELEC50012
 
 - code: ELEC60009
   name: "Deep Learning"
@@ -254,6 +262,13 @@
   leader: ed.stott@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40003
+    - ELEC40004
+    - ELEC40006
+    - ELEC50014
+    - ELEC50009
+    - ELEC50003_ELEC50008
 
 - code: ELEC60014
   name: "Group Consultancy Project"
@@ -266,6 +281,9 @@
   leader: t.clarke@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC50010
+    - ELEC50006
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
@@ -283,6 +301,8 @@
   year: 3
   startterm: spring
   endterm: summer
+  prereqs:
+    - ELEC50003_ELEC50008
 
 - code: ELEC60018
   name: "Instrumentation"
@@ -392,6 +412,11 @@
   leader: a.manikas@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50013
+    - ELEC50002
+    - ELEC50007
 
 - code: ELEC60033
   name: "Electric Vehicle Technologies"

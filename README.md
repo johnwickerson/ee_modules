@@ -15,7 +15,7 @@ We see several benefits of building this graph:
 
 ## How to view the dependency graph
 
-- Open the [`modules.pdf`](https://github.com/johnwickerson/ee_modules/raw/main/modules.pdf) file.
+- Open the [`modules_radial.pdf`](https://github.com/johnwickerson/ee_modules/raw/main/modules_radial.pdf) file.
 
 ## How to edit the dependency graph
 
@@ -24,12 +24,12 @@ We see several benefits of building this graph:
 - Make your changes.
 - Click on the `Commit changes...` button.
 - Wait for a few minutes while the dependency graph is rebuilt with your changes.
-- Open the [`modules.pdf`](https://github.com/johnwickerson/ee_modules/raw/main/modules.pdf) file to see the new version.
+- Open the [`modules_radial.pdf`](https://github.com/johnwickerson/ee_modules/raw/main/modules_radial.pdf) file to see the new version.
 
 ## Some technical details
 - There is a GitHub Action that fires whenever a commit is pushed to the repository.
 - Some custom-written OCaml code converts `modules.yml` into a Graphviz description (`modules.dot`).
-- The `dot` graph-layout engine is used to convert the Graphviz description into a PDF file (`modules.pdf`).
+- The `twopi` and `neato` graph-layout engines are used to convert the Graphviz description into a PDF file (`modules_radial.pdf`).
 
 ## Current limitations
 - Does not include modules offered by other departments. So although ELEC60020 (Managing Engineering Projects) builds upon BUSI60037 (Accounting Online) and BUSI60042 (Entrepreneurship Online), these connections are not recorded in the graph.
