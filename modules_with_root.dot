@@ -1,9 +1,17 @@
 // This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.
 
-digraph {
+digraph G {
   node[shape="record", style="filled"];
 
   node[color="#945050", fillcolor="#ffaaaa"];
+  root -> ELEC40002;
+  root -> ELEC40003;
+  root -> ELEC40004;
+  root -> ELEC40006;
+  root -> ELEC40009;
+  root -> ELEC40010_ELEC40011;
+  root[label="start", color="#666666", fillcolor="#dddddd"]
+
 
   ELEC40002 [label="{ELEC40002 | Analysis and Design of Circuits}"];
 
@@ -17,112 +25,104 @@ digraph {
 
   ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B}"];
 
-  root[label="start", color="#666666", fillcolor="#dddddd"]
-  root -> ELEC40002;
-  root -> ELEC40003;
-  root -> ELEC40004;
-  root -> ELEC40006;
-  root -> ELEC40009;
-  root -> ELEC40010_ELEC40011;
-
   node[color="#985d7d", fillcolor="#dea8c6"];
 
-  ELEC50001 [label="{ELEC50001 | Circuits and Systems}"];
   ELEC40003 -> ELEC50001;
+  ELEC50001 [label="{ELEC50001 | Circuits and Systems}"];
 
-  ELEC50002 [label="{ELEC50002 | Communications}"];
   ELEC40009 -> ELEC50002;
   ELEC40010_ELEC40011 -> ELEC50002;
   ELEC50006 -> ELEC50002;
   ELEC50011 -> ELEC50002;
   ELEC50013 -> ELEC50002;
+  ELEC50002 [label="{ELEC50002 | Communications}"];
 
-  ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II}"];
   ELEC40002 -> ELEC50003_ELEC50008;
   ELEC40003 -> ELEC50003_ELEC50008;
   ELEC40004 -> ELEC50003_ELEC50008;
   ELEC40006 -> ELEC50003_ELEC50008;
   ELEC40009 -> ELEC50003_ELEC50008;
   ELEC40010_ELEC40011 -> ELEC50003_ELEC50008;
+  ELEC50003_ELEC50008 [label="{ELEC50003_ELEC50008 | Computer Engineering Design Project I and II}"];
 
-  ELEC50004 [label="{ELEC50004 | Control Systems}"];
   ELEC40009 -> ELEC50004;
   ELEC40010_ELEC40011 -> ELEC50004;
+  ELEC50004 [label="{ELEC50004 | Control Systems}"];
 
-  ELEC50006 [label="{ELEC50006 | Discrete Mathematics}"];
   ELEC40004 -> ELEC50006;
   ELEC40010_ELEC40011 -> ELEC50006;
+  ELEC50006 [label="{ELEC50006 | Discrete Mathematics}"];
 
-  ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
   ELEC40002 -> ELEC50007;
   ELEC40004 -> ELEC50007;
   ELEC40009 -> ELEC50007;
   ELEC40010_ELEC40011 -> ELEC50007;
+  ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
 
-  ELEC50009 [label="{ELEC50009 | Information Processing}"];
   ELEC40004 -> ELEC50009;
   ELEC40010_ELEC40011 -> ELEC50009;
+  ELEC50009 [label="{ELEC50009 | Information Processing}"];
 
-  ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers}"];
   ELEC40004 -> ELEC50010;
+  ELEC50010 [label="{ELEC50010 | Instruction Architectures and Compilers}"];
 
-  ELEC50011 [label="{ELEC50011 | Mathematics for Engineers}"];
   ELEC40010_ELEC40011 -> ELEC50011;
+  ELEC50011 [label="{ELEC50011 | Mathematics for Engineers}"];
 
-  ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems}"];
   ELEC40002 -> ELEC50012;
   ELEC40009 -> ELEC50012;
+  ELEC50012 [label="{ELEC50012 | Power Electronics and Power Systems}"];
 
-  ELEC50013 [label="{ELEC50013 | Signals and Systems}"];
   ELEC40002 -> ELEC50013;
   ELEC40004 -> ELEC50013;
   ELEC40010_ELEC40011 -> ELEC50013;
+  ELEC50013 [label="{ELEC50013 | Signals and Systems}"];
 
-  ELEC50014 [label="{ELEC50014 | Software Systems}"];
   ELEC40004 -> ELEC50014;
   ELEC40006 -> ELEC50014;
+  ELEC50014 [label="{ELEC50014 | Software Systems}"];
   node[color="#7e68a4", fillcolor="#bba5e3"];
 
-  ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference}"];
   ELEC50011 -> ELEC60002;
+  ELEC60002 [label="{ELEC60002 | Statistical Signal Processing and Inference}"];
 
-  ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems}"];
   ELEC50001 -> ELEC60003;
+  ELEC60003 [label="{ELEC60003 | Analogue Integrated Circuits and Systems}"];
 
-  ELEC60004 [label="{ELEC60004 | Machine Reasoning}"];
   ELEC40004 -> ELEC60004;
   ELEC50014 -> ELEC60004;
   ELEC50006 -> ELEC60004;
   ELEC50009 -> ELEC60004;
+  ELEC60004 [label="{ELEC60004 | Machine Reasoning}"];
 
-  ELEC60005 [label="{ELEC60005 | Biomedical Electronics}"];
   ELEC50001 -> ELEC60005;
   ELEC50009 -> ELEC60005;
+  ELEC60005 [label="{ELEC60005 | Biomedical Electronics}"];
 
   ELEC60006 [label="{ELEC60006 | Communication Networks}"];
 
   ELEC60008 [label="{ELEC60008 | Control Engineering}"];
 
-  ELEC60009 [label="{ELEC60009 | Deep Learning}"];
   ELEC60019 -> ELEC60009;
   ELEC60021 -> ELEC60009;
   ELEC40004 -> ELEC60009;
   ELEC50009 -> ELEC60009;
+  ELEC60009 [label="{ELEC60009 | Deep Learning}"];
 
-  ELEC60010 [label="{ELEC60010 | Digital Signal Processing}"];
   ELEC50006 -> ELEC60010;
   ELEC50011 -> ELEC60010;
   ELEC50013 -> ELEC60010;
   ELEC50002 -> ELEC60010;
+  ELEC60010 [label="{ELEC60010 | Digital Signal Processing}"];
 
-  ELEC60011 [label="{ELEC60011 | Digital Systems Design}"];
   ELEC40003 -> ELEC60011;
   ELEC50001 -> ELEC60011;
   ELEC50010 -> ELEC60011;
+  ELEC60011 [label="{ELEC60011 | Digital Systems Design}"];
 
-  ELEC60012 [label="{ELEC60012 | Electrical Energy Systems}"];
   ELEC50012 -> ELEC60012;
   ELEC40009 -> ELEC60012;
+  ELEC60012 [label="{ELEC60012 | Electrical Energy Systems}"];
 
   ELEC60013 [label="{ELEC60013 | Embedded Systems}"];
 
@@ -130,14 +130,13 @@ digraph {
 
   ELEC60015 [label="{ELEC60015 | High Level Programming}"];
 
-  ELEC60016 [label="{ELEC60016 | Individual Industrial Placement}"];
   ELEC40006 -> ELEC60016;
-  ELEC50003 -> ELEC60016;
+  ELEC50003_ELEC50008 -> ELEC60016;
   ELEC60020 -> ELEC60016;
+  ELEC60016 [label="{ELEC60016 | Individual Industrial Placement}"];
 
   ELEC60017 [label="{ELEC60017 | Individual Project}"];
 
-  ELEC60018 [label="{ELEC60018 | Instrumentation}"];
   ELEC40010_ELEC40011 -> ELEC60018;
   ELEC40002 -> ELEC60018;
   ELEC50001 -> ELEC60018;
@@ -145,24 +144,24 @@ digraph {
   ELEC50004 -> ELEC60018;
   ELEC60003 -> ELEC60018;
   ELEC60005 -> ELEC60018;
+  ELEC60018 [label="{ELEC60018 | Instrumentation}"];
 
   ELEC60019 [label="{ELEC60019 | Machine Learning}"];
 
   ELEC60020 [label="{ELEC60020 | Managing Engineering Projects}"];
 
-  ELEC60021 [label="{ELEC60021 | Mathematics for Signals and Systems}"];
   ELEC40010_ELEC40011 -> ELEC60021;
   ELEC50011 -> ELEC60021;
   ELEC50013 -> ELEC60021;
+  ELEC60021 [label="{ELEC60021 | Mathematics for Signals and Systems}"];
 
-  ELEC60022 [label="{ELEC60022 | Microwave Technology}"];
   ELEC50007 -> ELEC60022;
+  ELEC60022 [label="{ELEC60022 | Microwave Technology}"];
 
-  ELEC60023 [label="{ELEC60023 | Optoelectronics}"];
   ELEC50007 -> ELEC60023;
   ELEC50002 -> ELEC60023;
+  ELEC60023 [label="{ELEC60023 | Optoelectronics}"];
 
-  ELEC60024 [label="{ELEC60024 | Power Electronics}"];
   ELEC40002 -> ELEC60024;
   ELEC40009 -> ELEC60024;
   ELEC50001 -> ELEC60024;
@@ -171,13 +170,13 @@ digraph {
   ELEC50012 -> ELEC60024;
   ELEC60029 -> ELEC60024;
   ELEC60008 -> ELEC60024;
+  ELEC60024 [label="{ELEC60024 | Power Electronics}"];
 
-  ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing}"];
   ELEC40003 -> ELEC60025;
   ELEC50011 -> ELEC60025;
   ELEC60010 -> ELEC60025;
+  ELEC60025 [label="{ELEC60025 | Real-Time Digital Signal Processing}"];
 
-  ELEC60029 [label="{ELEC60029 | Semiconductor Devices}"];
   ELEC40002 -> ELEC60029;
   ELEC40003 -> ELEC60029;
   ELEC40009 -> ELEC60029;
@@ -186,6 +185,7 @@ digraph {
   ELEC50011 -> ELEC60029;
   ELEC50007 -> ELEC60029;
   ELEC50012 -> ELEC60029;
+  ELEC60029 [label="{ELEC60029 | Semiconductor Devices}"];
 
   ELEC60030 [label="{ELEC60030 | Robotic Manipulation}"];
 
