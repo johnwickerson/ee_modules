@@ -274,7 +274,7 @@
   term: summer
   prereqs:
     - ELEC40006
-    - ELEC50003
+    - ELEC50003_ELEC50008
     - ELEC60020
 
 - code: ELEC60017

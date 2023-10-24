@@ -51,8 +51,8 @@ let print_module m =
   let name = as_yaml_string (lookup_exn attribs "name") in
   let code = as_yaml_string (lookup_exn attribs "code") in
   let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
-  printf "  %s [label=\"{%s | %s}\"];\n" code code name;
-  List.iter (print_prereq code) (as_yaml_dictionary prereqs)
+  List.iter (print_prereq code) (as_yaml_dictionary prereqs);
+  printf "  %s [label=\"{%s | %s}\"];\n" code code name
 
 let print_root_edge m =
   let attribs = as_yaml_ordered_list m in
@@ -60,13 +60,13 @@ let print_root_edge m =
   printf "  root -> %s;\n" code
   
 let print_root_edges modules =
-  printf "  root[label=\"start\", color=\"%s\", fillcolor=\"%s\"]\n" darkgrey lightgrey;
   List.iter print_root_edge modules;
+  printf "  root[label=\"start\", color=\"%s\", fillcolor=\"%s\"]\n" darkgrey lightgrey;
   printf "\n"
   
 let _ =
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
-  printf "digraph {\n";
+  printf "digraph G {\n";
   printf "  node[shape=\"record\", style=\"filled\"];\n";
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
   let all_modules = as_yaml_dictionary yml_top in
@@ -77,11 +77,11 @@ let _ =
   let ee4_modules = List.filter (year_is 4) all_modules in
   printf "\n";
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark1 light1;
+  if env_var_set "INCLUDEROOTNODE" then
+    print_root_edges ee1_modules;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee1_modules;
   printf "\n";
-  if env_var_set "INCLUDEROOTNODE" then
-    print_root_edges ee1_modules;
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark2 light2;
   printf "\n";
   iter_alt print_module (fun () -> printf "\n") ee2_modules;
