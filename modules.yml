@@ -423,6 +423,12 @@
   leader: philip.clemow@imperial.ac.uk
   year: 3
   term: spring
+  prereqs:
+    - ELEC40002
+    - ELEC40009
+    - ELEC40010_ELEC40011
+    - ELEC50004
+    - ELEC50012
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
