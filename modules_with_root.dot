@@ -213,6 +213,11 @@ digraph G {
   ELEC50007 -> ELEC60031;
 
   ELEC60033 [label="{ELEC60033 | Electric Vehicle Technologies}"];
+  ELEC40002 -> ELEC60033;
+  ELEC40009 -> ELEC60033;
+  ELEC40010_ELEC40011 -> ELEC60033;
+  ELEC50004 -> ELEC60033;
+  ELEC50012 -> ELEC60033;
   node[color="#4d5395", fillcolor="#9aa3ff"];
 
   ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence}"];
