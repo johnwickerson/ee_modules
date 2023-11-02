@@ -80,8 +80,9 @@
   year: 2
   term: spring
   prereqs:
-    - ELEC40009
+    - ELEC40002
     - ELEC40010_ELEC40011
+    - ELEC50013
     
 - code: ELEC50006
   name: Discrete Mathematics
