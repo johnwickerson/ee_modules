@@ -106,7 +106,7 @@
     - ELEC40010_ELEC40011
     
 - code: ELEC50009
-  name: Information Processing
+  name: "Information Processing"
   leader: christos-savvas.bouganis@imperial.ac.uk
   year: 2
   startterm: autumn
@@ -116,7 +116,7 @@
     - ELEC40010_ELEC40011
   
 - code: ELEC50010
-  name: Instruction Architectures and Compilers
+  name: "Instruction Architectures and Compilers"
   leader: j.wickerson@imperial.ac.uk
   year: 2
   startterm: autumn
@@ -125,7 +125,7 @@
     - ELEC40004
     
 - code: ELEC50011
-  name: Mathematics for Engineers
+  name: "Mathematics for Engineers"
   leader: d.nucinkis@imperial.ac.uk
   year: 2
   term: autumn
@@ -133,7 +133,7 @@
     - ELEC40010_ELEC40011
     
 - code: ELEC50012
-  name: Power Electronics and Power Systems
+  name: "Power Electronics and Power Systems"
   year: 2
   leader: m.omalley@imperial.ac.uk
   term: spring
@@ -433,178 +433,220 @@
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
+  leader: d.mandic@imperial.ac.uk
   year: 4
   term: spring
 
 - code: ELEC70003
   name: "Advanced Electronic Devices"
+  leader: k.fobelets@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC40009
+    - ELEC60029
+    - ELEC70012
 
 - code: ELEC70004
   name: "Analogue Signal Processing"
+  leader: pantelis@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC40002
+    - ELEC50001
+    - ELEC60003
 
 - code: ELEC70006
   name: "Design of Linear Multivariable Control Systems"
+  leader: i.jaimouka@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50004
+    - ELEC60008
+    - ELEC60021
 
 - code: ELEC70009
   name: "Discrete-Event Systems"
+  leader: d.angeli@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC70048
 
 - code: ELEC70012
   name: "Full-Custom Integrated Circuit Design"
+  leader: t.constandinou@imperial.ac.uk
   year: 4
   term: autumn
+  prereqs:
+    - ELEC40002
+    - ELEC40003
+    - ELEC50001
+    - ELEC60003
+    - ELEC60018
+    - ELEC60029
 
 - code: ELEC70013
   name: "High Performance Analogue Electronics"
+  leader: e.rodriguez@imperial.ac.uk
   year: 4
   term: spring
 
 - code: ELEC70017
   name: "Individual Project (MEng)"
+  leader: t.clarke@imperial.ac.uk
   year: 4
   startterm: autumn
   endterm: summer
 
 - code: ELEC70022
   name: "Modelling and Control of Multi-body Mechanical Systems"
+  leader: s.evangelou@imperial.ac.uk
   year: 4
   term: autumn
 
 - code: ELEC70028
   name: "Predictive Control"
+  leader: e.kerrigan@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC50004
+    - ELEC60008
 
 - code: ELEC70030
   name: "Professional Portfolio and Group Consultancy Project"
+  leader: e.perea@imperial.ac.uk
   year: 4
   startterm: autumn
   endterm: summer
 
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
+  leader: wei.dai1@imperial.ac.uk
   year: 4
   term: autumn
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50013
+    - ELEC50006
+    - ELEC60019
 
 - code: ELEC70039
   name: "Wavelets"
+  leader: p.dragotti@imperial.ac.uk
   year: 4
   term: autumn
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC60010
+    - ELEC60021
 
 - code: ELEC70041
   name: "Year Abroad"
+  leader: christos-savvas.bouganis@imperial.ac.uk
   year: 4
   startterm: autumn
   endterm: summer
 
-- code: ELEC70044
-  name: "Role and Value of Smart Grid Technologies"
-  year: 4
-  term: autumn
-
 - code: ELEC70045
   name: "Advanced Communication Theory"
+  leader: a.manikas@imperial.ac.uk
   year: 4
   term: autumn
 
 - code: ELEC70047
   name: "HVDC Technology and Control"
+  leader: b.chaudhuri@imperial.ac.uk
   year: 4
   term: autumn
-
+  prereqs:
+    - ELEC50012
+    - ELEC60012
+    - ELEC60024
+    
 - code: ELEC70048
   name: "Probability and Stochastic Processes"
+  leader: c.ling@imperial.ac.uk
   year: 4
   term: autumn
 
 - code: ELEC70015
   name: "Human-Centered Robotics"
+  leader: y.demiris@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC40004
+    - ELEC50014
+    - ELEC60013
+    - ELEC60025
+    - ELEC60030
+    - ELEC50009
+    - ELEC60002
+    - ELEC60009
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
+  leader: s.lucyszyn@imperial.ac.uk
   year: 4
   term: spring
-
-- code: ELEC70054
-  name: "Microwave Technology"
-  year: 4
-  term: autumn
+  prereqs:
+    - ELEC50001
+    - ELEC50002
+    - ELEC50007
+    - ELEC60003
+    - ELEC60022
+    - ELEC60031
 
 - code: ELEC70056
   name: "Hardware and Software Verification"
+  leader: j.wickerson@imperial.ac.uk
   year: 4
   term: autumn
-
-- code: ELEC70057
-  name: "Biomedical Electronics"
-  year: 4
-  term: autumn
-
-- code: ELEC70058
-  name: "Optoelectronics"
-  year: 4
-  term: autumn
-
-- code: ELEC70061
-  name: "Deep Learning"
-  year: 4
-  term: spring
 
 - code: ELEC70065
   name: "Optimal Control"
-  year: 4
-  term: spring
-
-- code: ELEC70066
-  name: "Advanced Optimisation"
+  leader: s.evangelou@imperial.ac.uk
   year: 4
   term: spring
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
+  leader: j.barria@imperial.ac.uk
   year: 4
   term: spring
 
-- code: ELEC70068
-  name: "Machine Reasoning"
-  year: 4
-  term: autumn
-
 - code: ELEC70069
   name: "Cryptography and Coding Theory"
+  leader: wei.dai1@imperial.ac.uk
   year: 4
   term: autumn
 
 - code: ELEC70070
   name: "Information Theory"
+  leader: c.ling@imperial.ac.uk
   year: 4
   term: spring
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
+  leader: j.pitt@imperial.ac.uk
   year: 4
   term: autumn
 
-- code: ELEC70072
-  name: "Real-time Digital Signal Processing"
-  year: 4
-  term: spring
-
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
+  leader: k.mikolajczyk@imperial.ac.uk
   year: 4
   term: spring
 
 - code: ELEC70074
   name: "Power System Dynamics Stability and Control"
+  leader: b.pal@imperial.ac.uk
   year: 4
   term: spring
