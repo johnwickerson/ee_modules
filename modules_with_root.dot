@@ -224,14 +224,32 @@ digraph G {
   ELEC70001 [label="{ELEC70001 | Adaptive Signal Processing and Machine Intelligence}"];
 
   ELEC70003 [label="{ELEC70003 | Advanced Electronic Devices}"];
+  ELEC40009 -> ELEC70003;
+  ELEC60029 -> ELEC70003;
+  ELEC70012 -> ELEC70003;
 
   ELEC70004 [label="{ELEC70004 | Analogue Signal Processing}"];
+  ELEC40002 -> ELEC70004;
+  ELEC50001 -> ELEC70004;
+  ELEC60003 -> ELEC70004;
 
   ELEC70006 [label="{ELEC70006 | Design of Linear Multivariable Control Systems}"];
+  ELEC40010_ELEC40011 -> ELEC70006;
+  ELEC50011 -> ELEC70006;
+  ELEC50004 -> ELEC70006;
+  ELEC60008 -> ELEC70006;
+  ELEC60021 -> ELEC70006;
 
   ELEC70009 [label="{ELEC70009 | Discrete-Event Systems}"];
+  ELEC70048 -> ELEC70009;
 
   ELEC70012 [label="{ELEC70012 | Full-Custom Integrated Circuit Design}"];
+  ELEC40002 -> ELEC70012;
+  ELEC40003 -> ELEC70012;
+  ELEC50001 -> ELEC70012;
+  ELEC60003 -> ELEC70012;
+  ELEC60018 -> ELEC70012;
+  ELEC60029 -> ELEC70012;
 
   ELEC70013 [label="{ELEC70013 | High Performance Analogue Electronics}"];
 
@@ -240,52 +258,62 @@ digraph G {
   ELEC70022 [label="{ELEC70022 | Modelling and Control of Multi-body Mechanical Systems}"];
 
   ELEC70028 [label="{ELEC70028 | Predictive Control}"];
+  ELEC50004 -> ELEC70028;
+  ELEC60008 -> ELEC70028;
 
   ELEC70030 [label="{ELEC70030 | Professional Portfolio and Group Consultancy Project}"];
 
   ELEC70037 [label="{ELEC70037 | Topics in Large Dimensional Data Processing}"];
+  ELEC40010_ELEC40011 -> ELEC70037;
+  ELEC50013 -> ELEC70037;
+  ELEC50006 -> ELEC70037;
+  ELEC60019 -> ELEC70037;
 
   ELEC70039 [label="{ELEC70039 | Wavelets}"];
+  ELEC40010_ELEC40011 -> ELEC70039;
+  ELEC60010 -> ELEC70039;
+  ELEC60021 -> ELEC70039;
 
   ELEC70041 [label="{ELEC70041 | Year Abroad}"];
-
-  ELEC70044 [label="{ELEC70044 | Role and Value of Smart Grid Technologies}"];
 
   ELEC70045 [label="{ELEC70045 | Advanced Communication Theory}"];
 
   ELEC70047 [label="{ELEC70047 | HVDC Technology and Control}"];
+  ELEC50012 -> ELEC70047;
+  ELEC60012 -> ELEC70047;
+  ELEC60024 -> ELEC70047;
 
   ELEC70048 [label="{ELEC70048 | Probability and Stochastic Processes}"];
 
   ELEC70015 [label="{ELEC70015 | Human-Centered Robotics}"];
+  ELEC40004 -> ELEC70015;
+  ELEC50014 -> ELEC70015;
+  ELEC60013 -> ELEC70015;
+  ELEC60025 -> ELEC70015;
+  ELEC60030 -> ELEC70015;
+  ELEC50009 -> ELEC70015;
+  ELEC60002 -> ELEC70015;
+  ELEC60009 -> ELEC70015;
 
   ELEC70051 [label="{ELEC70051 | Radio Frequency Subsystems}"];
-
-  ELEC70054 [label="{ELEC70054 | Microwave Technology}"];
+  ELEC50001 -> ELEC70051;
+  ELEC50002 -> ELEC70051;
+  ELEC50007 -> ELEC70051;
+  ELEC60003 -> ELEC70051;
+  ELEC60022 -> ELEC70051;
+  ELEC60031 -> ELEC70051;
 
   ELEC70056 [label="{ELEC70056 | Hardware and Software Verification}"];
 
-  ELEC70057 [label="{ELEC70057 | Biomedical Electronics}"];
-
-  ELEC70058 [label="{ELEC70058 | Optoelectronics}"];
-
-  ELEC70061 [label="{ELEC70061 | Deep Learning}"];
-
   ELEC70065 [label="{ELEC70065 | Optimal Control}"];
 
-  ELEC70066 [label="{ELEC70066 | Advanced Optimisation}"];
-
   ELEC70067 [label="{ELEC70067 | Traffic Theory and Queuing Systems}"];
-
-  ELEC70068 [label="{ELEC70068 | Machine Reasoning}"];
 
   ELEC70069 [label="{ELEC70069 | Cryptography and Coding Theory}"];
 
   ELEC70070 [label="{ELEC70070 | Information Theory}"];
 
   ELEC70071 [label="{ELEC70071 | Self-Organising Multi-Agent Systems}"];
-
-  ELEC70072 [label="{ELEC70072 | Real-time Digital Signal Processing}"];
 
   ELEC70073 [label="{ELEC70073 | Computer Vision and Pattern Recognition}"];
 
