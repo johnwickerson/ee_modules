@@ -508,6 +508,11 @@
   leader: s.evangelou@imperial.ac.uk
   year: 4
   term: autumn
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50013
+    - ELEC50004
 
 - code: ELEC70028
   name: "Predictive Control"
@@ -614,6 +619,10 @@
   leader: s.evangelou@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50004
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"

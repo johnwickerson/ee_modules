@@ -42,17 +42,35 @@ let wrap line_width txt =
   in
   Buffer.contents buf
 
-let print_prereq code prereq =
-  let prereq_str = Str.global_replace (Str.regexp "\\.") ":" (as_yaml_string prereq) in
-  printf "  %s -> %s;\n" prereq_str code  
-       
-let print_module m =
+let year_of_code code = int_of_char (code.[4]) - 48 - 3
+  
+let print_prereq y code prereq =
+  let prereq_str = as_yaml_string prereq in
+  let prereq_y = year_of_code prereq_str in
+  if prereq_y < y - 1 then
+    printf "  %s -> %s [weight=0];\n" prereq_str code
+  else
+    printf "  %s -> %s;\n" prereq_str code
+
+let dummy_code = function
+  | 0 -> "root"
+  | 1 -> "ELEC40002"
+  | 2 -> "ELEC50001"
+  | 3 -> "ELEC60002"
+  | 4 -> "ELEC70001"
+  | _ -> failwith "Invalid year"
+  
+let print_module y m =
   let attribs = as_yaml_ordered_list m in
   let name = as_yaml_string (lookup_exn attribs "name") in
   let code = as_yaml_string (lookup_exn attribs "code") in
-  let prereqs = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
-  printf "  %s [label=\"{%s | %s}\"];\n" code code name;
-  List.iter (print_prereq code) (as_yaml_dictionary prereqs)
+  let prereqs_dict = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
+  let prereqs = as_yaml_dictionary prereqs_dict in
+  printf "  %s [label=\"{%s | %s}\"];\n" code code (wrap 20 name);
+  List.iter (print_prereq y code) prereqs;
+  if not (List.exists (fun prereq -> year_of_code (as_yaml_string prereq) = y - 1) prereqs) then
+    printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code
+  
 
 let print_root_edge m =
   let attribs = as_yaml_ordered_list m in
@@ -81,16 +99,16 @@ let _ =
   if env_var_set "INCLUDEROOTNODE" then
     print_root_edges ee1_modules;
   printf "\n";
-  iter_alt print_module (fun () -> printf "\n") ee1_modules;
+  iter_alt (print_module 1) (fun () -> printf "\n") ee1_modules;
   printf "\n";
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark2 light2;
   printf "\n";
-  iter_alt print_module (fun () -> printf "\n") ee2_modules;
+  iter_alt (print_module 2) (fun () -> printf "\n") ee2_modules;
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark3 light3;
   printf "\n";
-  iter_alt print_module (fun () -> printf "\n") ee3_modules;
+  iter_alt (print_module 3) (fun () -> printf "\n") ee3_modules;
   printf "  node[color=\"%s\", fillcolor=\"%s\"];\n" dark4 light4;
   printf "\n";
-  iter_alt print_module (fun () -> printf "\n") ee4_modules;
+  iter_alt (print_module 4) (fun () -> printf "\n") ee4_modules;
   printf "}\n";
   ()
