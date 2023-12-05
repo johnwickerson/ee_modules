@@ -233,7 +233,16 @@ digraph G {
   node[color="#4d5395", fillcolor="#9aa3ff"];
 
   ELEC70001 [label="{ELEC70001 | Adaptive Signal\nProcessing and\nMachine Intelligence}"];
-  ELEC60002 -> ELEC70001 [style=invis];
+  ELEC60002 -> ELEC70001;
+  ELEC60009 -> ELEC70001;
+  ELEC60010 -> ELEC70001;
+  ELEC60019 -> ELEC70001;
+  ELEC50009 -> ELEC70001 [weight=0];
+  ELEC50011 -> ELEC70001 [weight=0];
+  ELEC60021 -> ELEC70001;
+  ELEC70037 -> ELEC70001;
+  ELEC70048 -> ELEC70001;
+  ELEC60025 -> ELEC70001;
 
   ELEC70003 [label="{ELEC70003 | Advanced Electronic\nDevices}"];
   ELEC40009 -> ELEC70003 [weight=0];
@@ -282,7 +291,7 @@ digraph G {
   ELEC60008 -> ELEC70028;
 
   ELEC70030 [label="{ELEC70030 | Professional\nPortfolio and Group\nConsultancy Project}"];
-  ELEC60002 -> ELEC70030 [style=invis];
+  ELEC60014 -> ELEC70030;
 
   ELEC70037 [label="{ELEC70037 | Topics in Large\nDimensional Data\nProcessing}"];
   ELEC40010_ELEC40011 -> ELEC70037 [weight=0];
@@ -307,6 +316,7 @@ digraph G {
   ELEC60024 -> ELEC70047;
 
   ELEC70048 [label="{ELEC70048 | Probability and\nStochastic Processes}"];
+  ELEC50011 -> ELEC70048 [weight=0];
   ELEC60002 -> ELEC70048 [style=invis];
 
   ELEC70015 [label="{ELEC70015 | Human-Centered\nRobotics}"];
@@ -337,12 +347,15 @@ digraph G {
   ELEC60002 -> ELEC70065 [style=invis];
 
   ELEC70067 [label="{ELEC70067 | Traffic Theory and\nQueuing Systems}"];
+  ELEC70048 -> ELEC70067;
   ELEC60002 -> ELEC70067 [style=invis];
 
   ELEC70069 [label="{ELEC70069 | Cryptography and\nCoding Theory}"];
   ELEC60002 -> ELEC70069 [style=invis];
 
   ELEC70070 [label="{ELEC70070 | Information Theory}"];
+  ELEC50011 -> ELEC70070 [weight=0];
+  ELEC70048 -> ELEC70070;
   ELEC60002 -> ELEC70070 [style=invis];
 
   ELEC70071 [label="{ELEC70071 | Self-Organising\nMulti-Agent Systems}"];
@@ -352,5 +365,8 @@ digraph G {
   ELEC60002 -> ELEC70073 [style=invis];
 
   ELEC70074 [label="{ELEC70074 | Power System\nDynamics Stability\nand Control}"];
-  ELEC60002 -> ELEC70074 [style=invis];
+  ELEC50011 -> ELEC70074 [weight=0];
+  ELEC50012 -> ELEC70074 [weight=0];
+  ELEC60008 -> ELEC70074;
+  ELEC60012 -> ELEC70074;
 }
