@@ -436,6 +436,17 @@
   leader: d.mandic@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC60002
+    - ELEC60009
+    - ELEC60010
+    - ELEC60019
+    - ELEC50009
+    - ELEC50011
+    - ELEC60021
+    - ELEC70037
+    - ELEC70048
+    - ELEC60025
 
 - code: ELEC70003
   name: "Advanced Electronic Devices"
@@ -529,6 +540,8 @@
   year: 4
   startterm: autumn
   endterm: summer
+  prereqs:
+    - ELEC60014
 
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
@@ -579,6 +592,8 @@
   leader: c.ling@imperial.ac.uk
   year: 4
   term: autumn
+  prereqs:
+    - ELEC50011
 
 - code: ELEC70015
   name: "Human-Centered Robotics"
@@ -629,6 +644,8 @@
   leader: j.barria@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC70048
 
 - code: ELEC70069
   name: "Cryptography and Coding Theory"
@@ -641,6 +658,9 @@
   leader: c.ling@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC50011
+    - ELEC70048
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
@@ -659,3 +679,8 @@
   leader: b.pal@imperial.ac.uk
   year: 4
   term: spring
+  prereqs:
+    - ELEC50011
+    - ELEC50012
+    - ELEC60008 
+    - ELEC60012
