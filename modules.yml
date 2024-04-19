@@ -5,6 +5,13 @@
   year: 1
   startterm: autumn
   endterm: spring
+  major themes:
+    - analogue
+  minor themes:
+    - devices
+    - biomedical
+    - power systems
+    - power electronics
 
 - code: ELEC40003
   name: Digital Electronics and Computer Architecture
@@ -12,6 +19,10 @@
   year: 1
   startterm: autumn
   endterm: spring
+  major themes:
+    - digital
+  minor themes:
+    - compsci   
     
 - code: ELEC40004
   name: Programming for Engineers
@@ -19,12 +30,26 @@
   year: 1
   startterm: autumn
   endterm: spring
+  major themes:
+    - compsci
+    - maths
 
 - code: ELEC40006
   name: Electronics Design Project
   leader: ed.stott@imperial.ac.uk
   year: 1
   term: summer
+  major themes:
+    - prof
+  minor themes:
+    - devices
+    - fields
+    - power electronics
+    - robotics
+    - signals
+    - comms
+    - digital
+    - compsci
     
 - code: ELEC40009
   name: Topics in Electrical Engineering
@@ -32,6 +57,18 @@
   year: 1
   startterm: autumn
   endterm: spring
+  major themes:
+    - fields
+    - signals
+    - comms
+    - power systems
+    - power electronics
+    - devices
+  minor themes:
+    - analogue
+    - ml
+    - image audio
+    - maths
 
 - code: ELEC40010_ELEC40011
   name: Mathematics 1A 1B
@@ -39,6 +76,18 @@
   year: 1
   startterm: autumn
   endterm: spring
+  major themes:
+    - maths
+  minor themes:
+    - fields
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image audio
+    - comms
+    - digital
     
 - code: ELEC50001
   name: Circuits and Systems
@@ -47,6 +96,14 @@
   term: autumn
   prereqs:
     - ELEC40003
+  major themes:
+    - digital
+  minor themes:
+    - analogue
+    - biomedical
+    - power electronics
+    - signals
+    - comms
 
 - code: ELEC50002
   name: Communications
@@ -59,13 +116,20 @@
     - ELEC50006
     - ELEC50011
     - ELEC50013
+  major themes:
+    - comms
+  minor themes:
+    - fields
+    - ml
+    - signals
+    - image audio
+    - digital
 
-- code: ELEC50003_ELEC50008
-  name: Computer Engineering Design Project I and II
-  leader: h.merdan18@imperial.ac.uk
+- code: ELEC50015
+  name: Electronics Design Project
+  leader: ed.stott@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: spring
+  term: summer
   prereqs:
     - ELEC40002
     - ELEC40003
@@ -73,6 +137,22 @@
     - ELEC40006
     - ELEC40009
     - ELEC40010_ELEC40011
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - fields
+    - power systems
+    - power electronics
+    - control
+    - robotics
+    - signals
+    - image audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC50004
   name: Control Systems
@@ -83,6 +163,13 @@
     - ELEC40002
     - ELEC40010_ELEC40011
     - ELEC50013
+  major themes:
+    - control
+    - robotics
+  minor themes:
+    - power electronics
+    - signals
+    - maths
     
 - code: ELEC50006
   name: Discrete Mathematics
@@ -92,6 +179,13 @@
   prereqs:
     - ELEC40004
     - ELEC40010_ELEC40011
+  major themes:
+    - compsci
+  minor themes:
+    - optimisation
+    - comms
+    - digital
+    - maths
 
 - code: ELEC50007
   name: Electromagnetism
@@ -104,6 +198,15 @@
     - ELEC40004 
     - ELEC40009
     - ELEC40010_ELEC40011
+  major themes:
+    - fields
+  minor themes:
+    - analogue
+    - devices
+    - power systems
+    - power electronics
+    - comms
+    - maths
     
 - code: ELEC50009
   name: "Information Processing"
@@ -114,6 +217,11 @@
   prereqs:
     - ELEC40004
     - ELEC40010_ELEC40011
+  major themes:
+    - ml
+    - signals
+  minor themes:
+    - maths
   
 - code: ELEC50010
   name: "Instruction Architectures and Compilers"
@@ -123,6 +231,11 @@
   endterm: spring
   prereqs:
     - ELEC40004
+  major themes:
+    - digital
+    - compsci
+  minor themes:
+    - maths
     
 - code: ELEC50011
   name: "Mathematics for Engineers"
@@ -131,6 +244,18 @@
   term: autumn
   prereqs:
     - ELEC40010_ELEC40011
+  major themes:
+    - maths
+  minor themes:
+    - fields
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image audio
+    - comms
+    - digital
     
 - code: ELEC50012
   name: "Power Electronics and Power Systems"
@@ -140,6 +265,12 @@
   prereqs:
     - ELEC40002
     - ELEC40009
+  major themes:
+    - power systems
+    - power electronics
+  minor themes:
+    - analogue
+    - devices
 
 - code: ELEC50013
   name: Signals and Systems
@@ -150,6 +281,12 @@
     - ELEC40002
     - ELEC40004
     - ELEC40010_ELEC40011
+  major themes:
+    - signals
+    - image audio
+  minor themes:
+    - ml
+    - maths
     
 - code: ELEC50014
   name: Software Systems
@@ -159,6 +296,11 @@
   prereqs:
     - ELEC40004
     - ELEC40006
+  major themes:
+    - compsci
+  minor themes:
+    - comms
+    - digital
     
 - code: ELEC60002
   name: "Statistical Signal Processing and Inference"

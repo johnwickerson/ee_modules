@@ -32,6 +32,13 @@ let prepare_email to_recipients cc_recipients bcc_recipients sender_name sender_
   let _ = Sys.command (sprintf "osascript %s" scpt_file) in
   flush stdout
 
+let rec iter_fun f n x =
+  if n = 0 then x else f (iter_fun f (n-1) x)
+  
+let rec remdups = function
+  | [] -> []
+  | x :: xs -> (if List.mem x xs then [] else [x]) @ remdups xs
+
 let rec lookup_exn kvs k =
   match kvs with
   | [] -> raise Not_found
