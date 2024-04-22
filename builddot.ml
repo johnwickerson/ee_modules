@@ -71,6 +71,9 @@ let field_of_module m f =
 let string_field_of_module m f =
   as_yaml_string (field_of_module m f)
 
+let number_field_of_module m f =
+  as_yaml_number (field_of_module m f)
+
 let string_list_field_of_module m f =
   let xs = 
     try as_yaml_dictionary (field_of_module m f)
@@ -82,6 +85,9 @@ let name_of_module m =
 
 let code_of_module m =
   string_field_of_module m "code"
+
+let year_of_module m =
+  number_field_of_module m "year"
 
 let major_themes_of_module m =
   string_list_field_of_module m "major themes"
@@ -137,7 +143,6 @@ let add_prereq_codes all_modules ms =
            @ iter_fun f 8 ms
            @ iter_fun f 9 ms)
 
-
 let mem_opt xo xs = match xo with
   | None -> true
   | Some x -> List.mem x xs
@@ -164,10 +169,10 @@ let main (target_theme : string option) =
   in
   let all_module_codes = add_prereq_codes all_modules theme_module_codes in
   let all_modules = List.map (module_from_code all_modules) all_module_codes in
-  let year_is y m = as_yaml_number (lookup_exn (as_yaml_ordered_list m) "year") = float_of_int y in
-  let modules_by_year y = List.filter (year_is y) all_modules in
+  let modules_by_year y = List.filter (fun m -> year_of_module m = float_of_int y) all_modules in
   for y = 1 to 4 do
-    printf "  node[color=\"%s\", fillcolor=\"%s\", penwidth=4, style=\"filled\"];\n" (dark y) (light y);
+    printf "  node[color=\"%s\", fillcolor=\"%s\", penwidth=4, style=\"filled\"];\n"
+      (dark y) (light y);
     printf "\n";
     List.iter (print_module y) (List.filter (contains_major_theme target_theme) (modules_by_year y));
     printf "\n";
