@@ -95,6 +95,9 @@ let major_themes_of_module m =
 let minor_themes_of_module m =
   string_list_field_of_module m "minor themes"
 
+let themes_of_module m =
+  major_themes_of_module m @ minor_themes_of_module m
+
 let prereqs_of_module m =
   string_list_field_of_module m "prereqs"
        
@@ -104,9 +107,9 @@ let print_module y m =
   let prereqs = prereqs_of_module m in
   printf "  %s [label=\"{%s | %s}\"];\n" code code (wrap 20 name);
   List.iter (print_prereq y code) prereqs;
-  if y > 1 then
-    if not (List.exists (fun p -> year_of_code p = y - 1) prereqs) then
-      printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code;
+  let year_of_code_is y p = year_of_code p = y in
+  if y > 1 && not (List.exists (year_of_code_is (y - 1)) prereqs) then
+    printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code;
   printf "\n"
 
 let print_root_edge m =
@@ -142,19 +145,6 @@ let add_prereq_codes all_modules ms =
            @ iter_fun f 7 ms
            @ iter_fun f 8 ms
            @ iter_fun f 9 ms)
-
-let mem_opt xo xs = match xo with
-  | None -> true
-  | Some x -> List.mem x xs
-   
-let contains_major_theme (target_theme : string option) m =
-  mem_opt target_theme (major_themes_of_module m)
-                 
-let contains_minor_theme (target_theme : string option) m =
-  mem_opt target_theme (minor_themes_of_module m)
-    
-let contains_theme (target_theme : string option) m =
-  mem_opt target_theme (major_themes_of_module m @ minor_themes_of_module m)
   
 let main (target_theme : string option) = 
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
@@ -164,26 +154,45 @@ let main (target_theme : string option) =
   printf "\n";
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
   let all_modules = as_yaml_dictionary yml_top in
-  let theme_module_codes =
-    List.map code_of_module (List.filter (contains_theme target_theme) all_modules)
+  let theme_modules = match target_theme with
+    | None -> all_modules
+    | Some t -> List.filter (fun m -> List.mem t (themes_of_module m)) all_modules
   in
-  let all_module_codes = add_prereq_codes all_modules theme_module_codes in
-  let all_modules = List.map (module_from_code all_modules) all_module_codes in
-  let modules_by_year y = List.filter (fun m -> year_of_module m = float_of_int y) all_modules in
-  for y = 1 to 4 do
-    printf "  node[color=\"%s\", fillcolor=\"%s\", penwidth=4, style=\"filled\"];\n"
-      (dark y) (light y);
-    printf "\n";
-    List.iter (print_module y) (List.filter (contains_major_theme target_theme) (modules_by_year y));
-    printf "\n";
-    printf "  node[penwidth=1];\n";
-    printf "\n";
-    List.iter (print_module y) (List.filter (contains_minor_theme target_theme) (modules_by_year y));
-    printf "\n";
-    printf "  node[color=\"%s\", fillcolor=\"%s\", style=\"dashed\"];\n" darkgrey lightgrey;
-    printf "\n";
-    List.iter (print_module y) (List.filter (fun m -> not (contains_theme target_theme m)) (modules_by_year y))
-  done;
+  let theme_module_codes = List.map code_of_module theme_modules in
+  let relevant_module_codes = add_prereq_codes all_modules theme_module_codes in
+  let relevant_modules = List.map (module_from_code all_modules) relevant_module_codes in
+  let year_of_module_is y m = year_of_module m = float_of_int y in
+  let modules_by_year y = List.filter (year_of_module_is y) relevant_modules in
+  begin match target_theme with
+  | None ->
+     for y = 1 to 4 do
+       let ms = modules_by_year y in
+       printf "  node[color=\"%s\", fillcolor=\"%s\", penwidth=4, style=\"filled\"];\n"
+         (dark y) (light y);
+       printf "\n";
+       List.iter (print_module y) ms;
+       printf "\n";
+     done
+  | Some t ->
+     for y = 1 to 4 do
+       let ms = modules_by_year y in
+       printf "  node[color=\"%s\", fillcolor=\"%s\", penwidth=4, style=\"filled\"];\n"
+         (dark y) (light y);
+       printf "\n";
+       let majors = List.filter (fun m -> List.mem t (major_themes_of_module m)) ms in
+       let minors = List.filter (fun m -> List.mem t (minor_themes_of_module m)) ms in
+       let others = List.filter (fun m -> not (List.mem t (themes_of_module m))) ms in
+       List.iter (print_module y) majors;
+       printf "\n";
+       printf "  node[penwidth=1];\n";
+       printf "\n";
+       List.iter (print_module y) minors;
+       printf "\n";
+       printf "  node[color=\"%s\", fillcolor=\"%s\", style=\"dashed\"];\n" darkgrey lightgrey;
+       printf "\n";
+       List.iter (print_module y) others
+     done
+  end;
   if env_var_set "INCLUDEROOTNODE" then
     print_root_edges (modules_by_year 1) target_theme
   else (
