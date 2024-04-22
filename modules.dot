@@ -71,6 +71,11 @@ digraph G {
 
   node[color="#7e68a4", fillcolor="#bba5e3", penwidth=4, style="filled"];
 
+  ELEC60011 [label="{ELEC60011 | Digital Systems\nDesign}"];
+  ELEC40003 -> ELEC60011 [weight=0];
+  ELEC50001 -> ELEC60011;
+  ELEC50010 -> ELEC60011;
+
 
   node[penwidth=1];
 

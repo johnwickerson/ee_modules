@@ -71,6 +71,11 @@ digraph G {
 
   node[color="#7e68a4", fillcolor="#bba5e3", penwidth=4, style="filled"];
 
+  ELEC60011 [label="{ELEC60011 | Digital Systems\nDesign}"];
+  ELEC40003 -> ELEC60011 [weight=0];
+  ELEC50001 -> ELEC60011;
+  ELEC50010 -> ELEC60011;
+
 
   node[penwidth=1];
 
@@ -86,11 +91,11 @@ digraph G {
   node[color="#666666", fillcolor="#dddddd", style="dashed"];
 
   root[label="digital theme", color="#666666", fillcolor="#dddddd"];
-  root -> ELEC40003;
   root -> ELEC40009;
   root -> ELEC40006;
   root -> ELEC40002;
-  root -> ELEC40004;
   root -> ELEC40010_ELEC40011;
+  root -> ELEC40003;
+  root -> ELEC40004;
 
 }
