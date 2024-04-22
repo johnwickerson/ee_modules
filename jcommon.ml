@@ -53,18 +53,18 @@ let rec iter_alt f g = function
   | [x] -> f x
   | x :: xs -> f x; g (); iter_alt f g xs
 
-let as_yaml_string ?(msg = "Expected a YAML string") = function
+let as_yaml_string = function
   | `String s -> s
-  | _ -> failwith msg
+  | _ -> failwith "Expected a YAML string"
 
-let as_yaml_number ?(msg = "Expected a YAML number") = function
+let as_yaml_number = function
   | `Float f -> f
-  | _ -> failwith msg
+  | _ -> failwith "Expected a YAML number"
 
-let as_yaml_ordered_list ?(msg = "Expected a YAML ordered list") = function
+let as_yaml_ordered_list = function
   | `O xs -> xs
-  | _ -> failwith msg
+  | _ -> failwith "Expected a YAML ordered list"
        
-let as_yaml_dictionary ?(msg = "Expected a YAML dictionary") = function
+let as_yaml_dictionary = function
   | `A xs -> xs
-  | _ -> failwith msg
+  | _ -> failwith "Expected a YAML dictionary"

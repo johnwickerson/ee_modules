@@ -309,6 +309,12 @@
   term: spring
   prereqs:
     - ELEC50011
+  major themes:
+    - signals
+  minor themes:
+    - control
+    - comms
+    - maths
 
 - code: ELEC60003
   name: "Analogue Integrated Circuits and Systems"
@@ -317,6 +323,12 @@
   term: autumn
   prereqs:
     - ELEC50001
+  major themes:
+    - analogue
+  minor themes:
+    - devices
+    - biomedical
+    - fields
 
 - code: ELEC60004
   name: "Machine Reasoning"
@@ -328,8 +340,12 @@
     - ELEC50014
     - ELEC50006
     - ELEC50009
+  major themes:
+    - ml
+    - compsci
+  minor themes:
+    - optimisation
     
-
 - code: ELEC60005
   name: "Biomedical Electronics"
   leader: pantelis@imperial.ac.uk
@@ -338,13 +354,22 @@
   prereqs:
     - ELEC40002
     - ELEC50001
+  major themes:
+    - biomedical
+  minor themes:
+    - analogue
+    - signals
 
 - code: ELEC60006
   name: "Communication Networks"
   leader: j.barria@imperial.ac.uk
   year: 3
   term: autumn
-
+  major themes:
+    - comms
+  minor themes:
+    - optimisation
+    
 - code: ELEC60008
   name: "Control Engineering"
   leader: a.astolfi@imperial.ac.uk
@@ -358,6 +383,11 @@
     - ELEC50013
     - ELEC50004
     - ELEC50012
+  major themes:
+    - control
+  minor themes:
+    - signals
+    - maths
 
 - code: ELEC60009
   name: "Deep Learning"
@@ -369,6 +399,11 @@
     - ELEC60021
     - ELEC40004
     - ELEC50009
+  major themes:
+    - ml
+  minor themes:
+    - image_audio
+    - compsci    
 
 - code: ELEC60010
   name: "Digital Signal Processing"
@@ -380,6 +415,11 @@
     - ELEC50011
     - ELEC50013
     - ELEC50002
+  major themes:
+    - signals
+  minor themes:
+    - image_audio
+    - maths
 
 - code: ELEC60011
   name: "Digital Systems Design"
@@ -390,6 +430,10 @@
     - ELEC40003
     - ELEC50001
     - ELEC50010
+  major themes:
+    - digital
+  minor themes:
+    - compsci
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
@@ -411,7 +455,7 @@
     - ELEC40006
     - ELEC50014
     - ELEC50009
-    - ELEC50003_ELEC50008
+    - ELEC50015
 
 - code: ELEC60014
   name: "Group Consultancy Project"
@@ -435,7 +479,7 @@
   term: summer
   prereqs:
     - ELEC40006
-    - ELEC50003_ELEC50008
+    - ELEC50015
     - ELEC60020
 
 - code: ELEC60017
@@ -445,7 +489,7 @@
   startterm: spring
   endterm: summer
   prereqs:
-    - ELEC50003_ELEC50008
+    - ELEC50015
 
 - code: ELEC60018
   name: "Instrumentation"

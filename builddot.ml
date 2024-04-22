@@ -48,15 +48,14 @@ let wrap line_width txt =
   in
   Buffer.contents buf
 
-let year_of_code code = int_of_char (code.[4]) - 48 - 3
+let year_of_code code = int_of_char (code.[4]) - (int_of_char '0') - 3
   
 let print_prereq y code prereq =
-  let prereq_str = as_yaml_string prereq in
-  let prereq_y = year_of_code prereq_str in
+  let prereq_y = year_of_code prereq in
   if prereq_y < y - 1 then
-    printf "  %s -> %s [weight=0];\n" prereq_str code
+    printf "  %s -> %s [weight=0];\n" prereq code
   else
-    printf "  %s -> %s;\n" prereq_str code
+    printf "  %s -> %s;\n" prereq code
 
 let dummy_code = function
   | 0 -> "root"
@@ -65,24 +64,47 @@ let dummy_code = function
   | 3 -> "ELEC60002"
   | 4 -> "ELEC70001"
   | _ -> failwith "Invalid year"
-  
+
+let field_of_module m f =
+  lookup_exn (as_yaml_ordered_list m) f
+
+let string_field_of_module m f =
+  as_yaml_string (field_of_module m f)
+
+let string_list_field_of_module m f =
+  let xs = 
+    try as_yaml_dictionary (field_of_module m f)
+    with Not_found -> []
+  in List.map as_yaml_string xs
+
+let name_of_module m =
+  string_field_of_module m "name"
+
+let code_of_module m =
+  string_field_of_module m "code"
+
+let major_themes_of_module m =
+  string_list_field_of_module m "major themes"
+
+let minor_themes_of_module m =
+  string_list_field_of_module m "minor themes"
+
+let prereqs_of_module m =
+  string_list_field_of_module m "prereqs"
+       
 let print_module y m =
-  let attribs = as_yaml_ordered_list m in
-  let name = as_yaml_string (lookup_exn attribs "name") in
-  let code = as_yaml_string (lookup_exn attribs "code") in
-  let prereqs_dict = try lookup_exn attribs "prereqs" with Not_found -> `A [] in
-  let prereqs = as_yaml_dictionary prereqs_dict in
+  let name = name_of_module m in
+  let code = code_of_module m in
+  let prereqs = prereqs_of_module m in
   printf "  %s [label=\"{%s | %s}\"];\n" code code (wrap 20 name);
   List.iter (print_prereq y code) prereqs;
   if y > 1 then
-    if not (List.exists (fun p -> year_of_code (as_yaml_string p) = y - 1) prereqs) then
+    if not (List.exists (fun p -> year_of_code p = y - 1) prereqs) then
       printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code;
   printf "\n"
 
 let print_root_edge m =
-  let attribs = as_yaml_ordered_list m in
-  let code = as_yaml_string (lookup_exn attribs "code") in
-  printf "  root -> %s;\n" code
+  printf "  root -> %s;\n" (code_of_module m)
   
 let print_root_edges modules target_theme =
   let lbl = match target_theme with
@@ -92,25 +114,15 @@ let print_root_edges modules target_theme =
   printf "  root[label=\"%s\", color=\"%s\", fillcolor=\"%s\"];\n" lbl darkgrey lightgrey;
   List.iter print_root_edge modules;
   printf "\n"
-
-let code_of m =
-  as_yaml_string (lookup_exn (as_yaml_ordered_list m) "code")
-  
-let code_is mc m =
-  as_yaml_string (lookup_exn (as_yaml_ordered_list m) "code") = mc
   
 let module_from_code all_modules mc =
-  match List.filter (code_is mc) all_modules with
+  match List.filter (fun m -> code_of_module m = mc) all_modules with
   | [m] -> m
   | [] -> failwith (sprintf "Couldn't find module with code %s" mc)
   | _ -> failwith (sprintf "Found multiple modules with code %s" mc)
 
 let prereqs_by_code all_modules mc =
-  let m = module_from_code all_modules mc in
-  let prereqs =
-    try as_yaml_dictionary (lookup_exn (as_yaml_ordered_list m) "prereqs")
-    with Not_found -> [] in
-  List.map (fun p -> as_yaml_string p) prereqs
+  prereqs_of_module (module_from_code all_modules mc)
        
 let add_prereq_codes all_modules ms =
   let f ms = List.concat (List.map (prereqs_by_code all_modules) ms) in
@@ -125,32 +137,19 @@ let add_prereq_codes all_modules ms =
            @ iter_fun f 8 ms
            @ iter_fun f 9 ms)
 
-let major_themes_of m =
-  let ts = 
-    try as_yaml_dictionary (lookup_exn (as_yaml_ordered_list m) "major themes")
-    with Not_found -> []
-  in List.map (fun t -> as_yaml_string t) ts
+
+let mem_opt xo xs = match xo with
+  | None -> true
+  | Some x -> List.mem x xs
    
 let contains_major_theme (target_theme : string option) m =
-  match target_theme with
-  | None -> true
-  | Some t -> List.mem t (major_themes_of m)
-                  
-let minor_themes_of m =
-  let ts =
-    try as_yaml_dictionary (lookup_exn (as_yaml_ordered_list m) "minor themes")
-    with Not_found -> []
-  in List.map (fun t -> as_yaml_string t) ts
-
+  mem_opt target_theme (major_themes_of_module m)
+                 
 let contains_minor_theme (target_theme : string option) m =
-  match target_theme with
-  | None -> true
-  | Some t -> List.mem t (minor_themes_of m)
+  mem_opt target_theme (minor_themes_of_module m)
     
 let contains_theme (target_theme : string option) m =
-  match target_theme with
-  | None -> true
-  | Some t -> List.mem t (major_themes_of m @ minor_themes_of m)
+  mem_opt target_theme (major_themes_of_module m @ minor_themes_of_module m)
   
 let main (target_theme : string option) = 
   printf "// This is an auto-generated file. Don't edit this file; edit `modules.yml` instead.\n\n";
@@ -161,7 +160,7 @@ let main (target_theme : string option) =
   let yml_top = Yaml_unix.of_file_exn Fpath.(v "modules.yml") in
   let all_modules = as_yaml_dictionary yml_top in
   let theme_module_codes =
-    List.map code_of (List.filter (contains_theme target_theme) all_modules)
+    List.map code_of_module (List.filter (contains_theme target_theme) all_modules)
   in
   let all_module_codes = add_prereq_codes all_modules theme_module_codes in
   let all_modules = List.map (module_from_code all_modules) all_module_codes in
