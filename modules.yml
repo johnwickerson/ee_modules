@@ -443,6 +443,10 @@
   prereqs:
     - ELEC50012
     - ELEC40009
+  major themes:
+    - power_systems
+  minor themes:
+    - maths
 
 - code: ELEC60013
   name: "Embedded Systems"
@@ -456,12 +460,37 @@
     - ELEC50014
     - ELEC50009
     - ELEC50015
+  minor themes:
+    - power_electronics
+    - robotics
+    - comms
+    - digital
+    - compsci
 
 - code: ELEC60014
   name: "Group Consultancy Project"
   leader: s.wright02@imperial.ac.uk
   year: 3
   term: summer
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - biomedical
+    - fields
+    - power_systems
+    - power_electronics
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image_audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC60015
   name: "High Level Programming"
@@ -471,6 +500,10 @@
   prereqs:
     - ELEC50010
     - ELEC50006
+  major themes:
+    - compsci
+  minor themes:
+    - digital
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
@@ -481,6 +514,25 @@
     - ELEC40006
     - ELEC50015
     - ELEC60020
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - biomedical
+    - fields
+    - power_systems
+    - power_electronics
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image_audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC60017
   name: "Individual Project"
@@ -490,6 +542,25 @@
   endterm: summer
   prereqs:
     - ELEC50015
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - biomedical
+    - fields
+    - power_systems
+    - power_electronics
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image_audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC60018
   name: "Instrumentation"
@@ -504,6 +575,12 @@
     - ELEC50004
     - ELEC60003
     - ELEC60005
+  major themes:
+    - analogue
+  minor themes:
+    - power_electronics
+    - signals
+    - comms
 
 - code: ELEC60019
   name: "Machine Learning"
@@ -514,6 +591,11 @@
     - ELEC40004
     - ELEC40010_ELEC40011
     - ELEC50011
+  major themes:
+    - ml
+  minor themes:
+    - optimisation
+    - maths
 
 - code: ELEC60020
   name: "Managing Engineering Projects"
@@ -530,6 +612,14 @@
     - ELEC40010_ELEC40011
     - ELEC50011
     - ELEC50013
+  major themes:
+    - maths
+  minor themes:
+    - control
+    - optimisation
+    - ml
+    - signals
+    - image_audio
 
 - code: ELEC60022
   name: "Microwave Technology"
@@ -538,6 +628,12 @@
   term: autumn
   prereqs:
     - ELEC50007
+  major themes:
+    - fields
+  minor themes:
+    - analogue
+    - devices
+    - comms
 
 - code: ELEC60023
   name: "Optoelectronics"
@@ -547,6 +643,9 @@
   prereqs:
     - ELEC50007
     - ELEC50002
+  major themes:
+    - devices
+    - fields
 
 - code: ELEC60024
   name: "Power Electronics"
@@ -562,6 +661,12 @@
     - ELEC50012
     - ELEC60029
     - ELEC60008
+  major themes:
+    - power_electronics
+  minor themes:
+    - analogue
+    - devices
+    - power_systems
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
@@ -572,6 +677,13 @@
     - ELEC40003
     - ELEC50011
     - ELEC60010
+  major themes:
+    - signals
+    - compsci
+  minor themes:
+    - control
+    - image_audio
+    - digital
 
 - code: ELEC60029
   name: "Semiconductor Devices"
@@ -587,12 +699,21 @@
     - ELEC50011
     - ELEC50007
     - ELEC50012
+  major themes:
+    - devices
+  minor themes:
+    - analogue
+    - power_electronics
 
 - code: ELEC60030
   name: "Robotic Manipulation"
   leader: a.spiers@imperial.ac.uk
   year: 3
   term: spring
+  major themes:
+    - robotics
+  minor themes:
+    - control
 
 - code: ELEC60031
   name: "Principles of Classical and Modern Radar Systems"
@@ -604,6 +725,12 @@
     - ELEC50013
     - ELEC50002
     - ELEC50007
+  major themes:
+    - comms
+  minor themes:
+    - fields
+    - control
+    - signals
 
 - code: ELEC60033
   name: "Electric Vehicle Technologies"
@@ -616,6 +743,9 @@
     - ELEC40010_ELEC40011
     - ELEC50004
     - ELEC50012
+  major themes:
+    - power_systems
+    - power_electronics
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
