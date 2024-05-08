@@ -20,6 +20,5 @@ git checkout modules_prof.pdf
 git checkout modules_robotics.pdf
 git checkout modules_signals.pdf
 git checkout modules_with_root.dot
-git checkout modules
 git pull --rebase
 git push
