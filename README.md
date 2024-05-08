@@ -17,7 +17,7 @@ We see several benefits of building this graph:
 
 ## How to view the dependency graphs
 
-- [Analogue Electronics](https://github.com/johnwickerson/ee_modules/raw/main/modules_.pdf)
+- [Analogue Electronics](https://github.com/johnwickerson/ee_modules/raw/main/modules_analogue.pdf)
 - [Biomedical Engineering](https://github.com/johnwickerson/ee_modules/raw/main/modules_biomedical.pdf)
 - [Networks and Communications](https://github.com/johnwickerson/ee_modules/raw/main/modules_comms.pdf)
 - [Computer Science and Software Engineering](https://github.com/johnwickerson/ee_modules/raw/main/modules_compsci.pdf)
