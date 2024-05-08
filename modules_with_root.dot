@@ -35,12 +35,9 @@ digraph G {
 
   node[penwidth=1];
 
-  ELEC50002 [label="{ELEC50002 | Communications}"];
-  ELEC40009 -> ELEC50002;
-  ELEC40010_ELEC40011 -> ELEC50002;
-  ELEC50006 -> ELEC50002;
-  ELEC50011 -> ELEC50002;
-  ELEC50013 -> ELEC50002;
+  ELEC50014 [label="{ELEC50014 | Software Systems}"];
+  ELEC40004 -> ELEC50014;
+  ELEC40006 -> ELEC50014;
 
   ELEC50015 [label="{ELEC50015 | Electronics Design\nProject}"];
   ELEC40002 -> ELEC50015;
@@ -50,9 +47,12 @@ digraph G {
   ELEC40009 -> ELEC50015;
   ELEC40010_ELEC40011 -> ELEC50015;
 
-  ELEC50014 [label="{ELEC50014 | Software Systems}"];
-  ELEC40004 -> ELEC50014;
-  ELEC40006 -> ELEC50014;
+  ELEC50002 [label="{ELEC50002 | Communications}"];
+  ELEC40009 -> ELEC50002;
+  ELEC40010_ELEC40011 -> ELEC50002;
+  ELEC50006 -> ELEC50002;
+  ELEC50011 -> ELEC50002;
+  ELEC50013 -> ELEC50002;
 
   ELEC50006 [label="{ELEC50006 | Discrete\nMathematics}"];
   ELEC40004 -> ELEC50006;
@@ -63,6 +63,10 @@ digraph G {
 
 
   node[color="#666666", fillcolor="#dddddd", style="dashed"];
+
+  ELEC50009 [label="{ELEC50009 | Information\nProcessing}"];
+  ELEC40004 -> ELEC50009;
+  ELEC40010_ELEC40011 -> ELEC50009;
 
   ELEC50013 [label="{ELEC50013 | Signals and Systems}"];
   ELEC40002 -> ELEC50013;
@@ -79,8 +83,45 @@ digraph G {
 
   node[penwidth=1];
 
+  ELEC60013 [label="{ELEC60013 | Embedded Systems}"];
+  ELEC40003 -> ELEC60013 [weight=0];
+  ELEC40004 -> ELEC60013 [weight=0];
+  ELEC40006 -> ELEC60013 [weight=0];
+  ELEC50014 -> ELEC60013;
+  ELEC50009 -> ELEC60013;
+  ELEC50015 -> ELEC60013;
+
+  ELEC60014 [label="{ELEC60014 | Group Consultancy\nProject}"];
+  ELEC50001 -> ELEC60014 [style=invis];
+
+  ELEC60015 [label="{ELEC60015 | High Level\nProgramming}"];
+  ELEC50010 -> ELEC60015;
+  ELEC50006 -> ELEC60015;
+
+  ELEC60016 [label="{ELEC60016 | Individual\nIndustrial Placement}"];
+  ELEC40006 -> ELEC60016 [weight=0];
+  ELEC50015 -> ELEC60016;
+  ELEC60020 -> ELEC60016;
+
+  ELEC60017 [label="{ELEC60017 | Individual Project}"];
+  ELEC50015 -> ELEC60017;
+
+  ELEC60025 [label="{ELEC60025 | Real-Time Digital\nSignal Processing}"];
+  ELEC40003 -> ELEC60025 [weight=0];
+  ELEC50011 -> ELEC60025;
+  ELEC60010 -> ELEC60025;
+
 
   node[color="#666666", fillcolor="#dddddd", style="dashed"];
+
+  ELEC60020 [label="{ELEC60020 | Managing\nEngineering Projects}"];
+  ELEC50001 -> ELEC60020 [style=invis];
+
+  ELEC60010 [label="{ELEC60010 | Digital Signal\nProcessing}"];
+  ELEC50006 -> ELEC60010;
+  ELEC50011 -> ELEC60010;
+  ELEC50013 -> ELEC60010;
+  ELEC50002 -> ELEC60010;
 
   node[color="#4d5395", fillcolor="#9aa3ff", penwidth=4, style="filled"];
 
@@ -91,11 +132,11 @@ digraph G {
   node[color="#666666", fillcolor="#dddddd", style="dashed"];
 
   root[label="digital theme", color="#666666", fillcolor="#dddddd"];
-  root -> ELEC40009;
-  root -> ELEC40006;
-  root -> ELEC40002;
-  root -> ELEC40010_ELEC40011;
   root -> ELEC40003;
+  root -> ELEC40006;
+  root -> ELEC40009;
+  root -> ELEC40002;
   root -> ELEC40004;
+  root -> ELEC40010_ELEC40011;
 
 }
