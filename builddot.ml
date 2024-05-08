@@ -100,7 +100,7 @@ let themes_of_module m =
 
 let prereqs_of_module m =
   string_list_field_of_module m "prereqs"
-       
+  
 let print_module y m =
   let name = name_of_module m in
   let code = code_of_module m in
@@ -108,8 +108,9 @@ let print_module y m =
   printf "  %s [label=\"{%s | %s}\"];\n" code code (wrap 20 name);
   List.iter (print_prereq y code) prereqs;
   let year_of_code_is y p = year_of_code p = y in
-  if y > 1 && not (List.exists (year_of_code_is (y - 1)) prereqs) then
-    printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code;
+  if false then
+    if y > 1 && not (List.exists (year_of_code_is (y - 1)) prereqs) then
+      printf "  %s -> %s [style=invis];\n" (dummy_code (y - 1)) code;
   printf "\n"
 
 let print_root_edge m =
