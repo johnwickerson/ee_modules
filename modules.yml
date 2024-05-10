@@ -763,6 +763,11 @@
     - ELEC70037
     - ELEC70048
     - ELEC60025
+  major themes:
+    - ml
+    - signals
+  minor themes:
+    - maths
 
 - code: ELEC70003
   name: "Advanced Electronic Devices"
@@ -773,6 +778,10 @@
     - ELEC40009
     - ELEC60029
     - ELEC70012
+  major themes:
+    - devices
+  minor themes:
+    - analogue
 
 - code: ELEC70004
   name: "Analogue Signal Processing"
@@ -783,6 +792,12 @@
     - ELEC40002
     - ELEC50001
     - ELEC60003
+  major themes:
+    - analogue
+  minor themes:
+    - devices
+    - biomedical
+    - signals
 
 - code: ELEC70006
   name: "Design of Linear Multivariable Control Systems"
@@ -795,6 +810,11 @@
     - ELEC50004
     - ELEC60008
     - ELEC60021
+  major themes:
+    - control
+  minor themes:
+    - optimisation
+    - maths
 
 - code: ELEC70009
   name: "Discrete-Event Systems"
@@ -803,6 +823,8 @@
   term: spring
   prereqs:
     - ELEC70048
+  major themes:
+    - control
 
 - code: ELEC70012
   name: "Full-Custom Integrated Circuit Design"
@@ -816,12 +838,24 @@
     - ELEC60003
     - ELEC60018
     - ELEC60029
+  major themes:
+    - analogue
+    - digital
+  minor themes:
+    - devices
 
 - code: ELEC70013
   name: "High Performance Analogue Electronics"
   leader: e.rodriguez@imperial.ac.uk
   year: 4
   term: spring
+  major themes:
+    - analogue
+  minor themes:
+    - devices
+    - signals
+    - image_audio
+    - comms
 
 - code: ELEC70017
   name: "Individual Project (MEng)"
@@ -829,6 +863,25 @@
   year: 4
   startterm: autumn
   endterm: summer
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - biomedical
+    - fields
+    - power_systems
+    - power_electronics
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image_audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC70022
   name: "Modelling and Control of Multi-body Mechanical Systems"
@@ -840,6 +893,9 @@
     - ELEC50011
     - ELEC50013
     - ELEC50004
+  major themes:
+    - control
+    - robotics
 
 - code: ELEC70028
   name: "Predictive Control"
@@ -849,6 +905,10 @@
   prereqs:
     - ELEC50004
     - ELEC60008
+  major themes:
+    - control
+  minor themes:
+    - optimisation
 
 - code: ELEC70030
   name: "Professional Portfolio and Group Consultancy Project"
@@ -858,6 +918,25 @@
   endterm: summer
   prereqs:
     - ELEC60014
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - biomedical
+    - fields
+    - power_systems
+    - power_electronics
+    - control
+    - robotics
+    - optimisation
+    - ml
+    - signals
+    - image_audio
+    - comms
+    - digital
+    - compsci
+    - maths
 
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
@@ -869,6 +948,11 @@
     - ELEC50013
     - ELEC50006
     - ELEC60019
+  major themes:
+    - signals
+  minor themes:
+    - optimisation
+    - maths
 
 - code: ELEC70039
   name: "Wavelets"
@@ -879,6 +963,11 @@
     - ELEC40010_ELEC40011
     - ELEC60010
     - ELEC60021
+  major themes:
+    - signals
+    - image_audio
+  minor themes:
+    - ml
 
 - code: ELEC70041
   name: "Year Abroad"
@@ -892,6 +981,11 @@
   leader: a.manikas@imperial.ac.uk
   year: 4
   term: autumn
+  major themes:
+    - comms
+  minor themes:
+    - signals
+    - fields
 
 - code: ELEC70047
   name: "HVDC Technology and Control"
@@ -902,6 +996,11 @@
     - ELEC50012
     - ELEC60012
     - ELEC60024
+  major themes:
+    - power_electronics
+  minor themes:
+    - power_systems
+    - control
     
 - code: ELEC70048
   name: "Probability and Stochastic Processes"
@@ -910,6 +1009,10 @@
   term: autumn
   prereqs:
     - ELEC50011
+  major themes:
+    - signals
+  minor themes:
+    - maths
 
 - code: ELEC70015
   name: "Human-Centered Robotics"
@@ -925,6 +1028,12 @@
     - ELEC50009
     - ELEC60002
     - ELEC60009
+  major themes:
+    - biomedical
+    - robotics
+  minor themes:
+    - ml
+    - image_audio
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
@@ -938,12 +1047,19 @@
     - ELEC60003
     - ELEC60022
     - ELEC60031
+  major themes:
+    - fields
+  minor themes:
+    - analogue
 
 - code: ELEC70056
   name: "Hardware and Software Verification"
   leader: j.wickerson@imperial.ac.uk
   year: 4
   term: autumn
+  major themes:
+    - compsci
+    - maths
 
 - code: ELEC70065
   name: "Optimal Control"
@@ -954,6 +1070,11 @@
     - ELEC40010_ELEC40011
     - ELEC50011
     - ELEC50004
+  major themes:
+    - control
+  minor themes:
+    - optimisation
+    - maths
 
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
@@ -962,12 +1083,19 @@
   term: spring
   prereqs:
     - ELEC70048
+  major themes:
+    - comms
 
 - code: ELEC70069
   name: "Cryptography and Coding Theory"
   leader: wei.dai1@imperial.ac.uk
   year: 4
   term: autumn
+  major themes:
+    - maths
+  minor themes:
+    - signals
+    - compsci
 
 - code: ELEC70070
   name: "Information Theory"
@@ -977,18 +1105,33 @@
   prereqs:
     - ELEC50011
     - ELEC70048
+  major themes:
+    - comms
+  minor themes:
+    - signals
 
 - code: ELEC70071
   name: "Self-Organising Multi-Agent Systems"
   leader: j.pitt@imperial.ac.uk
   year: 4
   term: autumn
+  major themes:
+    - ml
+    - comms
+  minor themes:
+    - control
 
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
   leader: k.mikolajczyk@imperial.ac.uk
   year: 4
   term: spring
+  major themes:
+    - ml
+    - signals
+    - image_audio
+  minor themes:
+    - maths
 
 - code: ELEC70074
   name: "Power System Dynamics Stability and Control"
@@ -1000,3 +1143,8 @@
     - ELEC50012
     - ELEC60008 
     - ELEC60012
+  major themes:
+    - power_systems
+  minor themes:
+    - power_electronics
+    - control
