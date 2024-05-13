@@ -30,7 +30,7 @@ jobs:
         run: |
           eval $(opam env)
           make themes
-	  make table
+          make table
       - name: Add dependency graph to repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
