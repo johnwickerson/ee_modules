@@ -19,27 +19,27 @@ let all_themes = List.map (fun (k,_) -> k) themes_dict
 
 let description_of t = List.assoc t themes_dict
 
-let print_module no y m =
+let print_module rowspan y m =
   let name = name_of_module m in
   let code = code_of_module m in
   let major_themes = major_themes_of_module m in
   let minor_themes = minor_themes_of_module m in
-  printf "<tr>\n";
-  (match no with
+  printf "  <tr>\n";
+  (match rowspan with
   | None -> ()
-  | Some n -> printf "<td rowspan=\"%d\">year %d</td>" n y);
-  printf "<td>%s</td>\n" name;
-  printf "<td>%s</td>\n" code;
+  | Some n -> printf "    <td rowspan=\"%d\">year %d</td>" n y);
+  printf "    <td>%s</td>\n" name;
+  printf "    <td>%s</td>\n" code;
   List.iter (fun t ->
       if List.mem t major_themes then
-        printf "<td class=\"major\">M</td>\n"
+        printf "    <td class=\"major\">M</td>\n"
       else if List.mem t minor_themes then
-        printf "<td class=\"minor\">m</td>\n"
+        printf "    <td class=\"minor\">m</td>\n"
       else
         printf "<td></td>\n"
     )
     all_themes;
-  printf "</tr>\n"
+  printf "  </tr>\n"
                      
 let main () =
   printf "<html>\n";
