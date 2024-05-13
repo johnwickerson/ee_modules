@@ -1,3 +1,5 @@
 (executables
-  (names allpriors builddot)
-  (libraries str yaml yaml.unix))
+ (names allpriors builddot buildtable)
+ (modules allpriors builddot buildtable yml_processor jcommon)
+ (libraries str yaml yaml.unix))
+

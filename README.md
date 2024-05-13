@@ -35,6 +35,10 @@ We see several benefits of building this graph:
 - [Robotics](https://github.com/johnwickerson/ee_modules/raw/main/modules_robotics.pdf)
 - [Signal Processing](https://github.com/johnwickerson/ee_modules/raw/main/modules_signals.pdf)
 
+**Bonus:** here is a table that shows which modules belong to which themes:
+
+- [Module map](https://github.com/johnwickerson/ee_modules/raw/main/table.html)
+
 ## How to edit the dependency graphs
 
 - Open the [`modules.yml`](modules.yml) file.

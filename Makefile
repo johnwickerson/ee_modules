@@ -75,3 +75,6 @@ prof:
 	dot -Goverlap=false -Tpdf modules.dot -o modules_prof.pdf
 
 themes: analogue devices biomedical fields power_systems power_electronics control robotics optimisation ml signals image_audio comms digital compsci maths prof
+
+table:
+	dune exec -- ./buildtable.exe > table.html

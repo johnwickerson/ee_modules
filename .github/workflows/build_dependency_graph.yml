@@ -30,9 +30,10 @@ jobs:
         run: |
           eval $(opam env)
           make themes
+	  make table
       - name: Add dependency graph to repository
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
-          commit_message: "Recreating .dot and .pdf files"
-          file_pattern: 'modules*.pdf modules*.dot'
+          commit_message: "Recreating .dot, .pdf, and .html files"
+          file_pattern: 'modules*.pdf modules*.dot table.html'
           push_options: --force
