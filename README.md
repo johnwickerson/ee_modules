@@ -37,7 +37,7 @@ We see several benefits of building this graph:
 
 **Bonus:** here is a table that shows which modules belong to which themes:
 
-- [Module map](https://github.com/johnwickerson/ee_modules/raw/main/table.html)
+- [Module map](http://htmlpreview.github.io/?https://github.com/johnwickerson/ee_modules/raw/main/table.html)
 
 ## How to edit the dependency graphs
 
