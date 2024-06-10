@@ -19,17 +19,45 @@ let all_themes = List.map (fun (k,_) -> k) themes_dict
 
 let description_of t = List.assoc t themes_dict
 
+let term_index_of_module m =
+  match startterm_of_module m, endterm_of_module m with
+  | "autumn", "autumn" -> 0
+  | "autumn", "spring" -> 1
+  | "spring", "spring" -> 2
+  | "spring", "summer" -> 3
+  | "summer", "summer" -> 4
+  | "autumn", "summer" -> 5
+  | _, _ -> failwith "invalid term(s) provided"
+                     
 let print_module rowspan y m =
   let name = name_of_module m in
   let code = code_of_module m in
+  let start_term = startterm_of_module m in
+  let end_term = endterm_of_module m in
+  let term =
+    if start_term = end_term then
+      start_term
+    else
+      sprintf "%s&dash;%s" start_term end_term
+  in
+  let stream = stream_of_module m in
+  let streams = match stream with
+    | "both" -> "EEE, EIE"
+    | "eie" -> "EIE"
+    | "eee" -> "EEE"
+    | "management" -> "EEEM"
+    | _ -> failwith "invalid stream"
+  in
   let major_themes = major_themes_of_module m in
   let minor_themes = minor_themes_of_module m in
   printf "  <tr>\n";
   (match rowspan with
   | None -> ()
   | Some n -> printf "    <td rowspan=\"%d\">year %d</td>" n y);
+  printf "    <td>%s</td>\n" term;
   printf "    <td>%s</td>\n" name;
   printf "    <td>%s</td>\n" code;
+  printf "    <td>%s</td>\n" streams;
   List.iter (fun t ->
       if List.mem t major_themes then
         printf "    <td class=\"major\">M</td>\n"
@@ -76,8 +104,7 @@ let main () =
   printf "<body>\n";
   printf "<table>\n";
   printf "  <tr>\n";
-  printf "    <th colspan=\"2\">EE Undergraduate Module Map</td>\n";
-  printf "    <th></th>\n";
+  printf "    <th colspan=\"5\">EE Undergraduate Module Map</th>\n";
   List.iter (fun t ->
       printf "    <th><span>%s</span></th>\n" (description_of t))
     all_themes;
@@ -88,6 +115,8 @@ let main () =
   let modules_by_year y = List.filter (year_of_module_is y) all_modules in
   for y = 1 to 4 do
     let ms = modules_by_year y in
+    let cmp m1 m2 = compare (term_index_of_module m1) (term_index_of_module m2) in
+    let ms = List.sort cmp ms in
     print_module (Some (List.length ms)) y (List.hd ms);
     List.iter (print_module None y) (List.tl ms);
     printf "\n"

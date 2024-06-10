@@ -24,6 +24,17 @@ let code_of_module m =
 let year_of_module m =
   number_field_of_module m "year"
 
+let stream_of_module m =
+  string_field_of_module m "stream"
+
+let startterm_of_module m =
+  try string_field_of_module m "startterm"
+  with Not_found -> string_field_of_module m "term"
+
+let endterm_of_module m =
+  try string_field_of_module m "endterm"
+  with Not_found -> string_field_of_module m "term"
+
 let major_themes_of_module m =
   string_list_field_of_module m "major themes"
 

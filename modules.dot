@@ -8,23 +8,25 @@ digraph G {
 
   ELEC40006 [label="{ELEC40006 | Electronics Design\nProject}"];
 
-
-  node[penwidth=1];
-
-
-  node[color="#666666", fillcolor="#dddddd", style="dashed"];
-
-  ELEC40002 [label="{ELEC40002 | Analysis and Design\nof Circuits}"];
+  ELEC40009 [label="{ELEC40009 | Topics in\nElectrical\nEngineering}"];
 
   ELEC40003 [label="{ELEC40003 | Digital Electronics\nand Computer\nArchitecture}"];
 
-  ELEC40004 [label="{ELEC40004 | Programming for\nEngineers}"];
+  ELEC40002 [label="{ELEC40002 | Analysis and Design\nof Circuits}"];
 
-  ELEC40009 [label="{ELEC40009 | Topics in\nElectrical\nEngineering}"];
+  ELEC40004 [label="{ELEC40004 | Programming for\nEngineers}"];
 
   ELEC40010_ELEC40011 [label="{ELEC40010_ELEC40011 | Mathematics 1A 1B}"];
 
+
   node[color="#985d7d", fillcolor="#dea8c6", penwidth=4, style="filled"];
+
+  ELEC50010 [label="{ELEC50010 | Instruction\nArchitectures and\nCompilers}"];
+  ELEC40004 -> ELEC50010;
+
+  ELEC50014 [label="{ELEC50014 | Software Systems}"];
+  ELEC40004 -> ELEC50014;
+  ELEC40006 -> ELEC50014;
 
   ELEC50015 [label="{ELEC50015 | Electronics Design\nProject}"];
   ELEC40002 -> ELEC50015;
@@ -34,13 +36,66 @@ digraph G {
   ELEC40009 -> ELEC50015;
   ELEC40010_ELEC40011 -> ELEC50015;
 
+  ELEC50009 [label="{ELEC50009 | Information\nProcessing}"];
+  ELEC40004 -> ELEC50009;
+  ELEC40010_ELEC40011 -> ELEC50009;
 
-  node[penwidth=1];
+  ELEC50007 [label="{ELEC50007 | Electromagnetism}"];
+  ELEC40002 -> ELEC50007;
+  ELEC40004 -> ELEC50007;
+  ELEC40009 -> ELEC50007;
+  ELEC40010_ELEC40011 -> ELEC50007;
 
+  ELEC50004 [label="{ELEC50004 | Control Systems}"];
+  ELEC40002 -> ELEC50004;
+  ELEC40010_ELEC40011 -> ELEC50004;
+  ELEC50013 -> ELEC50004;
 
-  node[color="#666666", fillcolor="#dddddd", style="dashed"];
+  ELEC50012 [label="{ELEC50012 | Power Electronics\nand Power Systems}"];
+  ELEC40002 -> ELEC50012;
+  ELEC40009 -> ELEC50012;
+
+  ELEC50002 [label="{ELEC50002 | Communications}"];
+  ELEC40009 -> ELEC50002;
+  ELEC40010_ELEC40011 -> ELEC50002;
+  ELEC50006 -> ELEC50002;
+  ELEC50011 -> ELEC50002;
+  ELEC50013 -> ELEC50002;
+
+  ELEC50001 [label="{ELEC50001 | Circuits and\nSystems}"];
+  ELEC40003 -> ELEC50001;
+
+  ELEC50006 [label="{ELEC50006 | Discrete\nMathematics}"];
+  ELEC40004 -> ELEC50006;
+  ELEC40010_ELEC40011 -> ELEC50006;
+
+  ELEC50011 [label="{ELEC50011 | Mathematics for\nEngineers}"];
+  ELEC40010_ELEC40011 -> ELEC50011;
+
+  ELEC50013 [label="{ELEC50013 | Signals and Systems}"];
+  ELEC40002 -> ELEC50013;
+  ELEC40004 -> ELEC50013;
+  ELEC40010_ELEC40011 -> ELEC50013;
+
 
   node[color="#7e68a4", fillcolor="#bba5e3", penwidth=4, style="filled"];
+
+  ELEC60004 [label="{ELEC60004 | Machine Reasoning}"];
+  ELEC40004 -> ELEC60004 [weight=0];
+  ELEC50014 -> ELEC60004;
+  ELEC50006 -> ELEC60004;
+  ELEC50009 -> ELEC60004;
+
+  ELEC60006 [label="{ELEC60006 | Communication\nNetworks}"];
+
+  ELEC60011 [label="{ELEC60011 | Digital Systems\nDesign}"];
+  ELEC40003 -> ELEC60011 [weight=0];
+  ELEC50001 -> ELEC60011;
+  ELEC50010 -> ELEC60011;
+
+  ELEC60015 [label="{ELEC60015 | High Level\nProgramming}"];
+  ELEC50010 -> ELEC60015;
+  ELEC50006 -> ELEC60015;
 
   ELEC60016 [label="{ELEC60016 | Individual\nIndustrial Placement}"];
   ELEC40006 -> ELEC60016 [weight=0];
@@ -50,30 +105,245 @@ digraph G {
   ELEC60017 [label="{ELEC60017 | Individual Project}"];
   ELEC50015 -> ELEC60017;
 
-  ELEC60014 [label="{ELEC60014 | Group Consultancy\nProject}"];
+  ELEC60023 [label="{ELEC60023 | Optoelectronics}"];
+  ELEC50007 -> ELEC60023;
+  ELEC50002 -> ELEC60023;
 
-
-  node[penwidth=1];
-
-
-  node[color="#666666", fillcolor="#dddddd", style="dashed"];
+  ELEC60033 [label="{ELEC60033 | Electric Vehicle\nTechnologies}"];
+  ELEC40002 -> ELEC60033 [weight=0];
+  ELEC40009 -> ELEC60033 [weight=0];
+  ELEC40010_ELEC40011 -> ELEC60033 [weight=0];
+  ELEC50004 -> ELEC60033;
+  ELEC50012 -> ELEC60033;
 
   ELEC60020 [label="{ELEC60020 | Managing\nEngineering Projects}"];
 
+  ELEC60014 [label="{ELEC60014 | Group Consultancy\nProject}"];
+
+  ELEC60024 [label="{ELEC60024 | Power Electronics}"];
+  ELEC40002 -> ELEC60024 [weight=0];
+  ELEC40009 -> ELEC60024 [weight=0];
+  ELEC50001 -> ELEC60024;
+  ELEC50004 -> ELEC60024;
+  ELEC50007 -> ELEC60024;
+  ELEC50012 -> ELEC60024;
+  ELEC60029 -> ELEC60024;
+  ELEC60008 -> ELEC60024;
+
+  ELEC60013 [label="{ELEC60013 | Embedded Systems}"];
+  ELEC40003 -> ELEC60013 [weight=0];
+  ELEC40004 -> ELEC60013 [weight=0];
+  ELEC40006 -> ELEC60013 [weight=0];
+  ELEC50014 -> ELEC60013;
+  ELEC50009 -> ELEC60013;
+  ELEC50015 -> ELEC60013;
+
+  ELEC60025 [label="{ELEC60025 | Real-Time Digital\nSignal Processing}"];
+  ELEC40003 -> ELEC60025 [weight=0];
+  ELEC50011 -> ELEC60025;
+  ELEC60010 -> ELEC60025;
+
+  ELEC60030 [label="{ELEC60030 | Robotic\nManipulation}"];
+
+  ELEC60002 [label="{ELEC60002 | Statistical Signal\nProcessing and\nInference}"];
+  ELEC50011 -> ELEC60002;
+
+  ELEC60009 [label="{ELEC60009 | Deep Learning}"];
+  ELEC60019 -> ELEC60009;
+  ELEC60021 -> ELEC60009;
+  ELEC40004 -> ELEC60009 [weight=0];
+  ELEC50009 -> ELEC60009;
+
+  ELEC60022 [label="{ELEC60022 | Microwave\nTechnology}"];
+  ELEC50007 -> ELEC60022;
+
+  ELEC60031 [label="{ELEC60031 | Principles of\nClassical and Modern\nRadar Systems}"];
+  ELEC40010_ELEC40011 -> ELEC60031 [weight=0];
+  ELEC50013 -> ELEC60031;
+  ELEC50002 -> ELEC60031;
+  ELEC50007 -> ELEC60031;
+
+  ELEC60012 [label="{ELEC60012 | Electrical Energy\nSystems}"];
+  ELEC50012 -> ELEC60012;
+  ELEC40009 -> ELEC60012 [weight=0];
+
+  ELEC60018 [label="{ELEC60018 | Instrumentation}"];
+  ELEC40010_ELEC40011 -> ELEC60018 [weight=0];
+  ELEC40002 -> ELEC60018 [weight=0];
+  ELEC50001 -> ELEC60018;
+  ELEC50013 -> ELEC60018;
+  ELEC50004 -> ELEC60018;
+  ELEC60003 -> ELEC60018;
+  ELEC60005 -> ELEC60018;
+
+  ELEC60029 [label="{ELEC60029 | Semiconductor\nDevices}"];
+  ELEC40002 -> ELEC60029 [weight=0];
+  ELEC40003 -> ELEC60029 [weight=0];
+  ELEC40009 -> ELEC60029 [weight=0];
+  ELEC40010_ELEC40011 -> ELEC60029 [weight=0];
+  ELEC50001 -> ELEC60029;
+  ELEC50011 -> ELEC60029;
+  ELEC50007 -> ELEC60029;
+  ELEC50012 -> ELEC60029;
+
+  ELEC60008 [label="{ELEC60008 | Control Engineering}"];
+  ELEC40002 -> ELEC60008 [weight=0];
+  ELEC40003 -> ELEC60008 [weight=0];
+  ELEC40010_ELEC40011 -> ELEC60008 [weight=0];
+  ELEC50011 -> ELEC60008;
+  ELEC50013 -> ELEC60008;
+  ELEC50004 -> ELEC60008;
+  ELEC50012 -> ELEC60008;
+
+  ELEC60010 [label="{ELEC60010 | Digital Signal\nProcessing}"];
+  ELEC50006 -> ELEC60010;
+  ELEC50011 -> ELEC60010;
+  ELEC50013 -> ELEC60010;
+  ELEC50002 -> ELEC60010;
+
+  ELEC60019 [label="{ELEC60019 | Machine Learning}"];
+
+  ELEC60021 [label="{ELEC60021 | Mathematics for\nSignals and Systems}"];
+  ELEC40010_ELEC40011 -> ELEC60021 [weight=0];
+  ELEC50011 -> ELEC60021;
+  ELEC50013 -> ELEC60021;
+
+  ELEC60003 [label="{ELEC60003 | Analogue Integrated\nCircuits and Systems}"];
+  ELEC50001 -> ELEC60003;
+
+  ELEC60005 [label="{ELEC60005 | Biomedical\nElectronics}"];
+  ELEC40002 -> ELEC60005 [weight=0];
+  ELEC50001 -> ELEC60005;
+
+
   node[color="#4d5395", fillcolor="#9aa3ff", penwidth=4, style="filled"];
 
+  ELEC70001 [label="{ELEC70001 | Adaptive Signal\nProcessing and\nMachine Intelligence}"];
+  ELEC60002 -> ELEC70001;
+  ELEC60009 -> ELEC70001;
+  ELEC60010 -> ELEC70001;
+  ELEC60019 -> ELEC70001;
+  ELEC50009 -> ELEC70001 [weight=0];
+  ELEC50011 -> ELEC70001 [weight=0];
+  ELEC60021 -> ELEC70001;
+  ELEC70037 -> ELEC70001;
+  ELEC70048 -> ELEC70001;
+  ELEC60025 -> ELEC70001;
+
+  ELEC70003 [label="{ELEC70003 | Advanced Electronic\nDevices}"];
+  ELEC40009 -> ELEC70003 [weight=0];
+  ELEC60029 -> ELEC70003;
+  ELEC70012 -> ELEC70003;
+
+  ELEC70004 [label="{ELEC70004 | Analogue Signal\nProcessing}"];
+  ELEC40002 -> ELEC70004 [weight=0];
+  ELEC50001 -> ELEC70004 [weight=0];
+  ELEC60003 -> ELEC70004;
+
+  ELEC70006 [label="{ELEC70006 | Design of Linear\nMultivariable\nControl Systems}"];
+  ELEC40010_ELEC40011 -> ELEC70006 [weight=0];
+  ELEC50011 -> ELEC70006 [weight=0];
+  ELEC50004 -> ELEC70006 [weight=0];
+  ELEC60008 -> ELEC70006;
+  ELEC60021 -> ELEC70006;
+
+  ELEC70009 [label="{ELEC70009 | Discrete-Event\nSystems}"];
+  ELEC70048 -> ELEC70009;
+
+  ELEC70013 [label="{ELEC70013 | High Performance\nAnalogue Electronics}"];
+
   ELEC70017 [label="{ELEC70017 | Individual Project\n(MEng)}"];
+
+  ELEC70022 [label="{ELEC70022 | Modelling and\nControl of\nMulti-body\nMechanical Systems}"];
+  ELEC40010_ELEC40011 -> ELEC70022 [weight=0];
+  ELEC50011 -> ELEC70022 [weight=0];
+  ELEC50013 -> ELEC70022 [weight=0];
+  ELEC50004 -> ELEC70022 [weight=0];
+
+  ELEC70028 [label="{ELEC70028 | Predictive Control}"];
+  ELEC50004 -> ELEC70028 [weight=0];
+  ELEC60008 -> ELEC70028;
 
   ELEC70030 [label="{ELEC70030 | Professional\nPortfolio and Group\nConsultancy Project}"];
   ELEC60014 -> ELEC70030;
 
+  ELEC70039 [label="{ELEC70039 | Wavelets}"];
+  ELEC40010_ELEC40011 -> ELEC70039 [weight=0];
+  ELEC60010 -> ELEC70039;
+  ELEC60021 -> ELEC70039;
 
-  node[penwidth=1];
+  ELEC70041 [label="{ELEC70041 | Year Abroad}"];
 
+  ELEC70045 [label="{ELEC70045 | Advanced\nCommunication Theory}"];
 
-  node[color="#666666", fillcolor="#dddddd", style="dashed"];
+  ELEC70047 [label="{ELEC70047 | HVDC Technology and\nControl}"];
+  ELEC50012 -> ELEC70047 [weight=0];
+  ELEC60012 -> ELEC70047;
+  ELEC60024 -> ELEC70047;
+
+  ELEC70015 [label="{ELEC70015 | Human-Centered\nRobotics}"];
+  ELEC40004 -> ELEC70015 [weight=0];
+  ELEC50014 -> ELEC70015 [weight=0];
+  ELEC60013 -> ELEC70015;
+  ELEC60025 -> ELEC70015;
+  ELEC60030 -> ELEC70015;
+  ELEC50009 -> ELEC70015 [weight=0];
+  ELEC60002 -> ELEC70015;
+  ELEC60009 -> ELEC70015;
+
+  ELEC70051 [label="{ELEC70051 | Radio Frequency\nSubsystems}"];
+  ELEC50001 -> ELEC70051 [weight=0];
+  ELEC50002 -> ELEC70051 [weight=0];
+  ELEC50007 -> ELEC70051 [weight=0];
+  ELEC60003 -> ELEC70051;
+  ELEC60022 -> ELEC70051;
+  ELEC60031 -> ELEC70051;
+
+  ELEC70056 [label="{ELEC70056 | Hardware and\nSoftware\nVerification}"];
+
+  ELEC70065 [label="{ELEC70065 | Optimal Control}"];
+  ELEC40010_ELEC40011 -> ELEC70065 [weight=0];
+  ELEC50011 -> ELEC70065 [weight=0];
+  ELEC50004 -> ELEC70065 [weight=0];
+
+  ELEC70067 [label="{ELEC70067 | Traffic Theory and\nQueuing Systems}"];
+  ELEC70048 -> ELEC70067;
+
+  ELEC70069 [label="{ELEC70069 | Cryptography and\nCoding Theory}"];
+
+  ELEC70070 [label="{ELEC70070 | Information Theory}"];
+  ELEC50011 -> ELEC70070 [weight=0];
+  ELEC70048 -> ELEC70070;
+
+  ELEC70071 [label="{ELEC70071 | Self-Organising\nMulti-Agent Systems}"];
+
+  ELEC70073 [label="{ELEC70073 | Computer Vision and\nPattern Recognition}"];
+
+  ELEC70074 [label="{ELEC70074 | Power System\nDynamics Stability\nand Control}"];
+  ELEC50011 -> ELEC70074 [weight=0];
+  ELEC50012 -> ELEC70074 [weight=0];
+  ELEC60008 -> ELEC70074;
+  ELEC60012 -> ELEC70074;
+
+  ELEC70037 [label="{ELEC70037 | Topics in Large\nDimensional Data\nProcessing}"];
+  ELEC40010_ELEC40011 -> ELEC70037 [weight=0];
+  ELEC50013 -> ELEC70037 [weight=0];
+  ELEC50006 -> ELEC70037 [weight=0];
+  ELEC60019 -> ELEC70037;
+
+  ELEC70012 [label="{ELEC70012 | Full-Custom\nIntegrated Circuit\nDesign}"];
+  ELEC40002 -> ELEC70012 [weight=0];
+  ELEC40003 -> ELEC70012 [weight=0];
+  ELEC50001 -> ELEC70012 [weight=0];
+  ELEC60003 -> ELEC70012;
+  ELEC60018 -> ELEC70012;
+  ELEC60029 -> ELEC70012;
+
+  ELEC70048 [label="{ELEC70048 | Probability and\nStochastic Processes}"];
+  ELEC50011 -> ELEC70048 [weight=0];
+
 
   // title
   labelloc="t";
-  label="Module dependencies: prof theme";
+  label="Module dependencies";
 }
