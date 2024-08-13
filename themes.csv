@@ -1,18 +1,14 @@
 theme, description
 analogue, Analogue Electronics
 devices, Optical and Semiconductor Devices
-biomedical, Biomedical Engineering
 fields, Fields
-power_systems, Electrical Power Systems
-power_electronics, Power Electronics
+power, Power Engineering
 control, Control Engineering
 robotics, Robotics
-optimisation, Optimisation
 ml, Machine Learning and Artificial Intelligence
 signals, Signal Processing
-image_audio, Image and Audio Processing
 comms, Networks and Communications
 digital, Digital Systems and Computer Architecture
-compsci, Computer Science and Software Engineering
+computing, Computer Science and Software Engineering
 maths, Mathematics and Numerical Tools
 prof, Professional Engineering

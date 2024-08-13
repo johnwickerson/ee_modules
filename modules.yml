@@ -1,4 +1,3 @@
-
 - code: ELEC40002
   name: Analysis and Design of Circuits
   leader: z.akhtar@imperial.ac.uk
@@ -10,9 +9,7 @@
     - analogue
   minor themes:
     - devices
-    - biomedical
-    - power systems
-    - power electronics
+    - power
 
 - code: ELEC40003
   name: Digital Electronics and Computer Architecture
@@ -24,7 +21,7 @@
   major themes:
     - digital
   minor themes:
-    - compsci   
+    - computing   
     
 - code: ELEC40004
   name: Programming for Engineers
@@ -34,7 +31,7 @@
   endterm: spring
   stream: both
   major themes:
-    - compsci
+    - computing
     - maths
 
 - code: ELEC40006
@@ -48,12 +45,12 @@
   minor themes:
     - devices
     - fields
-    - power electronics
+    - power
     - robotics
     - signals
     - comms
     - digital
-    - compsci
+    - computing
     
 - code: ELEC40009
   name: Topics in Electrical Engineering
@@ -66,13 +63,11 @@
     - fields
     - signals
     - comms
-    - power systems
-    - power electronics
+    - power
     - devices
   minor themes:
     - analogue
     - ml
-    - image audio
     - maths
 
 - code: ELEC40010_ELEC40011
@@ -88,10 +83,8 @@
     - fields
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image audio
     - comms
     - digital
     
@@ -107,8 +100,7 @@
     - digital
   minor themes:
     - analogue
-    - biomedical
-    - power electronics
+    - power
     - signals
     - comms
 
@@ -130,7 +122,6 @@
     - fields
     - ml
     - signals
-    - image audio
     - digital
 
 - code: ELEC50015
@@ -152,15 +143,13 @@
     - analogue
     - devices
     - fields
-    - power systems
-    - power electronics
+    - power
     - control
     - robotics
     - signals
-    - image audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC50004
@@ -177,7 +166,7 @@
     - control
     - robotics
   minor themes:
-    - power electronics
+    - power
     - signals
     - maths
     
@@ -191,9 +180,8 @@
     - ELEC40004
     - ELEC40010_ELEC40011
   major themes:
-    - compsci
+    - computing
   minor themes:
-    - optimisation
     - comms
     - digital
     - maths
@@ -215,8 +203,7 @@
   minor themes:
     - analogue
     - devices
-    - power systems
-    - power electronics
+    - power
     - comms
     - maths
     
@@ -247,7 +234,7 @@
     - ELEC40004
   major themes:
     - digital
-    - compsci
+    - computing
   minor themes:
     - maths
     
@@ -265,10 +252,8 @@
     - fields
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image audio
     - comms
     - digital
     
@@ -282,8 +267,7 @@
     - ELEC40002
     - ELEC40009
   major themes:
-    - power systems
-    - power electronics
+    - power
   minor themes:
     - analogue
     - devices
@@ -300,7 +284,6 @@
     - ELEC40010_ELEC40011
   major themes:
     - signals
-    - image audio
   minor themes:
     - ml
     - maths
@@ -315,7 +298,7 @@
     - ELEC40004
     - ELEC40006
   major themes:
-    - compsci
+    - computing
   minor themes:
     - comms
     - digital
@@ -347,7 +330,6 @@
     - analogue
   minor themes:
     - devices
-    - biomedical
     - fields
 
 - code: ELEC60004
@@ -363,9 +345,7 @@
     - ELEC50009
   major themes:
     - ml
-    - compsci
-  minor themes:
-    - optimisation
+    - computing
     
 - code: ELEC60005
   name: "Biomedical Electronics"
@@ -377,9 +357,8 @@
     - ELEC40002
     - ELEC50001
   major themes:
-    - biomedical
-  minor themes:
     - analogue
+  minor themes:
     - signals
 
 - code: ELEC60006
@@ -390,8 +369,6 @@
   stream: both
   major themes:
     - comms
-  minor themes:
-    - optimisation
     
 - code: ELEC60008
   name: "Control Engineering"
@@ -427,8 +404,8 @@
   major themes:
     - ml
   minor themes:
-    - image_audio
-    - compsci    
+    - signals
+    - computing    
 
 - code: ELEC60010
   name: "Digital Signal Processing"
@@ -444,7 +421,6 @@
   major themes:
     - signals
   minor themes:
-    - image_audio
     - maths
 
 - code: ELEC60011
@@ -460,7 +436,7 @@
   major themes:
     - digital
   minor themes:
-    - compsci
+    - computing
 
 - code: ELEC60012
   name: "Electrical Energy Systems"
@@ -472,7 +448,7 @@
     - ELEC50012
     - ELEC40009
   major themes:
-    - power_systems
+    - power
   minor themes:
     - maths
 
@@ -490,11 +466,11 @@
     - ELEC50009
     - ELEC50015
   minor themes:
-    - power_electronics
+    - power
     - robotics
     - comms
     - digital
-    - compsci
+    - computing
 
 - code: ELEC60014
   name: "Group Consultancy Project"
@@ -507,19 +483,15 @@
   minor themes:
     - analogue
     - devices
-    - biomedical
     - fields
-    - power_systems
-    - power_electronics
+    - power
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image_audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC60015
@@ -532,7 +504,7 @@
     - ELEC50010
     - ELEC50006
   major themes:
-    - compsci
+    - computing
   minor themes:
     - digital
 
@@ -551,19 +523,15 @@
   minor themes:
     - analogue
     - devices
-    - biomedical
     - fields
-    - power_systems
-    - power_electronics
+    - power
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image_audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC60017
@@ -580,19 +548,15 @@
   minor themes:
     - analogue
     - devices
-    - biomedical
     - fields
-    - power_systems
-    - power_electronics
+    - power
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image_audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC60018
@@ -612,7 +576,7 @@
   major themes:
     - analogue
   minor themes:
-    - power_electronics
+    - power
     - signals
     - comms
 
@@ -629,7 +593,6 @@
   major themes:
     - ml
   minor themes:
-    - optimisation
     - maths
 
 - code: ELEC60020
@@ -653,10 +616,8 @@
     - maths
   minor themes:
     - control
-    - optimisation
     - ml
     - signals
-    - image_audio
 
 - code: ELEC60022
   name: "Microwave Technology"
@@ -702,11 +663,10 @@
     - ELEC60029
     - ELEC60008
   major themes:
-    - power_electronics
+    - power
   minor themes:
     - analogue
     - devices
-    - power_systems
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
@@ -720,10 +680,9 @@
     - ELEC60010
   major themes:
     - signals
-    - compsci
+    - computing
   minor themes:
     - control
-    - image_audio
     - digital
 
 - code: ELEC60029
@@ -745,7 +704,7 @@
     - devices
   minor themes:
     - analogue
-    - power_electronics
+    - power
 
 - code: ELEC60030
   name: "Robotic Manipulation"
@@ -789,8 +748,7 @@
     - ELEC50004
     - ELEC50012
   major themes:
-    - power_systems
-    - power_electronics
+    - power
 
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
@@ -844,7 +802,6 @@
     - analogue
   minor themes:
     - devices
-    - biomedical
     - signals
 
 - code: ELEC70006
@@ -862,7 +819,6 @@
   major themes:
     - control
   minor themes:
-    - optimisation
     - maths
 
 - code: ELEC70009
@@ -906,7 +862,6 @@
   minor themes:
     - devices
     - signals
-    - image_audio
     - comms
 
 - code: ELEC70017
@@ -921,19 +876,15 @@
   minor themes:
     - analogue
     - devices
-    - biomedical
     - fields
-    - power_systems
-    - power_electronics
+    - power
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image_audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC70022
@@ -962,8 +913,6 @@
     - ELEC60008
   major themes:
     - control
-  minor themes:
-    - optimisation
 
 - code: ELEC70030
   name: "Professional Portfolio and Group Consultancy Project"
@@ -979,19 +928,15 @@
   minor themes:
     - analogue
     - devices
-    - biomedical
     - fields
-    - power_systems
-    - power_electronics
+    - power
     - control
     - robotics
-    - optimisation
     - ml
     - signals
-    - image_audio
     - comms
     - digital
-    - compsci
+    - computing
     - maths
 
 - code: ELEC70037
@@ -1008,7 +953,6 @@
   major themes:
     - signals
   minor themes:
-    - optimisation
     - maths
 
 - code: ELEC70039
@@ -1023,7 +967,6 @@
     - ELEC60021
   major themes:
     - signals
-    - image_audio
   minor themes:
     - ml
 
@@ -1058,9 +1001,8 @@
     - ELEC60012
     - ELEC60024
   major themes:
-    - power_electronics
+    - power
   minor themes:
-    - power_systems
     - control
     
 - code: ELEC70048
@@ -1092,11 +1034,10 @@
     - ELEC60002
     - ELEC60009
   major themes:
-    - biomedical
     - robotics
   minor themes:
     - ml
-    - image_audio
+    - signals
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
@@ -1123,7 +1064,7 @@
   term: autumn
   stream: both
   major themes:
-    - compsci
+    - computing
     - maths
 
 - code: ELEC70065
@@ -1139,7 +1080,6 @@
   major themes:
     - control
   minor themes:
-    - optimisation
     - maths
 
 - code: ELEC70067
@@ -1163,7 +1103,7 @@
     - maths
   minor themes:
     - signals
-    - compsci
+    - computing
 
 - code: ELEC70070
   name: "Information Theory"
@@ -1200,7 +1140,6 @@
   major themes:
     - ml
     - signals
-    - image_audio
   minor themes:
     - maths
 
@@ -1216,7 +1155,6 @@
     - ELEC60008 
     - ELEC60012
   major themes:
-    - power_systems
+    - power
   minor themes:
-    - power_electronics
     - control
