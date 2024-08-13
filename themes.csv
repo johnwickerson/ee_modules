@@ -1,14 +1,14 @@
-theme, description
-analogue, Analogue Electronics
-devices, Optical and Semiconductor Devices
-fields, Fields
-power, Power Engineering
-control, Control Engineering
-robotics, Robotics
-ml, Machine Learning and Artificial Intelligence
-signals, Signal Processing
-comms, Networks and Communications
-digital, Digital Systems and Computer Architecture
-computing, Computer Science and Software Engineering
-maths, Mathematics and Numerical Tools
-prof, Professional Engineering
+theme, description, leader
+analogue, Analogue Electronics, t.constandinou@imperial.ac.uk
+devices, Optical and Semiconductor Devices, z.durrani@imperial.ac.uk
+fields, Fields, o.sydoruk@imperial.ac.uk
+power, Power Engineering, paul.mitcheson@imperial.ac.uk
+control, Control Engineering, t.parisini@imperial.ac.uk
+robotics, Robotics, a.spiers@imperial.ac.uk
+ml, Machine Learning and Artificial Intelligence, s.parbhoo@imperial.ac.uk
+signals, Signal Processing, t.stathaki@imperial.ac.uk
+comms, Networks and Communications, b.clerckx@imperial.ac.uk
+digital, Digital Systems and Computer Architecture, p.cheung@imperial.ac.uk
+computing, Computer Science and Software Engineering, j.wickerson@imperial.ac.uk
+maths, Mathematics and Numerical Tools, d.nucinkis@imperial.ac.uk
+prof, Professional Engineering, e.perea@imperial.ac.uk

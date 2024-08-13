@@ -9,7 +9,7 @@ let themes_dict =
     try
       let ln = input_line themes_csv_in in
       match Str.split (Str.regexp ",[ \t]*") ln with
-      | [k;v] -> (k,v) :: loop ()
+      | [k;v;_email] -> (k,v) :: loop ()
       | _ -> failwith "Bad CSV file"
     with End_of_file ->
       close_in themes_csv_in; []
