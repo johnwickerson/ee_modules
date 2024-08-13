@@ -41,11 +41,11 @@ let print_module rowspan y m =
       sprintf "%s&dash;%s" start_term end_term
   in
   let stream = stream_of_module m in
-  let streams = match stream with
-    | "both" -> "EEE, EIE"
-    | "eie" -> "EIE"
-    | "eee" -> "EEE"
-    | "management" -> "EEEM"
+  let is_eee, is_eie, is_eeem = match stream with
+    | "both" -> true, true, true
+    | "eie" -> false, true, false
+    | "eee" -> true, false, true
+    | "management" -> false, false, true
     | _ -> failwith "invalid stream"
   in
   let major_themes = major_themes_of_module m in
@@ -56,8 +56,10 @@ let print_module rowspan y m =
   | Some n -> printf "    <td rowspan=\"%d\">year %d</td>" n y);
   printf "    <td>%s</td>\n" term;
   printf "    <td>%s</td>\n" name;
+  printf "    <td>%s</td>\n" (if is_eee then "&check;" else "");
+  printf "    <td>%s</td>\n" (if is_eie then "&check;" else "");
+  printf "    <td>%s</td>\n" (if is_eeem then "&check;" else "");
   printf "    <td>%s</td>\n" code;
-  printf "    <td>%s</td>\n" streams;
   List.iter (fun t ->
       if List.mem t major_themes then
         printf "    <td class=\"major\">M</td>\n"
@@ -104,7 +106,10 @@ let main () =
   printf "<body>\n";
   printf "<table>\n";
   printf "  <tr>\n";
-  printf "    <th colspan=\"5\">EE Undergraduate Module Map</th>\n";
+  printf "    <th colspan=\"3\">EE Undergraduate Module Map</th>\n";
+  printf "    <th><span>EEE</span></th>\n";
+  printf "    <th><span>EIE</span></th>\n";
+  printf "    <th><span>EEEM</span></th>\n";
   List.iter (fun t ->
       printf "    <th><span>%s</span></th>\n" (description_of t))
     all_themes;
