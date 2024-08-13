@@ -110,6 +110,7 @@ let main () =
   printf "    <th><span>EEE</span></th>\n";
   printf "    <th><span>EIE</span></th>\n";
   printf "    <th><span>EEEM</span></th>\n";
+  printf "    <th></th>\n";
   List.iter (fun t ->
       printf "    <th><span>%s</span></th>\n" (description_of t))
     all_themes;
