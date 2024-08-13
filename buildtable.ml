@@ -106,6 +106,16 @@ let main () =
   printf "<body>\n";
   printf "<table>\n";
   printf "  <tr>\n";
+  printf "    <td class=\"major\">M</td>\n";
+  printf "    <td>major theme</td>\n";
+  printf "  </tr>\n";
+  printf "  <tr>\n";
+  printf "    <td class=\"minor\">m</td>\n";
+  printf "    <td>minor theme</td>\n";
+  printf "  </tr>\n";
+  printf "</table>\n";
+  printf "<table>\n";
+  printf "  <tr>\n";
   printf "    <th colspan=\"3\">EE Undergraduate Module Map</th>\n";
   printf "    <th><span>EEE</span></th>\n";
   printf "    <th><span>EIE</span></th>\n";
