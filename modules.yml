@@ -7,6 +7,7 @@
   stream: both
   major themes:
     - analogue
+    - fields
   minor themes:
     - devices
     - power
@@ -33,6 +34,8 @@
   major themes:
     - computing
     - maths
+  minor themes:
+    - fields
 
 - code: ELEC40006
   name: Electronics Design Project
@@ -200,9 +203,9 @@
     - ELEC40010_ELEC40011
   major themes:
     - fields
+    - devices
   minor themes:
     - analogue
-    - devices
     - power
     - comms
     - maths
@@ -271,6 +274,7 @@
   minor themes:
     - analogue
     - devices
+    - fields
 
 - code: ELEC50013
   name: Signals and Systems
@@ -668,6 +672,7 @@
   minor themes:
     - analogue
     - devices
+    - fields
 
 - code: ELEC60025
   name: "Real-Time Digital Signal Processing"
@@ -706,6 +711,7 @@
   minor themes:
     - analogue
     - power
+    - fields
 
 - code: ELEC60030
   name: "Robotic Manipulation"
@@ -788,6 +794,7 @@
     - devices
   minor themes:
     - analogue
+    - fields
 
 - code: ELEC70004
   name: "Analogue Signal Processing"
@@ -858,12 +865,15 @@
   year: 4
   term: spring
   stream: eee
+  prereqs:
+    - ELEC50007
   major themes:
     - analogue
   minor themes:
     - devices
     - signals
     - comms
+    - fields
 
 - code: ELEC70017
   name: "Individual Project (MEng)"
@@ -1159,3 +1169,28 @@
     - power
   minor themes:
     - control
+
+- code: ELEC70079
+  name: "Optical Communication"
+  leader: e.yeatman@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  major themes:
+    - fields
+
+- code: ELEC70101
+  name: "Sensors"
+  leader: o.sydoruk@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  prereqs:
+    - ELEC50007
+  major themes:
+    - fields
+    - devices
+  minor themes:
+    - analogue
+    - digital
+    - signals
