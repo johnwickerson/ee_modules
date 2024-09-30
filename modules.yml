@@ -287,6 +287,7 @@
   minor themes:
     - ml
     - maths
+    - control
     
 - code: ELEC50014
   name: Software Systems
