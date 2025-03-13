@@ -4,9 +4,9 @@
 
 Dependency graphs for each theme in the Imperial EE syllabus.
 
-There is one dependency graph for each theme.
-
 In each graph, each module is a node, containing the module code and the module title. An arrow from module A to module B means that one of module A's ILOs is "built upon" by module B. The definition of "built upon" is left open for module leaders to interpret differently; sometimes it means that module B only makes sense once module A has been taken; other times it indicates that modules A and B cover related topics but there isn't a hard prerequisite between them.
+
+There is one dependency graph for each theme. Several modules belong to more than one theme. The modules in each graph are coloured by year. The modules with a thick outline are the "major modules" for that theme. The modules with a thin outline have a less substantial link to that theme. The modules with a dashed outline are not part of that theme but they present material that modules within the theme build upon.
 
 ## Why?
 
