@@ -6,7 +6,7 @@ Dependency graphs for each theme in the Imperial EE syllabus.
 
 There is one dependency graph for each theme.
 
-In each graph, each module is a node, containing the module code and the module title. An arrow from module A to module B means that one of module A's ILOs is a prerequisite for taking module B.
+In each graph, each module is a node, containing the module code and the module title. An arrow from module A to module B means that one of module A's ILOs is "built upon" by module B. The definition of "built upon" is left open for module leaders to interpret differently; sometimes it means that module B only makes sense once module A has been taken; other times it indicates that modules A and B cover related topics but there isn't a hard prerequisite between them.
 
 ## Why?
 
