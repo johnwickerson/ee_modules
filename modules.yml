@@ -1261,6 +1261,26 @@
     - digital
     - signals
 
+- code: ELEC70102
+  name: "Microelectromechanical Systems (MEMS)"
+  leader: a.holmes@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: eee
+  prereqs:
+  major themes:
+    - devices
+
+- code: ELEC70103
+  name: "Machine Intelligence for Finance"
+  leader: d.mandic@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+  major themes:
+    - signals
+
 - code: ELEC70106
   name: "Ethics and Sustainability"
   leader: a.junyent-ferre@imperial.ac.uk
@@ -1270,7 +1290,7 @@
   prereqs:
   major themes:
     - prof
-  
+
 - code: ELEC70107_ELEC70108
   name: "Professional Competencies Portfolio"
   leader: k.fobelets@imperial.ac.uk
@@ -1280,3 +1300,45 @@
   prereqs:
   major themes:
     - prof
+
+- code: ELEC70109
+  name: "Advanced Deep Learning Systems"
+  leader: a.zhao@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+  major themes:
+    - ml
+
+- code: ELEC70110
+  name: "Neuroscience for Machine Learners"
+  leader: d.goodman@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+  major themes:
+    - ml
+
+- code: ELEC70112
+  name: "Models for Techno-Economically Optimal Power System Expansion"
+  leader: e.spyrou@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: eee
+  prereqs:
+  major themes:
+    - power
+
+- code: ELEC70136
+  name: "Game Theory for Multi-Agent Decision Making"
+  leader: r.vinter@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+  major themes:
+    - maths
+
+
