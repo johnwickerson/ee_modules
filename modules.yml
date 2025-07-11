@@ -377,7 +377,7 @@
     
 - code: ELEC60008
   name: "Control Engineering"
-  leader: a.astolfi@imperial.ac.uk
+  leader: g.scarciotti@imperial.ac.uk
   year: 3
   term: autumn
   stream: both
@@ -515,7 +515,7 @@
 
 - code: ELEC60016
   name: "Individual Industrial Placement"
-  leader: e.perea@imperial.ac.uk
+  leader: s.wright02@imperial.ac.uk
   year: 3
   term: summer
   stream: both
@@ -540,7 +540,7 @@
     - maths
 
 - code: ELEC60017
-  name: "Individual Project"
+  name: "Individual Project (BEng)"
   leader: t.clarke@imperial.ac.uk
   year: 3
   startterm: spring
@@ -587,7 +587,7 @@
 
 - code: ELEC60019
   name: "Machine Learning"
-  leader: d.gunduz@imperial.ac.uk
+  leader: a.abu-ebayyeh@imperial.ac.uk
   year: 3
   term: autumn
   stream: both
@@ -638,19 +638,6 @@
     - analogue
     - devices
     - comms
-
-- code: ELEC60023
-  name: "Optoelectronics"
-  leader: r.syms@imperial.ac.uk
-  year: 3
-  term: autumn
-  stream: eee
-  prereqs:
-    - ELEC50007
-    - ELEC50002
-  major themes:
-    - devices
-    - fields
 
 - code: ELEC60024
   name: "Power Electronics"
@@ -875,6 +862,27 @@
     - comms
     - fields
 
+- code: ELEC70015
+  name: "Human-Centered Robotics"
+  leader: y.demiris@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+    - ELEC40004
+    - ELEC50014
+    - ELEC60013
+    - ELEC60025
+    - ELEC60030
+    - ELEC50009
+    - ELEC60002
+    - ELEC60009
+  major themes:
+    - robotics
+  minor themes:
+    - ml
+    - signals
+
 - code: ELEC70017
   name: "Individual Project (MEng)"
   leader: t.clarke@imperial.ac.uk
@@ -925,31 +933,6 @@
   major themes:
     - control
 
-- code: ELEC70030
-  name: "Professional Portfolio and Group Consultancy Project"
-  leader: e.perea@imperial.ac.uk
-  year: 4
-  startterm: autumn
-  endterm: summer
-  stream: both
-  prereqs:
-    - ELEC60014
-  major themes:
-    - prof
-  minor themes:
-    - analogue
-    - devices
-    - fields
-    - power
-    - control
-    - robotics
-    - ml
-    - signals
-    - comms
-    - digital
-    - computing
-    - maths
-
 - code: ELEC70037
   name: "Topics in Large Dimensional Data Processing"
   leader: wei.dai1@imperial.ac.uk
@@ -967,7 +950,7 @@
     - maths
 
 - code: ELEC70039
-  name: "Wavelets"
+  name: "Wavelets, Representation Learning and their Applications"
   leader: p.dragotti@imperial.ac.uk
   year: 4
   term: autumn
@@ -980,14 +963,6 @@
     - signals
   minor themes:
     - ml
-
-- code: ELEC70041
-  name: "Year Abroad"
-  leader: christos-savvas.bouganis@imperial.ac.uk
-  year: 4
-  startterm: autumn
-  endterm: summer
-  stream: both
 
 - code: ELEC70045
   name: "Advanced Communication Theory"
@@ -1028,27 +1003,6 @@
     - signals
   minor themes:
     - maths
-
-- code: ELEC70015
-  name: "Human-Centered Robotics"
-  leader: y.demiris@imperial.ac.uk
-  year: 4
-  term: spring
-  stream: both
-  prereqs:
-    - ELEC40004
-    - ELEC50014
-    - ELEC60013
-    - ELEC60025
-    - ELEC60030
-    - ELEC50009
-    - ELEC60002
-    - ELEC60009
-  major themes:
-    - robotics
-  minor themes:
-    - ml
-    - signals
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
@@ -1194,3 +1148,23 @@
     - analogue
     - digital
     - signals
+
+- code: ELEC70106
+  name: "Ethics and Sustainability"
+  leader: a.junyent-ferre@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+  major themes:
+    - prof
+  
+- code: ELEC70107_ELEC70108
+  name: "Professional Competencies Portfolio"
+  leader: k.fobelets@imperial.ac.uk
+  year: 4
+  term: summer
+  stream: both
+  prereqs:
+  major themes:
+    - prof
