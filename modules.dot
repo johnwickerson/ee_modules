@@ -26,7 +26,7 @@ digraph G {
 
   node[color="#985d7d", fillcolor="#dea8c6", penwidth=4, style="filled"];
 
-  ELEC50015 [label="{ELEC50015 | Electronics Design\nProject}"];
+  ELEC50015 [label="{ELEC50015 | Electronics Design\nProject 2}"];
   ELEC40002 -> ELEC50015;
   ELEC40003 -> ELEC50015;
   ELEC40004 -> ELEC50015;
