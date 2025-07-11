@@ -109,7 +109,7 @@
 
 - code: ELEC50002
   name: Communications
-  leader: geoffrey.li@imperial.ac.uk
+  leader: d.gunduz@imperial.ac.uk
   year: 2
   term: spring
   stream: both
@@ -128,7 +128,7 @@
     - digital
 
 - code: ELEC50015
-  name: Electronics Design Project
+  name: Electronics Design Project 2
   leader: ed.stott@imperial.ac.uk
   year: 2
   term: summer
@@ -212,7 +212,7 @@
     
 - code: ELEC50009
   name: "Information Processing"
-  leader: christos-savvas.bouganis@imperial.ac.uk
+  leader: a.zhao@imperial.ac.uk
   year: 2
   startterm: autumn
   endterm: spring
