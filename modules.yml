@@ -1047,6 +1047,16 @@
   minor themes:
     - maths
 
+- code: ELEC70066
+  name: "Applied Advanced Optimisation"
+  leader: g.scarciotti@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+  major themes:
+    - control
+
 - code: ELEC70067
   name: "Traffic Theory and Queuing Systems"
   leader: j.barria@imperial.ac.uk
@@ -1124,6 +1134,36 @@
   minor themes:
     - control
 
+- code: ELEC70075
+  name: "Power System Economics"
+  leader: g.strbac@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+  major themes:
+    - power
+
+- code: ELEC70076
+  name: "Sustainable Electrical Systems"
+  leader: e.spyrou@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+  major themes:
+    - power
+
+- code: ELEC70077
+  name: "Digital Signal Processing and Digital Filters"
+  leader: a.bhandari@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  prereqs:
+  major themes:
+    - signals
+
 - code: ELEC70079
   name: "Optical Communication"
   leader: e.yeatman@imperial.ac.uk
@@ -1133,6 +1173,78 @@
   major themes:
     - fields
 
+- code: ELEC70080
+  name: "Speech Processing"
+  leader: p.naylor@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  major themes:
+    - signals
+
+- code: ELEC70081
+  name: "Wireless Communications and Optimisation"
+  leader: b.clerckx@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  major themes:
+    - comms
+
+- code: ELEC70082
+  name: "Distributed Optimisation and Learning"
+  leader: s.vlaski@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  major themes:
+    - ml
+
+- code: ELEC70087
+  name: "Stability of Low-Carbon Power Systems"
+  leader: a.junyent-ferre@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: eee
+  major themes:
+    - power
+
+- code: ELEC70090
+  name: "Digital Control Systems"
+  leader: yulong.gao@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  major themes:
+    - control
+
+- code: ELEC70091
+  name: "Stability and Control of Non-linear Systems"
+  leader: d.angeli@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+
+- code: ELEC70092
+  name: "Systems Identification and Learning"
+  leader: t.parisini@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+
+- code: ELEC70098
+  name: "Optimisation"
+  leader: a.astolfi@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+    
 - code: ELEC70101
   name: "Sensors"
   leader: o.sydoruk@imperial.ac.uk
