@@ -913,7 +913,6 @@
   year: 4
   term: autumn
   stream: both
-  prereqs:
   major themes:
     - power
 
@@ -1140,7 +1139,6 @@
   year: 4
   term: spring
   stream: both
-  prereqs:
   major themes:
     - control
 
@@ -1203,7 +1201,6 @@
   year: 4
   term: spring
   stream: both
-  prereqs:
   major themes:
     - power
 
@@ -1213,7 +1210,6 @@
   year: 4
   term: spring
   stream: both
-  prereqs:
   major themes:
     - signals
 
@@ -1268,6 +1264,5 @@
   year: 4
   term: spring
   stream: eee
-  prereqs:
   major themes:
     - devices
