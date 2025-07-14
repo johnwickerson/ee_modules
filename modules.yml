@@ -744,6 +744,231 @@
   major themes:
     - power
 
+- code: ELEC70017
+  name: "Individual Project (MEng)"
+  leader: t.clarke@imperial.ac.uk
+  year: 4
+  startterm: autumn
+  endterm: summer
+  stream: both
+  major themes:
+    - prof
+  minor themes:
+    - analogue
+    - devices
+    - fields
+    - power
+    - control
+    - robotics
+    - ml
+    - signals
+    - comms
+    - digital
+    - computing
+    - maths
+
+
+- code: ELEC70012
+  name: "Full-Custom Integrated Circuit Design"
+  leader: t.constandinou@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  prereqs:
+    - ELEC40002
+    - ELEC40003
+    - ELEC50001
+    - ELEC60003
+    - ELEC60018
+    - ELEC60029
+  major themes:
+    - analogue
+    - digital
+  minor themes:
+    - devices
+
+- code: ELEC70022
+  name: "Modelling and Control of Multi-body Mechanical Systems"
+  leader: s.evangelou@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50011
+    - ELEC50013
+    - ELEC50004
+  major themes:
+    - control
+    - robotics
+
+- code: ELEC70037
+  name: "Topics in Large Dimensional Data Processing"
+  leader: wei.dai1@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC50013
+    - ELEC50006
+    - ELEC60019
+  major themes:
+    - signals
+  minor themes:
+    - maths
+
+- code: ELEC70039
+  name: "Wavelets, Representation Learning and their Applications"
+  leader: p.dragotti@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+    - ELEC40010_ELEC40011
+    - ELEC60010
+    - ELEC60021
+  major themes:
+    - signals
+  minor themes:
+    - ml
+
+- code: ELEC70045
+  name: "Advanced Communication Theory"
+  leader: a.manikas@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - comms
+  minor themes:
+    - signals
+    - fields
+
+- code: ELEC70047
+  name: "HVDC Technology and Control"
+  leader: b.chaudhuri@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  prereqs:
+    - ELEC50012
+    - ELEC60012
+    - ELEC60024
+  major themes:
+    - power
+  minor themes:
+    - control
+    
+- code: ELEC70048
+  name: "Probability and Stochastic Processes"
+  leader: c.ling@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+    - ELEC50011
+  major themes:
+    - signals
+  minor themes:
+    - maths
+
+- code: ELEC70056
+  name: "Hardware and Software Verification"
+  leader: j.wickerson@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - computing
+    - maths
+
+- code: ELEC70069
+  name: "Cryptography and Coding Theory"
+  leader: wei.dai1@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - maths
+  minor themes:
+    - signals
+    - computing
+
+- code: ELEC70071
+  name: "Self-Organising Multi-Agent Systems"
+  leader: j.pitt@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - ml
+    - comms
+  minor themes:
+    - control
+
+- code: ELEC70075
+  name: "Power System Economics"
+  leader: g.strbac@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  prereqs:
+  major themes:
+    - power
+
+- code: ELEC70079
+  name: "Optical Communication"
+  leader: e.yeatman@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  major themes:
+    - fields
+
+- code: ELEC70091
+  name: "Stability and Control of Non-linear Systems"
+  leader: d.angeli@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+
+- code: ELEC70092
+  name: "Systems Identification and Learning"
+  leader: t.parisini@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+
+- code: ELEC70098
+  name: "Optimisation"
+  leader: a.astolfi@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - control
+    
+- code: ELEC70101
+  name: "Sensors"
+  leader: o.sydoruk@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  prereqs:
+    - ELEC50007
+  major themes:
+    - fields
+    - devices
+  minor themes:
+    - analogue
+    - digital
+    - signals
+
 - code: ELEC70001
   name: "Adaptive Signal Processing and Machine Intelligence"
   leader: d.mandic@imperial.ac.uk
@@ -827,25 +1052,6 @@
   major themes:
     - control
 
-- code: ELEC70012
-  name: "Full-Custom Integrated Circuit Design"
-  leader: t.constandinou@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: eee
-  prereqs:
-    - ELEC40002
-    - ELEC40003
-    - ELEC50001
-    - ELEC60003
-    - ELEC60018
-    - ELEC60029
-  major themes:
-    - analogue
-    - digital
-  minor themes:
-    - devices
-
 - code: ELEC70013
   name: "High Performance Analogue Electronics"
   leader: e.rodriguez@imperial.ac.uk
@@ -883,44 +1089,6 @@
     - ml
     - signals
 
-- code: ELEC70017
-  name: "Individual Project (MEng)"
-  leader: t.clarke@imperial.ac.uk
-  year: 4
-  startterm: autumn
-  endterm: summer
-  stream: both
-  major themes:
-    - prof
-  minor themes:
-    - analogue
-    - devices
-    - fields
-    - power
-    - control
-    - robotics
-    - ml
-    - signals
-    - comms
-    - digital
-    - computing
-    - maths
-
-- code: ELEC70022
-  name: "Modelling and Control of Multi-body Mechanical Systems"
-  leader: s.evangelou@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-    - ELEC40010_ELEC40011
-    - ELEC50011
-    - ELEC50013
-    - ELEC50004
-  major themes:
-    - control
-    - robotics
-
 - code: ELEC70028
   name: "Predictive Control"
   leader: e.kerrigan@imperial.ac.uk
@@ -932,77 +1100,6 @@
     - ELEC60008
   major themes:
     - control
-
-- code: ELEC70037
-  name: "Topics in Large Dimensional Data Processing"
-  leader: wei.dai1@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-    - ELEC40010_ELEC40011
-    - ELEC50013
-    - ELEC50006
-    - ELEC60019
-  major themes:
-    - signals
-  minor themes:
-    - maths
-
-- code: ELEC70039
-  name: "Wavelets, Representation Learning and their Applications"
-  leader: p.dragotti@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-    - ELEC40010_ELEC40011
-    - ELEC60010
-    - ELEC60021
-  major themes:
-    - signals
-  minor themes:
-    - ml
-
-- code: ELEC70045
-  name: "Advanced Communication Theory"
-  leader: a.manikas@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - comms
-  minor themes:
-    - signals
-    - fields
-
-- code: ELEC70047
-  name: "HVDC Technology and Control"
-  leader: b.chaudhuri@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: eee
-  prereqs:
-    - ELEC50012
-    - ELEC60012
-    - ELEC60024
-  major themes:
-    - power
-  minor themes:
-    - control
-    
-- code: ELEC70048
-  name: "Probability and Stochastic Processes"
-  leader: c.ling@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-    - ELEC50011
-  major themes:
-    - signals
-  minor themes:
-    - maths
 
 - code: ELEC70051
   name: "Radio Frequency Subsystems"
@@ -1021,16 +1118,6 @@
     - fields
   minor themes:
     - analogue
-
-- code: ELEC70056
-  name: "Hardware and Software Verification"
-  leader: j.wickerson@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - computing
-    - maths
 
 - code: ELEC70065
   name: "Optimal Control"
@@ -1068,18 +1155,6 @@
   major themes:
     - comms
 
-- code: ELEC70069
-  name: "Cryptography and Coding Theory"
-  leader: wei.dai1@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - maths
-  minor themes:
-    - signals
-    - computing
-
 - code: ELEC70070
   name: "Information Theory"
   leader: c.ling@imperial.ac.uk
@@ -1093,18 +1168,6 @@
     - comms
   minor themes:
     - signals
-
-- code: ELEC70071
-  name: "Self-Organising Multi-Agent Systems"
-  leader: j.pitt@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - ml
-    - comms
-  minor themes:
-    - control
 
 - code: ELEC70073
   name: "Computer Vision and Pattern Recognition"
@@ -1134,16 +1197,6 @@
   minor themes:
     - control
 
-- code: ELEC70075
-  name: "Power System Economics"
-  leader: g.strbac@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-  major themes:
-    - power
-
 - code: ELEC70076
   name: "Sustainable Electrical Systems"
   leader: e.spyrou@imperial.ac.uk
@@ -1163,15 +1216,6 @@
   prereqs:
   major themes:
     - signals
-
-- code: ELEC70079
-  name: "Optical Communication"
-  leader: e.yeatman@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: eee
-  major themes:
-    - fields
 
 - code: ELEC70080
   name: "Speech Processing"
@@ -1218,49 +1262,6 @@
   major themes:
     - control
 
-- code: ELEC70091
-  name: "Stability and Control of Non-linear Systems"
-  leader: d.angeli@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - control
-
-- code: ELEC70092
-  name: "Systems Identification and Learning"
-  leader: t.parisini@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - control
-
-- code: ELEC70098
-  name: "Optimisation"
-  leader: a.astolfi@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  major themes:
-    - control
-    
-- code: ELEC70101
-  name: "Sensors"
-  leader: o.sydoruk@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: eee
-  prereqs:
-    - ELEC50007
-  major themes:
-    - fields
-    - devices
-  minor themes:
-    - analogue
-    - digital
-    - signals
-
 - code: ELEC70102
   name: "Microelectromechanical Systems (MEMS)"
   leader: a.holmes@imperial.ac.uk
@@ -1270,75 +1271,3 @@
   prereqs:
   major themes:
     - devices
-
-- code: ELEC70103
-  name: "Machine Intelligence for Finance"
-  leader: d.mandic@imperial.ac.uk
-  year: 4
-  term: spring
-  stream: both
-  prereqs:
-  major themes:
-    - signals
-
-- code: ELEC70106
-  name: "Ethics and Sustainability"
-  leader: a.junyent-ferre@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-  major themes:
-    - prof
-
-- code: ELEC70107_ELEC70108
-  name: "Professional Competencies Portfolio"
-  leader: k.fobelets@imperial.ac.uk
-  year: 4
-  term: summer
-  stream: both
-  prereqs:
-  major themes:
-    - prof
-
-- code: ELEC70109
-  name: "Advanced Deep Learning Systems"
-  leader: a.zhao@imperial.ac.uk
-  year: 4
-  term: spring
-  stream: both
-  prereqs:
-  major themes:
-    - ml
-
-- code: ELEC70110
-  name: "Neuroscience for Machine Learners"
-  leader: d.goodman@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-  major themes:
-    - ml
-
-- code: ELEC70112
-  name: "Models for Techno-Economically Optimal Power System Expansion"
-  leader: e.spyrou@imperial.ac.uk
-  year: 4
-  term: spring
-  stream: eee
-  prereqs:
-  major themes:
-    - power
-
-- code: ELEC70136
-  name: "Game Theory for Multi-Agent Decision Making"
-  leader: r.vinter@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: both
-  prereqs:
-  major themes:
-    - maths
-
-
