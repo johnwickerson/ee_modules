@@ -42,15 +42,15 @@ digraph G {
 
   node[color="#7e68a4", fillcolor="#bba5e3", penwidth=4, style="filled"];
 
+  ELEC60014 [label="{ELEC60014 | Group Consultancy\nProject}"];
+
   ELEC60016 [label="{ELEC60016 | Individual\nIndustrial Placement}"];
   ELEC40006 -> ELEC60016 [weight=0];
   ELEC50015 -> ELEC60016;
   ELEC60020 -> ELEC60016;
 
-  ELEC60017 [label="{ELEC60017 | Individual Project}"];
+  ELEC60017 [label="{ELEC60017 | Individual Project\n(BEng)}"];
   ELEC50015 -> ELEC60017;
-
-  ELEC60014 [label="{ELEC60014 | Group Consultancy\nProject}"];
 
 
   node[penwidth=1];
@@ -63,9 +63,6 @@ digraph G {
   node[color="#4d5395", fillcolor="#9aa3ff", penwidth=4, style="filled"];
 
   ELEC70017 [label="{ELEC70017 | Individual Project\n(MEng)}"];
-
-  ELEC70030 [label="{ELEC70030 | Professional\nPortfolio and Group\nConsultancy Project}"];
-  ELEC60014 -> ELEC70030;
 
 
   node[penwidth=1];
