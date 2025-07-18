@@ -214,8 +214,7 @@
   name: "Information Processing"
   leader: a.zhao@imperial.ac.uk
   year: 2
-  startterm: autumn
-  endterm: spring
+  term: spring
   stream: eie
   prereqs:
     - ELEC40004
