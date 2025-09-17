@@ -521,7 +521,6 @@
   prereqs:
     - ELEC40006
     - ELEC50015
-    - ELEC60020
   major themes:
     - prof
   minor themes:
@@ -599,13 +598,6 @@
   minor themes:
     - maths
 
-- code: ELEC60020
-  name: "Managing Engineering Projects"
-  leader: e.perea@imperial.ac.uk
-  year: 3
-  term: spring
-  stream: management
-
 - code: ELEC60021
   name: "Mathematics for Signals and Systems"
   leader: p.dragotti@imperial.ac.uk
@@ -659,23 +651,6 @@
     - analogue
     - devices
     - fields
-
-- code: ELEC60025
-  name: "Real-Time Digital Signal Processing"
-  leader: adria.junyent-ferre@imperial.ac.uk
-  year: 3
-  term: spring
-  stream: both
-  prereqs:
-    - ELEC40003
-    - ELEC50011
-    - ELEC60010
-  major themes:
-    - signals
-    - computing
-  minor themes:
-    - control
-    - digital
 
 - code: ELEC60029
   name: "Semiconductor Devices"
@@ -915,15 +890,6 @@
   major themes:
     - power
 
-- code: ELEC70079
-  name: "Optical Communication"
-  leader: e.yeatman@imperial.ac.uk
-  year: 4
-  term: autumn
-  stream: eee
-  major themes:
-    - fields
-
 - code: ELEC70091
   name: "Stability and Control of Non-linear Systems"
   leader: d.angeli@imperial.ac.uk
@@ -983,7 +949,6 @@
     - ELEC60021
     - ELEC70037
     - ELEC70048
-    - ELEC60025
   major themes:
     - ml
     - signals
@@ -1076,7 +1041,6 @@
     - ELEC40004
     - ELEC50014
     - ELEC60013
-    - ELEC60025
     - ELEC60030
     - ELEC50009
     - ELEC60002
@@ -1122,7 +1086,7 @@
   leader: s.evangelou@imperial.ac.uk
   year: 4
   term: spring
-  stream: eee
+  stream: both
   prereqs:
     - ELEC40010_ELEC40011
     - ELEC50011
@@ -1140,17 +1104,6 @@
   stream: both
   major themes:
     - control
-
-- code: ELEC70067
-  name: "Traffic Theory and Queuing Systems"
-  leader: j.barria@imperial.ac.uk
-  year: 4
-  term: spring
-  stream: eee
-  prereqs:
-    - ELEC70048
-  major themes:
-    - comms
 
 - code: ELEC70070
   name: "Information Theory"
@@ -1239,6 +1192,15 @@
   major themes:
     - ml
 
+- code: ELEC70085
+  name: "Computational Sensing and Imaging"
+  leader: a.bhandari@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - signals
+
 - code: ELEC70087
   name: "Stability of Low-Carbon Power Systems"
   leader: a.junyent-ferre@imperial.ac.uk
@@ -1265,3 +1227,57 @@
   stream: eee
   major themes:
     - devices
+
+- code: ELEC70112
+  name: "Power System Planning"
+  leader: e.spyrou@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: eie
+  major themes:
+    - power
+
+- code: ELEC70122
+  name: "Machine Learning for Safety Critical Decision-Making"
+  leader: s.parbhoo@imperial.ac.uk
+  year: 4
+  term: 
+  stream: eie
+  major themes:
+    - ml
+
+- code: ELEC70131
+  name: "Sensor Systems And Networks"
+  leader: w.t.pike@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: both
+  major themes:
+    - fields
+
+- code: ELEC70134
+  name: "Communications: Physical Layer"
+  leader: s.lucyszyn@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  major themes:
+    - comms
+
+- code: ELEC70135
+  name: "Physical Imaging Systems"
+  leader: r.syms@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: eee
+  major themes:
+    - fields
+
+- code: ELEC70142
+  name: "Digital VLSI System-on-Chip (SoC) Design"
+  leader: p.cheung@imperial.ac.uk
+  year: 4
+  term: autumn
+  stream: both
+  major themes:
+    - digital
