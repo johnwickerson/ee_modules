@@ -47,7 +47,6 @@ digraph G {
   ELEC60016 [label="{ELEC60016 | Individual\nIndustrial Placement}"];
   ELEC40006 -> ELEC60016 [weight=0];
   ELEC50015 -> ELEC60016;
-  ELEC60020 -> ELEC60016;
 
   ELEC60017 [label="{ELEC60017 | Individual Project\n(BEng)}"];
   ELEC50015 -> ELEC60017;
@@ -57,8 +56,6 @@ digraph G {
 
 
   node[color="#666666", fillcolor="#dddddd", style="dashed"];
-
-  ELEC60020 [label="{ELEC60020 | Managing\nEngineering Projects}"];
 
   node[color="#4d5395", fillcolor="#9aa3ff", penwidth=4, style="filled"];
 
