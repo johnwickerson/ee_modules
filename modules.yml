@@ -582,6 +582,7 @@
     - power
     - signals
     - comms
+    - fields
 
 - code: ELEC60019
   name: "Machine Learning"
@@ -760,6 +761,7 @@
     - digital
   minor themes:
     - devices
+    - fields
 
 - code: ELEC70022
   name: "Modelling and Control of Multi-body Mechanical Systems"
@@ -1182,6 +1184,8 @@
   stream: both
   major themes:
     - comms
+  minor themes:
+    - fields
 
 - code: ELEC70082
   name: "Distributed Optimisation and Learning"
@@ -1254,6 +1258,7 @@
   stream: eee
   major themes:
     - comms
+    - fields
 
 - code: ELEC70135
   name: "Physical Imaging Systems"
