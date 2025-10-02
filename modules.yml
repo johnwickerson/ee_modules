@@ -1241,6 +1241,15 @@
   major themes:
     - power
 
+- code: ELEC70122
+  name: "Machine Learning for Safety Critical Decision-Making"
+  leader: s.parbhoo@imperial.ac.uk
+  year: 4
+  term: spring
+  stream: eie
+  major themes:
+    - ml
+
 - code: ELEC70131
   name: "Sensor Systems And Networks"
   leader: w.t.pike@imperial.ac.uk
